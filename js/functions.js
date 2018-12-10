@@ -1000,6 +1000,7 @@ var SEMICOLON = SEMICOLON || {};
 			SEMICOLON.header.onePageScroll();
 			SEMICOLON.header.onepageScroller();
 			SEMICOLON.header.logo();
+			SEMICOLON.header.mobileClassRemover();
 			SEMICOLON.header.topsearch();
 			SEMICOLON.header.topcart();
 
@@ -1302,11 +1303,19 @@ var SEMICOLON = SEMICOLON || {};
 			}
 			if( $header.hasClass('sticky-header') ) {
 				if( defaultStickyLogo ){ defaultLogo.find('img').attr('src', defaultStickyLogo); }
-				if( retinaStickyLogo ){ retinaLogo.find('img').attr('src', retinaStickyLogo); }
+				// this code changes the sticky logo
+				if( retinaLogoImg ){ defaultLogo.find('img').attr('src', retinaLogoImg); }
 			}
 			if( $body.hasClass('device-sm') || $body.hasClass('device-xs') ) {
 				if( defaultMobileLogo ){ defaultLogo.find('img').attr('src', defaultMobileLogo); }
 				if( retinaMobileLogo ){ retinaLogo.find('img').attr('src', retinaMobileLogo); }
+			}
+		},
+
+		mobileClassRemover: function() {
+			if(screen.width < 500) {
+				features.classList.remove("row");
+				featuresSecondPart.classList.remove("row");
 			}
 		},
 
@@ -1354,6 +1363,7 @@ var SEMICOLON = SEMICOLON || {};
 					}
 				}
 				SEMICOLON.header.logo();
+				SEMICOLON.header.mobileClassRemover();
 			}
 		},
 
@@ -1799,6 +1809,7 @@ var SEMICOLON = SEMICOLON || {};
 					SEMICOLON.header.stickyMenuClass();
 				}
 				SEMICOLON.header.logo();
+				SEMICOLON.header.mobileClassRemover();
 			}
 		},
 
@@ -3703,6 +3714,7 @@ var SEMICOLON = SEMICOLON || {};
 				SEMICOLON.header.stickyMenu( headerWrapOffset );
 				SEMICOLON.header.stickyPageMenu( pageMenuOffset );
 				SEMICOLON.header.logo();
+				SEMICOLON.header.mobileClassRemover();
 
 			});
 

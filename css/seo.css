@@ -112,7 +112,9 @@
 
 /* Pricing Switcher
 -----------------------------------------------------------------*/
-.pricing-tenure-switcher { position: relative; }
+.pricing-tenure-switcher { position: relative; 
+margin-left: 8%;
+}
 
 .pricing-tenure-switcher .pts-left,
 
@@ -139,7 +141,7 @@
 input.switch-toggle-round + label:before,
 input.switch-toggle-round + label {
 	border-radius: 4px;
-	background-color: var(--themecolor);
+	background-color: #1ABC9C;
 }
 
 .svg-discount {
@@ -348,7 +350,9 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 
 	#header.transparent-header.floating-header { margin-top: 25px; }
 
-	#header:not(.sticky-header) #header-wrap .container { box-shadow: var(--headerboxshadow) }
+	#header:not(.sticky-header) #header-wrap .container { 
+		/* box-shadow: var(--headerboxshadow) */
+	 }
 
 	#header.transparent-header + #page-title.page-title-parallax .container { padding-top: 80px; }
 
@@ -395,6 +399,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 	#header .button {
 		display: inline-block;
 		margin: 20px 0;
+		border-radius: 10px;
 		text-transform: none;
 		letter-spacing: 0;
 		font-size: calc( var(--basefontsize) - 1px );
@@ -466,12 +471,12 @@ input.switch-toggle-round + label:after { border-radius: 4px }
   body { 
 	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 	font-size:14px;
-	padding:14px;
+	padding: 0px;
   }
   article {
 	width:100%;
 	max-width: 1140px;
-    margin: 0px 13.95%;
+    margin: auto;
 	height:1000px;
 	position:relative;
   }

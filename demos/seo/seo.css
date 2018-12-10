@@ -112,7 +112,9 @@
 
 /* Pricing Switcher
 -----------------------------------------------------------------*/
-.pricing-tenure-switcher { position: relative; }
+.pricing-tenure-switcher { position: relative;
+	margin-left: 8%;
+ }
 
 .pricing-tenure-switcher .pts-left,
 
@@ -471,7 +473,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
   article {
 	width:100%;
 	max-width: 1140px;
-    margin: 0px 13.95%;
+    margin: auto;
 	height:1000px;
 	position:relative;
   }

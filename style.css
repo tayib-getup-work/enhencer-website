@@ -980,7 +980,8 @@ html[xmlns] .slider-wrap {display: block;}
 #header.transparent-header.floating-header .container {
 	width: 1190px;
 	max-width: 1190px;
-	background-color: #fbfbfb;
+	/* background-color: #fbfbfb; */
+	background-color: transparent;
 	padding: 0 40px;
 	border-radius: 2px;
 }
@@ -6589,6 +6590,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	border: none;
+	border-radius: 5px !important;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
@@ -7461,7 +7463,7 @@ body:not(.device-touch) .button.button-full strong {
 	position: absolute;
 	width: 64px;
 	height: 64px;
-	top: 0;
+	top: 17px;
 	left: 0;
 }
 
@@ -8779,6 +8781,8 @@ body:not(.device-touch) .social-icon i {
 .si-colored.si-xing { background-color: #126567 !important; }
 .si-instagram:hover,
 .si-colored.si-instagram { background-color: #3F729B !important; }
+.si-instagram2:hover,
+.si-colored.si-instagram2 { background-color: #000 !important; }
 .si-quora:hover,
 .si-colored.si-quora { background-color: #A82400 !important; }
 .si-openid:hover,
@@ -13782,14 +13786,6 @@ body:not(.no-transition) #wrapper,
 .content-text {
 	font-size: 1.4em !important;
 	font-weight: 400;
-}
-.sign-grid {
-	display: grid;
-	grid-gap: 1%;
-	grid-template-columns: 34% 15% 15% 33%;
-	margin-top: 20px;  
-}
-.sign-grid>* {
 }
 
 .central {

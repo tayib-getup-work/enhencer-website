@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-	<link rel="shortcut icon" type="image/ico" href="./images/icons/favicon.ico"/>
+	<link rel="shortcut icon" type="image/ico" href="./images/icons/favicon.ico" />
 
 	<!-- Bootstrap Switch CSS -->
 	<link rel="stylesheet" href="css/components/bs-switches.css" type="text/css" />
@@ -27,7 +27,8 @@
 	<!-- Seo Demo Specific Stylesheet -->
 	<link rel="stylesheet" href="css/colors.php?color=FE9603" type="text/css" /> <!-- Theme Color -->
 	<link rel="stylesheet" href="demos/seo/css/fonts.css" type="text/css" />
-	<link rel="stylesheet" href="demos/seo/seo.css" type="text/css" />
+	<link rel="stylesheet" href="css/seo.css" type="text/css" />
+	<link rel="stylesheet" href="css/imports/shortcodes/social-icons.css" type="text/css" />
 	<!-- / -->
 
 	<!-- Document Title
@@ -82,7 +83,7 @@
 										 class="icon-linkedin"></i></span><span class="ts-text">LinkedIn</span></a></li>
 							<li><a href="https://www.quora.com/topic/Enhencer" class="si-quora" target="_blank"><span class="ts-icon"><i
 										 class="icon-quora"></i></span><span class="ts-text">Quora</span></a></li>
-							<li><a href="https://www.instagram.com/enhencerapp/ class=" si-instagram" target="_blank"><span class="ts-icon"><i
+							<li><a href="https://www.instagram.com/enhencerapp/" class="si-instagram2" target="_blank"><span class="ts-icon"><i
 										 class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
 							<li><a href="https://twitter.com/enhencerapp?lang=en" class="si-twitter" target="_blank"><span class="ts-icon"><i
 										 class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
@@ -110,8 +111,10 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Enhencer Logo"></a>
-						<!-- <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Enhencer Logo"></a> -->
+						<a href="/" class="standard-logo" data-dark-logo="images/enhence-logo-type-32.gif"><img src="images/enhence-logo-type-32.gif"
+							 alt="Enhencer Logo"></a>
+						<a href="/" class="retina-logo" data-dark-logo="images/enhencer-logo-32.gif"><img src="images/enhencer-logo-32.gif"
+							 alt="Enhencer Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -179,7 +182,7 @@
 		<!-- Slider
 		============================================= -->
 		<section id="slider" class="slider-element slider-parallax full-screen clearfix">
-			<div class="slider-parallax-inner" style="background: #FFF url('demos/seo/images/hero/hero-1.jpg') center center no-repeat; background-size: cover;">
+			<div class="slider-parallax-inner" style="background: #FFF url('./images/hero-1.png') center center no-repeat; background-size: cover;">
 
 				<div class="vertical-middle">
 					<div class="container topmargin-sm">
@@ -190,9 +193,9 @@
 									<h2 style="color: #228E9F; font-weight: 300; font-size: 4em;">Predictive Storyteller</h2>
 									<h3 class="text-rotater mb-2 content-text" data-separator="," data-rotate="fadeIn" data-speed="2000"><span
 										 class="t-rotate">Revolutionary,
-											Effortless, Accelerated</span> way of interaction for business users to
-										<h3 class="text-rotater mb-2 content-text">
-											make predictions using automated machine learning.
+											Effortless, Accelerated</span> way of interaction for business users
+										<h3 class="text-rotater mb-2 content-text" style="margin-bottom: 0rem;">
+											to make predictions using automated machine learning.
 										</h3>
 									</h3>
 									<br>
@@ -249,7 +252,7 @@
 						<p style="font-size: 20px;">Enhencer delivers an innovative interface which eliminates the need for
 							out-of-fashion tables, plots and prediction algorithms that are not always accurate and clear.</p>
 					</div>
-					<div class="row">
+					<div id="features" class="row">
 						<div class="col-md-4 mt-5">
 							<div class="feature-box fbox-center noborder">
 								<div class="fbox-icon">
@@ -293,8 +296,8 @@
 
 				<div class="section nobg mt-4 mb-0 pb-0">
 					<div class="container" style="background: url('demos/seo/images/sections/4.png') no-repeat center top / cover; max-width:100%; padding: 10px 0 75px">
-						<div class="row justify-content-between align-items-center clearfix">
-							<div class="col-lg-6 col-sm-6">
+						<div id="featuresSecondPart" class="row justify-content-between align-items-center clearfix">
+							<div class="col-lg-6 col-sm-6 col-xs-6">
 								<div class="feature-box fbox-right noborder no-middot">
 									<br>
 									<h3 class="nott ls0" style="color: #228E9F; font-weight: 400; font-size: 1.6em; margin-bottom: -20px;">1.
@@ -320,7 +323,7 @@
 								</div>
 
 							</div>
-							<div class="col-lg-5 col-sm-6">
+							<div class="col-lg-5 col-sm-6 col-xs-6">
 								<div class="feature-box noborder no-middot">
 									<br>
 									<div class="fbox-icon">
@@ -373,20 +376,19 @@
 							predictive stories hidden in your data</h2>
 					</div>
 					<br>
-					<div class="sign-grid">
-						<div>
-
+					<br>
+					<div class="row">
+						<div class="col-md-4">
 						</div>
-						<div>
-							<a href="https://app.enhencer.com/#!/demos/analyse/technology" target="_blank" class="button button-rounded button-light bg-white border nott ls0 border-green button-enhencer-default-green">Live
+						<div class="col-md-2">
+							<a href="https://app.enhencer.com/#!/demos/analyse/technology" target="_blank" class="button button-rounded button-light bg-white border nott ls0 border-green button-enhencer-default-green" style="padding-left: 14px; padding-right: 14px;">Live
 								Demo</a>
 						</div>
-						<div>
-							<a href="https://app.enhencer.com/#!/signup" target="_blank" class="button button-rounded">TRY
+						<div class="col-md-2">
+							<a href="https://app.enhencer.com/#!/signup" target="_blank" class="button button-rounded" style="padding-left: 14px; padding-right: 14px;">TRY
 								FREE</a>
 						</div>
-						<div>
-
+						<div class="col-md-3">
 						</div>
 					</div>
 					<br>

@@ -280,6 +280,8 @@ body:not(.device-touch) .social-icon i {
 .si-colored.si-xing { background-color: #126567 !important; }
 .si-instagram:hover,
 .si-colored.si-instagram { background-color: #3F729B !important; }
+.si-instagram2:hover,
+.si-colored.si-instagram2 { background-color: #b22aa7 !important; }
 .si-quora:hover,
 .si-colored.si-quora { background-color: #A82400 !important; }
 .si-openid:hover,
