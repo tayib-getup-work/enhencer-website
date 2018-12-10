@@ -1188,7 +1188,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #2CA497; }
+#primary-menu ul li.current > a { color: #2CA497 !important; }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
