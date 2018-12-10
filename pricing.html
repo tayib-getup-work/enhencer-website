@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+
+    <!-- Stylesheets
+	============================================= -->
+    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="shortcut icon" type="image/ico" href="./images/icons/favicon.ico" />
+
+    <!-- Bootstrap Switch CSS -->
+    <link rel="stylesheet" href="css/components/bs-switches.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+
+    <!-- Seo Demo Specific Stylesheet -->
+    <link rel="stylesheet" href="css/colors.php?color=FE9603" type="text/css" /> <!-- Theme Color -->
+    <link rel="stylesheet" href="demos/seo/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="demos/seo/seo.css" type="text/css" />
+    <!-- / -->
+
+    <!-- Document Title
+	============================================= -->
+    <title>Enhencer - Predictive Storyteller | Data Analysis Using Automated Machine Learning</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+        </script>
+    <script>
+        // DIRTY Responsive pricing table JS
+
+        $("ul").on("click", "li", function () {
+            var pos = $(this).index() + 2;
+            $("tr").find('td:not(:eq(0))').hide();
+            $('td:nth-child(' + pos + ')').css('display', 'table-cell');
+            $("tr").find('th:not(:eq(0))').hide();
+            $('li').removeClass('active');
+            $(this).addClass('active');
+        });
+
+        // Initialize the media query
+        var mediaQuery = window.matchMedia('(min-width: 640px)');
+
+        // Add a listen event
+        mediaQuery.addListener(doSomething);
+
+        // Function to do something with the media query
+        function doSomething(mediaQuery) {
+            if (mediaQuery.matches) {
+                $('.sep').attr('colspan', 5);
+            } else {
+                $('.sep').attr('colspan', 2);
+            }
+        }
+
+        // On load
+        doSomething(mediaQuery);
+    </script>
+</head>
+
+
+<body class="stretched">
+
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        <!-- Top Bar
+		============================================= -->
+        <div id="top-bar" class="transparent-topbar">
+
+            <div class="container clearfix">
+
+                <div class="col_half nobottommargin clearfix">
+
+                    <!-- Top Links
+                        ============================================= -->
+                    <div class="top-links">
+                        <ul>
+                            <!-- <li><a href="https://blog.enhencer.com" target="_blank">Blog</a></li>
+                                <li><a href="faqs.html">FAQs</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#"><img src="demos/seo/images/flags/eng.png" alt="Lang">Eng</a>
+                                    <ul>
+                                        <li><a href="#"><img src="demos/seo/images/flags/fre.png" alt="Lang">Fre</a></li>
+                                        <li><a href="#"><img src="demos/seo/images/flags/ara.png" alt="Lang">Ara</a></li>
+                                        <li><a href="#"><img src="demos/seo/images/flags/tha.png" alt="Lang">Tha</a></li>
+                                    </ul>
+                                </li> -->
+                        </ul>
+                    </div>
+                    <!-- .top-links end -->
+
+                </div>
+
+                <div class="col_half fright dark col_last clearfix nobottommargin">
+
+                    <!-- Top Social
+                        ============================================= -->
+                    <div id="top-social">
+                        <ul>
+                            <li><a href="https://www.youtube.com/channel/UCIgWv2OQm6vSMlpXph4nbLA?view_as=subscriber"
+                                    class="si-youtube" target="_blank"><span class="ts-icon"><i class="icon-youtube"></i></span><span
+                                        class="ts-text">Youtube</span></a></li>
+                            <li><a href="https://www.linkedin.com/company/enhencer/" class="si-linkedin" target="_blank"><span
+                                        class="ts-icon"><i class="icon-linkedin"></i></span><span class="ts-text">LinkedIn</span></a></li>
+                            <li><a href="https://www.quora.com/topic/Enhencer" class="si-quora" target="_blank"><span
+                                        class="ts-icon"><i class="icon-quora"></i></span><span class="ts-text">Quora</span></a></li>
+                            <li><a href="https://www.instagram.com/enhencerapp/ class=" si-instagram" target="_blank"><span
+                                        class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
+                            <li><a href="https://twitter.com/enhencerapp?lang=en" class="si-twitter" target="_blank"><span
+                                        class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
+                            <li><a href="https://www.facebook.com/Enhencer/" class="si-facebook" target="_blank"><span
+                                        class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+                        </ul>
+                    </div><!-- #top-social end -->
+
+                </div>
+
+            </div>
+
+        </div><!-- #top-bar end -->
+
+        <!-- Header
+            ============================================= -->
+        <header id="header" class="transparent-header floating-header clearfix">
+
+            <div id="header-wrap">
+
+                <div class="container clearfix">
+
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                    <!-- Logo
+                        ============================================= -->
+                    <div id="logo">
+                        <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png"
+                                alt="Enhencer Logo"></a>
+                        <!-- <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Enhencer Logo"></a> -->
+                    </div><!-- #logo end -->
+
+                    <!-- Primary Navigation
+                        ============================================= -->
+                    <nav id="primary-menu" class="with-arrows">
+
+                        <ul>
+                            <li><a href="index.html">
+                                    <div>Home</div>
+                                </a></li>
+                            <li>
+                                <a href="stories.html">
+                                    <div>Stories</div>
+                                </a>
+                            </li>
+                            <li class="current">
+                                <a href="pricing.html">
+                                    <div>Pricing</div>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <div>Resources</div>
+                                </a>
+                                <ul>
+                                    <li><a href="https://blog.enhencer.com" target="_blank">
+                                            <div>Blog</div>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <div>Webinar</div>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <div>Help Center</div>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <div>FAQs</div>
+                                        </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!-- Top Search
+                            ============================================= -->
+                        <div id="top-search" class="fleft">
+                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                            <form action="search.html" method="get">
+                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+                            </form>
+                        </div><!-- #top-search end -->
+
+                        <!-- Menu Buttons
+                            ============================================= -->
+                        <a href="https://app.enhencer.com/#!/login" target="_blank" class="button button-rounded button-light bg-white border nott ls0 leftmargin-sm border-green button-enhencer-default-green">Sign
+                            in</a>
+                        <a href="https://app.enhencer.com/#!/signup" target="_blank" class="button button-rounded fright leftmargin-sm">TRY
+                            FREE</a>
+
+                    </nav><!-- #primary-menu end -->
+
+                </div>
+
+            </div>
+
+        </header><!-- #header end -->
+
+
+        <div>
+            <br>
+            <br>
+
+
+        </div>
+
+
+        <!-- Pricing
+				============================================= -->
+        <div class="section m-0" style="background: url('demos/seo/images/sections/4.png') no-repeat center top / cover; padding: 140px 0 0">
+            <div class="container">
+                <div>
+                    <div class="heading-block nobottomborder bottommargin-sm">
+                        <h3 class="nott ls0 central">Choose the plan that can handle your data. You can cancel anytime</h3>
+                    </div>
+                    <p class="central">Whether you are a startup or a multinational enterprise, Enhencer can maximize
+                        the value of your data. </p>
+                    <div class="pricing-tenure-switcher central" data-container="#pricing-switch">
+                        <!-- <div class="svg-discount"></div> -->
+                        <span class="pts-left">Monthly</span>
+                        <div class="pts-switcher">
+                            <div class="switch">
+                                <input id="switch-toggle-pricing-tenure" class="switch-toggle switch-toggle-round" type="checkbox">
+                                <label for="switch-toggle-pricing-tenure"></label>
+                            </div>
+                        </div>
+                        <span class="pts-right">Yearly</span>
+                    </div>
+                </div>
+
+                <br>
+                <div class="row justify-content-between">
+
+                    <div class="col-lg-7 col-md-8">
+                        <div id="section-pricing" class="page-section nopadding nomargin">
+
+                            <div id="pricing-switch" class="pricing row align-items-end bottommargin-lg clearfix">
+
+                                <div class="col-md-5">
+
+                                    <div class="pricing-box">
+                                        <div class="pricing-title">
+                                            <img class="mb-2 nobg noradius" style="padding-top:10px;" src="demos/seo/images/icons/man.svg"
+                                                alt="Pricing Icon" width="50">
+                                            <h3>Essential</h3>
+
+                                        </div>
+                                        <div class="pricing-price">
+                                            <div class="pts-switch-content-left"><span class="price-unit">&dollar;</span>0<span
+                                                    class="price-tenure">Per Month</span></div>
+                                            <div class="pts-switch-content-right"><span class="price-unit">&dollar;</span>0<span
+                                                    class="price-tenure">Per Year</span></div>
+                                        </div>
+                                        <div class="pricing-features border-bottom-0">
+                                            <ul>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>Free </strong>
+                                                    Forever</li>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>Single </strong>
+                                                    Analyst</li>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>Limited
+                                                    </strong>
+                                                    Rows</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>Up to 10 Variables</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>On Cloud</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>Live Chat Support</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-action">
+                                            <div class="pts-switch-content-left"><a href="#" class="button button-rounded button-large button-light text-dark bg-white border btn-block nott m-0 ls0">Get
+                                                    Started</a></div>
+                                            <div class="pts-switch-content-right"><a href="#" class="button button-rounded button-large button-light text-dark bg-white border btn-block nott m-0 ls0">Get
+                                                    Started</a></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-5">
+
+                                    <div class="pricing-box">
+                                        <div class="pricing-title">
+                                            <img class="mb-2 nobg noradius" src="demos/seo/images/icons/group.svg" alt="Pricing Icon"
+                                                width="60">
+                                            <h3>Startup</h3>
+                                        </div>
+                                        <div class="pricing-price">
+                                            <div class="pts-switch-content-left"><span class="price-unit">&dollar;</span>49<span
+                                                    class="price-tenure">Per Month</span></div>
+                                            <div class="pts-switch-content-right"><span class="price-unit">&dollar;</span>490<span
+                                                    class="price-tenure">Per Year</span></div>
+                                        </div>
+                                        <div class="pricing-features border-bottom-0">
+                                            <ul>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>14</strong>
+                                                    days trial</li>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>Single </strong>
+                                                    Analyst</li>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>Limited
+                                                    </strong>
+                                                    Rows</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>Up to 25 Variables</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>On Cloud</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>Live Chat Support</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-action">
+                                            <div class="pts-switch-content-left"><a href="#" class="button button-rounded button-large button-light text-dark bg-white border btn-block nott m-0 ls0">Get
+                                                    Started</a></div>
+                                            <div class="pts-switch-content-right"><a href="#" class="button button-rounded button-large button-light text-dark bg-white border btn-block nott m-0 ls0">Get
+                                                    Started</a></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-5">
+
+                                    <div class="pricing-box">
+                                        <div class="pricing-title">
+                                            <img class="mb-2 nobg noradius" src="demos/seo/images/icons/group.svg" alt="Pricing Icon"
+                                                width="60">
+                                            <h3>Premium</h3>
+                                            <span>Most Popular</span>
+                                        </div>
+                                        <div class="pricing-price">
+                                            <div class="pts-switch-content-left"><span class="price-unit">&dollar;</span>590<span
+                                                    class="price-tenure">Per Month</span></div>
+                                            <div class="pts-switch-content-right"><span class="price-unit">&dollar;</span>5900<span
+                                                    class="price-tenure">Per Year</span></div>
+                                        </div>
+                                        <div class="pricing-features border-bottom-0">
+                                            <ul>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>14</strong>
+                                                    days trial</li>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>Up to</strong>
+                                                    5 Analysts</li>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>Limited
+                                                    </strong>
+                                                    Rows</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>Unlimited Variables</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>On Cloud</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>Customer Success
+                                                    Manager</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="pricing-action">
+                                            <div class="pts-switch-content-left"><a href="#" class="button button-large button-rounded btn-block capitalize m-0 ls0">Get
+                                                    Started</a></div>
+                                            <div class="pts-switch-content-right"><a href="#" class="button button-large button-rounded btn-block capitalize m-0 ls0">Get
+                                                    Started</a></div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-5">
+
+                                    <div class="pricing-box">
+                                        <div class="pricing-title">
+                                            <img class="mb-2 nobg noradius" src="demos/seo/images/icons/group.svg" alt="Pricing Icon"
+                                                width="60">
+                                            <h3>Enterprise</h3>
+                                        </div>
+                                        <div class="pricing-price ">
+                                            <div class="pts-switch-content-left" style="padding-bottom:15px;"><span
+                                                    class="price-unit"></span>Contact
+                                                Us</div>
+                                            <div class="pts-switch-content-right" style="padding-bottom:15px;"><span
+                                                    class="price-unit"></span>Contact
+                                                Us</div>
+                                        </div>
+                                        <div class="pricing-features border-bottom-0">
+                                            <ul>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>14</strong>
+                                                    days trial</li>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>Unlimited</strong>
+                                                    5 Analysts</li>
+                                                <li><i class="icon-check-circle color mr-2"></i><strong>Unlimited
+                                                    </strong>
+                                                    Rows</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>Unlimited Variables</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>On Cloud/Local</li>
+                                                <li><i class="icon-check-circle color mr-2"></i>Customer Success
+                                                    Manager</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-action">
+                                            <div class="pts-switch-content-left"><a href="#" class="button button-rounded button-large button-light text-dark bg-white border btn-block nott m-0 ls0">Get
+                                                    Started</a></div>
+                                            <div class="pts-switch-content-right"><a href="#" class="button button-rounded button-large button-light text-dark bg-white border btn-block nott m-0 ls0">Get
+                                                    Started</a></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- DIRTY Responsive pricing table HTML -->
+
+
+        <div>
+            <br>
+            <h2 class="central">Compare plans with all features
+            </h2>
+        </div>
+
+
+        <article>
+
+            <!-- <ul>
+                <li class="bg-purple">
+                    <button>Essential</button>
+                </li>
+                <li class="bg-blue">
+                    <button>Startup
+                    </button>
+                </li>
+                <li class="bg-blue active">
+                    <button>Premium</button>
+                </li>
+                <li class="bg-blue">
+                    <button>Enterprise</button>
+                </li>
+            </ul> -->
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="hide"></th>
+                        <th class="bg-purple">Essential</th>
+                        <th class="bg-blue">Startup</th>
+                        <th class="bg-blue default">Premium</th>
+                        <th class="bg-blue">Enterprise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monthly price</td>
+                        <td><span class="txt-top">&pound;</span><span class="txt-l">0</span></td>
+                        <td><span class="txt-top">&pound;</span><span class="txt-l">49</span></td>
+                        <td class="default"><span class="txt-top">&pound;</span><span class="txt-l">590</span></td>
+                        <td><span class="txt-top"></span><span style="font-size:25px;" class="txt-l">Contact Us</span></td>
+                    </tr>
+                    <tr>
+                        <td>Trial Period</td>
+                        <td><span></span><span>Free Forever</span></td>
+                        <td><span></span><span>14-days</span></td>
+                        <td><span></span><span>14-days</span></td>
+                        <td><span></span><span>14-days</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="sep">Row Limits</td>
+                    </tr>
+                    <tr>
+                        <td>Flat File (xls, csv, txt)</td>
+                        <td><span>1000</span></td>
+                        <td><span>10000</span></td>
+                        <td><span>100000</span></td>
+                        <td><span>Unlimited</span></td>
+                    </tr>
+                    <tr>
+                        <td>DB Connection</td>
+                        <td><span>1000</span></td>
+                        <td><span>10000</span></td>
+                        <td><span>100000</span></td>
+                        <td><span>Unlimited</span></td>
+                    </tr>
+                    <tr>
+
+                    <tr>
+                        <td>CRM Platform Integrations (Leads)</td>
+                        <td><span>100</span></td>
+                        <td><span>10000</span></td>
+                        <td><span>100000</span></td>
+                        <td><span>Unlimited</span></td>
+                    </tr>
+                    <tr>
+                        <td>Online Form Integrations (Entries)</td>
+                        <td><span>100</span></td>
+                        <td><span>10000</span></td>
+                        <td><span>Unlimited</span></td>
+                        <td><span>Unlimited</span></td>
+                    </tr>
+                    <tr>
+                        <td>Google Adwords (Clicks/Day)</td>
+                        <td><span>25</span></td>
+                        <td><span>250</span></td>
+                        <td><span>10000</span></td>
+                        <td><span>Unlimited</span></td>
+                    </tr>
+                    <tr>
+                        <td>Google Analytics (Users/Day)</td>
+                        <td><span>25</span></td>
+                        <td><span>250</span></td>
+                        <td><span>10000</span></td>
+                        <td><span>Unlimited</span></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="5" class="sep">Project Limits</td>
+                    </tr>
+                    <tr>
+                        <td>Number of Variables</td>
+                        <td><span>10</span></td>
+                        <td><span>25</span></td>
+                        <td><span>Unlimited</span></td>
+                        <td><span>Unlimited</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Numer of Projects</td>
+                        <td><span>3</span></td>
+                        <td><span>10</span></td>
+                        <td><span>Unlimited</span></td>
+                        <td><span>Unlimited</span></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="5" class="sep">Collaboration Limits</td>
+                    </tr>
+                    <tr>
+                        <td>Number of Analysts</td>
+                        <td><span>1</span></td>
+                        <td><span>1</span></td>
+                        <td><span>5</span></td>
+                        <td><span>Unlimited</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Number of Viewers</td>
+                        <td><span>1</span></td>
+                        <td><span>3</span></td>
+                        <td><span>10</span></td>
+                        <td><span>Unlimited</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="sep">Features</td>
+                    </tr>
+
+                    <tr>
+                        <td>Analyze Module</td>
+                        <td><span class="tick">&#10004;</span></td>
+                        <td><span class="tick">&#10004;</span></td>
+                        <td class="default"><span class="tick">&#10004;</span></td>
+                        <td><span class="tick">&#10004;</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Predict Module</td>
+                        <td><span>Only Decision Tree</span></td>
+                        <td><span>Many ML Algorithms</span></td>
+                        <td><span>Many ML Algorithms</span></td>
+                        <td><span>Many ML Algorithms</span></td>
+                    </tr>
+                    <tr>
+                        <td>Report Module</td>
+                        <td><span class="tick">&#10004;</span></td>
+                        <td><span class="tick">&#10004;</span></td>
+                        <td class="default"><span class="tick">&#10004;</span></td>
+                        <td><span class="tick">&#10004;</span></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="5" class="sep">Deployment</td>
+                    </tr>
+                    <tr>
+                        <td>Cloud</td>
+                        <td><span class="tick">&#10004;</span></td>
+                        <td><span class="tick">&#10004;</span></td>
+                        <td class="default"><span class="tick">&#10004;</span></td>
+                        <td><span class="tick">&#10004;</span></td>
+                    </tr>
+                    <tr>
+                        <td>Local</td>
+                        <td><span></span></td>
+                        <td><span></span></td>
+                        <td><span></span></td>
+                        <td><span class="tick">&#10004;</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="sep">Support</td>
+                    </tr>
+                    <tr>
+                        <td>Live Chat</td>
+                        <td><span class="tick">&#10004;</span></td>
+                        <td><span class="tick">&#10004;</span></td>
+                        <td class="default"><span class="tick">&#10004;</span></td>
+                        <td><span class="tick">&#10004;</span></td>
+                    </tr>
+                    <tr>
+                        <td>Customer Success Manager</td>
+                        <td><span></span></td>
+                        <td><span></span></td>
+                        <td class="default"><span class="tick">&#10004;</span></td>
+                        <td><span class="tick">&#10004;</span></td>
+                    </tr>
+                    <!-- <tr>
+                        <td></td>
+                        <td><span class="central"><a href="https://app.enhencer.com/#!/signup" target="_blank" class="button button-rounded fright leftmargin-sm">TRY
+                                    FREE</a></span></td>
+                        <td><span><a href="https://app.enhencer.com/#!/signup" target="_blank" class="button button-rounded fright leftmargin-sm">TRY
+                                    FREE</a></span></td>
+                        <td><span><span><a href="https://app.enhencer.com/#!/signup" target="_blank" class="button button-rounded fright leftmargin-sm">TRY
+                                        FREE</a></span></td></span></td>
+                        <td><span> <a href="contact-form.html" target="_blank" class="button button-rounded" style="text-transform: none;">Contact
+                                    Us</a></span></td>
+                    </tr> -->
+
+
+
+
+                </tbody>
+            </table>
+
+            <table>
+                <tbody>
+
+                    <tr>
+                        <td style="border: none !important;"></td>
+                        <td style="border: none !important;" align="center"><span></span><a href="https://app.enhencer.com/#!/signup"
+                                target="_blank" class="button button-rounded">TRY
+                                FREE</a></span></td>
+                        <td style="border: none !important;" align="center"><span><a href="https://app.enhencer.com/#!/signup"
+                                    target="_blank" class="button button-rounded">TRY
+                                    FREE</a></span></td>
+                        <td style="border: none !important;" align="center"><span><span><a href="https://app.enhencer.com/#!/signup"
+                                        target="_blank" class="button button-rounded">TRY
+                                        FREE</a></span></td></span></td>
+                        <td style="border: none !important;" align="center"><span> <a href="contact-form.html" target="_blank"
+                                    class="button button-rounded" style="text-transform: none;">Contact
+                                    Us</a></span></td>
+                    </tr>
+
+
+
+
+                </tbody>
+            </table>
+
+
+        </article>
+
+        <div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+
+        <!-- Footer
+		============================================= -->
+        <div class="section nobg m-0 border-bottom py-5" style="padding: 10px 0 !important;">
+            <br>
+            <br>
+            <div class="central">
+                <div id="logo" style="margin-right: 0px;">
+                    <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png"
+                            alt="Enhencer Logo"></a>
+                    <!-- <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Enhencer Logo"></a> -->
+                </div><!-- #logo end -->
+            </div>
+            <div class="central">
+                <nav id="primary-menu" class="with-arrows">
+                    <ul>
+                        <li><a href="index.html">
+                                <div class="t300">Help-Center</div>
+                            </a></li>
+                        <li>
+                            <a href="https://blog.enhencer.com">
+                                <div class="t300">Blog</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="t300">Webinar</div>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <div class="t300">About Us</div>
+                            </a>
+                        </li>
+                        <li><a href="partnership.html">
+                                <div class="t300">Partnership</div>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <div class="t300">Privacy Policy</div>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <div class="t300">Terms of Use</div>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <div class="t300">FAQs</div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="central">
+                <div class="dark col_last clearfix nobottommargin">
+                    <!-- Top Social
+                            ============================================= -->
+                    <div id="top-social">
+                        <ul>
+                            <li><a href="https://www.youtube.com/channel/UCIgWv2OQm6vSMlpXph4nbLA?view_as=subscriber"
+                                    class="si-youtube" target="_blank"><span class="ts-icon"><i class="icon-youtube"></i></span><span
+                                        class="ts-text">Youtube</span></a></li>
+                            <li><a href="https://www.linkedin.com/company/enhencer/" class="si-linkedin" target="_blank"><span
+                                        class="ts-icon"><i class="icon-linkedin"></i></span><span class="ts-text">LinkedIn</span></a></li>
+                            <li><a href="https://www.quora.com/topic/Enhencer" class="si-quora" target="_blank"><span
+                                        class="ts-icon"><i class="icon-quora"></i></span><span class="ts-text">Quora</span></a></li>
+                            <li><a href="https://www.instagram.com/enhencerapp/ class=" si-instagram" target="_blank"><span
+                                        class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
+                            <li><a href="https://twitter.com/enhencerapp?lang=en" class="si-twitter" target="_blank"><span
+                                        class="ts-icon"><i class="icon-twitte
+                                        r"></i></span><span
+                                        class="ts-text">Twitter</span></a></li>
+                            <li><a href="https://www.facebook.com/Enhencer/" class="si-facebook" target="_blank"><span
+                                        class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+                        </ul>
+                    </div><!-- #top-social end -->
+
+                </div>
+            </div>
+            <br>
+            <div class="central">
+                <a href="contact-form.html" target="_blank" class="button button-rounded" style="text-transform: none;">Contact
+                    Us</a>
+            </div>
+            <br>
+            <br>
+            <div class="central">
+                <a href="#">
+                    <div class="t300" style="color: #444;">Enhencer &#9400; 2018. All Rights Reserved.</div>
+                </a>
+            </div>
+            <br>
+        </div>
+
+
+
+        <!-- Go To Top
+	============================================= -->
+        <div id="gotoTop" class="icon-angle-up"></div>
+
+        <!-- External JavaScripts
+============================================= -->
+        <script src="js/jquery.js"></script>
+        <script src="js/plugins.js"></script>
+
+        <!-- Footer Scripts
+============================================= -->
+        <script src="js/functions.js"></script>
+
+        <script>
+            //Pricing Table Script
+            jQuery(document).ready(function ($) {
+                function pricingSwitcher(elementCheck, elementParent, elementPricing) {
+                    elementParent.find('.pts-left,.pts-right').removeClass('pts-switch-active');
+                    elementPricing.find('.pts-switch-content-left,.pts-switch-content-right').addClass('hidden');
+
+                    if (elementCheck.filter(':checked').length > 0) {
+                        elementParent.find('.pts-right').addClass('pts-switch-active');
+                        elementPricing.find('.pts-switch-content-right').removeClass('hidden');
+                    } else {
+                        elementParent.find('.pts-left').addClass('pts-switch-active');
+                        elementPricing.find('.pts-switch-content-left').removeClass('hidden');
+                    }
+                }
+
+                $('.pts-switcher').each(function () {
+                    var element = $(this),
+                        elementCheck = element.find(':checkbox'),
+                        elementParent = $(this).parents('.pricing-tenure-switcher'),
+                        elementPricing = $(elementParent.attr('data-container'));
+
+                    pricingSwitcher(elementCheck, elementParent, elementPricing);
+
+                    elementCheck.on('change', function () {
+                        pricingSwitcher(elementCheck, elementParent, elementPricing);
+                    });
+                });
+            });
+
+        </script>
+
+</body>
+
+</html>
