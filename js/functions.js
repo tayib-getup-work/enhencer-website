@@ -1314,8 +1314,20 @@ var SEMICOLON = SEMICOLON || {};
 
 		mobileClassRemover: function() {
 			if(screen.width < 500) {
-				features.classList.remove("row");
-				featuresSecondPart.classList.remove("row");
+				
+				if(typeof features != 'undefined') {
+					features.classList.remove("row");
+				}
+				if(typeof featuresSecondPart != 'undefined') {
+					featuresSecondPart.classList.remove("row");
+				}
+				if(typeof allFeaturesTitle != 'undefined') {
+					allFeaturesTitle.remove();
+					allFeatures.remove();
+				}
+				if(typeof pricingSwitch != 'undefined') {
+					pricingSwitch.classList.remove("row");
+				}
 			}
 		},
 

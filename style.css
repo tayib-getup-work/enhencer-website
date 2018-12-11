@@ -319,6 +319,7 @@ span.middot {
 
 .leftmargin-sm { margin-left: 30px !important; }
 
+
 .rightmargin-sm { margin-right: 30px !important; }
 
 .topmargin-sm { margin-top: 30px !important; }
@@ -1106,7 +1107,10 @@ body.stretched #header.full-header .container {
 -----------------------------------------------------------------*/
 
 
-#primary-menu { float: right; }
+#primary-menu { float: right;}
+
+#primary-menu-top { float: right;
+	width: 575px; }
 
 #primary-menu ul.mobile-primary-menu { display: none; }
 
@@ -6587,11 +6591,20 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	background-color: #1ABC9C;
 	color: #FFF;
 	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: none;
 	letter-spacing: 1px;
 	border: none;
 	border-radius: 5px !important;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+
+.try-free-button{
+	text-align: center;
+	padding-left: 0px;
+	width: 95px;
+	padding-right: 0px;
+	font-size: 15px;
 }
 
 body:not(.device-touch) .button {
@@ -11731,9 +11744,7 @@ body:not(.device-touch) #gotoTop {
 
 .stretched #gotoTop { bottom: 30px; }
 
-#gotoTop:hover { background-color: #1ABC9C; }
-
-
+#gotoTop:hover { background-color: var(--buttonthemecolor) !important; }
 /* ----------------------------------------------------------------
 	Error 404
 -----------------------------------------------------------------*/
@@ -13777,8 +13788,12 @@ body:not(.no-transition) #wrapper,
 }
 
 
-.border-green {
+.border-blue {
 	border: 1.5px solid #228E9F !important;
+}
+
+.border-green {
+	border: 1.5px solid var(--buttonthemecolor) !important; 
 }
 .button-enhencer-default-green {
 	color: #228E9F !important;
@@ -13792,4 +13807,9 @@ body:not(.no-transition) #wrapper,
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.top-links ul ul, .top-links ul div.top-link-section, #primary-menu ul ul:not(.mega-menu-column), #primary-menu ul li .mega-menu-content, #primary-menu.style-6 > ul > li > a:after, #primary-menu.style-6 > ul > li.current > a:after, #top-cart .top-cart-content, .fancy-title.title-border-color:before, .dark #primary-menu:not(.not-dark) ul ul, .dark #primary-menu:not(.not-dark) ul li .mega-menu-content, #primary-menu.dark ul ul, #primary-menu.dark ul li .mega-menu-content, .dark #primary-menu:not(.not-dark) ul li .mega-menu-content.style-2, #primary-menu.dark ul li .mega-menu-content.style-2, .dark #top-cart .top-cart-content, .tabs.tabs-tb ul.tab-nav li.ui-tabs-active a, .irs-from:after, .irs-single:after, .irs-to:after 
+{
+ border-top-color: var(--buttonthemecolor) !important;	
 }
