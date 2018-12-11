@@ -141,7 +141,7 @@ margin-left: 8%;
 input.switch-toggle-round + label:before,
 input.switch-toggle-round + label {
 	border-radius: 4px;
-	background-color: #1ABC9C;
+	background-color: #1ABC9C !important;
 }
 
 .svg-discount {
