@@ -71,7 +71,7 @@
 
 .slider-title p,
 .feature-box.fbox-center p {
-	font-size: calc( var(--basefontsize) - 1px );
+	font-size: 1.2em;
 	line-height: 1.7;
 	color: #777;
 	letter-spacing: 0;
@@ -528,9 +528,24 @@ input.switch-toggle-round + label:after { border-radius: 4px }
   .bg-purple {
 	border-top:3px solid #A32362;
   }
-  .bg-blue {
-	border-top:3px solid #0097CF;
+
+  .bg-ash {
+	border-top:3px solid #5a5c5e;
   }
+
+  .bg-blue {
+	border-top:3px solid rgb(34, 142, 159);
+  }
+
+  .bg-green {
+	border-top:3px solid rgb(44, 164, 151);
+  }
+
+
+  .bg-light-green {
+	border-top:3px solid rgb(64, 175, 95);
+  }
+
   .sep {
 	background:#F5F5F5;
 	font-weight:bold;
