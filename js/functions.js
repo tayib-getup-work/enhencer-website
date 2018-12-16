@@ -1328,6 +1328,25 @@ var SEMICOLON = SEMICOLON || {};
 				if(typeof pricingSwitch != 'undefined') {
 					pricingSwitch.classList.remove("row");
 				}
+
+				if(typeof logoImage !=  'undefined') {
+					for(var index = 0;  index < logoImage.length; index++) {
+						var logo = logoImage[index];
+						logo.classList.add('logo-small');
+					}
+				}
+				if(typeof mainTitle !=  'undefined') {
+					mainTitle.classList.add('main-title-small');
+				}
+				if(typeof mainTitleInfo !=  'undefined') {
+					mainTitleInfo.classList.add('main-title-info-small');
+				}
+				if(typeof sliderTitle !=  'undefined') {
+					sliderTitle.classList.add('slider-title-small');
+				}
+				if(typeof featureTitle !=  'undefined') {
+					featureTitle.classList.add('feature-title-small');
+				}
 			}
 		},
 
@@ -3159,7 +3178,7 @@ var SEMICOLON = SEMICOLON || {};
 						speed: Number(trSpeed)
 					});
 
-					console.log( pluginData );
+					// console.log( pluginData );
 				});
 			}
 		},

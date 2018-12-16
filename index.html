@@ -8,7 +8,7 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -111,15 +111,15 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="/" class="standard-logo" data-dark-logo="images/enhence-logo-type-32.gif"><img src="images/enhence-logo-type-32.gif"
+						<a href="/" class="standard-logo" data-dark-logo="images/enhence-logo-type-32.gif"><img id="logoImage" src="images/enhence-logo-type-32.gif"
 							 alt="Enhencer Logo"></a>
-						<a href="/" class="retina-logo" data-dark-logo="images/enhencer-logo-32.gif"><img src="images/enhencer-logo-32.gif"
+						<a href="/" class="retina-logo" data-dark-logo="images/enhencer-logo-32.gif"><img id="logoImage" src="images/enhencer-logo-32.gif"
 							 alt="Enhencer Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
 					============================================= -->
-					<nav id="primary-menu" class="with-arrows" style="width:480px;">
+					<nav id="primary-menu" class="with-arrows" style="width:520px;">
 
 						<ul>
 							<li>
@@ -137,19 +137,22 @@
 									<div>Pricing</div>
 								</a>
 							</li>
-							
+
 						</ul>
-						
+
 						<!-- Menu Buttons Please Make this button css a class
 						============================================= -->
 						<a href="https://app.enhencer.com/#!/login" target="_blank" class="button button-rounded button-light bg-white border nott ls0 border-blue button-enhencer-default-green"
-						 style="text-align: center;
-						padding-left: 0px;
-						width: 82px;
-						padding-right: 0px;margin-left: 3%;">Sign
-							in</a>
-						<a href="https://app.enhencer.com/#!/signup" target="_blank" class="button button-rounded fright try-free-button">Try
-							Free</a>
+						 style="text-align: center; padding-left: 0px; width: 82px; padding-right: 0px;margin-left: 3%;">
+							<div style="text-align: center; margin-top: -2px;">
+								Sign in
+							</div>
+						</a>
+						<a href="https://app.enhencer.com/#!/signup" target="_blank" class="button button-rounded fright try-free-button">
+							<div style="text-align: center">
+								Try Free
+							</div>
+						</a>
 
 
 					</nav><!-- #primary-menu end -->
@@ -169,14 +172,16 @@
 					<div class="container topmargin-sm">
 						<div class="row">
 							<div class="col-lg-6 col-md-8">
-								<div class="slider-title" style="width:650px;">
+								<div id="sliderTitle" class="slider-title" style="width:650px;">
 									<!-- <div class="badge badge-pill badge-default">SEO Ready</div> -->
-									<h2 style="color: #228E9F; font-weight: 200; font-size: 4.4em;">Predictive Storyteller</h2>
-									<h3 class="text-rotater mb-2 content-text" data-separator="," data-rotate="fadeIn" data-speed="2000" style=" font-size: 1.5em !important; font-weight: 200; line-height: 175%;"><span
-										 class="t-rotate" style="color:#228E9F;">Revolutionary,
-											Effortless, Accelerated</span><span style="color: #777;"> way of communication between business users to make
-											predictions using automated
-											machine learning.</span>
+									<h2 id="mainTitle" class="main-title">Predictive Storyteller</h2>
+									<h3 id="mainTitleInfo" class="text-rotater mb-2 content-text main-title-info" data-separator="," data-rotate="fadeIn" data-speed="2000">
+										<span class="t-rotate" style="color:#228E9F;">
+											Revolutionary, Effortless, Accelerated
+										</span>
+										<span style="color: #777;">
+											way of communication between business users to make predictions using automated machine learning.
+										</span>
 									</h3>
 									</h3>
 									<br>
@@ -233,7 +238,7 @@
 						<!-- <div class="badge badge-pill badge-default">SEO Ready</div> -->
 						<!-- <h2 class="nott ls0 mb-3" style="color: #228E9F; font-weight: 300; font-size: 3em;">Why Enhencer?</h2>
 						</div> -->
-						<p style="font-size: 30px;">Enhencer delivers an innovative interface which eliminates the need for
+						<p id="featureTitle" style="font-size: 30px;">Enhencer delivers an innovative interface which eliminates the need for
 							out-of-fashion tables, plots and prediction algorithms that are not always accurate and clear.</p>
 					</div>
 					<div id="features" class="row">
@@ -255,7 +260,7 @@
 								</div>
 								<h3 class="nott ls0" style="font-weight: 400; font-size: 1.5em; margin-top: 65px;">Transparent Models</h3>
 								<p>Traditional tools generate incomprehensible outputs. Enhencer lays out causalities in the data before your
-									eyes with its colorful.
+									eyes with its colorful
 								</p>
 								<p style="margin-top: 0px;">
 									intuitive layout.
@@ -270,7 +275,7 @@
 								</div>
 								<h3 class="nott ls0" style="font-weight: 400; font-size: 1.5em; margin-top: 65px;">Quick Fit</h3>
 								<p>Predictive modeling has become essential to any modern business department. Fastest and easiest way to
-									implement self-service analytics in your business is called Enhencer.</p>
+									implement self-service analytics in your business is Enhencer.</p>
 							</div>
 						</div>
 					</div>
@@ -322,7 +327,8 @@
 									<div class="fbox-icon" style="width: 90px; height: 90px; margin-left: -4%;	margin-top: -9px;">
 										<a href="#"><img src="demos/seo/images/icons/analysis.svg" alt="Feature Icon" class="nobg noradius"></a>
 									</div>
-									<h3 class="nott ls0" style="color: #2CA497; font-weight: 300; font-size: 1.5em;">Every data has a story, reveal it</h3>
+									<h3 class="nott ls0" style="color: #2CA497; font-weight: 300; font-size: 1.5em;">Every data has a story,
+										reveal it</h3>
 									<p style="font-size: 17px;">Enhencer manifests the patterns in a self-explanatory way.</p>
 								</div>
 
@@ -488,7 +494,8 @@
 					<br>
 					<div class="central">
 						<div id="logo" style="margin-right: 0px;">
-							<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Enhencer Logo"></a>
+							<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img id="logoImage" src="images/logo.png"
+								 alt="Enhencer Logo"></a>
 							<!-- <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Enhencer Logo"></a> -->
 						</div><!-- #logo end -->
 					</div>

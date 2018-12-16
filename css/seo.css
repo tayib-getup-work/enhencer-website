@@ -15,7 +15,7 @@
 	--basefontsize: 16px;
 	--fontfamily: 'Poppins', sans-serif;
 	--headerboxshadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);;
-	--menufontsize: 15px;
+	--menufontsize: 18px;
 	--featuresmiddot: url('images/icons/features-middot.svg');
 }
 
@@ -402,7 +402,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 		border-radius: 10px;
 		text-transform: none;
 		letter-spacing: 0;
-		font-size: calc( var(--basefontsize) - 1px );
+		font-size: calc( var(--menufontsize) - 2px );
 		-webkit-transition: all .4s ease;
 		-o-transition: all .4s ease;
 		transition: all .4s ease;
