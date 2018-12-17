@@ -1001,6 +1001,7 @@ var SEMICOLON = SEMICOLON || {};
 			SEMICOLON.header.onepageScroller();
 			SEMICOLON.header.logo();
 			SEMICOLON.header.mobileClassRemover();
+			SEMICOLON.header.ScrollRevealAdder();
 			SEMICOLON.header.topsearch();
 			SEMICOLON.header.topcart();
 
@@ -1311,7 +1312,8 @@ var SEMICOLON = SEMICOLON || {};
 				if( retinaMobileLogo ){ retinaLogo.find('img').attr('src', retinaMobileLogo); }
 			}
 		},
-
+		ScrollRevealAdder: function() {
+		},
 		mobileClassRemover: function() {
 			if(screen.width < 500) {
 				
@@ -1395,6 +1397,7 @@ var SEMICOLON = SEMICOLON || {};
 				}
 				SEMICOLON.header.logo();
 				SEMICOLON.header.mobileClassRemover();
+				SEMICOLON.header.ScrollRevealAdder();
 			}
 		},
 
@@ -1841,6 +1844,7 @@ var SEMICOLON = SEMICOLON || {};
 				}
 				SEMICOLON.header.logo();
 				SEMICOLON.header.mobileClassRemover();
+				SEMICOLON.header.ScrollRevealAdder();
 			}
 		},
 
@@ -3746,6 +3750,7 @@ var SEMICOLON = SEMICOLON || {};
 				SEMICOLON.header.stickyPageMenu( pageMenuOffset );
 				SEMICOLON.header.logo();
 				SEMICOLON.header.mobileClassRemover();
+				SEMICOLON.header.ScrollRevealAdder();
 
 			});
 
