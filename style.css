@@ -3366,15 +3366,15 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 }
 
 .breadcrumb {
-	position: absolute !important;
 	width: auto !important;
 	top: 50% !important;
 	left: auto !important;
-	right: 15px !important;
+	/* right: 15px !important; */
 	margin: -10px 0 0 0 !important;
 	background-color: transparent !important;
 	padding: 0 !important;
 	font-size: 12px;
+	float: left;
 }
 
 body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
@@ -3383,7 +3383,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 .breadcrumb a { color: #555; }
 
-.breadcrumb a:hover { color: #1ABC9C; }
+.breadcrumb a:hover { color:rgb(34, 142, 159) !important; }
 
 .breadcrumb i { width: auto !important; }
 
@@ -8100,7 +8100,7 @@ body:not(.device-touch) .button.button-full strong {
 .process-steps li {
 	float: left;
 	position: relative;
-	width: 25%;
+	width:33%;
 	text-align: center;
 	overflow: hidden;
 }
@@ -14268,4 +14268,5 @@ div.laptop-wrapper iframe {
     width: 838px;
     height: 431px;
 }
+
 
