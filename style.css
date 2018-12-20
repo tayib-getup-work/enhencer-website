@@ -4647,12 +4647,14 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 /* Portfolio & Blog Single - Masonry
 -----------------------------------------------------------------*/
 
-.masonry-thumbs { position: relative; }
+.masonry-thumbs { 
+	position: relative; 
+}
 
 .masonry-thumbs a {
 	position: relative;
-	float: left;
-	width: 25%;
+	float: center;
+	width: 100%;
 	max-width: 100% !important;
 	overflow: hidden;
 }
@@ -8279,7 +8281,7 @@ body:not(.device-touch) .social-icon {
 	width: 52px !important;
 	height: 52px !important;
 	line-height: 52px !important;
-	background-color: #444;
+	/* background-color: #444; */
 	border-radius: 3px;
 }
 
@@ -8320,7 +8322,7 @@ body:not(.device-touch) .social-icon {
 
 .i-rounded:hover,
 .i-circled:hover {
-	background-color: #1ABC9C;
+	background-color: #1ABC9C !important;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 	box-shadow: 0 0 0 rgba(0,0,0,0.2);
@@ -11509,7 +11511,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	display: block;
 	background: transparent;
 	padding: 0 0 10px;
-	border-bottom: 2px solid #1ABC9C;
+	border-bottom: 2px solid #1ABC9C !important;
 }
 
 
