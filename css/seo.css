@@ -163,12 +163,12 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 /* Pricing Boxes
 -----------------------------------------------------------------*/
 .pricing-box {
-	border-color: rgba(17, 18, 18, .1);
+	/* border-color: rgba(17, 18, 18, .1);
 	text-align: left;
 	padding: 20px;
 	background-color: #FFF;
 	box-shadow: none;
-	margin-right: -1px;
+	margin-right: -1px; */
 }
 
 
@@ -514,7 +514,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
   td, th {
 	height:53px
   }
-  td,th { border:1px solid #DDD; padding:10px; empty-cells:show; }
+  /* td,th { border:1px solid #DDD; padding:10px; empty-cells:show; } */
   td,th {
 	text-align:left;
   }
@@ -566,7 +566,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 	  display:table-cell !important;
 	}
 	td,th {
-	  width: 330px;
+	  width: inherit;
 	
 	}
 	td+td, th+th {

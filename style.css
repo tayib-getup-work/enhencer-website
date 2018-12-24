@@ -9988,12 +9988,12 @@ body:not(.device-touch) .team-overlay {
 -----------------------------------------------------------------*/
 
 .pricing-box {
-	position: relative;
+	/* position: relative;
 	border: 1px solid rgba(0,0,0,0.075);
 	border-radius: 3px;
 	text-align: center;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-	background-color: #F5F5F5;
+	background-color: #F5F5F5; */
 }
 
 
@@ -14580,6 +14580,7 @@ article {
   background: none !important;
   color: #fff;
   border-right-color: #555 !important;
+  border-top: none;
 }
 
 .bg-ash {
@@ -14590,6 +14591,7 @@ article {
   font-size: 20px;
   font-weight: 500;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  border-top: none !important;
 }
 
 .bg-blue {
@@ -14599,6 +14601,7 @@ article {
   font-size: 20px;
   font-weight: 500;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  border-top: none !important;
 }
 
 .bg-green {
@@ -14608,6 +14611,7 @@ article {
   font-size: 20px;
   font-weight: 500;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  border-top: none !important;
 }
 
 .bg-light-green {
@@ -14618,6 +14622,7 @@ article {
   font-size: 20px;
   font-weight: 500;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  border-top: none !important;
 }
 
 .tr-pricing {
