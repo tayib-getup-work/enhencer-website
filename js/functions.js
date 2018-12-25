@@ -1316,7 +1316,6 @@ var SEMICOLON = SEMICOLON || {};
 		},
 		mobileClassRemover: function() {
 			if(screen.width < 500) {
-				
 				if(typeof features != 'undefined') {
 					features.classList.remove("row");
 				}
