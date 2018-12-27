@@ -319,6 +319,7 @@ span.middot {
 
 .leftmargin-sm { margin-left: 30px !important; }
 
+.leftmargin-vsm { margin-left: 20% !important; }
 
 .rightmargin-sm { margin-right: 30px !important; }
 
@@ -9350,13 +9351,36 @@ ul.tab-nav li a i {
 
 /* Tabs - Side Tabs
 -----------------------------------------------------------------*/
+@media (min-width: 1200px) {
+	.side-tabs ul.tab-nav {
+		float: left;
+		width: 200px;
+		padding: 20px 0;
+		border-bottom: 0;
+		border-right: 1px solid #DDD;
+	}
+}
 
-.side-tabs ul.tab-nav {
-	float: left;
-	width: 200px;
-	padding: 20px 0;
-	border-bottom: 0;
-	border-right: 1px solid #DDD;
+@media (max-width: 600px) {
+	.side-tabs ul.tab-nav {
+		float: left;
+		width: 330px;
+		padding: 20px 0;
+		border-bottom: 0;
+		border-right: 1px solid #DDD;
+	}
+	.card {
+		display: block; 
+		  margin-bottom: 20px;
+		  line-height: 1.42857143;
+		  background-color: #fff;
+		  border-radius: 2px;
+		  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+		  transition: box-shadow .25s; 
+		  width: 230px;
+	  
+	  }
+	
 }
 
 .side-tabs ul.tab-nav li {
@@ -14161,15 +14185,7 @@ h1.heading {
     margin: 0 0 0.3em;
   }
 } 
-.card {
-  display: block; 
-    margin-bottom: 20px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
-    transition: box-shadow .25s; 
-}
+
 .card:hover {
   box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -14635,4 +14651,17 @@ article {
 	background: transparent;
   font-weight:bold;
   color: #555;
+}
+
+.connect-p{
+	padding-left: 5%;
+    padding-right: 4%;
+}
+
+.margin-left-features-mobile{
+	margin-left: 5%;
+}
+
+.margin-left-features-pc{
+	margin-left: -2%;
 }

@@ -41,8 +41,8 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 838px;
-		height: 431px;
+		width: 587px;
+		height: 301px;
 	}
 
 
@@ -1560,8 +1560,8 @@
 	#header.full-header .container,
 	.container-fullwidth {
 		width: 100% !important;
-		padding-left: 40px !important;
-		padding-right: 40px !important;
+		/* padding-left: 40px !important;
+		padding-right: 40px !important; */
 	}
 
 	/* #logo {
@@ -1607,8 +1607,9 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 838px;
-		height: 431px;
+	    width: 334px;
+    	height: 172px;
+    	margin-left: -6%;
 	}
 
 	#top-cart { display: none; }
