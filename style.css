@@ -14008,7 +14008,7 @@ p {
 //the border must also animate in.*/
 .timeline-list li {
 
-	margin:0 0 3em 0;
+	margin:0 0 2em 0;
 	padding:0 2em 0em 2em;
     position: relative;
 
@@ -14663,5 +14663,21 @@ article {
 }
 
 .margin-left-features-pc{
-	margin-left: -2%;
+	margin-left: -3%;
+}
+
+ul.sf-js-enabled {
+	display: none !important;
+}
+ul.sf-js-enabled.d-block {
+	display: block !important;
+}
+
+.feature-box-mobile{
+	margin-left: 6%;
+    width: 349px;
+}
+
+.feature-box-pc{
+	margin-left: -12%;
 }

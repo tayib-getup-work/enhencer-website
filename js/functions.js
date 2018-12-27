@@ -1430,6 +1430,12 @@ var SEMICOLON = SEMICOLON || {};
 				if(typeof featuresmargin !=  'undefined') {
 					featuresmargin.classList.add('margin-left-features-mobile');
 				}
+				if(typeof featureboxmobile !=  'undefined') {
+					featureboxmobile.classList.add('feature-box-mobile');
+				}
+				if (typeof featureboxmobile != 'undefined') {
+					featureboxmobile.classList.remove("feature-box-pc");
+				}
 			}
 		},
 
@@ -1438,6 +1444,7 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof connectimagecenterclass != 'undefined') {
 					connectimagecenterclass.classList.remove("aligncenter");
 				}
+				
 
 			}
 		},
