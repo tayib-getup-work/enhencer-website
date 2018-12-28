@@ -9380,6 +9380,12 @@ ul.tab-nav li a i {
 		  width: 230px;
 	  
 	  }
+	  ul.sf-js-enabled {
+		display: none !important;
+	}
+	  ul.sf-js-enabled.d-block {
+		display: block !important;
+	}
 	
 }
 
@@ -14666,12 +14672,7 @@ article {
 	margin-left: -3%;
 }
 
-ul.sf-js-enabled {
-	display: none !important;
-}
-ul.sf-js-enabled.d-block {
-	display: block !important;
-}
+
 
 .feature-box-mobile{
 	margin-left: 6%;

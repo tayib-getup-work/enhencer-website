@@ -1436,6 +1436,7 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof featureboxmobile != 'undefined') {
 					featureboxmobile.classList.remove("feature-box-pc");
 				}
+				
 			}
 		},
 
@@ -1443,6 +1444,9 @@ var SEMICOLON = SEMICOLON || {};
 			if (screen.width > 500) {
 				if (typeof connectimagecenterclass != 'undefined') {
 					connectimagecenterclass.classList.remove("aligncenter");
+				}
+				if (typeof primarymenumobile != 'undefined') {
+					primarymenumobile.classList.remove("ul.sf-js-enabled");
 				}
 				
 
