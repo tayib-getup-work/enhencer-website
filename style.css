@@ -14014,7 +14014,7 @@ p {
 //the border must also animate in.*/
 .timeline-list li {
 
-	margin:0 0 2em 0;
+	margin:0 0 1em 0;
 	padding:0 2em 0em 2em;
     position: relative;
 
@@ -14659,6 +14659,8 @@ article {
   color: #555;
 }
 
+/* Simple Classes to make Mobile Responsive */
+
 .connect-p{
 	padding-left: 5%;
     padding-right: 4%;
@@ -14682,3 +14684,33 @@ article {
 .feature-box-pc{
 	margin-left: -12%;
 }
+
+.iframe-home{
+	margin-left: 8%;
+}
+
+
+/* 1st example
+	inspired from :
+	- http://stackoverflow.com/questions/25573562/wrapping-a-youtube-video-in-a-static-image-frame-and-maintain-responsive-resiz
+	- http://jsfiddle.net/4g9e3ywy/ */
+	div.laptop-wrapper {
+		position: relative;
+		padding-top: 25px;
+		padding-bottom: 50.5%;
+		height: 0;
+	}
+	div.laptop-wrapper iframe {
+		box-sizing: border-box;
+		background: url(images/services/macbook.png) center center no-repeat;
+		background-size: contain;
+		padding-top: 2.2%;
+		padding-right: 16.2%;
+		padding-bottom: 4.6%;
+		padding-left: 16.2%;
+		position: absolute;
+		top: 15px;
+		left: 0;
+		width: 934px;
+		height: 431px;
+	}

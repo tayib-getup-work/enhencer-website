@@ -1005,7 +1005,8 @@ var SEMICOLON = SEMICOLON || {};
 			SEMICOLON.header.topsearch();
 			SEMICOLON.header.topcart();
 			SEMICOLON.header.PCClassRemover();
-
+			SEMICOLON.header.LaptopClassRemover();
+			SEMICOLON.header.PCClassRemover2();
 		},
 
 		superfish: function () {
@@ -1355,46 +1356,46 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof featureTitle != 'undefined') {
 					featureTitle.classList.add('feature-title-small');
 				}
-				if(typeof connecttextclass !=  'undefined') {
+				if (typeof connecttextclass != 'undefined') {
 					connecttextclass.classList.add('center');
 				}
-				if(typeof connecttextclass !=  'undefined') {
+				if (typeof connecttextclass != 'undefined') {
 					connecttextclass2.classList.add('center');
 				}
-				if(typeof connecttextclass !=  'undefined') {
+				if (typeof connecttextclass != 'undefined') {
 					connecttextclass3.classList.add('center');
 				}
-				if(typeof connections3ndrow !=  'undefined') {
+				if (typeof connections3ndrow != 'undefined') {
 					connections3ndrow.classList.add('leftmargin-vsm');
 				}
-				if(typeof connectp !=  'undefined') {
+				if (typeof connectp != 'undefined') {
 					connectp.classList.add('connect-p');
 				}
-				if(typeof connectp2 !=  'undefined') {
+				if (typeof connectp2 != 'undefined') {
 					connectp2.classList.add('connect-p');
 				}
-				if(typeof googletextclass2 !=  'undefined') {
+				if (typeof googletextclass2 != 'undefined') {
 					googletextclass2.classList.add('center');
 				}
-				if(typeof googletextclass !=  'undefined') {
+				if (typeof googletextclass != 'undefined') {
 					googletextclass.classList.add('center');
 				}
-				if(typeof qliktextclass !=  'undefined') {
+				if (typeof qliktextclass != 'undefined') {
 					qliktextclass.classList.add('center');
 				}
-				if(typeof qliktextclass2 !=  'undefined') {
+				if (typeof qliktextclass2 != 'undefined') {
 					qliktextclass2.classList.add('center');
 				}
-				if(typeof connectp3 !=  'undefined') {
+				if (typeof connectp3 != 'undefined') {
 					connectp3.classList.add('connect-p');
 				}
-				if(typeof mysqltextclass !=  'undefined') {
+				if (typeof mysqltextclass != 'undefined') {
 					mysqltextclass.classList.add('center');
 				}
-				if(typeof mysqltextclass2 !=  'undefined') {
+				if (typeof mysqltextclass2 != 'undefined') {
 					mysqltextclass2.classList.add('center');
 				}
-				if(typeof mssqltextclass !=  'undefined') {
+				if (typeof mssqltextclass != 'undefined') {
 					mssqltextclass.classList.add('center');
 				}
 				if (typeof connecttabrow != 'undefined') {
@@ -1427,16 +1428,19 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof featuresmargin != 'undefined') {
 					featuresmargin.classList.remove("margin-left-features-pc");
 				}
-				if(typeof featuresmargin !=  'undefined') {
+				if (typeof featuresmargin != 'undefined') {
 					featuresmargin.classList.add('margin-left-features-mobile');
 				}
-				if(typeof featureboxmobile !=  'undefined') {
+				if (typeof featureboxmobile != 'undefined') {
 					featureboxmobile.classList.add('feature-box-mobile');
 				}
 				if (typeof featureboxmobile != 'undefined') {
 					featureboxmobile.classList.remove("feature-box-pc");
 				}
-				
+				if (typeof iframehome != 'undefined') {
+					iframehome.classList.remove("iframe-home");
+				}
+
 			}
 		},
 
@@ -1448,10 +1452,78 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof primarymenumobile != 'undefined') {
 					primarymenumobile.classList.remove("ul.sf-js-enabled");
 				}
-				
+
 
 			}
 		},
+
+		LaptopClassRemover: function () {
+			if (screen.width > 500 && screen.height <= 1280) {
+				if (typeof featuresmargin != 'undefined') {
+					featuresmargin.classList.remove("col-lg-4");
+				}
+				if (typeof featuresmargin != 'undefined') {
+					featuresmargin.classList.add('col-lg-5');
+				}
+				if (typeof featuresmargin != 'undefined') {
+					featuresmargin.classList.remove("margin-left-features-pc");
+				}
+				if (typeof featureboxmobile != 'undefined') {
+					featureboxmobile.classList.remove("col-lg-4");
+				}
+				if (typeof featureboxmobile != 'undefined') {
+					featureboxmobile.classList.add('col-lg-6');
+				}
+				if (typeof featureboxmobile != 'undefined') {
+					featureboxmobile.classList.remove("feature-box-pc");
+				}
+				if (typeof featuresmargin2 != 'undefined') {
+					featuresmargin2.classList.remove("col-lg-2");
+				}
+				if (typeof featuresmargin2 != 'undefined') {
+					featuresmargin2.classList.add('col-lg-1');
+				}
+
+
+			}
+		},
+		PCClassRemover2: function () {
+			if (screen.width > 1280) {
+				if (typeof featuresmargin != 'undefined') {
+					featuresmargin.classList.remove("col-lg-5");
+				}
+				if (typeof featuresmargin != 'undefined') {
+					featuresmargin.classList.add('col-lg-4');
+				}
+				if (typeof featuresmargin != 'undefined') {
+					featuresmargin.classList.remove("margin-left-features-pc");
+				}
+				if (typeof featuresmargin != 'undefined') {
+					featuresmargin.classList.add("margin-left-features-pc");
+				}
+				if (typeof featureboxmobile != 'undefined') {
+					featureboxmobile.classList.remove("col-lg-6");
+				}
+				if (typeof featureboxmobile != 'undefined') {
+					featureboxmobile.classList.add('col-lg-4');
+				}
+				if (typeof featureboxmobile != 'undefined') {
+					featureboxmobile.classList.remove("feature-box-pc");
+				}
+				if (typeof featureboxmobile != 'undefined') {
+					featureboxmobile.classList.add("feature-box-pc");
+				}
+				if (typeof featuresmargin2 != 'undefined') {
+					featuresmargin2.classList.remove("col-lg-2");
+				}
+				if (typeof featuresmargin2 != 'undefined') {
+					featuresmargin2.classList.add('col-lg-2');
+				}
+
+
+			}
+		},
+
 
 		stickyMenuClass: function () {
 			if (stickyMenuClasses) { var newClassesArray = stickyMenuClasses.split(/ +/); } else { var newClassesArray = ''; }
@@ -1500,7 +1572,8 @@ var SEMICOLON = SEMICOLON || {};
 				SEMICOLON.header.mobileClassRemover();
 				SEMICOLON.header.ScrollRevealAdder();
 				SEMICOLON.header.PCClassRemover();
-
+				SEMICOLON.header.LaptopClassRemover();
+				SEMICOLON.header.PCClassRemover2();
 			}
 		},
 
@@ -1949,6 +2022,8 @@ var SEMICOLON = SEMICOLON || {};
 				SEMICOLON.header.mobileClassRemover();
 				SEMICOLON.header.ScrollRevealAdder();
 				SEMICOLON.header.PCClassRemover();
+				SEMICOLON.header.LaptopClassRemover();
+				SEMICOLON.header.PCClassRemover2();
 
 			}
 		},
@@ -3857,6 +3932,8 @@ var SEMICOLON = SEMICOLON || {};
 				SEMICOLON.header.mobileClassRemover();
 				SEMICOLON.header.ScrollRevealAdder();
 				SEMICOLON.header.PCClassRemover();
+				SEMICOLON.header.LaptopClassRemover();
+				SEMICOLON.header.PCClassRemover2();
 
 
 			});
