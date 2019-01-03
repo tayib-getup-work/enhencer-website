@@ -24,6 +24,28 @@
 
 }
 
+@media (min-width: 361px) and (max-width: 411.98px) {
+	div.laptop-wrapper {
+		position: relative;
+		padding-top: 25px;
+		padding-bottom: 100.5%;
+		height: 0;
+	}
+	div.laptop-wrapper iframe {
+		box-sizing: border-box;
+		background: url(images/services/macbook.png) center center no-repeat;
+		background-size: contain;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-top: 2.2%;
+		padding-right: 19.2%;
+		padding-bottom: 4.6%;
+		padding-left: 19.2%;
+	    width: 100%;
+    	height: auto;
+	}
+}
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
@@ -1444,6 +1466,7 @@
 		padding: 0 15px;
 	}
 
+
 	/* Portfolio - Items
 	-----------------------------------------------------------------*/
 
@@ -1579,6 +1602,10 @@
 		position: absolute;
 		top: 0;
 		left: 0;
+		padding-top: 2.2%;
+		padding-right: 15.2%;
+		padding-bottom: 4.6%;
+		padding-left: 15.2%;
 	    width: 100%;
     	height: auto;
 	}

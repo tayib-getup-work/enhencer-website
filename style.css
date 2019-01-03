@@ -14690,7 +14690,8 @@ article {
 }
 
 
-/* 1st example
+
+	/* 1st example
 	inspired from :
 	- http://stackoverflow.com/questions/25573562/wrapping-a-youtube-video-in-a-static-image-frame-and-maintain-responsive-resiz
 	- http://jsfiddle.net/4g9e3ywy/ */
@@ -14705,12 +14706,16 @@ article {
 		background: url(images/services/macbook.png) center center no-repeat;
 		background-size: contain;
 		padding-top: 2.2%;
-		padding-right: 16.2%;
+		padding-right: 16.8%;
 		padding-bottom: 4.6%;
-		padding-left: 16.2%;
+		padding-left: 16.8%;
 		position: absolute;
 		top: 15px;
 		left: 0;
 		width: 934px;
 		height: 431px;
+	}
+
+	.margin-home-video{
+		margin-left: 9%;
 	}

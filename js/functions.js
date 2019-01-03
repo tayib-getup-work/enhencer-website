@@ -1440,7 +1440,10 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof iframehome != 'undefined') {
 					iframehome.classList.remove("iframe-home");
 				}
-
+				if (typeof homevideo != 'undefined') {
+					homevideo.classList.remove("margin-home-video");
+				}
+				
 			}
 		},
 
@@ -1452,8 +1455,6 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof primarymenumobile != 'undefined') {
 					primarymenumobile.classList.remove("ul.sf-js-enabled");
 				}
-				
-
 
 			}
 		},
