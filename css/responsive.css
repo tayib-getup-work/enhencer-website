@@ -1576,16 +1576,11 @@
 		box-sizing: border-box;
 		background: url(images/services/macbook.png) center center no-repeat;
 		background-size: contain;
-		padding-top: 2.2%;
-		padding-right: 12.7%;
-		padding-bottom: 3.6%;
-		padding-left: 12.7%;
 		position: absolute;
 		top: 0;
 		left: 0;
-	    width: 334px;
-    	height: 172px;
-    	margin-left: -6%;
+	    width: 100%;
+    	height: auto;
 	}
 
 	#top-cart { display: none; }
@@ -1701,8 +1696,8 @@
 	.testi-image a,
 	.testi-image img,
 	.testi-image i {
-		width: 36px;
-		height: 36px;
+		width: 70px;
+		height: 70px;
 	}
 
 	.testi-image i {
