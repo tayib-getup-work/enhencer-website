@@ -1456,6 +1456,16 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof primarymenumobile != 'undefined') {
 					primarymenumobile.classList.remove("ul.sf-js-enabled");
 				}
+				if (typeof mainTitle != 'undefined') {
+					mainTitle.classList.remove("home-slider-title");
+				}
+				if (typeof mainTitleInfo != 'undefined') {
+					mainTitleInfo.classList.remove("home-slider-subtitle");
+				}
+				if (typeof homesliderbutton != 'undefined') {
+					homesliderbutton.classList.remove("home-slider-buttons");
+				}
+
 
 			}
 		},

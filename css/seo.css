@@ -355,7 +355,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 	 }
 
 	#header.transparent-header + #page-title.page-title-parallax .container { padding-top: 80px; }
-
+	#footer-menu ul li > a,
 	#primary-menu ul li > a {
 		padding-top: 29px;
 		padding-bottom: 29px;
