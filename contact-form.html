@@ -2,15 +2,15 @@
 <html dir="ltr" lang="en-US">
 
 <head>
-  	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114130711-4"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114130711-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-		gtag('config', 'UA-114130711-4');
-	</script>
+        gtag('config', 'UA-114130711-4');
+    </script>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="SemiColonWeb" />
@@ -88,23 +88,23 @@
 					============================================= -->
                     <nav id="primary-menu" class="with-arrows">
                         <ul id="primarymenumobile" class="ul.sf-js-enabled">
-							<li>
-								<a href="connect.html" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Connect');">
-									<div>Connect</div>
-								</a>
-							</li>
-							<li>
-								<a href="stories.html" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Stories');">
-									<div>Stories</div>
-								</a>
-							</li>
-							<li>
-								<a href="pricing.html" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Pricing');">
-									<div>Pricing</div>
-								</a>
-							</li>
+                            <li>
+                                <a href="connect.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
+                                    <div>Connect</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="stories.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Stories'});">
+                                    <div>Stories</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pricing.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                    <div>Pricing</div>
+                                </a>
+                            </li>
 
-						</ul>
+                        </ul>
 
                         <!-- Top Search
 						============================================= -->
@@ -117,10 +117,12 @@
 
                         <!-- Menu Buttons
 						============================================= -->
-                        <a href="https://app.enhencer.com/#!/login" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Sign-In');" target="_blank" class="button button-rounded button-light bg-white border nott ls0 leftmargin-sm border-blue button-enhencer-default-green"
+                        <a href="https://app.enhencer.com/#!/login" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
+                            target="_blank" class="button button-rounded button-light bg-white border nott ls0 leftmargin-sm border-blue button-enhencer-default-green"
                             style="background-color: transparent !important;">Sign
                             in</a>
-                        <a href="https://app.enhencer.com/#!/signup" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Try Free');" target="_blank" class="button button-rounded fright leftmargin-sm">Try
+                        <a href="https://app.enhencer.com/#!/signup" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
+                            target="_blank" class="button button-rounded fright leftmargin-sm">Try
                             Free</a>
 
                     </nav><!-- #primary-menu end -->
@@ -149,7 +151,7 @@
             <div class="central">
                 <nav id="primary-menu" class="with-arrows">
                     <ul>
-                        <li><a href="about-us.html" onclick="ga('send', 'event', 'Landing', 'Home', 'Blog');">
+                        <li><a href="about-us.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Blog'});">
                                 <div class="t300">About Us</div>
                             </a>
                         </li>
@@ -164,11 +166,11 @@
                                 <div class="t300">Webinar</div>
                             </a>
                         </li>
-                        <li><a href="partnership.html" onclick="ga('send', 'event', 'Landing', 'Home', 'Partnership');">
+                        <li><a href="partnership.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Partnership'});">
                                 <div class="t300">Partnership</div>
                             </a>
                         </li>
-                        <li><a href="index.html" onclick="ga('send', 'event', 'Landing', 'Home', 'Help-Center');">
+                        <li><a href="index.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Help-Center'});">
                                 <div class="t300">Help-Center</div>
                             </a></li>
 
@@ -215,7 +217,8 @@
             </div>
             <br>
             <div class="central">
-                <a href="contact-form.html" onclick="ga('send', 'event', 'Landing', 'Home', 'Contact Us');" target="_blank" class="button button-rounded" style="text-transform: none;">Contact
+                <a href="contact-form.html" onclick="ga('send', 'event', 'Landing', 'Home', 'Contact Us');" target="_blank"
+                    class="button button-rounded" style="text-transform: none;">Contact
                     Us</a>
             </div>
             <br>
