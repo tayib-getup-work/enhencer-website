@@ -1117,7 +1117,7 @@
 	}
 
 	#top-social,
-	.flex-caption { display: none !important; }
+	.flex-caption { display: list-item !important; }
 
 	.flex-control-nav li { opacity: 1 !important; }
 
@@ -1608,6 +1608,14 @@
 		padding-left: 15.2%;
 	    width: 100%;
     	height: auto;
+	}
+
+	#footer-menu > ul { 
+		float: left;
+		display: grid;
+	 }
+	 #footer-menu ul > li {
+		height: 55px;
 	}
 
 	#top-cart { display: none; }

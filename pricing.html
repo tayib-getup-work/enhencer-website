@@ -2,15 +2,15 @@
 <html dir="ltr" lang="en-US">
 
 <head>
-  	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114130711-4"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114130711-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-		gtag('config', 'UA-114130711-4');
-	</script>
+        gtag('config', 'UA-114130711-4');
+    </script>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="SemiColonWeb" />
@@ -119,7 +119,7 @@
                     <!-- Top Social
                         ============================================= -->
                     <div id="top-social">
-                        <ul>
+                        <ul id="topsocial" class="top-social-mobile-hide">
                             <li><a href="https://www.youtube.com/channel/UCIgWv2OQm6vSMlpXph4nbLA?view_as=subscriber"
                                     class="si-youtube" target="_blank"><span class="ts-icon"><i class="icon-youtube"></i></span><span
                                         class="ts-text">Youtube</span></a></li>
@@ -166,23 +166,23 @@
                     <nav id="primary-menu" class="with-arrows" style="width: 520px; ">
 
                         <ul id="primarymenumobile" class="ul.sf-js-enabled">
-							<li>
-								<a href="connect.html" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Connect');">
-									<div>Connect</div>
-								</a>
-							</li>
-							<li>
-								<a href="stories.html" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Stories');">
-									<div>Stories</div>
-								</a>
-							</li>
-							<li class="current">
-								<a href="pricing.html" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Pricing');">
-									<div>Pricing</div>
-								</a>
-							</li>
+                            <li>
+                                <a href="connect.html" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Connect');">
+                                    <div>Connect</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="stories.html" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Stories');">
+                                    <div>Stories</div>
+                                </a>
+                            </li>
+                            <li class="current">
+                                <a href="pricing.html" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Pricing');">
+                                    <div>Pricing</div>
+                                </a>
+                            </li>
 
-						</ul>
+                        </ul>
 
                         <!-- Top Search
 						============================================= -->
@@ -195,14 +195,16 @@
 
                         <!-- Menu Buttons
                             ============================================= -->
-                        <a href="https://app.enhencer.com/#!/login" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Sign-In');" target="_blank" class="button button-rounded button-light bg-white border nott ls0 border-blue button-enhencer-default-green"
+                        <a href="https://app.enhencer.com/#!/login" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Sign-In');"
+                            target="_blank" class="button button-rounded button-light bg-white border nott ls0 border-blue button-enhencer-default-green"
                             style="text-align: center;
                            padding-left: 0px;
                            width: 82px;
                            padding-right: 0px;margin-left: 3%;
                            background-color: transparent !important;">Sign
                             in</a>
-                        <a href="https://app.enhencer.com/#!/signup" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Try Free');" target="_blank" class="button button-rounded fright try-free-button">Try
+                        <a href="https://app.enhencer.com/#!/signup" onclick="ga('send', 'event', 'Landing', 'Top Bar', 'Try Free');"
+                            target="_blank" class="button button-rounded fright try-free-button">Try
                             Free</a>
 
                     </nav><!-- #primary-menu end -->
@@ -883,7 +885,8 @@
                 </div>
                 <br>
                 <div class="central">
-                    <a href="contact-form.html" onclick="ga('send', 'event', 'Landing', 'Home', 'Contact Us');" target="_blank" class="button button-rounded" style="text-transform: none;">Contact
+                    <a href="contact-form.html" onclick="ga('send', 'event', 'Landing', 'Home', 'Contact Us');" target="_blank"
+                        class="button button-rounded" style="text-transform: none;">Contact
                         Us</a>
                 </div>
                 <br>

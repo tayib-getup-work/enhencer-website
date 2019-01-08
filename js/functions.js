@@ -1337,6 +1337,10 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof pricingSwitch != 'undefined') {
 					pricingSwitch.classList.remove("row");
 				}
+				if (typeof pricing != 'undefined') {
+					pricing.classList.remove("row");
+				}
+				
 
 				if (typeof logoImage != 'undefined') {
 					for (var index = 0; index < logoImage.length; index++) {
@@ -1464,6 +1468,9 @@ var SEMICOLON = SEMICOLON || {};
 				}
 				if (typeof homesliderbutton != 'undefined') {
 					homesliderbutton.classList.remove("home-slider-buttons");
+				}
+				if (typeof topsocial != 'undefined') {
+					topsocial.classList.remove("top-social-mobile-hide");
 				}
 
 

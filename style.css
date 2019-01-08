@@ -14819,7 +14819,6 @@ article {
 
 #footer-menu > ul { 
 	float: left;
-	display: grid;
  }
 
 #footer-menu ul li { position: relative; }
@@ -14829,7 +14828,6 @@ article {
 #footer-menu ul > li {
 	float: left;
 	margin-left: 2px;
-	height: 50px;
 }
 
 #footer-menu > ul > li:first-child { margin-left: 0; }
@@ -15413,4 +15411,10 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #footer-menu.style-2.center
 
 .home-slider-buttons{
 	margin-left: 22% !important;
+}
+
+/* Mobile Top Bar Social Icons Hide */
+
+.top-social-mobile-hide{
+	display: none !important;
 }
