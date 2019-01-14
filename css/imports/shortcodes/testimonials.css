@@ -70,11 +70,11 @@
 	overflow: hidden;
 }
 
-.testi-content p {
+/* .testi-content p {
 	margin-bottom: 0;
 	font-family: 'Crete Round', serif;
 	font-style: italic;
-}
+} */
 
 .testi-content p:before,
 .testi-content p:after { content: '"'; }

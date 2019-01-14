@@ -277,9 +277,9 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 
 .testi-content p {
 	text-align: center;
-	font-style: normal;
-	font-family: var(--fontfamily);
-	font-size: var(--basefontsize);
+	font-style: normal !important;
+	font-family: var(--fontfamily) !important;
+	font-size: var(--basefontsize) !important;
 }
 
 .testi-meta {
