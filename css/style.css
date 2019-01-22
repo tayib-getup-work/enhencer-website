@@ -11812,7 +11812,7 @@ body:not(.device-touch) #gotoTop {
 	color: rgb(255, 255, 255) !important;
 	opacity: 0.4;
 	text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
-	padding-top: 210px !important;
+	padding-top: 112px;
 }
 
 .error404-wrap .heading-block h4 {
@@ -13964,38 +13964,37 @@ p {
 	position: relative;
 	max-width:700px;
 	margin:0 auto;
-}	
+	
  
-.timeline-list:before {
-	content: "" data-animate="fadeIn";
-	border-left: 5px solid #CCC;
-	left: -0.25em;
-	top: 2em;
-	height: 100%;
-	position: absolute;
-	bottom: 0;
-	top: 0;
-	transform-origin:0 0;
-	animation:scaleVertical 3s 1s ease both 1;
+  &:before {
+		content: "" data-animate="fadeIn";
+     border-left: 5px solid #CCC;
+     left: -0.25em;
+     top: 2em;
+     height: 100%;
+     position: absolute;
+     bottom: 0;
+     top: 0;
+    transform-origin:0 0;
+    animation:scaleVertical 3s 1s ease both 1;
+	}
+
+	&:after {
+		content: "";
+    clear:both;
+    
+		position: absolute;
+		bottom: 0px;
+		left: -1em;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background: none repeat scroll 0% 0% #DDD;
+		border: 5px solid #DDD;
+		box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    animation:revealScaleUp 0.75s 2.82s ease both 1;
+	}
 }
-
-.timeline-list:after {
-	content: "";
-	clear:both;
-	position: absolute;
-	bottom: 0px;
-	left: -1em;
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	background: none repeat scroll 0% 0% #DDD;
-	border: 5px solid #DDD;
-	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
- 	animation:revealScaleUp 0.75s 2.82s ease both 1;
-}
-
-
-
 
 .t-block-teal {
 	background: transparent;
