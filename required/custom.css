@@ -148,7 +148,7 @@ p {
 	}
 
 	.timeline-list:after {
-		content: "";
+		/* content: ""; */
     clear:both;
     
 		position: absolute;
