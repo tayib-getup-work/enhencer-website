@@ -1340,8 +1340,6 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof pricing != 'undefined') {
 					pricing.classList.remove("row");
 				}
-				
-
 				if (typeof logoImage != 'undefined') {
 					for (var index = 0; index < logoImage.length; index++) {
 						var logo = logoImage[index];
@@ -1447,10 +1445,10 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof homevideo != 'undefined') {
 					homevideo.classList.remove("margin-home-video");
 				}
-				
-				
 			}
 		},
+
+
 
 		PCClassRemover: function () {
 			if (screen.width > 500) {

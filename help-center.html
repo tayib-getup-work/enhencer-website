@@ -34,8 +34,8 @@
 	============================================= -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="required/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="required/style.min.css" type="text/css" />
-    <link rel="stylesheet" href="required/custom.min.css" type="text/css" />
+    <link rel="stylesheet" href="required/style.css" type="text/css" />
+    <link rel="stylesheet" href="required/custom.css" type="text/css" />
 
     <link rel="shortcut icon" type="image/ico" href="./images/icons/favicon.ico" />
 
@@ -58,11 +58,11 @@
 
     <!-- Document Wrapper
 	============================================= -->
-    <div id="wrapper" class="clearfix" style="background-color: #f5f5f5 !important;">
+    <div id="wrapper" class="clearfix">
 
         <!-- Top Bar
 		============================================= -->
-        <div id="top-bar" class="transparent-topbar">
+        <div id="top-bar" class="transparent-topbar" style="height: 0px;">
 
             <div class="container clearfix">
 
@@ -82,7 +82,7 @@
         </div><!-- #top-bar end -->
         <!-- Header
 		============================================= -->
-        <header id="header" class="transparent-header floating-header clearfix">
+        <header id="header" class="transparent-header floating-header clearfix sticky-header" style="background-color: white !important;height: 56px;">
             <div id="header-wrap">
                 <div class="container clearfix">
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
@@ -117,12 +117,13 @@
 
                         <!-- Top Search
 						============================================= -->
-                        <div id="top-search" class="fleft">
+                        <!-- <div id="top-search" class="fleft">
                             <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
                             <form action="search.html" method="get">
                                 <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
                             </form>
-                        </div><!-- #top-search end -->
+                        </div> -->
+                        <!-- #top-search end -->
 
                         <!-- Menu Buttons
 						============================================= -->
@@ -131,8 +132,7 @@
                             style="background-color: transparent !important;">Sign
                             in</a>
                         <a href="https://app.enhencer.com/#!/signup" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-                            target="_blank" class="button button-rounded fright leftmargin-sm">TRY
-                            FREE</a>
+                            target="_blank" class="button button-rounded fright leftmargin-sm">Try Free</a>
 
                     </nav><!-- #primary-menu end -->
                 </div>
@@ -140,105 +140,119 @@
 
         </header>
         <!-- #header end -->
-        <div class="typeform-widget" data-url="https://enhencer.typeform.com/to/WNg9TM" style="width: 100%; height: 790px;"></div>
-        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
-        <!-- Footer
-		============================================= -->
-        <div class="section nobg m-0 border-bottom py-5" style="padding: 10px 0 !important;">
-            <br>
-            <br>
-            <hr class="style7">
-            <br>
-            <br>
-            <div class="central">
-                <div id="logo" style="margin-right: 0px;">
-                    <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/enhencer-logo-32.gif"
-                            alt="Enhencer Logo"></a>
-                    <!-- <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Enhencer Logo"></a> -->
-                </div><!-- #logo end -->
-            </div>
-            <div class="central">
-                <nav id="footer-menu" class="with-arrows">
-                    <ul>
-                        <li><a href="about-us.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Blog'});">
-                                <div class="t300">About Us</div>
-                            </a>
+        <!-- Content
+        ============================================= -->
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-1 bg-light"></div>
+                <div class="col-2 collapse d-md-flex bg-light pt-2" id="sidebar" style="box-shadow: 7px 0 9px -4px #e4e4e4; padding-top: 40px !important;">
+                    <ul class="nav flex-column flex-nowrap">
+                        <li class="nav-item"><a href="#" style="cursor: pointer; color:#0E71B8; font-size: 1.4em;" id="getstarted"
+                                class="nav-link collapsed" href="#submenu3" data-toggle="collapse" data-target="#submenu3">Get
+                                Started</a>
+                            <div class="collapse" id="submenu3" aria-expanded="false">
+                                <ul class="flex-column nav pl-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link p-1  sub-sub-nav" href="#" id="login">
+                                            <i></i> Login
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-1 sub-sub-nav" href="#" id="workspace">
+                                            <i></i> Workspace
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-1 sub-sub-nav" href="#" id="projects">
+                                            <i></i> Projects
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
-                        <li>
-                            <a href="https://blog.enhencer.com">
-                                <div class="t300">Blog</div>
-                            </a>
-                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link collapsed" href="#submenu1" data-toggle="collapse" data-target="#submenu1"
+                                style="color:#1C8DA4; font-size: 1.4em;" id="connect">Connect</a>
+                            <div class="collapse" id="submenu1" aria-expanded="false">
+                                <ul class="flex-column pl-2 nav">
+                                    <li class="nav-item"><a class="nav-link py-0" href="#" style="color:#353535;">Flat
+                                            Files</a></li>
+                                    <li class="nav-item"><a class="nav-link py-0" href="#" style="color:#353535;" id="typeform">Typeform</a></li>
 
-                        <li>
-                            <a href="under-construction.html">
-                                <div class="t300">Webinar</div>
-                            </a>
+                                </ul>
+                            </div>
                         </li>
-                        <li><a href="partnership.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Partnership'});">
-                                <div class="t300">Partnership</div>
-                            </a>
+                        <li class="nav-item"><a class="nav-link collapsed" href="#" style="color:#259C8D; font-size: 1.4em;"
+                                href="#submenu2" data-toggle="collapse" data-target="#submenu2" id="analyzegui">Analyze</a>
+                            <div class="collapse" id="submenu2" aria-expanded="false">
+                                <ul class="flex-column nav pl-4">
+                                    <li class="nav-item"><a class="nav-link collapsed sub-sub-nav" href="#" href="#submenuanalyze"
+                                            data-toggle="collapse" data-target="#submenuanalyze" id="enhence">Enhence</a>
+                                        <div class="collapse" id="submenuanalyze" aria-expanded="false">
+                                            <ul class="flex-column nav pl-4">
+                                                <li class="nav-item">
+                                                    <a class="nav-link p-1 sub-sub-nav" href="#" id="tree">
+                                                        <i></i> Tree
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link p-1 sub-sub-nav" href="#" id="segments">
+                                                        <i></i> Segments
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link p-1 sub-sub-nav" href="#" id="effects">
+                                                        <i></i> Effects
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link p-1 sub-sub-nav" href="#" id="options">
+                                                        <i></i> Options
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-1 sub-sub-nav" href="#" id="groupby">
+                                            <i></i> Group By
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-1 sub-sub-nav" href="#" id="filter">
+                                            <i></i> Filter
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-1 sub-sub-nav" href="#" id="save">
+                                            <i></i> Saving Analyses
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
-                        <li><a href="index.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Help-Center'});">
-                                <div class="t300">Help-Center</div>
-                            </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color:#42B05F; font-size: 1.4em;">Predict</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color:#75B942; font-size: 1.4em;" id="report">Report</a></li>
+                    </ul>
 
-                        <li><a href="under-construction.html">
-                                <div class="t300">FAQs</div>
-                            </a>
-                        </li>
-
-                        <li><a href="privacy-policy.html">
-                                <div class="t300">Privacy Policy</div>
-                            </a>
-                        </li>
-                        <li><a href="terms-of-use.html">
-                                <div class="t300">Terms of Use</div>
-                            </a>
-                        </li>
 
                     </ul>
-                </nav>
-            </div>
-            <div class="central">
-                <div class="dark col_last clearfix nobottommargin">
-                    <!-- Top Social
-                                ============================================= -->
-                    <div id="top-social">
-                        <ul>
-                            <li><a href="https://www.youtube.com/channel/UCIgWv2OQm6vSMlpXph4nbLA?view_as=subscriber"
-                                    class="si-youtube" target="_blank"><span class="ts-icon"><i class="icon-youtube"></i></span><span
-                                        class="ts-text">Youtube</span></a></li>
-                            <li><a href="https://www.linkedin.com/company/enhencer/" class="si-linkedin" target="_blank"><span
-                                        class="ts-icon"><i class="icon-linkedin"></i></span><span class="ts-text">LinkedIn</span></a></li>
-                            <li><a href="https://www.quora.com/topic/Enhencer" class="si-quora" target="_blank"><span
-                                        class="ts-icon"><i class="icon-quora"></i></span><span class="ts-text">Quora</span></a></li>
-                            <li><a href="https://www.instagram.com/enhencerapp/ class=" si-instagram" target="_blank"><span
-                                        class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
-                            <li><a href="https://twitter.com/enhencerapp?lang=en" class="si-twitter" target="_blank"><span
-                                        class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
-                            <li><a href="https://www.facebook.com/Enhencer/" class="si-facebook" target="_blank"><span
-                                        class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
-                        </ul>
-                    </div><!-- #top-social end -->
-
                 </div>
+                <div class="col pt-2" style="padding-left:6%;  padding-top: 40px !important;">
+                    <div id="includedContent">
+                    </div>
+                </div>
+                <div class="col-2"></div>
             </div>
-            <br>
-            <div class="central">
-                <a href="contact-form.html" onclick="ga('send', 'event', 'Landing', 'Home', 'Contact Us');" target="_blank"
-                    class="button button-rounded" style="text-transform: none;">Contact
-                    Us</a>
-            </div>
-            <br>
-            <br>
-            <div class="central">
-                <a href="#">
-                    <div class="t300" style="color: #444;">Enhencer &#9400; 2018. All Rights Reserved.</div>
-                </a>
-            </div>
-            <br>
         </div>
+        <!-- Content Ends
+        ============================================= -->
+
+        <!-- Footer
+		============================================= -->
+        <div id="footerContent">
+        </div>
+
         <!-- Go To Top
 	============================================= -->
         <div id="gotoTop" class="icon-angle-up"></div>
@@ -251,6 +265,129 @@
         <!-- Footer Scripts
 ============================================= -->
         <script src="required/functions.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#includedContent").load("help-center/get-started.html");
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#getstarted").click(function (event) {
+                    $("#includedContent").load("help-center/get-started.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#analyzegui").click(function (event) {
+                    $("#includedContent").load("help-center/analyze-gui.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#login").click(function (event) {
+                    $("#includedContent").load("help-center/login.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#workspace").click(function (event) {
+                    $("#includedContent").load("help-center/workspace.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#projects").click(function (event) {
+                    $("#includedContent").load("help-center/projects.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#enhence").click(function (event) {
+                    $("#includedContent").load("help-center/enhence.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#tree").click(function (event) {
+                    $("#includedContent").load("help-center/tree.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#segments").click(function (event) {
+                    $("#includedContent").load("help-center/segments.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#effects").click(function (event) {
+                    $("#includedContent").load("help-center/effects.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#options").click(function (event) {
+                    $("#includedContent").load("help-center/options.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#groupby").click(function (event) {
+                    $("#includedContent").load("help-center/group-by.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#filter").click(function (event) {
+                    $("#includedContent").load("help-center/filter.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#save").click(function (event) {
+                    $("#includedContent").load("help-center/save.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#connect").click(function (event) {
+                    $("#includedContent").load("help-center/help-connect.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#typeform").click(function (event) {
+                    $("#includedContent").load("help-center/typeform.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#report").click(function (event) {
+                    $("#includedContent").load("help-center/report.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#footerContent").load("footer-alternate.html");
+            });
+        </script>
+
 
 
         <script>

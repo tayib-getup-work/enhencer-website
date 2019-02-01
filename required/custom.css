@@ -1586,3 +1586,75 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #footer-menu.style-2.center
 .top-social-mobile-hide{
 	display: none !important;
 }
+
+
+
+
+body, html {
+	height: 100%;
+}
+.nav-link[data-toggle].collapsed:after {
+	content: "▾";
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+	content: "▴";
+}
+
+
+
+/* Help-Center Styles
+-----------------------------------
+ */
+.sub-sub-nav{
+	color: #444;
+	font-size:13px;
+}
+.sub-sub-nav:hover{
+	text-decoration: underline;
+	color: #444;
+
+}
+.sub-sub-nav:active{
+	text-decoration: underline;
+	color: #444;
+
+}
+
+
+.help-h1{
+	font-family: sans-serif;
+  font-weight: 500;
+  font-size: 2.1em;
+}
+
+.help-h3{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #313131;
+}
+
+.help-p{
+	font-size: 1em;
+	font-family: sans-serif;
+	line-height: 180%;
+	color: #313131;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+	margin-right: auto;
+}
+
+.img-shadow {
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
+}
+
+.interpretation{
+	background-color: #efefef;
+	padding: 3%;
+	border-radius: 7px;
+}
