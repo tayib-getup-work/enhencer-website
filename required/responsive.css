@@ -1036,6 +1036,23 @@
 		bottom: 0;
 	}
 
+	.mobile-row{
+		margin:0 !important;
+		padding: 0 !important;
+	}
+
+	.pricing-box{
+		margin:0 !important;
+		padding: 0 !important;
+		width: 100%;
+
+	}
+	.central-mobile{
+		display: inline-grid;
+		justify-content: center;
+		vertical-align: center;
+	}
+
 }
 
 

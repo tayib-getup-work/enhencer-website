@@ -1336,6 +1336,9 @@ var SEMICOLON = SEMICOLON || {};
 				}
 				if (typeof pricingSwitch != 'undefined') {
 					pricingSwitch.classList.remove("row");
+					pricingSwitch.classList.remove("central");
+					pricingSwitch.classList.add("central-mobile");
+
 				}
 				if (typeof pricing != 'undefined') {
 					pricing.classList.remove("row");

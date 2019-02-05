@@ -1648,9 +1648,9 @@ body, html {
 }
 
 .img-shadow {
-	-moz-box-shadow:    inset 0 0 10px #000000;
-	-webkit-box-shadow: inset 0 0 10px #000000;
-	box-shadow:         inset 0 0 10px #000000;
+	-moz-box-shadow:    inset 0 0 10px #000000 !important;
+	-webkit-box-shadow: inset 0 0 10px #000000 !important;
+	box-shadow:         inset 0 0 10px #000000 !important;
 }
 
 .interpretation{
@@ -1658,3 +1658,19 @@ body, html {
 	padding: 3%;
 	border-radius: 7px;
 }
+
+.col-1-5 {
+	-ms-flex: 0 0 12.333333%;
+	flex: 0 0 12.333333%;
+	max-width: 12.333333%;
+}
+
+.help-link{
+	text-decoration: underline !important; 
+	font-weight: bold;
+}
+
+.help-bullet-padding{
+	padding-left: 5%;
+}
+

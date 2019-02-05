@@ -1,12 +1,13 @@
 <div>
-    <h1 class="help-h1" style="color: #0E71B8;">Segments</h1>
+    <h1 class="help-h1" style="color: #259C8D;">Segments</h1>
     <p class="help-p">Segments is a powerful tool that shows segments of the target variable and their features. Model
-        is created segments can be accessed by simply clicking the <b>“Segments”</b> button.</p>
+        is created segments can be accessed by simply clicking the <b style="padding: 1px; border: 2px solid #259C8D; color:#259C8D;">“Segments”</b>
+        button.</p>
     <img src="Enhence Segments.png" class="img-shadow">
     <br>
     <br>
     <br>
-    <ol class="help-p">
+    <ol class="help-p help-bullet-padding">
         <li>
             Right side of the analyze screen in this case shows all the segments available for the target variable.
         </li>
@@ -16,7 +17,8 @@
             The Number in the right corner represents the sample size of the selected segment. Segment size shows how
             many individual records fall into that segment.</li>
         <li>
-            The number in the left corner represents the lift for the segment.</li>
+            The number in the left corner represents the <a class="help-link" style="color: #0E71B8;" href="#liftinterpret">Lift</a>
+            for the segment.</li>
     </ol>
 
     <p class="help-p">Segments are sorted from highest lift to the lowest lift therefore you can scroll down for many
@@ -24,15 +26,15 @@
     </p>
     <hr>
     <br>
-    <div class="interpretation">
-        <p class="help-p"><b>Interpretation:</b> 
+    <div class="interpretation" id="liftinterpret">
+        <p class="help-p"><b>Interpretation:</b>
             <br>
             What all these mumbo jumbo means in English is; We want to know which
             customers are more likely
             to become churn. The first segment contains 44 customers from the whole population with the highest lift of
             4.01. Lift is explained below.</p>
         <p class="help-p">The features of these 44 customers are: Customers -</p>
-        <ul class="help-p">
+        <ul class="help-p help-bullet-padding">
             <li>
                 With online usage less than 15.1 hours per week.
             </li>
@@ -48,6 +50,7 @@
         </ul>
         <p class="help-p">The features are actually the effects of the other variables form the left panel on the
             target variable and these are obtained by the model.
+            <br>
             <br>
             <b>The lift 4.01 means customers in the selected segment have 4 times higher chance of becoming churn than
                 the
