@@ -1343,6 +1343,7 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof pricing != 'undefined') {
 					pricing.classList.remove("row");
 				}
+				
 				if (typeof logoImage != 'undefined') {
 					for (var index = 0; index < logoImage.length; index++) {
 						var logo = logoImage[index];
@@ -1381,6 +1382,12 @@ var SEMICOLON = SEMICOLON || {};
 				}
 				if (typeof googletextclass2 != 'undefined') {
 					googletextclass2.classList.add('center');
+				}
+				if (typeof pricingmobileheading != 'undefined') {
+					pricingmobileheading.classList.add('pricingheading-font-mobile');
+				}
+				if (typeof yearlysubtext != 'undefined') {
+					yearlysubtext.classList.add('yearly-text');
 				}
 				if (typeof googletextclass != 'undefined') {
 					googletextclass.classList.add('center');

@@ -200,6 +200,10 @@
 		left: 0;
 	}
 
+	.pricing-tenure-switcher { position: relative; 
+		margin-left: 0%;
+	}
+
 	.postcontent,
 	.postcontent.bothsidebar,
 	.sidebar {
@@ -1042,8 +1046,8 @@
 	}
 
 	.pricing-box{
-		margin:0 !important;
-		padding: 0 !important;
+		margin:10px !important;
+		padding: 15px !important;
 		width: 100%;
 
 	}

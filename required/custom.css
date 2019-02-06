@@ -1684,3 +1684,10 @@ body, html {
 	padding-left: 5%;
 }
 
+.yearly-text{
+	display: none;
+}
+
+.pricingheading-font-mobile{
+	font-size: 1.7em !important;
+}
