@@ -747,6 +747,16 @@ article {
 
 .bg-ash {
   background: #5a5c5e !important;
+  color: #fff;
+  border-right-color: #555 !important;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  border-top: none !important;
+}
+
+.bg-light-ash {
+  background: #adadad !important;
   border-top-left-radius: 10px;
   color: #fff;
   border-right-color: #555 !important;
