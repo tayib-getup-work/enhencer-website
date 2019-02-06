@@ -550,7 +550,7 @@ input.switch-toggle-round:checked + label:after { margin-left: 30px; }
 /* Pricing Switcher
 -----------------------------------------------------------------*/
 .pricing-tenure-switcher { position: relative; 
-  margin-left: 5%;
+  margin-left: -14%;
   }
   
   .pricing-tenure-switcher .pts-left,
