@@ -207,13 +207,15 @@
 									</h3>
 									</h3>
 									<br>
-									<a id="homesliderbutton" style="margin-left: 0%; width: 120px; height: auto; font-size: 18px;" href="https://app.enhencer.com/#!/signup" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Try Free'});;"
-									 target="_blank" class="button button-rounded try-free-button border-green home-slider-buttons">Try
-										Free</a>
-									<a href="https://app.enhencer.com/#!/demos/analyze/technology" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Live Demo'});"
-									 target="_blank" class="button button-rounded button-light bg-white border nott ls0 border-blue button-enhencer-default-green"
-									 style="margin-left: 5%; text-align: center; font-size: 18px; height: auto; ">Live Demo</a>
-
+									<div id="homesliderbuttons">
+										<a id="homesliderbutton" style="margin-left: 0%; width: 120px; height: auto;" href="https://app.enhencer.com/#!/signup"
+										 onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Try Free'});;"
+										 target="_blank" class="button button-rounded try-free-button border-green home-slider-button-pc-font">Try
+											Free</a>
+										<a id="homesliderbutton2" href="https://app.enhencer.com/#!/demos/analyze/technology" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Live Demo'});"
+										 target="_blank" class="button button-rounded button-light bg-white border nott ls0 border-blue button-enhencer-default-green"
+										 style="margin-left: 5%; text-align: center; font-size: 1.4em; height: auto; ">Live Demo</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -558,7 +560,7 @@
 				</div>
 
 				<div id="footerContent">
-					</div>
+				</div>
 
 				<!-- Go To Top
 	============================================= -->
@@ -573,10 +575,10 @@
 	============================================= -->
 				<script src="required/functions.min.js"></script>
 				<script>
-						$(document).ready(function() {
-								$("#footerContent").load("footer-index.html"); 
-							});
-					</script>
+					$(document).ready(function () {
+						$("#footerContent").load("footer-index.html");
+					});
+				</script>
 
 				<script>
 					//Pricing Table Script

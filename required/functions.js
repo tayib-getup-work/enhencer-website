@@ -1455,6 +1455,21 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof homevideo != 'undefined') {
 					homevideo.classList.remove("margin-home-video");
 				}
+				if (typeof homesliderbutton != 'undefined') {
+					homesliderbutton.classList.remove("home-slider-button-pc-font");
+				}
+				if (typeof homesliderbutton != 'undefined') {
+					homesliderbutton.classList.add("home-slider-button-mobile-font");
+				}
+				if (typeof homesliderbutton2 != 'undefined') {
+					homesliderbutton2.classList.remove("home-slider-button-pc-font");
+				}
+				if (typeof homesliderbutton2 != 'undefined') {
+					homesliderbutton2.classList.add("home-slider-button-mobile-font");
+				}
+				if (typeof homesliderbuttons != 'undefined') {
+					homesliderbuttons.classList.add("home-slider-button-mobile-center");
+				}
 			}
 		},
 
@@ -1473,9 +1488,6 @@ var SEMICOLON = SEMICOLON || {};
 				}
 				if (typeof mainTitleInfo != 'undefined') {
 					mainTitleInfo.classList.remove("home-slider-subtitle");
-				}
-				if (typeof homesliderbutton != 'undefined') {
-					homesliderbutton.classList.remove("home-slider-buttons");
 				}
 				if (typeof topsocial != 'undefined') {
 					topsocial.classList.remove("top-social-mobile-hide");
