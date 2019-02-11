@@ -108,6 +108,11 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="help-center.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Help'});">
+                                    <div>Help</div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="pricing.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
                                     <div>Pricing</div>
                                 </a>
@@ -230,7 +235,20 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#" style="color:#42B05F; font-size: 1.4em;">Predict</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link collapsed" href="#predictsubmenu" data-toggle="collapse" data-target="#predictsubmenu"
+                                style="color:#42B05F; font-size: 1.4em;" id="predict">Predict</a>
+                            <div class="collapse" id="predictsubmenu" aria-expanded="false">
+                                <ul class="flex-column pl-2 nav">
+                                    <li class="nav-item"><a class="nav-link py-0" href="#" style="color:#353535;" id="lift">Lift</a></li>
+                                    <li class="nav-item"><a class="nav-link py-0" href="#" style="color:#353535;" id="accuracy">Accuracy</a></li>
+                                    <li class="nav-item"><a class="nav-link py-0" href="#" style="color:#353535;" id="whatif">What-If</a></li>
+                                    <li class="nav-item"><a class="nav-link py-0" href="#" style="color:#353535;" id="score">Scoring
+                                            New Data</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="#" style="color:#75B942; font-size: 1.4em;" id="report">Report</a></li>
                     </ul>
 
@@ -382,12 +400,47 @@
             });
         </script>
         <script>
-                $(document).ready(function () {
-                    $("#flatfiles").click(function (event) {
-                        $("#includedContent").load("flat-files.html");
-                    });
+            $(document).ready(function () {
+                $("#flatfiles").click(function (event) {
+                    $("#includedContent").load("flat-files.html");
                 });
-            </script>
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#predict").click(function (event) {
+                    $("#includedContent").load("predict.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#lift").click(function (event) {
+                    $("#includedContent").load("lift.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#accuracy").click(function (event) {
+                    $("#includedContent").load("accuracy.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#whatif").click(function (event) {
+                    $("#includedContent").load("what-if.html");
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#score").click(function (event) {
+                    $("#includedContent").load("score.html");
+                });
+            });
+        </script>
         <script>
             $(document).ready(function () {
                 $("#footerContent").load("footer-alternate.html");

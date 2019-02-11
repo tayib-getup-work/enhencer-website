@@ -1709,3 +1709,11 @@ body, html {
 .home-slider-button-mobile-center{
 	text-align: center;
 }
+
+.create
+{
+background-image: url('../images/icons/predict-icons/main_accuracy.svg');
+background-repeat: no-repeat;
+padding-left: 30px;  /* width of the image plus a little extra padding */
+display: block;  /* may not need this, but I've found I do */
+}

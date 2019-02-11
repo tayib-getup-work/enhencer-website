@@ -1,0 +1,63 @@
+<div>
+    <div>
+        <div>
+            <h1 class="help-h1" style="color: #42B05F;">Scoring New Data</h1>
+            <p class="help-p">When it comes to obtaining prediction score of new data Score or View task can be used.
+            </p>
+            <img src="Predict Score.png" class="img-shadow img-border">
+            <br>
+            <br>
+            <br>
+            <p class="help-p">You can score new data; </p>
+            <ol class="help-p help-bullet-padding help-bullet-padding">
+                <li>
+                    Select “Choose File” button under New Data on the Right Panel. Select the file containing new
+                    data to be scored. Click Open.</li>
+            </ol>
+            <p class="help-p">When new data is uploaded to Enhencer, Enhencer compares it with the base historic data
+                and displays the results in Variable Comparison Screen. </p>
+            <img src="Predict Score 2.png" class="img-shadow img-border">
+            <br>
+            <br>
+            <br>
+            <p class="help-p">This is what it looks like when new data upload is done for prediction;</p>
+            <ol class="help-p help-bullet-padding help-bullet-padding">
+                <li>
+                    Left column of variables are significant variables in the model</li>
+                <li>
+                    Middle column of variables are matched variables in the new data
+                </li>
+                <li>
+                    Right column of variables are unmatched variables in the new data
+                </li>
+            </ol>
+            <p class="help-p">Even if the model data structure and new data structure are same (recommended) the
+                unmatched variables in new data column will be filled with target variable and insignificant variables.
+                <br>
+                All unmatching fields in new data will also be displayed here.
+                <br>
+                Users need to match significant variables to new data. This means each significant variable need to
+                have a parallel new data variable.
+                <br>
+                Sometimes the names can have slight differences like a space is missing or a character is extra or any
+                kind of typo errors. In such cases just drag and drop the unmatched variables from the right side to
+                the left side and it will be done. Once everything is set click “Apply” to start scoring the new data.
+            </p>
+            <hr>
+            <h3 class="help-h3">Scoring and Exporting the Scores</h3>
+
+            <p class="help-p">On the Left Panel under New Data, a message indicating the scoring algorithm is running
+                will appear with a progress bar.
+                <br>
+                Once the scoring algorithm run ends, there will be a new message saying “Prediction scores for the data
+                are ready” as well as an Export function.
+            </p>
+            <img src="Predict Score Export.png" class="img-shadow img-border">
+            <p class="help-p">Click the “Export All” button to export the prediction score of the new data.</p>
+            <div class="interpretation" id="liftinterpret">
+                <p class="help-p"><b>Interpretation:</b>
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
