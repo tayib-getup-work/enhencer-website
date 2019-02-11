@@ -144,8 +144,8 @@
         ============================================= -->
         <div class="container-fluid h-100">
             <div class="row h-100">
-                <div class="col-1-5 bg-light"></div>
-                <div class="col-2 collapse d-md-flex bg-light pt-2" id="sidebar" style="box-shadow: 7px 0 9px -4px #e4e4e4; padding-top: 40px !important;">
+                <div class="col-1-5 bg-light" style="margin-bottom: -72px;"></div>
+                <div class="col-2 collapse d-md-flex bg-light pt-2" id="sidebar" style="margin-bottom: -72px;box-shadow: 7px 0 9px -4px #e4e4e4; padding-top: 40px !important;">
                     <ul class="nav flex-column flex-nowrap">
                         <li class="nav-item"><a href="#" style="cursor: pointer; color:#0E71B8; font-size: 1.4em;" id="getstarted"
                                 class="nav-link collapsed" href="#submenu3" data-toggle="collapse" data-target="#submenu3">Get
@@ -175,10 +175,9 @@
                                 style="color:#1C8DA4; font-size: 1.4em;" id="connect">Connect</a>
                             <div class="collapse" id="submenu1" aria-expanded="false">
                                 <ul class="flex-column pl-2 nav">
-                                    <li class="nav-item"><a class="nav-link py-0" href="#" style="color:#353535;">Flat
+                                    <li class="nav-item"><a class="nav-link py-0" href="#" style="color:#353535;" id="flatfiles">Flat
                                             Files</a></li>
                                     <li class="nav-item"><a class="nav-link py-0" href="#" style="color:#353535;" id="typeform">Typeform</a></li>
-
                                 </ul>
                             </div>
                         </li>
@@ -382,6 +381,13 @@
                 });
             });
         </script>
+        <script>
+                $(document).ready(function () {
+                    $("#flatfiles").click(function (event) {
+                        $("#includedContent").load("flat-files.html");
+                    });
+                });
+            </script>
         <script>
             $(document).ready(function () {
                 $("#footerContent").load("footer-alternate.html");
