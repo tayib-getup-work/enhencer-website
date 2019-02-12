@@ -646,8 +646,8 @@ body.stretched .container-fullwidth {
 .col_five_sixth {
 	display: block;
 	position: relative;
-	margin-right: 2%;
-	margin-bottom: 50px;
+	/* margin-right: 2%; */
+	margin-bottom: 5em; /* it was 50px */
 	float: left;
 	margin-left: 2%;
 }
@@ -7486,7 +7486,7 @@ body:not(.device-touch) .button.button-full strong {
 	position: absolute;
 	width: 100px;
 	height: 100px;
-	top: 17px;
+	/* top: 17px; */
 	left: 0;
 }
 
@@ -7518,10 +7518,10 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .feature-box h3 {
-	font-size: 16px;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	font-size: 1.5em;
+	font-weight: 500;
+	/* text-transform: uppercase; */
+	letter-spacing: 0.2px;
 	margin-bottom: 0;
 	color: #333;
 }
@@ -7932,7 +7932,7 @@ body:not(.device-touch) .button.button-full strong {
 	top: -3px;
 	left: -3px;
 	padding: 3px;
-	box-shadow: 0 0 0 2px #333;
+	box-shadow: 0 0 0 2px #1abc9c;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	-webkit-transform: scale(.8);
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;

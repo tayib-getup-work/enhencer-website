@@ -1688,6 +1688,57 @@ body, html {
 	padding-left: 5%;
 }
 
+.getting_started:before{
+	font-family: "Font Awesome 5 Free";
+	font-weight: 500;
+	content: "\f35a";
+	margin-right: 7%;
+	font-size: 1.4em;
+	top: 0;
+	right: 0;
+}
+
+.connect:before{
+	font-family: "Font Awesome 5 Free";
+	font-weight: 500;
+	content: "\f14a";
+	margin-right: 5%;
+	font-size: 1.4em;
+	top: 0;
+	right: 0;
+}
+
+.analyze:before{
+	font-family: "Font Awesome 5 Free";
+	font-weight: 500;
+	content: "\f080";
+	margin-right: 7%;
+	font-size: 1.4em;
+	top: 0;
+	right: 0;
+}
+
+.report:before{
+	font-family: "Font Awesome 5 Free";
+	font-weight: 500;
+	content: "\f15c";
+	margin-right: 10%;
+	font-size: 1.4em;
+	top: 0;
+	right: 0;
+}
+
+.predict:before{
+	font-family: "FontAwesome";
+	font-weight: 500;
+	content: "\f0e8";
+	margin-right: 5%;
+	font-size: 1.4em;
+	top: 0;
+	right: 0;
+}
+
+/* Pricing Misc */
 .yearly-text{
 	display: none;
 }
@@ -1717,3 +1768,143 @@ background-repeat: no-repeat;
 padding-left: 30px;  /* width of the image plus a little extra padding */
 display: block;  /* may not need this, but I've found I do */
 }
+
+/* Home Page Services icons Section */
+
+.feature-box .fbox-icon {
+	display: block;
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	/* top: 17px; */
+	left: 0;
+}
+
+
+.fraud:before{
+	content: '';
+	background: url(../images/icons/services/icons8-credit-control-50.png) no-repeat;
+	position: relative;
+	z-index: 100000;
+	top: 22px;
+	zoom: 50%;
+	background-size: 80px !important;
+	width: 80px !important;
+	height: 80px !important;
+	visibility: visible;
+	display: inline-block;
+}
+
+.churn:before{
+	content: '';
+	background: url(../images/icons/services/icons8-customer-50.png) no-repeat;
+	position: relative;
+	z-index: 100000;
+	top: 22px;
+	zoom: 50%;
+	background-size: 80px !important;
+	width: 80px !important;
+	height: 80px !important;
+	visibility: visible;
+	display: inline-block;
+}
+
+.nex_best_product:before{
+	content: '';
+	background: url(../images/icons/services/icons8-add-shopping-cart-50.png) no-repeat;
+	position: relative;
+	z-index: 100000;
+	top: 22px;
+	zoom: 50%;
+	background-size: 80px !important;
+	width: 80px !important;
+	height: 80px !important;
+	visibility: visible;
+	display: inline-block;
+}
+
+.product_propensity:before{
+	content: '';
+	background: url(../images/icons/services/icons8-rent-50.png) no-repeat;
+	position: relative;
+	z-index: 100000;
+	top: 22px;
+	zoom: 50%;
+	background-size: 80px !important;
+	width: 80px !important;
+	height: 80px !important;
+	visibility: visible;
+	display: inline-block;
+}
+
+.risk_assessment:before{
+	content: '';
+	background: url(../images/icons/services/icons8-watch-your-step-50.png) no-repeat;
+	position: relative;
+	z-index: 100000;
+	top: 22px;
+	zoom: 50%;
+	background-size: 80px !important;
+	width: 80px !important;
+	height: 80px !important;
+	visibility: visible;
+	display: inline-block;
+}
+
+.next_best_action:before{
+	content: '';
+	background: url(../images/icons/services/icons8-track-order-50.png) no-repeat;
+	position: relative;
+	z-index: 100000;
+	top: 22px;
+	zoom: 50%;
+	background-size: 80px !important;
+	width: 80px !important;
+	height: 80px !important;
+	visibility: visible;
+	display: inline-block;
+}
+
+.predictive_maintenance:before{
+	content: '';
+	background: url(../images/icons/services/icons8-maintenance-50.png) no-repeat;
+	position: relative;
+	z-index: 100000;
+	top: 22px;
+	zoom: 43%;
+	background-size: 80px !important;
+	width: 80px !important;
+	height: 80px !important;
+	visibility: visible;
+	display: inline-block;
+}
+
+.customer_lifetime_value:before{
+	content: '';
+	background: url(../images/icons/services/icons8-buy-upgrade-50.png) no-repeat;
+	position: relative;
+	z-index: 100000;
+	top: 22px;
+	zoom: 50%;
+	background-size: 80px !important;
+	width: 80px !important;
+	height: 80px !important;
+	visibility: visible;
+	display: inline-block;
+}
+
+.demand_forecasting:before{
+	content: '';
+	background: url(../images/icons/services/icons8-demand-50.png) no-repeat;
+	position: relative;
+	z-index: 100000;
+	top: 22px;
+	zoom: 50%;
+	background-size: 80px !important;
+	width: 80px !important;
+	height: 80px !important;
+	visibility: visible;
+	display: inline-block;
+}
+
+
