@@ -1353,8 +1353,8 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof mainTitle != 'undefined') {
 					mainTitle.classList.add('main-title-small');
 				}
-				if (typeof mainTitleInfo != 'undefined') {
-					mainTitleInfo.classList.add('main-title-info-small');
+				if (typeof featureTitle != 'undefined') {
+					featureTitle.classList.add('main-title-info-small');
 				}
 				if (typeof sliderTitle != 'undefined') {
 					sliderTitle.classList.add('slider-title-small');
@@ -1486,8 +1486,8 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof mainTitle != 'undefined') {
 					mainTitle.classList.remove("home-slider-title");
 				}
-				if (typeof mainTitleInfo != 'undefined') {
-					mainTitleInfo.classList.remove("home-slider-subtitle");
+				if (typeof mainsubTitleInfo != 'undefined') {
+					mainsubTitleInfo.classList.remove("home-slider-subtitle");
 				}
 				if (typeof topsocial != 'undefined') {
 					topsocial.classList.remove("top-social-mobile-hide");
