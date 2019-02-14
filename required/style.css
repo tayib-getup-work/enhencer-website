@@ -624,6 +624,7 @@ span.middot {
 .col_four_fifth { width: 79.2%; }
 .col_one_sixth { width: 13.33%; }
 .col_five_sixth { width: 82.67%; }
+.col_two_sixth { width: 33.33%; }
 body.stretched .container-fullwidth {
 	position: relative;
 	padding: 0 60px;
@@ -643,7 +644,8 @@ body.stretched .container-fullwidth {
 .col_three_fifth,
 .col_four_fifth,
 .col_one_sixth,
-.col_five_sixth {
+.col_five_sixth
+.col_two_sixth {
 	display: block;
 	position: relative;
 	/* margin-right: 2%; */
