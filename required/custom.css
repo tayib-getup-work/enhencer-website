@@ -1621,14 +1621,46 @@ body, html {
 }
 .sub-sub-nav:hover{
 	text-decoration: underline;
-	color: #444;
+	color: #333;
 
 }
 .sub-sub-nav:active{
-	text-decoration: underline;
-	color: #444;
+	text-decoration: underline !important;
+	color: #0E71B8;
 
 }
+
+.help-center-current-get-started{
+	color:#0E71B8;
+	text-decoration: solid underline !important;
+	text-decoration-color: #0E71B8 !important;
+	text-underline-position: under;
+
+}
+
+.help-center-current-analyze{
+	color:#259C8D;
+	text-decoration: solid underline !important;
+	text-decoration-color: #259C8D !important;
+	text-underline-position: under;
+
+}
+
+.help-center-current-connect{
+	color:#1c8da4 !important;
+	text-decoration: solid underline !important;
+	text-decoration-color: #1c8da4 !important;
+	text-underline-position: under;
+
+}
+.help-center-current-predict{
+	color:#42b05f !important;
+	text-decoration: solid underline !important;
+	text-decoration-color: #42b05f !important;
+	text-underline-position: under;
+
+}
+
 
 
 .help-h1{
@@ -1696,6 +1728,7 @@ body, html {
 	font-size: 1.4em;
 	top: 0;
 	right: 0;
+	vertical-align: middle;
 }
 
 .connect:before{
@@ -1706,6 +1739,7 @@ body, html {
 	font-size: 1.4em;
 	top: 0;
 	right: 0;
+	vertical-align: middle;
 }
 
 .analyze:before{
@@ -1716,6 +1750,7 @@ body, html {
 	font-size: 1.4em;
 	top: 0;
 	right: 0;
+	vertical-align: middle;
 }
 
 .report:before{
@@ -1726,6 +1761,7 @@ body, html {
 	font-size: 1.4em;
 	top: 0;
 	right: 0;
+	vertical-align: middle;
 }
 
 .predict:before{
@@ -1736,6 +1772,7 @@ body, html {
 	font-size: 1.4em;
 	top: 0;
 	right: 0;
+	vertical-align: middle;
 }
 
 /* Help-Cneter Read More */
@@ -2024,3 +2061,41 @@ display: block;  /* may not need this, but I've found I do */
 }
 
 
+/* Codepen Animated Buttons */
+
+.buton{
+  background:#228E9F;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.buton:hover{
+  background:#fff;
+  color:#228E9F;
+}
+.buton:before,.buton:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #228E9F;
+  transition:400ms ease all;
+}
+.buton:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.buton:hover:before,.buton:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}

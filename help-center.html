@@ -27,14 +27,21 @@
                 type = "text/javascript"; e.parentNode.insertBefore($, e)
         })(document, "script");
     </script>
+
+    <script type="text/javascript">
+        if (screen.width <= 600) {
+            window.location = "help-mobile.html";
+        }
+    </script>
     <!--End of Zendesk Chat Script-->
 
 
     <!-- Stylesheets
 	============================================= -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="required/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="required/style.css" type="text/css" />
     <link rel="stylesheet" href="required/custom.css" type="text/css" />
@@ -92,15 +99,16 @@
         </div><!-- #top-bar end -->
         <!-- Header
 		============================================= -->
-        <header id="header" class="transparent-header floating-header clearfix sticky-header" style="background-color: white !important;height: 56px;">
+        <header id="header" class="transparent-header floating-header clearfix sticky-header"
+            style="background-color: white !important;height: 56px;">
             <div id="header-wrap">
                 <div class="container clearfix">
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
                     <!-- Logo
 					============================================= -->
                     <div id="logo">
-                        <a href="/" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png"
-                                alt="Enhencer Logo"></a>
+                        <a href="/" class="standard-logo" data-dark-logo="images/logo-dark.png"><img
+                                src="images/logo.png" alt="Enhencer Logo"></a>
                         <!-- <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Enhencer Logo"></a> -->
                     </div><!-- #logo end -->
                     <!-- Primary Navigation
@@ -108,22 +116,26 @@
                     <nav id="primary-menu" class="with-arrows">
                         <ul id="primarymenumobile" class="ul.sf-js-enabled">
                             <li>
-                                <a href="connect.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
+                                <a href="connect.html"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
                                     <div>Connect</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="stories.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Stories'});">
+                                <a href="stories.html"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Stories'});">
                                     <div>Stories</div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="help-center.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Help'});">
+                            <li class="current">
+                                <a href="help-center.html"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Help'});">
                                     <div>Help</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="pricing.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                <a href="pricing.html"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
                                     <div>Pricing</div>
                                 </a>
                             </li>
@@ -142,11 +154,14 @@
 
                         <!-- Menu Buttons
 						============================================= -->
-                        <a href="https://app.enhencer.com/#!/login" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
-                            target="_blank" class="button button-rounded button-light bg-white border nott ls0 leftmargin-sm border-blue button-enhencer-default-green"
+                        <a href="https://app.enhencer.com/#!/login"
+                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
+                            target="_blank"
+                            class="button button-rounded button-light bg-white border nott ls0 leftmargin-sm border-blue button-enhencer-default-green"
                             style="background-color: transparent !important;">Sign
                             in</a>
-                        <a href="https://app.enhencer.com/#!/signup" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
+                        <a href="https://app.enhencer.com/#!/signup"
+                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
                             target="_blank" class="button button-rounded fright leftmargin-sm">Try Free</a>
 
                     </nav><!-- #primary-menu end -->
@@ -160,9 +175,11 @@
         <div class="container-fluid h-100">
             <div class="row h-100">
                 <div class="col-1-5 bg-light" style="margin-bottom: -72px;"></div>
-                <div class="col-2 collapse d-md-flex bg-light pt-2" id="sidebar" style="padding-left: 3%; margin-bottom: -72px;box-shadow: 7px 0 9px -4px #e4e4e4; padding-top: 40px !important;">
+                <div class="col-2 collapse d-md-flex bg-light pt-2" id="sidebar"
+                    style="padding-left: 3%; margin-bottom: -72px;box-shadow: 7px 0 9px -4px #e4e4e4; padding-top: 40px !important;">
                     <ul class="nav flex-column flex-nowrap" style="width:500px;">
-                        <li class="nav-item"><a href="#" style="cursor: pointer; color:#0E71B8; font-size: 1.7em;" id="getstarted"
+                        <li class="nav-item">
+                            <a href="#" style="cursor: pointer; color:#0E71B8; font-size: 1.7em;" id="getstarted"
                                 class="nav-link collapsed getting_started" href="#submenu3" data-toggle="collapse"
                                 data-target="#submenu3"></i>Get
                                 Started</a>
@@ -188,23 +205,29 @@
                         </li>
 
                         <li class="nav-item mt-3">
-                            <a class="nav-link collapsed " href="#submenu1" data-toggle="collapse" data-target="#submenu1"
-                                style="color:#1C8DA4; font-size: 1.7em;" id="connect"><i class="fas fa-sync-alt" style="margin-right:7%; color:#1C8DA4; font-size: 1.4em;"></i>Connect</a>
+                            <a class="nav-link collapsed " href="#submenu1" data-toggle="collapse"
+                                data-target="#submenu1" style="color:#1C8DA4; font-size: 1.7em;" id="connect"><i
+                                    class="fas fa-sync-alt"
+                                    style="margin-right:7%; color:#1C8DA4; font-size: 1.4em; vertical-align: middle;"></i>Connect</a>
                             <div class="collapse" id="submenu1" aria-expanded="false">
                                 <ul class="flex-column pl-2 nav" style="margin-left: 17%;">
-                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;" id="flatfiles">Flat
+                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;"
+                                            id="flatfiles">Flat
                                             Files</a></li>
-                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;" id="typeform">Typeform</a></li>
+                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;"
+                                            id="typeform">Typeform</a></li>
                                 </ul>
                             </div>
                         </li>
 
-                        <li class="nav-item mt-3"><a class="nav-link collapsed analyze" href="#" style="color:#259C8D; font-size: 1.7em;"
-                                href="#submenu2" data-toggle="collapse" data-target="#submenu2" id="analyzegui">Analyze</a>
+                        <li class="nav-item mt-3"><a class="nav-link collapsed analyze" href="#"
+                                style="color:#259C8D; font-size: 1.7em;" href="#submenu2" data-toggle="collapse"
+                                data-target="#submenu2" id="analyzegui">Analyze</a>
                             <div class="collapse" id="submenu2" aria-expanded="false">
                                 <ul class="flex-column nav pl-4" style="margin-left: 15%;">
-                                    <li class="nav-item"><a class="nav-link collapsed sub-sub-nav" href="#" href="#submenuanalyze"
-                                            data-toggle="collapse" data-target="#submenuanalyze" id="enhence" style="margin-left: -6%;">Enhence</a>
+                                    <li class="nav-item"><a class="nav-link collapsed sub-sub-nav" href="#"
+                                            href="#submenuanalyze" data-toggle="collapse" data-target="#submenuanalyze"
+                                            id="enhence" style="margin-left: -6%;">Enhence</a>
                                         <div class="collapse" id="submenuanalyze" aria-expanded="false">
                                             <ul class="flex-column nav pl-4">
                                                 <li class="nav-item">
@@ -249,21 +272,26 @@
                             </div>
                         </li>
                         <li class="nav-item mt-3">
-                            <a class="nav-link collapsed" href="#predictsubmenu" data-toggle="collapse" data-target="#predictsubmenu"
-                                style="color:#42B05F; font-size: 1.7em;" id="predict"><i class="fas fa-sitemap" style="margin-right:7%;"></i>Predict</a>
+                            <a class="nav-link collapsed" href="#predictsubmenu" data-toggle="collapse"
+                                data-target="#predictsubmenu" style="color:#42B05F; font-size: 1.7em;" id="predict"><i
+                                    class="fas fa-sitemap" style="margin-right:7%;"></i>Predict</a>
                             <div class="collapse" id="predictsubmenu" aria-expanded="false">
                                 <ul class="flex-column pl-2 nav" style="margin-left: 17%;">
-                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;" id="lift">Lift</a></li>
-                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;" id="accuracy">Accuracy</a></li>
-                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;" id="whatif">What-If</a></li>
-                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;" id="score">Scoring
+                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;"
+                                            id="lift">Lift</a></li>
+                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;"
+                                            id="accuracy">Accuracy</a></li>
+                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;"
+                                            id="whatif">What-If</a></li>
+                                    <li class="nav-item"><a class="nav-link sub-sub-nav" href="#" style="color:#353535;"
+                                            id="score">Scoring
                                             New Data</a></li>
 
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-item mt-3"><a class="nav-link report" href="#" style="color:#75B942; font-size: 1.7em;"
-                                id="report">Report</a></li>
+                        <li class="nav-item mt-3"><a class="nav-link report" href="#"
+                                style="color:#75B942; font-size: 1.7em;" id="report">Report</a></li>
                     </ul>
 
 
@@ -319,6 +347,8 @@
             $(document).ready(function () {
                 $("#login").click(function (event) {
                     $("#includedContent").load("login.html");
+                    $(".help-center-current-get-started").removeClass("help-center-current-get-started");
+                    $("#login").addClass("help-center-current-get-started")
                 });
             });
         </script>
@@ -326,6 +356,8 @@
             $(document).ready(function () {
                 $("#workspace").click(function (event) {
                     $("#includedContent").load("workspace.html");
+                    $(".help-center-current-get-started").removeClass("help-center-current-get-started");
+                    $("#workspace").addClass("help-center-current-get-started")
                 });
             });
         </script>
@@ -333,6 +365,8 @@
             $(document).ready(function () {
                 $("#projects").click(function (event) {
                     $("#includedContent").load("projects.html");
+                    $(".help-center-current-get-started").removeClass("help-center-current-get-started");
+                    $("#projects").addClass("help-center-current-get-started")
                 });
             });
         </script>
@@ -340,6 +374,8 @@
             $(document).ready(function () {
                 $("#enhence").click(function (event) {
                     $("#includedContent").load("enhence.html");
+                    $(".help-center-current-analyze").removeClass("help-center-current-analyze");
+                    $("#enhence").addClass("help-center-current-analyze")
                 });
             });
         </script>
@@ -347,13 +383,18 @@
             $(document).ready(function () {
                 $("#tree").click(function (event) {
                     $("#includedContent").load("tree.html");
+                    $(".help-center-current-analyze").removeClass("help-center-current-analyze");
+                    $("#tree").addClass("help-center-current-analyze")
                 });
             });
+
         </script>
         <script>
             $(document).ready(function () {
                 $("#segments").click(function (event) {
                     $("#includedContent").load("segments.html");
+                    $(".help-center-current-analyze").removeClass("help-center-current-analyze");
+                    $("#segments").addClass("help-center-current-analyze")
                 });
             });
         </script>
@@ -361,6 +402,8 @@
             $(document).ready(function () {
                 $("#effects").click(function (event) {
                     $("#includedContent").load("effects.html");
+                    $(".help-center-current-analyze").removeClass("help-center-current-analyze");
+                    $("#effects").addClass("help-center-current-analyze")
                 });
             });
         </script>
@@ -368,6 +411,8 @@
             $(document).ready(function () {
                 $("#options").click(function (event) {
                     $("#includedContent").load("options.html");
+                    $(".help-center-current-analyze").removeClass("help-center-current-analyze");
+                    $("#options").addClass("help-center-current-analyze")
                 });
             });
         </script>
@@ -375,6 +420,8 @@
             $(document).ready(function () {
                 $("#groupby").click(function (event) {
                     $("#includedContent").load("group-by.html");
+                    $(".help-center-current-analyze").removeClass("help-center-current-analyze");
+                    $("#groupby").addClass("help-center-current-analyze")
                 });
             });
         </script>
@@ -382,6 +429,8 @@
             $(document).ready(function () {
                 $("#filter").click(function (event) {
                     $("#includedContent").load("filter.html");
+                    $(".help-center-current-analyze").removeClass("help-center-current-analyze");
+                    $("#filter").addClass("help-center-current-analyze")
                 });
             });
         </script>
@@ -389,6 +438,8 @@
             $(document).ready(function () {
                 $("#save").click(function (event) {
                     $("#includedContent").load("save.html");
+                    $(".help-center-current-analyze").removeClass("help-center-current-analyze");
+                    $("#save").addClass("help-center-current-analyze")
                 });
             });
         </script>
@@ -403,6 +454,8 @@
             $(document).ready(function () {
                 $("#typeform").click(function (event) {
                     $("#includedContent").load("typeform.html");
+                    $(".help-center-current-connect").removeClass("help-center-current-connect");
+                    $("#typeform").addClass("help-center-current-connect")
                 });
             });
         </script>
@@ -417,6 +470,8 @@
             $(document).ready(function () {
                 $("#flatfiles").click(function (event) {
                     $("#includedContent").load("flat-files.html");
+                    $(".help-center-current-connect").removeClass("help-center-current-connect");
+                    $("#flatfiles").addClass("help-center-current-connect")
                 });
             });
         </script>
@@ -431,6 +486,8 @@
             $(document).ready(function () {
                 $("#lift").click(function (event) {
                     $("#includedContent").load("lift.html");
+                    $(".help-center-current-predict").removeClass("help-center-current-predict");
+                    $("#lift").addClass("help-center-current-predict")
                 });
             });
         </script>
@@ -438,6 +495,8 @@
             $(document).ready(function () {
                 $("#accuracy").click(function (event) {
                     $("#includedContent").load("accuracy.html");
+                    $(".help-center-current-predict").removeClass("help-center-current-predict");
+                    $("#accuracy").addClass("help-center-current-predict")
                 });
             });
         </script>
@@ -445,6 +504,8 @@
             $(document).ready(function () {
                 $("#whatif").click(function (event) {
                     $("#includedContent").load("what-if.html");
+                    $(".help-center-current-predict").removeClass("help-center-current-predict");
+                    $("#whatif").addClass("help-center-current-predict")
                 });
             });
         </script>
@@ -452,9 +513,13 @@
             $(document).ready(function () {
                 $("#score").click(function (event) {
                     $("#includedContent").load("score.html");
+                    $(".help-center-current-predict").removeClass("help-center-current-predict");
+                    $("#score").addClass("help-center-current-predict")
                 });
             });
         </script>
+
+
         <script>
             $(document).ready(function () {
                 $("#footerContent").load("footer-alternate.html");

@@ -42,7 +42,7 @@
                     <svg height="40" width="150" xmlns="">
                         <rect id="shape" height="40" width="150"></rect>/>
                         <div id="text">
-                            <a href=""><span class="spot"></span>Learn More</a>
+                            <a href="#" id="connectbutton"><span class="spot"></span>Learn More</a>
                         </div>
                     </svg>
                 </div>
@@ -62,7 +62,7 @@
                     <svg height="40" width="150" xmlns="">
                         <rect id="shape" height="40" width="150"></rect>/>
                         <div id="text">
-                            <a href=""><span class="spot"></span>Learn More</a>
+                            <a href="#" id="analyzebutton"><span class="spot"></span>Learn More</a>
                         </div>
                     </svg>
                 </div>
@@ -80,15 +80,15 @@
             <div class="fbox-icon" style="width: 70px; height: 70px; top: -35px; left: 55%;">
                 <a href="#"><i class="fas fa-sitemap" style="font-size:30px;"></i></a>
             </div>
-            <h3 style="margin-top: -14px;">Predict<span class="subtitle"
-                    style="color: black; font-size: 0.6em;">Get more precise & accurate with predictions.</span></h3>
+            <h3 style="margin-top: -14px;">Predict<span class="subtitle" style="color: black; font-size: 0.6em;">Get
+                    more precise & accurate with predictions.</span></h3>
             <div class="position">
                 <!--start button, nothing above this is necessary -->
                 <div class="svg-wrapper">
                     <svg height="40" width="150" xmlns="">
                         <rect id="shape" height="40" width="150"></rect>/>
                         <div id="text">
-                            <a href=""><span class="spot"></span>Learn More</a>
+                            <a href="#" id="predictbutton"><span class="spot"></span>Learn More</a>
                         </div>
                     </svg>
                 </div>
@@ -100,13 +100,15 @@
             <div class="fbox-icon" style="width: 70px; height: 70px; top: -35px; left: 55%;">
                 <a href="#"><i class="far fa-file-alt" style="font-size:30px;"></i></a>
             </div>
-            <h3 style="margin-top: -14px;">Report<span class="subtitle" style="color: black; font-size: 0.6em;">Learn to dazzle everyone with Enhencer Reporting.</span></h3>
-            <div class="position">                <!--start button, nothing above this is necessary -->
+            <h3 style="margin-top: -14px;">Report<span class="subtitle" style="color: black; font-size: 0.6em;">Learn to
+                    dazzle everyone with Enhencer Reporting.</span></h3>
+            <div class="position">
+                <!--start button, nothing above this is necessary -->
                 <div class="svg-wrapper">
                     <svg height="40" width="150" xmlns="">
                         <rect id="shape" height="40" width="150"></rect>/>
                         <div id="text">
-                            <a href=""><span class="spot"></span>Learn More</a>
+                            <a href="#" id="reportbutton"><span class="spot"></span>Learn More</a>
                         </div>
                     </svg>
                 </div>
@@ -150,3 +152,31 @@
     </p>
 
 </div>
+<script>
+    $(document).ready(function () {
+        $("#connectbutton").click(function (event) {
+            $("#includedContent").load("help-connect.html");
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $("#analyzebutton").click(function (event) {
+            $("#includedContent").load("analyze-gui.html");
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $("#predictbutton").click(function (event) {
+            $("#includedContent").load("predict.html");
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $("#reportbutton").click(function (event) {
+            $("#includedContent").load("report.html");
+        });
+    });
+</script>
