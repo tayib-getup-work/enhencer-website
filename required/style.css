@@ -651,7 +651,7 @@ body.stretched .container-fullwidth {
 	/* margin-right: 2%; */
 	margin-bottom: 5em; /* it was 50px */
 	float: left;
-	margin-left: 2%;
+	/* margin-left: 2%; */
 }
 
 .col_full {
@@ -10529,7 +10529,7 @@ blockquote.float-right {
 
 .highlight {
 	padding: 2px 5px;
-	background-color: #444;
+	background-color: #2ca497;
 	color: #FFF;
 	border-radius: 2px;
 }

@@ -270,6 +270,7 @@ var SEMICOLON = SEMICOLON || {};
 					if (negativeHeight) { scrHeight = scrHeight - Number(negativeHeight); }
 
 					element.css('height', scrHeight);
+					console.log(element)
 					if (element.attr('id') == 'slider' && !element.hasClass('canvas-slider-grid')) { if (element.has('.swiper-slide')) { element.find('.swiper-slide').css('height', scrHeight); } }
 				});
 			}

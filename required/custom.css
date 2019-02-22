@@ -2099,3 +2099,95 @@ display: block;  /* may not need this, but I've found I do */
   width:100%;
   transition:800ms ease all;
 }
+
+
+/* Blog Styles */
+
+.blog-title-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blog-p{
+	font-size:1.3em;
+}
+
+.blog-article-hr {
+	position: absolute;
+	top: 88%;
+	left: 21.5%;
+}
+
+.hline { 
+	width:57.3%; 
+	height:1px; 
+	background: #fff;
+}
+
+
+.blog-article-author {
+	position: absolute;
+	font-size: 1.3em;
+	top: 90%;
+	left: 21.5%;
+}
+
+.blog-article-author:before{
+	font-family: "Font Awesome 5 Free";
+	font-weight: 500;
+	content: "\f007";
+	margin-right: 7%;
+	font-size: 1.2em;
+	top: 0;
+	right: 0;
+	vertical-align: baseline;
+}
+
+.blog-article-date {
+	position: absolute;
+	font-size: 1.3em;
+	top: 90%;
+	left: 31.5%;
+}
+
+.blog-article-date:before{
+	font-family: "Font Awesome 5 Free";
+	font-weight: 500;
+	content: "\f073";
+	margin-right: 7%;
+	font-size: 1.2em;
+	top: 0;
+	right: 0;
+	vertical-align: baseline;
+}
+
+.blog-article-article {
+	position: absolute;
+	font-size: 1.3em;
+	top: 90%;
+	right: 21.2%;
+}
+
+.blog-article-article:before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 500;
+	content: "\f15c";
+	margin-right: 17%;
+	font-size: 1.2em;
+	top: 0;
+	right: 0;
+	vertical-align: baseline;
+}
+.container-blog {
+	position: relative;
+  text-align: center;
+	color: white;
+	width: 100%;
+
+}
+
+.full-screen-blog{
+	height: auto;
+}
