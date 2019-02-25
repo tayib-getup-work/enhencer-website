@@ -2110,9 +2110,94 @@ display: block;  /* may not need this, but I've found I do */
   transform: translate(-50%, -50%);
 }
 
+.author-image {
+	float: left;
+	margin-right: 15px;
+}
+
+.author-image,
+.author-image a,
+.author-image img,
+.author-image i {
+	display: block;
+	width: 75px;
+	height: 75px;
+}
+
+.author-image i {
+	text-align: center;
+	background-color: #EEE;
+	border-radius: 50%;
+	line-height: 64px;
+	font-size: 28px;
+	color: #888;
+	text-shadow: 1px 1px 1px #FFF;
+}
+
+.author-image img { border-radius: 50%; }
+
+.author-name{
+	font-size: 1.6em;
+}
+
+.author-position{
+	font-size: 1.2em;
+}
+
+.image-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#primary-menu.white ul li > a{
+color: white !important;
+}
+
+.white #top-social li a{
+	color: white !important;
+}
+
+.button-enhencer-blog-light{
+	color: black !important;
+}
+
+.border-blog-white{
+	border: 1.5px solid white !important;
+}
+
+.darken-blog-images {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.button-blog-white {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	white-space: nowrap;
+	margin: 5px;
+	padding: 0 22px;
+	font-size: 14px;
+	height: 40px;
+	width: auto !important;
+	line-height: 40px;
+	background-color: transparent !important;
+	color: #FFF;
+	font-weight: 700;
+	text-transform: none;
+	letter-spacing: 1px;
+	border: none;
+	border-radius: 5px !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
 .blog-p{
 	font-size:1.3em;
 }
+
+
 
 .blog-article-hr {
 	position: absolute;
