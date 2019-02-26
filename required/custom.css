@@ -2068,7 +2068,7 @@ display: block;  /* may not need this, but I've found I do */
   color:#fff;
   border:none;
   position:relative;
-  height:60px;
+  height:auto !important;
   font-size:1.6em;
   padding:0 2em;
   cursor:pointer;
@@ -2144,10 +2144,14 @@ display: block;  /* may not need this, but I've found I do */
 	font-size: 1.2em;
 }
 
-.image-overlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+
+	.image-overlay:before {
+		content: "";
+		position: absolute;
+		left: 0; right: 40%;
+		top: 0; bottom: 0;
+		background: rgba(0,0,0,.2);
+	}
 }
 
 #primary-menu.white ul li > a{
@@ -2275,4 +2279,8 @@ color: white !important;
 
 .full-screen-blog{
 	height: auto;
+}
+
+.blog-header{
+	height: 500px
 }
