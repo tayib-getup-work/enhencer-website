@@ -2144,15 +2144,35 @@ display: block;  /* may not need this, but I've found I do */
 	font-size: 1.2em;
 }
 
+.blog-bullet{
+	margin-left:3%;
+	line-height: 1.8;
+}
 
-	.image-overlay:before {
+.blog-h2{
+	font-size: 1.8em;
+	font-weight: 600;
+}
+
+
+.image-overlay:before {
 		content: "";
 		position: absolute;
-		left: 0; right: 40%;
+		left: 0; right: 0;
 		top: 0; bottom: 0;
-		background: rgba(0,0,0,.2);
-	}
+		background: rgba(0,0,0,.35);
 }
+
+.image-blog-header-overlay:before {
+	content: "";
+	position: absolute;
+	left: 0; right: 40%;
+	top: 0; bottom: 0;
+	background: rgba(0,0,0,.2);
+}
+
+
+
 
 #primary-menu.white ul li > a{
 color: white !important;
