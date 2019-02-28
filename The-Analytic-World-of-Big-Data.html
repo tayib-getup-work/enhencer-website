@@ -152,34 +152,39 @@
                                 src="images/enhencer_white.svg" alt="Enhencer Logo"></a>
                     </div><!-- #logo end -->
 
-
                     <!-- Primary Navigation
-					============================================= -->
-                    <nav id="primary-menu" class="white with-arrows" style="width:600px;">
+                        ============================================= -->
+                    <nav id="primary-menu" class="white with-arrows" style="width:680px;">
 
                         <ul id="primarymenumobile" class="ul.sf-js-enabled">
                             <li>
                                 <a href="connect.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
-                                    <div style="color:white;">Connect</div>
+                                    <div>Connect</div>
                                 </a>
                             </li>
                             <li>
                                 <a href="stories.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Stories'});">
-                                    <div style="color:white;">Stories</div>
+                                    <div>Stories</div>
                                 </a>
                             </li>
                             <li>
                                 <a href="help-center.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Help'});">
-                                    <div style="color:white;">Help</div>
+                                    <div>Help</div>
+                                </a>
+                            </li>
+                            <li class="current">
+                                <a href="blog.html"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Blog'});">
+                                    <div>Blog</div>
                                 </a>
                             </li>
                             <li>
                                 <a href="pricing.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
-                                    <div style="color:white;">Pricing</div>
+                                    <div>Pricing</div>
                                 </a>
                             </li>
 
@@ -187,8 +192,8 @@
                         </ul>
 
                         <!-- Menu Buttons Please Make this button css a class
-						============================================= -->
-                        <a href="https://app.enhencer.com/#!/login"
+                            ============================================= -->
+                        <a id="primarymenubuttons" href="https://app.enhencer.com/#!/login"
                             onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
                             target="_blank"
                             class="button button-rounded button-light bg-white border nott ls0 border-blog-white button-enhencer-blog-light"
@@ -197,7 +202,7 @@
                                 Sign in
                             </div>
                         </a>
-                        <a href="https://app.enhencer.com/#!/signup"
+                        <a id="primarymenubuttons2" href="https://app.enhencer.com/#!/signup"
                             onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
                             target="_blank"
                             class="button button-blog-white border-blog-white button-rounded fright try-free-button">
@@ -219,7 +224,7 @@
         <section id="slider" class="slider-element full-screen-blog clearfix">
 
             <div class="container-blog image-overlay clearfix">
-                <img src="blog/images/The Analytic World of Big Data.jpg" style="width: 100vw;">
+                <img src="blog/Images/The Analytic World of Big Data.jpg" style="width: 100vw;">
                 <div class="blog-title-centered" style="font-size: 4em; color: white;">The Analytic World of Big Data
                 </div>
                 <div class="hline blog-article-hr"></div>
@@ -385,16 +390,16 @@
                                 <br>
                                 <br>
                                 <div>
-                                        <div class="col_half">
-                                                <div class="author-image">
-                                                    <a><img src="blog/Images/Users/Olcay Ozturk.jpg"></a>
-                                                </div>
-                                                <div>
-                                                    <p class="my-0 author-name">Olcay Öztürk</p>
-                                                    <p class="author-position">Co-founder Enhencer – Predictive Storyteller
-                                                    </p>
-                                                </div>
-                                            </div>
+                                    <div class="col_half">
+                                        <div class="author-image">
+                                            <a><img src="blog/Images/Users/Olcay Ozturk.jpg"></a>
+                                        </div>
+                                        <div>
+                                            <p class="my-0 author-name">Olcay Öztürk</p>
+                                            <p class="author-position">Co-founder Enhencer – Predictive Storyteller
+                                            </p>
+                                        </div>
+                                    </div>
                                     <!-- Post Single - Share
                                     ============================================= -->
                                     <div class="col_half col_last si-share noborder clearfix">
@@ -563,6 +568,48 @@
             });
         </script>
 
+        <script>
+            var current_poll_interval = setInterval(currentPoll, 100);
+            function currentPoll() {
+                if ($('#header').hasClass('sticky-header')) {
+                    $('#primary-menu').removeClass('white')
+                }
+                else {
+                    $('#primary-menu').addClass('white')
+                }
+            }
+        </script>
+        <script>
+            var current_poll_interval = setInterval(currentPoll, 100);
+            function currentPoll() {
+                if ($('#header').hasClass('sticky-header')) {
+                    $('#primarymenubuttons').removeClass('border-blog-white')
+                    $('#primarymenubuttons').removeClass('button-enhencer-blog-light')
+                    $('#primarymenubuttons').addClass('border-blue')
+                    $('#primarymenubuttons').addClass('button-enhencer-default-green')
+                }
+                else {
+                    $('#primarymenubuttons').removeClass('border-blue')
+                    $('#primarymenubuttons').removeClass('button-enhencer-default-green')
+                    $('#primarymenubuttons').addClass('border-blog-white')
+                    $('#primarymenubuttons').addClass('button-enhencer-blog-light')
+                }
+            }
+        </script>
+        <script>
+            var current_poll_interval = setInterval(currentPoll, 100);
+            function currentPoll() {
+                if ($('#header').hasClass('sticky-header')) {
+                    $('#primarymenubuttons2').removeClass('button-blog-white')
+                    $('#primarymenubuttons2').removeClass('border-blog-white')
+                }
+                else {
+                    $('#primarymenubuttons2').addClass('button-blog-white')
+                    $('#primarymenubuttons2').addClass('border-blog-white')
+
+                }
+            }
+        </script>
 
 </body>
 

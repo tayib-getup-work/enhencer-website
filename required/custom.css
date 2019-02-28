@@ -2103,6 +2103,10 @@ display: block;  /* may not need this, but I've found I do */
 
 /* Blog Styles */
 
+.blog-icon {
+  background-image: url("images/enhencer_white.svg");
+}
+
 .blog-title-centered {
   position: absolute;
   top: 50%;
@@ -2174,8 +2178,8 @@ display: block;  /* may not need this, but I've found I do */
 
 
 
-#primary-menu.white ul li > a{
-color: white !important;
+#primary-menu.white.with-arrows ul li > a{
+color: white;
 }
 
 .white #top-social li a{
@@ -2202,10 +2206,10 @@ color: white !important;
 	outline: none;
 	white-space: nowrap;
 	margin: 5px;
-	padding: 0 22px;
+	/* padding: 0 22px; */
 	font-size: 14px;
 	height: 40px;
-	width: auto !important;
+	width: 95px !important;
 	line-height: 40px;
 	background-color: transparent !important;
 	color: #FFF;
