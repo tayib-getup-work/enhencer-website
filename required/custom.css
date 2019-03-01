@@ -2114,6 +2114,10 @@ display: block;  /* may not need this, but I've found I do */
   transform: translate(-50%, -50%);
 }
 
+.blog-no-menu{
+	display:none;
+}
+
 .author-image {
 	float: left;
 	margin-right: 15px;
