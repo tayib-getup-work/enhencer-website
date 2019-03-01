@@ -2160,11 +2160,11 @@ display: block;  /* may not need this, but I've found I do */
 
 
 .image-overlay:before {
-		content: "";
-		position: absolute;
-		left: 0; right: 0;
-		top: 0; bottom: 0;
-		background: rgba(0,0,0,.35);
+	content: "";
+	position: absolute;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+	background: rgba(0,0,0,.35);
 }
 
 .image-blog-header-overlay:before {
@@ -2179,7 +2179,7 @@ display: block;  /* may not need this, but I've found I do */
 
 
 #primary-menu.white.with-arrows ul li > a{
-color: white;
+  color: white;
 }
 
 .white #top-social li a{
@@ -2298,7 +2298,6 @@ color: white;
   text-align: center;
 	color: white;
 	width: 100%;
-
 }
 
 .full-screen-blog{
