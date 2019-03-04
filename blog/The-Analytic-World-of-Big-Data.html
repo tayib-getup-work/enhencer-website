@@ -145,16 +145,16 @@
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
                     <!-- Logo
-					============================================= -->
+                        ============================================= -->
                     <div id="logo">
-						<a href="/" class="standard-logo" data-dark-logo="images/enhence-logo-type-32.gif"><img
-								id="logoImage" src="images/enhence-logo-type-32.gif" alt="Enhencer Logo"></a>
-						<a href="/" class="retina-logo" data-dark-logo="images/enhencer-logo-32.gif"><img id="logoImage"
-								src="images/enhencer-logo-32.gif" alt="Enhencer Logo"></a>
-					</div><!-- #logo end -->
+                        <a href="/" class="standard-logo" data-dark-logo="images/enhencer-logo-32.gif"><img
+                                id="logoImage" src="images/enhencer-logo-32.gif" alt="Enhencer Logo"></a>
+                        <a href="/" class="retina-logo" data-dark-logo="images/enhencer-logo-32.gif"><img id="logoImage"
+                                src="images/enhencer-logo-32.gif" alt="Enhencer Logo"></a>
+                    </div><!-- #logo end -->
 
                     <!-- Primary Navigation
-                        ============================================= -->
+                            ============================================= -->
                     <nav id="primary-menu" class="with-arrows" style="width:680px;">
 
                         <ul id="primarymenumobile" class="ul.sf-js-enabled">
@@ -176,16 +176,17 @@
                                     <div>Help</div>
                                 </a>
                             </li>
-                            <li class="current">
-                                <a href="../blog.html"
-                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Blog'});">
-                                    <div>Blog</div>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="../pricing.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
                                     <div>Pricing</div>
+                                </a>
+                            </li>
+                            <li class="current">
+                                <a href="../blog.html"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Blog'});">
+                                    <div>Blog</div>
                                 </a>
                             </li>
 
@@ -193,7 +194,7 @@
                         </ul>
 
                         <!-- Menu Buttons Please Make this button css a class
-                            ============================================= -->
+                                ============================================= -->
                         <a id="primarymenubuttons" href="https://app.enhencer.com/#!/login"
                             onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
                             target="_blank"
@@ -207,8 +208,7 @@
 
                         <a id="primarymenubuttons2" href="https://app.enhencer.com/#!/signup"
                             onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-                            target="_blank"
-                            class="button button-rounded fright try-free-button">
+                            target="_blank" class="button button-rounded fright try-free-button">
                             <div style="text-align: center">
                                 Try Free
                             </div>
@@ -233,7 +233,7 @@
                 <div class="hline blog-article-hr"></div>
                 <div class="blog-article-author">Olcay Öztürk</div>
                 <div class="blog-article-date">27 February 2019</div>
-                <div class="blog-article-article">Article</div>
+                <div class="blog-article-article icon-line2-clock">2.4 Minutes to Read</div>
 
 
             </div>
@@ -276,7 +276,7 @@
 
                             <!-- Entry Content
                                 ============================================= -->
-                            <div class="container entry-content notopmargin">
+                            <div id="body" class="container-blog-body entry-content notopmargin">
 
                                 <p class="blog-p"><span class="dropcap">R</span>egarding to the limited abilities of
                                     data storage, data transformation and data analysis processes of traditional
@@ -410,13 +410,11 @@
                                         <p class="my-0" style="text-align:right; margin-right: 1.6%;">Spread the Word:
                                         </p>
                                         <div>
-                                            <a href="#"
-                                                class="social-icon si-borderless si-facebook">
+                                            <a href="#" class="social-icon si-borderless si-facebook">
                                                 <i class="icon-facebook"></i>
                                                 <i class="icon-facebook"></i>
                                             </a>
-                                            <a href="#"
-                                                class="social-icon si-borderless si-twitter">
+                                            <a href="#" class="social-icon si-borderless si-twitter">
                                                 <i class="icon-twitter"></i>
                                                 <i class="icon-twitter"></i>
                                             </a>
@@ -462,7 +460,7 @@
                             </div>
                         </div><!-- .entry end -->
 
-                        <div class="container tagcloud clearfix bottommargin">
+                        <div class="container-blog-body tagcloud clearfix bottommargin">
                             <a href="#">article</a>
                             <a href="#">big data</a>
                             <a href="#">data mining</a>
@@ -588,7 +586,7 @@
                 }
             }
         </script>
-           <script>
+        <script>
             var current_poll_interval = setInterval(currentPoll, 100);
             function currentPoll() {
                 if ($('#header').hasClass('sticky-header')) {
@@ -599,7 +597,7 @@
                 }
             }
         </script>
-        
+
         <!-- <script>
             var current_poll_interval = setInterval(currentPoll, 100);
             function currentPoll() {

@@ -2113,6 +2113,10 @@ display: block;  /* may not need this, but I've found I do */
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.blog-link{
+	color: #2ca497;
+	text-decoration: underline !important;
+}
 
 .blog-no-menu{
 	display:none;
@@ -2149,7 +2153,7 @@ display: block;  /* may not need this, but I've found I do */
 }
 
 .author-position{
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 .blog-bullet{
@@ -2237,6 +2241,19 @@ display: block;  /* may not need this, but I've found I do */
 	left: 21.5%;
 }
 
+.blog-scrool-button {
+	position: absolute;
+	top: 65%;
+}
+
+.blog-read-more {
+	position: absolute;
+	position: absolute;
+	font-size: 1.3em;
+	top: 75%;
+	width: 100%;
+}
+
 .hline { 
 	width:57.3%; 
 	height:1px; 
@@ -2287,21 +2304,38 @@ display: block;  /* may not need this, but I've found I do */
 	right: 21.2%;
 }
 
-.blog-article-article:before {
+.icon-line2-clock:before {
+	content: "\e081";
+	margin-right: 4%;
+	vertical-align: middle;
+	font-size: 1.2em;
+
+}
+
+/* .blog-article-article:before {
 	font-family: "Font Awesome 5 Free";
 	font-weight: 500;
-	content: "\f15c";
+	content: "\e014";
 	margin-right: 17%;
 	font-size: 1.2em;
 	top: 0;
 	right: 0;
 	vertical-align: baseline;
-}
+} */
 .container-blog {
 	position: relative;
   text-align: center;
 	color: white;
 	width: 100%;
+}
+
+.container-blog-body {
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 50%;
 }
 
 .full-screen-blog{
@@ -2310,4 +2344,58 @@ display: block;  /* may not need this, but I've found I do */
 
 .blog-header{
 	height: 500px
+}
+
+body {
+  background:#0b1d2a;
+}
+
+
+/* Blog Read More Arrow */
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: white;
+	fill: transparent;
+	stroke-width: 3px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }

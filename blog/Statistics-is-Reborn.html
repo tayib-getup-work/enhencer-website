@@ -134,8 +134,7 @@
 
         </div><!-- #top-bar end -->
 
-        <!-- Header
-		============================================= -->
+        ============================================= -->
         <header id="header" class="transparent-header floating-header clearfix">
 
             <div id="header-wrap">
@@ -147,11 +146,11 @@
                     <!-- Logo
 					============================================= -->
                     <div id="logo">
-						<a href="/" class="standard-logo" data-dark-logo="images/enhence-logo-type-32.gif"><img
-								id="logoImage" src="images/enhence-logo-type-32.gif" alt="Enhencer Logo"></a>
-						<a href="/" class="retina-logo" data-dark-logo="images/enhencer-logo-32.gif"><img id="logoImage"
-								src="images/enhencer-logo-32.gif" alt="Enhencer Logo"></a>
-					</div><!-- #logo end -->
+                        <a href="/" class="standard-logo" data-dark-logo="images/enhencer-logo-32.gif"><img
+                                id="logoImage" src="images/enhencer-logo-32.gif" alt="Enhencer Logo"></a>
+                        <a href="/" class="retina-logo" data-dark-logo="images/enhencer-logo-32.gif"><img id="logoImage"
+                                src="images/enhencer-logo-32.gif" alt="Enhencer Logo"></a>
+                    </div><!-- #logo end -->
 
                     <!-- Primary Navigation
                         ============================================= -->
@@ -176,19 +175,19 @@
                                     <div>Help</div>
                                 </a>
                             </li>
-                            <li class="current">
-                                <a href="../blog.html"
-                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Blog'});">
-                                    <div>Blog</div>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="../pricing.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
                                     <div>Pricing</div>
                                 </a>
                             </li>
-
+                            <li class="current">
+                                <a href="../blog.html"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Blog'});">
+                                    <div>Blog</div>
+                                </a>
+                            </li>
 
                         </ul>
 
@@ -197,21 +196,22 @@
                         <a id="primarymenubuttons" href="https://app.enhencer.com/#!/login"
                             onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
                             target="_blank"
-                            class="button button-rounded button-light bg-white border nott ls0 border-blog-white button-enhencer-blog-light"
+                            class="button button-rounded button-light bg-white border nott ls0 border-blue button-enhencer-default-green"
                             style="text-align: center; padding-left: 0px; width: 82px; padding-right: 0px;margin-left: 3%;">
                             <div style="text-align: center; margin-top: -2px;">
                                 Sign in
                             </div>
                         </a>
+                        <!-- class="button button-rounded button-light bg-white border nott ls0 border-blog-white button-enhencer-blog-light" -->
+
                         <a id="primarymenubuttons2" href="https://app.enhencer.com/#!/signup"
                             onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-                            target="_blank"
-                            class="button button-blog-white border-blog-white button-rounded fright try-free-button">
+                            target="_blank" class="button button-rounded fright try-free-button">
                             <div style="text-align: center">
                                 Try Free
                             </div>
                         </a>
-
+                        <!-- class="button button-blog-white border-blog-white button-rounded fright try-free-button"> -->
 
                     </nav><!-- #primary-menu end -->
 
@@ -225,13 +225,22 @@
         <section id="slider" class="slider-element full-screen-blog clearfix">
 
             <div class="container-blog image-overlay clearfix">
-                <img src="../blog/Images/Statistics is Reborn.jpeg" alt="Statistics is Reborn!" style="width: 100vw; height: 108vh;">
+                <img src="../blog/Images/Statistics is Reborn.jpeg" alt="Statistics is Reborn!"
+                    style="width: 100vw; height: 108vh;">
                 <div class="blog-title-centered" style="font-size: 4em; color: white;">Statistics is
                     Reborn!</div>
+                <a href="#body">
+                    <svg class="arrows blog-scrool-button">
+                        <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                        <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                        <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                    </svg>
+                </a>
+                <div class="blog-read-more central"> <a href="#body" style="color:white;">Read Article</a></div>
                 <div class="hline blog-article-hr"></div>
                 <div class="blog-article-author">Olcay Öztürk</div>
                 <div class="blog-article-date">22 February 2019</div>
-                <div class="blog-article-article">Article</div>
+                <div class="blog-article-article icon-line2-clock">3.3 Minutes to Read</div>
 
 
             </div>
@@ -274,7 +283,7 @@
 
                             <!-- Entry Content
                                 ============================================= -->
-                            <div class="container entry-content notopmargin">
+                            <div id="body" class="container-blog-body entry-content notopmargin">
 
                                 <p class="blog-p"><span class="dropcap">T</span>he science of statistics is one of the
                                     key instruments to derive significant
@@ -412,7 +421,7 @@
                             </div>
                         </div><!-- .entry end -->
 
-                        <div class="container tagcloud clearfix bottommargin">
+                        <div class="container-blog-body tagcloud clearfix bottommargin">
                             <a href="#">article</a>
                             <a href="#">big data</a>
                             <a href="#">data mining</a>
@@ -450,12 +459,13 @@
 
                                 <div class="mpost clearfix">
                                     <div class="entry-image">
-                                        <a href="../blog/Enhencer-for-Analytics-in-Automotive-Industry.html"><img src="../blog/Images/Automotive-Post-Photo2.jpg"
-                                                alt="Blog Single"></a>
+                                        <a href="../blog/Enhencer-for-Analytics-in-Automotive-Industry.html"><img
+                                                src="../blog/Images/Automotive-Post-Photo2.jpg" alt="Blog Single"></a>
                                     </div>
                                     <div class="entry-c">
                                         <div class="entry-title">
-                                            <h4><a href="../blog/Enhencer-for-Analytics-in-Automotive-Industry.html">Enhencer for Analytics in
+                                            <h4><a href="../blog/Enhencer-for-Analytics-in-Automotive-Industry.html">Enhencer
+                                                    for Analytics in
                                                     Automotive Industry</a></h4>
                                         </div>
                                         <ul class="entry-meta clearfix">
@@ -472,12 +482,13 @@
 
                                 <div class="mpost clearfix">
                                     <div class="entry-image">
-                                        <a href="../blog/the-next-big-thing.html"><img src="../blog/Images/The Next big Thing.jpeg"
-                                                alt="Blog Single"></a>
+                                        <a href="../blog/the-next-big-thing.html"><img
+                                                src="../blog/Images/The Next big Thing.jpeg" alt="Blog Single"></a>
                                     </div>
                                     <div class="entry-c">
                                         <div class="entry-title">
-                                            <h4><a href="../blog/the-next-big-thing.html">What is the next big thing after
+                                            <h4><a href="../blog/the-next-big-thing.html">What is the next big thing
+                                                    after
                                                     big data?</a></h4>
                                         </div>
                                         <ul class="entry-meta clearfix">
@@ -536,7 +547,7 @@
                 }
             }
         </script>
-           <script>
+        <script>
             var current_poll_interval = setInterval(currentPoll, 100);
             function currentPoll() {
                 if ($('#header').hasClass('sticky-header')) {
@@ -547,7 +558,7 @@
                 }
             }
         </script>
-        
+
         <!-- <script>
             var current_poll_interval = setInterval(currentPoll, 100);
             function currentPoll() {
