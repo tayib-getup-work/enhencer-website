@@ -4884,7 +4884,7 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 	position: relative;
 	height: 2px;
 	margin-top: 50px;
-	background-color: #2ca4975e !important;
+	background-color: #2ca49700 !important;
 }
 
 .entry-image { margin-bottom: 30px; }
@@ -5358,7 +5358,7 @@ body:not(.device-touch) .entry-link {
 	border-bottom: 1px solid #1ABC9C;
 	padding: 0 2px;
 	font-family: 'Crete Round', serif;
-	font-style: italic;
+	font-style: normal;
 }
 
 .more-link:hover { border-bottom-color: #555; }
