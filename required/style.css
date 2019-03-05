@@ -285,7 +285,7 @@ small { font-family: 'Lato', sans-serif; }
 	clear: both;
 	position: relative;
 	width: 100%;
-	margin: 60px 0;
+	margin-bottom: 60px;
 	border-top: 1px solid #EEE;
 }
 
@@ -4896,7 +4896,7 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 	display: block;
 	position: relative;
 	width: 100%;
-	height: auto;
+	height: 80%;
 }
 
 .entry-image iframe { display: block; }
@@ -4912,7 +4912,7 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 	margin: 0;
 	font-size: 24px;
 	font-weight: 600;
-	text-transform: uppercase;
+	text-transform: none;
 	letter-spacing: 1px;
 }
 
@@ -5158,7 +5158,7 @@ body:not(.device-touch) .entry-link {
 -----------------------------------------------------------------*/
 
 .post-masonry .entry-image,
-.post-masonry .entry-image img { height: auto !important; }
+.post-masonry .entry-image img { height: 280px !important; }
 
 
 /* Blog - Masonry Full
