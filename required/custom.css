@@ -1661,7 +1661,9 @@ body, html {
 
 }
 
-
+.help-card:hover{
+box-shadow: 0 0 17px 0 rgba(0,0,0,.2), 0 0 20px 0 rgba(0,0,0,.19);
+}
 
 .help-h1{
 	font-family: sans-serif;
@@ -1709,6 +1711,12 @@ body, html {
 	-ms-flex: 0 0 12.333333%;
 	flex: 0 0 12.333333%;
 	max-width: 12.333333%;
+}
+
+.col-2-5 {
+	-ms-flex: 0 0 20.333333%;
+	flex: 0 0 20.333333%;
+	max-width: 20.333333%;
 }
 
 .help-link{
@@ -2183,9 +2191,6 @@ display: block;  /* may not need this, but I've found I do */
 	background: rgba(0,0,0,.2);
 }
 
-
-
-
 #primary-menu.white.with-arrows ul li > a{
   color: white;
 }
@@ -2329,6 +2334,12 @@ display: block;  /* may not need this, but I've found I do */
 	width: 100%;
 }
 
+.grid-post {
+	display: grid;
+	grid-template-columns: 44% 44%;
+	grid-column-gap: 12%;
+}
+
 .container-blog-body {
 	position: relative;
 	padding-right: 15px;
@@ -2402,6 +2413,114 @@ body {
 
 
 /* Link Hover Color */
-a, h1 > span:not(.nocolor):not(.badge), h2 > span:not(.nocolor):not(.badge), h3 > span:not(.nocolor):not(.badge), h4 > span:not(.nocolor):not(.badge), h5 > span:not(.nocolor):not(.badge), h6 > span:not(.nocolor):not(.badge), .header-extras li .he-text span, #primary-menu ul li:hover > a, #primary-menu ul li.current > a, #primary-menu div ul li:hover > a, #primary-menu div ul li.current > a, #primary-menu ul ul li:hover > a, #primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a:hover, #top-cart > a:hover, .top-cart-action span.top-checkout-price, .breadcrumb a:hover, .portfolio-filter li a:hover, .portfolio-desc h3 a:hover, .portfolio-overlay a:hover, #portfolio-navigation a:hover, .entry-title h2 a:hover, .entry-meta li a:hover, .post-timeline .entry:hover .entry-timeline, .post-timeline .entry:hover .timeline-divider, .ipost .entry-title h3 a:hover, .ipost .entry-title h4 a:hover, .spost .entry-title h4 a:hover, .mpost .entry-title h4 a:hover, .comment-content .comment-author a:hover, .product-title h3 a:hover, .single-product .product-title h2 a:hover, .product-price ins, .single-product .product-price, .feature-box.fbox-border .fbox-icon i, .feature-box.fbox-border .fbox-icon img, .feature-box.fbox-plain .fbox-icon i, .feature-box.fbox-plain .fbox-icon img, .process-steps li.active h5, .process-steps li.ui-tabs-active h5, .team-title span, .pricing-box.best-price .pricing-price, .btn-link, .dark .post-timeline .entry:hover .entry-timeline, .dark .post-timeline .entry:hover .timeline-divider, .clear-rating-active:hover{
+a, h1 > span:not(.nocolor):not(.badge), h2 > span:not(.nocolor):not(.badge), h3 > span:not(.nocolor):not(.badge), h4 > span:not(.nocolor):not(.badge), h5 > span:not(.nocolor):not(.badge), h6 > span:not(.nocolor):not(.badge), .header-extras li .he-text span, #primary-menu ul li:hover > a, #primary-menu ul li.current > a, #primary-menu div ul li:hover > a, #primary-menu div ul li.current > a, #primary-menu ul ul li:hover > a, #primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a:hover, #top-cart > a:hover, .top-cart-action span.top-checkout-price, .breadcrumb a:hover, .portfolio-filter li a:hover, .portfolio-desc h3 a:hover, .portfolio-overlay a:hover, #portfolio-navigation a:hover, .entry-title h2 a:hover, .entry-meta li a:hover, .post-timeline .entry:hover .entry-timeline, .post-timeline .entry:hover .timeline-divider, .ipost .entry-title h3 a:hover, .ipost .entry-title h4 a:hover, .spost .entry-title h4 a:hover, .mpost .entry-title h4 a:hover, .comment-content .comment-author a:hover, .product-title h3 a:hover, .single-product .product-title h2 a:hover, .product-price ins, .single-product .product-price,  .process-steps li.active h5, .process-steps li.ui-tabs-active h5, .team-title span, .pricing-box.best-price .pricing-price, .btn-link, .dark .post-timeline .entry:hover .entry-timeline, .dark .post-timeline .entry:hover .timeline-divider, .clear-rating-active:hover{
 	color: #2ca497;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+
+
+/* Playh Button */
+body {
+  background: #444;
+}
+
+.image-video-overlay:before {
+	content: "";
+	position: absolute;
+	left: 0; right: 0%;
+	top: 86.5%; bottom: 0;
+	background: rgba(0,0,0,.2);
+	z-index: 1;
+}
+
+.play-btn {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient( #2ca497 60%, rgba(255, 255, 255, 1) 62%);
+  border-radius: 50%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0px 0px 25px 3px #2ca497;
+}
+
+/* triangle */
+.play-btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-40%) translateY(-50%);
+  transform: translateX(-40%) translateY(-50%);
+  transform-origin: center center;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #fff;
+  z-index: 100;
+  -webkit-transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+/* pulse wave */
+.play-btn:before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate1 2s;
+  animation: pulsate1 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, .75);
+  top: -25%;
+  left: -25%;
+  background: rgba(198, 16, 0, 0);
+}
+
+@-webkit-keyframes pulsate1 {
+  0% {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: none;
+
+  }
+}
+
+@keyframes pulsate1 {
+  0% {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: none;
+
+  }
 }
