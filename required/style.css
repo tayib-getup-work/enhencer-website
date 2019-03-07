@@ -634,7 +634,6 @@ body.stretched .container-fullwidth {
 .postcontent,
 .sidebar,
 .col_full,
-.col_half,
 .col_one_third,
 .col_two_third,
 .col_three_fourth,
@@ -649,6 +648,15 @@ body.stretched .container-fullwidth {
 	display: block;
 	position: relative;
 	margin-right: 2%;
+	margin-bottom: 5em; /* it was 50px */
+	float: left;
+	/* margin-left: 2%; */
+}
+
+.col_half{
+	display: block;
+	position: relative;
+	/* margin-right: 2%; */
 	margin-bottom: 5em; /* it was 50px */
 	float: left;
 	/* margin-left: 2%; */
