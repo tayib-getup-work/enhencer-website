@@ -2562,7 +2562,7 @@ body {
 div[class*=box] {
 	/* height: 33.33%; */
 	/* width: 100%;  */
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
@@ -2570,6 +2570,8 @@ div[class*=box] {
 .box-1 { 
 	background-color:transparent;
 	margin-top: -15px;
+	  display: flex;
+
  }
 
 
