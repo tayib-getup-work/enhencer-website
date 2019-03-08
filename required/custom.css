@@ -2311,11 +2311,13 @@ display: block;  /* may not need this, but I've found I do */
 	font-size: 1.3em;
 	top: 90%;
 	right: 21.2%;
+	width: 250px;
+	text-align: right;
 }
 
 .icon-line2-clock:before {
 	content: "\e081";
-	margin-right: 7%;
+	margin-right: 5%;
 	vertical-align: middle;
 	font-size: 1.2em;
 
