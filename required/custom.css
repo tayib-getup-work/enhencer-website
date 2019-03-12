@@ -2190,6 +2190,7 @@ display: block;  /* may not need this, but I've found I do */
 	background: rgba(0,0,0,.2);
 }
 
+
 #primary-menu.white.with-arrows ul li > a{
   color: white;
 }
@@ -2363,6 +2364,31 @@ display: block;  /* may not need this, but I've found I do */
   text-align: center;
 	color: white;
 	width: 100%;
+}
+
+.blog-home-header{
+	font-size: 4em;
+	color: white;
+	font-family: sans-serif;
+	padding-top: 90px;
+	width: 650px"
+}
+
+.blog-home-subtitle{
+	width: 570px;
+	font-size: 1.4em; 
+	color: white;
+}
+
+.blog-home-subscribe{
+	margin-left: -0.5%;
+}
+
+.blog-home-background{
+	background-image: url(../images/pexels-photo-247932.jpeg); 
+	width: 100%;
+	height: 370px;  
+	background-size: cover; 
 }
 
 .grid-post {
@@ -2641,3 +2667,34 @@ div[class*=box] {
 	transform: scale(0.1, 1);
 }
 
+
+/* HOme Watch Video Section */
+.watch-video-section{
+	background-image: url('../images/creativity-819371_1920.jpg'); width: 100%;
+  height: 335px;  background-size: cover;
+}
+
+/* FAQ Styles */
+
+.faq-ul{
+	margin-left: 6%;
+}
+
+.faq-col_half{
+	width:50%;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+.faq-h3{
+	font-size: 1.8em;
+	font-weight: 400;
+	color: #2d2d2d;
+}
+
+.faq-p{
+	font-size: 1.2em;
+	line-height: 170%;
+	color: #6b6b6b;
+}

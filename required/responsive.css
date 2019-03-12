@@ -2,7 +2,6 @@
 	Responsive CSS
 -----------------------------------------------------------------*/
 
-
 @media (max-width: 1199.98px) {
 
 	canvas {
@@ -1275,7 +1274,7 @@
 		margin: 0 10px 10px 0;
 	}
 
-	#posts .entry-meta li i { display: none; }
+	/* #posts .entry-meta li i { display: none; } */
 
 	#posts.post-grid .entry-meta li i,
 	#posts .entry-meta li:last-child i { display: inline-block; }
@@ -1794,9 +1793,42 @@
 		max-width: 100%;
 	}
 
-	.button.button-desc span { font-size: 11px; }
+	.button.button-desc span { font-size: 11px; 
+	}
 
+	.image-video-overlay:before {
+		top: 93.7%;
+	}
+
+	.grid-post {
+		display: block;
+	}
+	.blog-home-subtitle {
+		width: 390px;
+		font-size: 1.4em;
+		color: white;
+		text-align: center;
+	}
+	.blog-home-header {
+		font-size: 4em;
+		color: white;
+		font-family: sans-serif;
+		padding-top: 25px;
+		text-align: center;
+	}
+	.blog-home-subscribe{
+		text-align: center;
+	}
+	.image-blog-header-overlay:before {
+		right: 0;
+	}
+	.blog-home-background {
+		background-position: center;
+	}
+	
 }
+
+
 
 
 /* ----------------------------------------------------------------

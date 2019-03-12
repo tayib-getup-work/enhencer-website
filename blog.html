@@ -48,7 +48,7 @@
 
     <!-- Bootstrap Switch CSS -->
 
-    <link rel="stylesheet" href="required/responsive.min.css" type="text/css" />
+    <link rel="stylesheet" href="required/responsive.css" type="text/css" />
     <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 
     <!-- Seo Demo Specific Stylesheet -->
@@ -229,23 +229,18 @@
 
             <div class="content-wrap">
                 <section id="slider" class="slider-element blog-header clearfix">
-                    <div class="image-blog-header-overlay" style="background-image: url(./images/pexels-photo-247932.jpeg); width: 100%;
-                        height: 370px;  background-size: cover; ">
+                    <div class="image-blog-header-overlay blog-home-background">
                         <div class="container">
-                            <div style="font-size: 4em;
-                            color: white;
-                            font-family: sans-serif;
-                            padding-top: 90px;
-                            width: 650px">
-                                Enhencer Blog
+                            <div class="blog-home-header">
+                                Welcome to Our Blog
                             </div>
-                            <div style="    width: 570px;
-                            font-size: 1.4em; color: white;">
+                            <div class="blog-home-subtitle">
                                 Learn more about data science & discover how analytics is shaping our life.
 
                             </div>
                             <br>
-                            <div style="margin-left: -0.5%;"><a href="https://app.enhencer.com/#!/login"
+                            <div class="blog-home-subscribe" style="margin-left: -0.5%;"><a
+                                    href="https://app.enhencer.com/#!/login"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
                                     target="_blank" class="button button-light border nott ls0 border-blog-white"
                                     style="text-align: center; padding-left: 0px; width: 200px; height: 50px; padding-right: 0px;background-color: transparent !important;">
@@ -267,6 +262,34 @@
                     <!-- Posts
                         ============================================= -->
                     <div id="posts" class="grid-post clearfix">
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="./blog/Understanding-Internet-of-Things-and-its-Implementations.html"><img
+                                        class="image_fade"
+                                        src="./blog/Images/Understanding Internet of Things and its Implementations.jpg"
+                                        style="object-fit: cover; height: 250px !important;" alt="The New Paradigm Offered by
+                                                        Industry 4.0"></a>
+                            </div>
+                            <div class="entry-title">
+                                <h2><a href="./blog/Understanding-Internet-of-Things-and-its-Implementations.html">Understanding
+                                        Internet of Things and its Implementations</a></h2>
+                            </div>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-user4"></i> Damla Dokuzoğlu</li>
+                                <li><i class="icon-calendar3"></i> 12 March 2019</li>
+                            </ul>
+                            <div class="entry-content">
+                                <p class="mb-3">Imagine an environment where thousands
+                                    of devices and equipment constantly reporting each other through a virtual
+                                    contextual world. Having cluster of this data in hand is now inevitable due to new
+                                    nature of industry.</p>
+                                <a href="./blog/Understanding-Internet-of-Things-and-its-Implementations.html"
+                                    class="more-link"
+                                    style="color: #2ca497 !important; border-bottom-color: #2ca497 !important;">Read
+                                    More</a>
+                            </div>
+                        </div>
 
                         <div class="entry clearfix">
                             <div class="entry-image">
@@ -295,10 +318,12 @@
                                     More</a>
                             </div>
                         </div>
+
                         <div class="entry clearfix">
                             <div class="entry-image">
                                 <a href="./blog/Statistics-is-Reborn.html"><img class="image_fade"
-                                        src="./blog/Images/Statistics is Reborn.jpeg" style="object-fit: cover; height: 250px !important;"
+                                        src="./blog/Images/Statistics is Reborn.jpeg"
+                                        style="object-fit: cover; height: 250px !important;"
                                         alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-title">
@@ -323,7 +348,8 @@
                         <div class="entry clearfix">
                             <div class="entry-image">
                                 <a href="./blog/the-next-big-thing.html"><img class="image_fade"
-                                        src="./blog/Images/The Next big Thing.jpeg" style="object-fit: cover; height: 250px !important;"
+                                        src="./blog/Images/The Next big Thing.jpeg"
+                                        style="object-fit: cover; height: 250px !important;"
                                         alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-title">
@@ -349,7 +375,8 @@
                             <div class="entry-image">
                                 <a href="./blog/Enhencer-for-Analytics-in-Automotive-Industry.html"><img
                                         class="image_fade" src="./blog/Images/Automotive-Post-Photo2.jpg"
-                                        style="object-fit: cover; height: 250px !important;" alt="Standard Post with Image"></a>
+                                        style="object-fit: cover; height: 250px !important;"
+                                        alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-title">
                                 <h2><a href="./blog/Enhencer-for-Analytics-in-Automotive-Industry.html">Analytics
@@ -401,7 +428,8 @@
                             <div class="entry-image">
                                 <a href="./blog/The-Analytic-World-of-Big-Data.html"><img class="image_fade"
                                         src="./blog/Images/The Analytic World of Big Data.jpg"
-                                        style="object-fit: cover; height: 250px !important;" alt="Standard Post with Image"></a>
+                                        style="object-fit: cover; height: 250px !important;"
+                                        alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-title">
                                 <h2><a href="./blog/The-Analytic-World-of-Big-Data.html">The Analytic World of Big
