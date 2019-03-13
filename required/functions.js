@@ -478,9 +478,9 @@ var SEMICOLON = SEMICOLON || {};
 					}
 
 					if (!elementDelay) {
-						elementDelay = 1500;
+						elementDelay = 2000;
 					} else {
-						elementDelay = Number(elementDelay) + 1500;
+						elementDelay = Number(elementDelay) + 2000;
 					}
 
 					var t = setTimeout(function () {
@@ -591,7 +591,7 @@ var SEMICOLON = SEMICOLON || {};
 
 			if (!animationIn) { animationIn = 'fadeIn'; }
 			if (!animationOut) { animationOut = 'fadeOut'; }
-			if (!durationIn) { durationIn = 1500; }
+			if (!durationIn) { durationIn = 2000; }
 			if (!durationOut) { durationOut = 800; }
 			if (!loaderStyleHtml) { loaderStyleHtml = '<div class="css3-spinner-bounce1"></div><div class="css3-spinner-bounce2"></div><div class="css3-spinner-bounce3"></div>'; }
 
@@ -4188,7 +4188,7 @@ $('#predlift')
 				$(tween.elem).text(formatted);
 			}
 		},
-		3500
+		2000
 	);
 
 $('#predacc')
@@ -4197,11 +4197,11 @@ $('#predacc')
 			number: 93.4,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		3500
+		2000
 	);
 
 $('#predpro')
@@ -4210,11 +4210,11 @@ $('#predpro')
 			number: 90,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(0).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		3500
+		2000
 	);
 
 /* Purchase Propensity */
@@ -4224,11 +4224,11 @@ $('#purclift')
 			number: 7,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(0).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted);
 			}
 		},
-		3500
+		2000
 	);
 
 $('#purcacc')
@@ -4237,11 +4237,11 @@ $('#purcacc')
 			number: 84.3,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		3500
+		2000
 	);
 
 $('#purcpro')
@@ -4250,11 +4250,11 @@ $('#purcpro')
 			number: 140,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(0).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		3500
+		2000
 	);
 
 
@@ -4265,11 +4265,11 @@ $('#salelift')
 			number: 1.3,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted);
 			}
 		},
-		3500
+		2000
 	);
 
 $('#saleacc')
@@ -4278,11 +4278,11 @@ $('#saleacc')
 			number: 6,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(0).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		3500
+		2000
 	);
 
 $('#salepro')
@@ -4291,11 +4291,11 @@ $('#salepro')
 			number: 370,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(0).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		3500
+		2000
 	);
 
 
@@ -4306,11 +4306,11 @@ $('#churlift')
 			number: 6.3,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted);
 			}
 		},
-		3500
+		2000
 	);
 
 $('#churacc')
@@ -4319,11 +4319,11 @@ $('#churacc')
 			number: 89.2,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		3500
+		2000
 	);
 
 $('#churpro')
@@ -4332,11 +4332,11 @@ $('#churpro')
 			number: 280,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(0).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		3500
+		2000
 	);
 
 /* Churn Analysis */
@@ -4346,11 +4346,11 @@ $('#churnanlift')
 			number: 1.8,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted);
 			}
 		},
-		3500
+		2000
 	);
 
 $('#churnanacc')
@@ -4359,11 +4359,11 @@ $('#churnanacc')
 			number: 82.7,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		3500
+		2000
 	);
 
 $('#churnanpro')
@@ -4372,11 +4372,11 @@ $('#churnanpro')
 			number: 60,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(0).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		3500
+		2000
 	);
 
 	
@@ -4388,11 +4388,11 @@ $('#churnanpro')
 			number: 11.2,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted);
 			}
 		},
-		3500
+		2000
 	);
 
 $('#fraudacc')
@@ -4401,11 +4401,11 @@ $('#fraudacc')
 			number: 93.4,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		3500
+		2000
 	);
 
 $('#fraudpro')
@@ -4414,9 +4414,9 @@ $('#fraudpro')
 			number: 1.4,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text('$' + formatted + 'M');
 			}
 		},
-		3500
+		2000
 	);

@@ -2333,7 +2333,7 @@ display: block;  /* may not need this, but I've found I do */
 	font-size: 2.4em;
 	height: 200px;
 	line-height: 125px;
-	background-color: #2ca497;
+	background-color: #444;
 	color: #FFF;
 	font-weight: 600;
 	letter-spacing: 1px;
@@ -2705,7 +2705,7 @@ div[class*=box] {
 .stories-h1{
 	font-weight: 400;
 	font-size: 2.5em;
-	color: #d42c2c;
+	color: #018192;
 }
 
 .stories-p{
@@ -2725,5 +2725,15 @@ div[class*=box] {
 
 .counter {
 	font-weight: 400;
+}
+
+.stories-col_one_third { 
+	width: 30.63%; 
+	display: block;
+	position: relative;
+	margin-right: 2%;
+	margin-bottom: 3em; /* it was 50px */
+	float: left;
+	/* margin-left: 2%; */
 }
 
