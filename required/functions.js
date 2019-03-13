@@ -4188,7 +4188,7 @@ $('#predlift')
 				$(tween.elem).text(formatted);
 			}
 		},
-		4000
+		3500
 	);
 
 $('#predacc')
@@ -4201,7 +4201,7 @@ $('#predacc')
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		4000
+		3500
 	);
 
 $('#predpro')
@@ -4214,7 +4214,7 @@ $('#predpro')
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		4000
+		3500
 	);
 
 /* Purchase Propensity */
@@ -4228,7 +4228,7 @@ $('#purclift')
 				$(tween.elem).text(formatted);
 			}
 		},
-		4000
+		3500
 	);
 
 $('#purcacc')
@@ -4241,7 +4241,7 @@ $('#purcacc')
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		4000
+		3500
 	);
 
 $('#purcpro')
@@ -4254,5 +4254,169 @@ $('#purcpro')
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		4000
+		3500
+	);
+
+
+/* Sales/Profit Analysis */
+$('#salelift')
+	.animateNumber(
+		{
+			number: 1.3,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted);
+			}
+		},
+		3500
+	);
+
+$('#saleacc')
+	.animateNumber(
+		{
+			number: 6,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted + '%');
+			}
+		},
+		3500
+	);
+
+$('#salepro')
+	.animateNumber(
+		{
+			number: 370,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text('$' + formatted + 'K');
+			}
+		},
+		3500
+	);
+
+
+/* Churn */
+$('#churlift')
+	.animateNumber(
+		{
+			number: 6.3,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted);
+			}
+		},
+		3500
+	);
+
+$('#churacc')
+	.animateNumber(
+		{
+			number: 89.2,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted + '%');
+			}
+		},
+		3500
+	);
+
+$('#churpro')
+	.animateNumber(
+		{
+			number: 280,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text('$' + formatted + 'K');
+			}
+		},
+		3500
+	);
+
+/* Churn Analysis */
+$('#churnanlift')
+	.animateNumber(
+		{
+			number: 1.8,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted);
+			}
+		},
+		3500
+	);
+
+$('#churnanacc')
+	.animateNumber(
+		{
+			number: 82.7,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted + '%');
+			}
+		},
+		3500
+	);
+
+$('#churnanpro')
+	.animateNumber(
+		{
+			number: 60,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text('$' + formatted + 'K');
+			}
+		},
+		3500
+	);
+
+	
+	/* Fraud */
+
+	$('#fraudlift')
+	.animateNumber(
+		{
+			number: 11.2,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted);
+			}
+		},
+		3500
+	);
+
+$('#fraudacc')
+	.animateNumber(
+		{
+			number: 93.4,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted + '%');
+			}
+		},
+		3500
+	);
+
+$('#fraudpro')
+	.animateNumber(
+		{
+			number: 1.4,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text('$' + formatted + 'M');
+			}
+		},
+		3500
 	);
