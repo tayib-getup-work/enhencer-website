@@ -1344,7 +1344,7 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof pricing != 'undefined') {
 					pricing.classList.remove("row");
 				}
-				
+
 				if (typeof logoImage != 'undefined') {
 					for (var index = 0; index < logoImage.length; index++) {
 						var logo = logoImage[index];
@@ -2834,10 +2834,12 @@ var SEMICOLON = SEMICOLON || {};
 		},
 
 		runCounter: function (counterElement, counterElementComma) {
+			console.log(counterElement)
 			if (counterElementComma == true) {
 				counterElement.find('span').countTo({
 					formatter: function (value, options) {
 						value = value.toFixed(options.decimals);
+						console.log(options)
 						value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 						return value;
 					}
@@ -4104,72 +4106,153 @@ var SEMICOLON = SEMICOLON || {};
 /*jshint browser: true, strict: true, undef: true */
 /*global define: false */
 
-( function( window ) {
+(function (window) {
 
-'use strict';
+	'use strict';
 
-// class helper functions from bonzo https://github.com/ded/bonzo
+	// class helper functions from bonzo https://github.com/ded/bonzo
 
-function classReg( className ) {
-  return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
-}
+	function classReg(className) {
+		return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
+	}
 
-// classList support for class management
-// altho to be fair, the api sucks because it won't accept multiple classes at once
-var hasClass, addClass, removeClass;
+	// classList support for class management
+	// altho to be fair, the api sucks because it won't accept multiple classes at once
+	var hasClass, addClass, removeClass;
 
-if ( 'classList' in document.documentElement ) {
-  hasClass = function( elem, c ) {
-    return elem.classList.contains( c );
-  };
-  addClass = function( elem, c ) {
-    elem.classList.add( c );
-  };
-  removeClass = function( elem, c ) {
-    elem.classList.remove( c );
-  };
-}
-else {
-  hasClass = function( elem, c ) {
-    return classReg( c ).test( elem.className );
-  };
-  addClass = function( elem, c ) {
-    if ( !hasClass( elem, c ) ) {
-      elem.className = elem.className + ' ' + c;
-    }
-  };
-  removeClass = function( elem, c ) {
-    elem.className = elem.className.replace( classReg( c ), ' ' );
-  };
-}
+	if ('classList' in document.documentElement) {
+		hasClass = function (elem, c) {
+			return elem.classList.contains(c);
+		};
+		addClass = function (elem, c) {
+			elem.classList.add(c);
+		};
+		removeClass = function (elem, c) {
+			elem.classList.remove(c);
+		};
+	}
+	else {
+		hasClass = function (elem, c) {
+			return classReg(c).test(elem.className);
+		};
+		addClass = function (elem, c) {
+			if (!hasClass(elem, c)) {
+				elem.className = elem.className + ' ' + c;
+			}
+		};
+		removeClass = function (elem, c) {
+			elem.className = elem.className.replace(classReg(c), ' ');
+		};
+	}
 
-function toggleClass( elem, c ) {
-  var fn = hasClass( elem, c ) ? removeClass : addClass;
-  fn( elem, c );
-}
+	function toggleClass(elem, c) {
+		var fn = hasClass(elem, c) ? removeClass : addClass;
+		fn(elem, c);
+	}
 
-var classie = {
-  // full names
-  hasClass: hasClass,
-  addClass: addClass,
-  removeClass: removeClass,
-  toggleClass: toggleClass,
-  // short names
-  has: hasClass,
-  add: addClass,
-  remove: removeClass,
-  toggle: toggleClass
-};
+	var classie = {
+		// full names
+		hasClass: hasClass,
+		addClass: addClass,
+		removeClass: removeClass,
+		toggleClass: toggleClass,
+		// short names
+		has: hasClass,
+		add: addClass,
+		remove: removeClass,
+		toggle: toggleClass
+	};
 
-// transport
-if ( typeof define === 'function' && define.amd ) {
-  // AMD
-  define( classie );
-} else {
-  // browser global
-  window.classie = classie;
-}
+	// transport
+	if (typeof define === 'function' && define.amd) {
+		// AMD
+		define(classie);
+	} else {
+		// browser global
+		window.classie = classie;
+	}
 
-})( window );
+})(window);
 
 
+/* Stories Counter */
+
+/* Predictive Maintanance */
+$('#predlift')
+	.animateNumber(
+		{
+			number: 11.2,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted);
+			}
+		},
+		4000
+	);
+
+$('#predacc')
+	.animateNumber(
+		{
+			number: 93.4,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted + '%');
+			}
+		},
+		4000
+	);
+
+$('#predpro')
+	.animateNumber(
+		{
+			number: 90,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text('$' + formatted + 'K');
+			}
+		},
+		4000
+	);
+
+/* Purchase Propensity */
+$('#purclift')
+	.animateNumber(
+		{
+			number: 7,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted);
+			}
+		},
+		4000
+	);
+
+$('#purcacc')
+	.animateNumber(
+		{
+			number: 84.3,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text(formatted + '%');
+			}
+		},
+		4000
+	);
+
+$('#purcpro')
+	.animateNumber(
+		{
+			number: 140,
+			numberStep: function (now, tween) {
+				// see http://stackoverflow.com/a/14428340
+				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				$(tween.elem).text('$' + formatted + 'K');
+			}
+		},
+		4000
+	);
