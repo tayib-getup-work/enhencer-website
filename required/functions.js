@@ -4184,7 +4184,7 @@ $('#predlift')
 			number: 11.2,
 			numberStep: function (now, tween) {
 				// see http://stackoverflow.com/a/14428340
-				var formatted = now.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+				var formatted = now.toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 				$(tween.elem).text(formatted);
 			}
 		},
