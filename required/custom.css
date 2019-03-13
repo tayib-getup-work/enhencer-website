@@ -2732,7 +2732,7 @@ div[class*=box] {
 	display: block;
 	position: relative;
 	margin-right: 2%;
-	margin-bottom: 3em; /* it was 50px */
+	margin-bottom: 2.5em; /* it was 50px */
 	float: left;
 	/* margin-left: 2%; */
 }
