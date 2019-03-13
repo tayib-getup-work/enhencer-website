@@ -478,9 +478,9 @@ var SEMICOLON = SEMICOLON || {};
 					}
 
 					if (!elementDelay) {
-						elementDelay = 2000;
+						elementDelay = 1000;
 					} else {
-						elementDelay = Number(elementDelay) + 2000;
+						elementDelay = Number(elementDelay) + 1000;
 					}
 
 					var t = setTimeout(function () {
@@ -591,7 +591,7 @@ var SEMICOLON = SEMICOLON || {};
 
 			if (!animationIn) { animationIn = 'fadeIn'; }
 			if (!animationOut) { animationOut = 'fadeOut'; }
-			if (!durationIn) { durationIn = 2000; }
+			if (!durationIn) { durationIn = 1000; }
 			if (!durationOut) { durationOut = 800; }
 			if (!loaderStyleHtml) { loaderStyleHtml = '<div class="css3-spinner-bounce1"></div><div class="css3-spinner-bounce2"></div><div class="css3-spinner-bounce3"></div>'; }
 
@@ -2873,7 +2873,7 @@ var SEMICOLON = SEMICOLON || {};
 					var roundSkillTrackColor = element.attr('data-trackcolor');
 
 					if (!roundSkillSize) { roundSkillSize = 140; }
-					if (!roundSkillSpeed) { roundSkillSpeed = 2000; }
+					if (!roundSkillSpeed) { roundSkillSpeed = 1000; }
 					if (!roundSkillWidth) { roundSkillWidth = 8; }
 					if (!roundSkillColor) { roundSkillColor = '#0093BF'; }
 					if (!roundSkillTrackColor) { roundSkillTrackColor = 'rgba(0,0,0,0.04)'; }
@@ -4188,7 +4188,7 @@ $('#predlift')
 				$(tween.elem).text(formatted);
 			}
 		},
-		2000
+		1000
 	);
 
 $('#predacc')
@@ -4201,7 +4201,7 @@ $('#predacc')
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		2000
+		1000
 	);
 
 $('#predpro')
@@ -4214,7 +4214,7 @@ $('#predpro')
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		2000
+		1000
 	);
 
 /* Purchase Propensity */
@@ -4228,7 +4228,7 @@ $('#purclift')
 				$(tween.elem).text(formatted);
 			}
 		},
-		2000
+		1000
 	);
 
 $('#purcacc')
@@ -4241,7 +4241,7 @@ $('#purcacc')
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		2000
+		1000
 	);
 
 $('#purcpro')
@@ -4254,7 +4254,7 @@ $('#purcpro')
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		2000
+		1000
 	);
 
 
@@ -4269,7 +4269,7 @@ $('#salelift')
 				$(tween.elem).text(formatted);
 			}
 		},
-		2000
+		1000
 	);
 
 $('#saleacc')
@@ -4282,7 +4282,7 @@ $('#saleacc')
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		2000
+		1000
 	);
 
 $('#salepro')
@@ -4295,7 +4295,7 @@ $('#salepro')
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		2000
+		1000
 	);
 
 
@@ -4310,7 +4310,7 @@ $('#churlift')
 				$(tween.elem).text(formatted);
 			}
 		},
-		2000
+		1000
 	);
 
 $('#churacc')
@@ -4323,7 +4323,7 @@ $('#churacc')
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		2000
+		1000
 	);
 
 $('#churpro')
@@ -4336,7 +4336,7 @@ $('#churpro')
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		2000
+		1000
 	);
 
 /* Churn Analysis */
@@ -4350,7 +4350,7 @@ $('#churnanlift')
 				$(tween.elem).text(formatted);
 			}
 		},
-		2000
+		1000
 	);
 
 $('#churnanacc')
@@ -4363,7 +4363,7 @@ $('#churnanacc')
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		2000
+		1000
 	);
 
 $('#churnanpro')
@@ -4376,7 +4376,7 @@ $('#churnanpro')
 				$(tween.elem).text('$' + formatted + 'K');
 			}
 		},
-		2000
+		1000
 	);
 
 	
@@ -4392,7 +4392,7 @@ $('#churnanpro')
 				$(tween.elem).text(formatted);
 			}
 		},
-		2000
+		1000
 	);
 
 $('#fraudacc')
@@ -4405,7 +4405,7 @@ $('#fraudacc')
 				$(tween.elem).text(formatted + '%');
 			}
 		},
-		2000
+		1000
 	);
 
 $('#fraudpro')
@@ -4418,5 +4418,5 @@ $('#fraudpro')
 				$(tween.elem).text('$' + formatted + 'M');
 			}
 		},
-		2000
+		1000
 	);
