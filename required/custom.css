@@ -2114,11 +2114,19 @@ display: block;  /* may not need this, but I've found I do */
   background-image: url("images/enhencer_white.svg");
 }
 
+.cover{
+	background-size: cover !important;
+	width: 100vw; height: 108vh;
+	object-fit: cover;
+}
+
 .blog-title-centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 4em; 
+	color: white;
 }
 .blog-link{
 	color: #2ca497;
@@ -2255,7 +2263,7 @@ display: block;  /* may not need this, but I've found I do */
 	position: absolute;
 	position: absolute;
 	font-size: 1.3em;
-	top: 75%;
+	top: 65%;
 	width: 100%;
 }
 
@@ -2294,6 +2302,28 @@ display: block;  /* may not need this, but I've found I do */
 	width: 250px;
 	width: 250px;
 	text-align: right;
+}
+
+.blog-spread-the-word{
+	text-align: right;
+	margin-right: 1.6%;
+}
+
+.blog-subscribe{
+	text-align: center; 
+	padding-left: 0px; 
+	width: 200px; 
+	height: 50px; 
+	padding-right: 0px;
+	background-color: transparent !important;
+}
+
+.blog-subscribe-text{
+	font-size: 1.3em; 
+	text-align: center; 
+	margin-top: 2px;
+	color: white; 
+	background-color: transparent !important;
 }
 
 .blog-article-date:before{
@@ -2423,7 +2453,7 @@ body {
 /* Blog Read More Arrow */
 .arrows {
 	width: 60px;
-	height: 72px;
+	height: 75px;
 	position: absolute;
 	left: 50%;
 	margin-left: -30px;

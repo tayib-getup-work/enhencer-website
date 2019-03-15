@@ -21901,7 +21901,10 @@ body:not(.device-touch) .social-icon i {
 	font-size: 13px;
 }
 
-.si-share div { float: right; }
+.si-share div { 
+	float: right; 
+	margin-right: -2.4%;
+}
 
 .si-share .social-icon {
 	margin: -1px 0;
