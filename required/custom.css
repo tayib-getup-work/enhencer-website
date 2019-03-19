@@ -2263,7 +2263,7 @@ display: block;  /* may not need this, but I've found I do */
 	position: absolute;
 	position: absolute;
 	font-size: 1.3em;
-	top: 65%;
+	top: 75%;
 	width: 100%;
 }
 
@@ -2746,8 +2746,9 @@ div[class*=box] {
 }
 
 .stories-h5{
-	font-size: 0.7em;
-	font-weight: 400;
+	font-size: 2em !important;
+	font-weight: 400 !important;
+	margin-top:10px;
 }
 
 .counter.counter-small {
@@ -2766,5 +2767,38 @@ div[class*=box] {
 	margin-bottom: 2.5em; /* it was 50px */
 	float: left;
 	margin-left: 1%;
+	text-align: center;
 }
+
+.storie-k-space{
+	font-size: 2.3em;
+	margin-left:-2%
+}
+
+.storie-dollar-space{
+	font-size: 2.3em;
+}
+
+.stories-bold{
+	color:#29887d;
+}
+
+.stories-background{
+	/* background-image: url(../images/stories.jpg); */
+	background-color: #eee;
+	width: 100%;
+	height: 250px;  
+	background-size: cover; 
+	background-position: center;
+}
+
+.stories-header{
+	font-size: 4.4em;
+	color: #444444;
+	font-family: sans-serif;
+	padding-top: 80px;
+	width: 650px"
+}
+
+
 

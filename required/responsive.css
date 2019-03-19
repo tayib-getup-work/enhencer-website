@@ -1898,6 +1898,11 @@
 	.author-position {
 		font-size: 1em;
 	}
+
+	.blog-read-more {
+		top: 65%;
+	}
+	
 	
 
 }

@@ -9163,7 +9163,7 @@ ul.tab-nav:not(.tab-nav-lg) li {
 	border: 1px solid #DDD;
 	border-bottom: 0;
 	border-left: 0;
-	height: 41px;
+	height: 60px;
 	text-align: center;
 }
 
@@ -9215,7 +9215,10 @@ ul.tab-nav:not(.tab-nav-lg) li.ui-tabs-active a {
 	border-top: 2px solid #1ABC9C;
 }
 
-.tabs.tabs-alt.tabs-tb ul.tab-nav li.ui-tabs-active a { height: 42px; }
+.tabs.tabs-alt.tabs-tb ul.tab-nav li.ui-tabs-active a { 
+	height: 60px; 
+	color: #29887d;
+}
 
 
 /* Tabs - Bottom Border
@@ -10308,9 +10311,9 @@ body:not(.device-touch) .team-overlay {
 
 .counter + h5 {
 	font-weight: 400;
-	text-transform: uppercase;
+	/* text-transform: uppercase;
 	letter-spacing: 1px;
-	margin-top: 10px;
+	margin-top: 10px; */
 }
 
 .counter.counter-lined + h5:before {
