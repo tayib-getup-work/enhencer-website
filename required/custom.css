@@ -2800,5 +2800,11 @@ div[class*=box] {
 	width: 650px"
 }
 
+.stories-tab-top{
+	display: inherit;
+  text-align: -webkit-center;
+}
 
-
+.stories-tab-body{
+	padding-top:120px;
+}

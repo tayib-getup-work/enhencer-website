@@ -1903,7 +1903,31 @@
 		top: 65%;
 	}
 	
+	ul.tab-nav:not(.tab-nav-lg) {
+		display: grid;
+	}
 	
+	.stories-tab-top{
+		display: grid;
+		/* text-align: -webkit-center; */
+	}
+	
+	.stories-col_one_third { 
+		width: 100%;
+		display: inline-block;
+		position: relative;
+		margin-right: 2%;
+		margin-bottom: 2.5em; /* it was 50px */
+		margin-left: 1%;
+		text-align: center;
+	}
+	.stories-tab-body{
+		padding-top:0px;
+	}
+
+	.stories-header{
+		padding-top: 40px;
+	}
 
 }
 
