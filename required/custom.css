@@ -2746,13 +2746,13 @@ div[class*=box] {
 }
 
 .stories-h5{
-	font-size: 2em !important;
+	font-size: 1.5em !important;
 	font-weight: 400 !important;
 	margin-top:10px;
 }
 
 .counter.counter-small {
-	font-size: 2.5em;
+	font-size: 3em;
 }
 
 .counter {
@@ -2807,4 +2807,18 @@ div[class*=box] {
 
 .stories-tab-body{
 	padding-top:120px;
+}
+
+.product-propensity-stories{
+	content: '';
+	background: url(../images/icons/services/icons8-rent-50.svg) no-repeat;
+	position: relative;
+	z-index: 100000;
+	top: 22px;
+	zoom: 50%;
+	background-size: 80px !important;
+	width: 80px !important;
+	height: 80px !important;
+	visibility: visible;
+	display: inline-block;
 }

@@ -9149,13 +9149,14 @@ body:not(.device-touch) .social-icon i {
 
 .tabs {
 	position: relative;
-	margin: 0 0 30px 0;
+	margin: -185px 0 30px 0;
 }
 
 ul.tab-nav:not(.tab-nav-lg) {
 	margin: 0;
-	border-bottom: 1px solid #DDD;
+	/* border-bottom: 2px solid #b5b5b5; */
 	list-style: none;
+	margin-left: 10%;
 }
 
 ul.tab-nav:not(.tab-nav-lg) li {
@@ -9163,8 +9164,9 @@ ul.tab-nav:not(.tab-nav-lg) li {
 	border: 1px solid #DDD;
 	border-bottom: 0;
 	border-left: 0;
-	height: 60px;
+	height: 125px;
 	text-align: center;
+	margin-left: 3% !important;
 }
 
 ul.tab-nav:not(.tab-nav-lg) li:first-child {
@@ -9174,14 +9176,21 @@ ul.tab-nav:not(.tab-nav-lg) li:first-child {
 
 ul.tab-nav:not(.tab-nav-lg) li a {
 	display: block;
-	padding: 0 15px;
+	padding: 0 38px;
 	color: #444;
-	height: 40px;
-	line-height: 40px;
+	height: 125px;
+	line-height: 125px;
 	background-color: #F2F2F2;
 	font-size: 14px;
 	font-weight: bold;
+	border: 1px solid #b5b5b5;
+	transition: none !important;
 }
+
+ul.tab-nav:not(.tab-nav-lg) li a p {
+padding-top: 12px;
+}
+
 
 ul.tab-nav:not(.tab-nav-lg) li.ui-tabs-active a {
 	position: relative;
@@ -9193,11 +9202,14 @@ ul.tab-nav:not(.tab-nav-lg) li.ui-tabs-active a {
 /* Tabs - Alternate Nav
 -----------------------------------------------------------------*/
 
-.tabs.tabs-alt ul.tab-nav li { border-color: transparent; }
+.tabs.tabs-alt ul.tab-nav li { 
+	border-color: transparent; 
+	width: 150px !important;
+}
 
 .tabs.tabs-alt ul.tab-nav li:first-child { border-left: 0; }
 
-.tabs.tabs-alt ul.tab-nav li a { background-color: #FFF; }
+.tabs.tabs-alt ul.tab-nav li a { background-color: #d2d2d2; }
 
 .tabs.tabs-alt ul.tab-nav li.ui-tabs-active a {
 	border: 1px solid #DDD;
@@ -9212,12 +9224,21 @@ ul.tab-nav:not(.tab-nav-lg) li.ui-tabs-active a {
 	top: -1px;
 	height: 43px;
 	line-height: 38px;
-	border-top: 2px solid #1ABC9C;
+	border-top: 3px solid #1ABC9C;
+	background-color: white;
 }
 
-.tabs.tabs-alt.tabs-tb ul.tab-nav li.ui-tabs-active a { 
-	height: 60px; 
+.tabs.tabs-alt.tabs-tb ul.tab-nav li.ui-tabs-active a {
+	height: 125px; 
 	color: #29887d;
+	transition: none !important;
+	padding-top:18px;
+}
+.tabs.tabs-alt.tabs-tb ul.tab-nav li.ui-tabs-active a p { 
+	height: 125px; 
+	color: #29887d;
+	transition: none !important;
+	padding-top:55px;
 }
 
 
@@ -9341,12 +9362,12 @@ ul.tab-nav-lg.tab-nav-section li.ui-tabs-active:before {
 
 .tab-container {
 	position: relative;
-	padding: 20px 0 0;
+	padding: 110px 0 0;
 }
 
 ul.tab-nav li a i {
 	position: relative;
-	top: 1px;
+	top: 15px;
 	font-size: 14px;
 	margin-right: 3px;
 }
