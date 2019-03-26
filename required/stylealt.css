@@ -9176,14 +9176,14 @@ ul.tab-nav:not(.tab-nav-lg) li:first-child {
 
 ul.tab-nav:not(.tab-nav-lg) li a {
 	display: block;
-	padding: 0 15px;
+	padding: 0 38px;
 	color: #444;
 	height: 125px;
 	line-height: 125px;
 	background-color: #F2F2F2;
 	font-size: 14px;
 	font-weight: bold;
-	/* border: 1px solid #b5b5b5; */
+	border: 1px solid #b5b5b5;
 	transition: none !important;
 }
 
