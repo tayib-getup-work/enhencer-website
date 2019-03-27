@@ -1929,6 +1929,30 @@
 		padding-top: 40px;
 	}
 
+	.tabs {
+		display: grid;
+	}
+
+	.connect-heading {
+    font-size: 40px !important;
+    text-align: center;
+		top: 33%;
+	}
+
+	ul.tab-nav:not(.tab-nav-lg) li {
+		margin-left: 0% !important;
+	}
+
+	.connect-h4{
+		text-align: center;
+		margin-left: 0%;
+		margin-right: 8%;
+	}
+
+	.faq-col_half{
+		display: contents;
+	}
+
 }
 
 

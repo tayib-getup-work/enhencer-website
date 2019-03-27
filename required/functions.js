@@ -1471,6 +1471,9 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof homesliderbuttons != 'undefined') {
 					homesliderbuttons.classList.add("home-slider-button-mobile-center");
 				}
+				if (typeof aboutusmission != 'undefined') {
+					aboutusmission.classList.remove("row");
+				}
 			}
 		},
 
