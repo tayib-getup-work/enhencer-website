@@ -1311,7 +1311,7 @@ var SEMICOLON = SEMICOLON || {};
 				if (retinaLogoImg) { defaultLogo.find('img').attr('src', retinaLogoImg); }
 			}
 			if ($body.hasClass('device-sm') || $body.hasClass('device-xs')) {
-				// if (defaultMobileLogo) { defaultLogo.find('img').attr('src', defaultMobileLogo); }
+				if (defaultMobileLogo) { defaultLogo.find('img').attr('src', defaultMobileLogo); }
 				if (retinaMobileLogo) { retinaLogo.find('img').attr('src', retinaMobileLogo); }
 			}
 		},
@@ -4042,7 +4042,7 @@ var SEMICOLON = SEMICOLON || {};
 		oldHeaderWrapAlternateClasses = $headerWrapAlternate.attr('class'),
 		stickyMenuClasses = $header.attr('data-sticky-class'),
 		responsiveMenuClasses = $header.attr('data-responsive-class'),
-		defaultLogo = $('#logo').find('.standard-logo'),
+		defaultLogo = $('#logo').find('.retina-logo'),
 		defaultLogoWidth = defaultLogo.find('img').outerWidth(),
 		retinaLogo = $('#logo').find('.retina-logo'),
 		defaultLogoImg = defaultLogo.find('img').attr('src'),
@@ -4051,7 +4051,7 @@ var SEMICOLON = SEMICOLON || {};
 		retinaDarkLogo = retinaLogo.attr('data-dark-logo'),
 		defaultStickyLogo = defaultLogo.attr('data-sticky-logo'),
 		retinaStickyLogo = retinaLogo.attr('data-sticky-logo'),
-		defaultMobileLogo = defaultLogo.attr('data-mobile-logo'),
+		defaultMobileLogo = defaultLogo.attr('data-dark-logo'),
 		retinaMobileLogo = retinaLogo.attr('data-dark-logo'),
 		$pagemenu = $('#page-menu'),
 		$onePageMenuEl = $('.one-page-menu'),
