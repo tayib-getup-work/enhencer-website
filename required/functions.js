@@ -1314,6 +1314,12 @@ var SEMICOLON = SEMICOLON || {};
 				if (defaultMobileLogo) { defaultLogo.find('img').attr('src', defaultMobileLogo); }
 				if (retinaMobileLogo) { retinaLogo.find('img').attr('src', retinaMobileLogo); }
 			}
+			if(SEMICOLON.isMobile.any()) {
+				if (retinaDarkLogo) { retinaLogo.find('img').attr('src', retinaDarkLogo); }
+				if (defaultDarkLogo) { defaultLogo.find('img').attr('src', retinaDarkLogo); }
+				if (defaultLogoImg) { defaultLogo.find('img').attr('src', retinaLogoImg); }
+				if (retinaLogoImg) { retinaLogo.find('img').attr('src', retinaLogoImg); }
+			}
 		},
 		ScrollRevealAdder: function () {
 		},
@@ -3847,14 +3853,6 @@ var SEMICOLON = SEMICOLON || {};
 				$body.addClass('device-touch');
 
 			}
-			// var el = {
-			//     darkLogo : $("<img>", {src: defaultDarkLogo}),
-			//     darkRetinaLogo : $("<img>", {src: retinaDarkLogo})
-			// };
-			// el.darkLogo.prependTo("body");
-			// el.darkRetinaLogo.prependTo("body");
-			// el.darkLogo.css({'position':'absolute','z-index':'-100'});
-			// el.darkRetinaLogo.css({'position':'absolute','z-index':'-100'});
 		}
 
 	};
@@ -4042,7 +4040,7 @@ var SEMICOLON = SEMICOLON || {};
 		oldHeaderWrapAlternateClasses = $headerWrapAlternate.attr('class'),
 		stickyMenuClasses = $header.attr('data-sticky-class'),
 		responsiveMenuClasses = $header.attr('data-responsive-class'),
-		defaultLogo = $('#logo').find('.retina-logo'),
+		defaultLogo = $('#logo').find('.standard-logo'),
 		defaultLogoWidth = defaultLogo.find('img').outerWidth(),
 		retinaLogo = $('#logo').find('.retina-logo'),
 		defaultLogoImg = defaultLogo.find('img').attr('src'),
@@ -4051,8 +4049,8 @@ var SEMICOLON = SEMICOLON || {};
 		retinaDarkLogo = retinaLogo.attr('data-dark-logo'),
 		defaultStickyLogo = defaultLogo.attr('data-sticky-logo'),
 		retinaStickyLogo = retinaLogo.attr('data-sticky-logo'),
-		defaultMobileLogo = defaultLogo.attr('data-dark-logo'),
-		retinaMobileLogo = retinaLogo.attr('data-dark-logo'),
+		defaultMobileLogo = defaultLogo.attr('data-mobile-logo'),
+		retinaMobileLogo = retinaLogo.attr('data-mobile-logo'),
 		$pagemenu = $('#page-menu'),
 		$onePageMenuEl = $('.one-page-menu'),
 		onePageGlobalOffset = 0,
