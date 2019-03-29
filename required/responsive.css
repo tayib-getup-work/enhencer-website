@@ -2040,7 +2040,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) and (max-width: 575.98px),
 only screen and (        min-device-pixel-ratio: 2) and (max-width: 575.98px),
 only screen and (                min-resolution: 192dpi) and (max-width: 575.98px),
 only screen and (                min-resolution: 2dppx) and (max-width: 575.98px) {
-	#logo a.standard-logo { display: none; }
-	#logo a.retina-logo { display: inline-block; }
+	#logo a.standard-logo { display: inline-block; }
+	#logo a.retina-logo { display: none; }
 }
 
