@@ -1953,6 +1953,43 @@
 		display: contents;
 	}
 
+	.stories-border-right{
+		border-right: none;
+	}
+
+	ul.tab-nav:not(.tab-nav-lg) li a p {
+    margin-top: 15px;
+		margin-left: 0%;
+		margin-bottom: 15px !important;
+	}
+	.stories-tab-icons{
+		font-size: 2em !important;
+		float: left;
+	}
+	.tabs.tabs-tb ul.tab-nav li.ui-tabs-active a {
+	 height:auto;
+	}
+
+	.side-tabs ul.tab-nav li.ui-tabs-active a {
+		top: 0;
+		right: 0px;
+	}
+
+	.side-tabs ul.tab-nav li {
+		text-align: center;
+	}
+
+	.stories-pred{
+		width: auto;
+	}
+
+	.stories-background {
+    background-color: #fff;
+		height: 80px;
+	}
+
+
+
 }
 
 

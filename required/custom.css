@@ -2754,6 +2754,18 @@ div[class*=box] {
 	padding-right: 20px;
 }
 
+.stories-border-right{
+	border-right: 2px solid #00000082;
+}
+
+.stories-tab-icons{
+	font-size: 2.7em !important;
+}
+
+.stories-pred{
+	width: 94px;
+}
+
 .stories-h5{
 	font-size: 2.5em !important;
 	font-weight: 400 !important;
@@ -2827,7 +2839,7 @@ div[class*=box] {
 	/* background-image: url(../images/stories.jpg); */
 	background-color: #eee;
 	width: 100%;
-	height: 250px;  
+	height: 175px;  
 	background-size: cover; 
 	background-position: center;
 }

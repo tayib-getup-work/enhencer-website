@@ -1480,6 +1480,12 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof aboutusmission != 'undefined') {
 					aboutusmission.classList.remove("row");
 				}
+				if (typeof storiestab != 'undefined') {
+					storiestab.classList.remove("tabs-alt");
+				}
+				if (typeof storiestab != 'undefined') {
+					storiestab.classList.add("side-tabs");
+				}
 			}
 		},
 
