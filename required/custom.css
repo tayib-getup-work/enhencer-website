@@ -2737,6 +2737,7 @@ div[class*=box] {
 	font-weight: 400;
 	font-size: 2.5em;
 	color: #018192;
+	text-align: center;
 }
 
 .stories-p{
@@ -2748,7 +2749,7 @@ div[class*=box] {
 .stories-h5{
 	font-size: 1.5em !important;
 	font-weight: 400 !important;
-	margin-top:10px;
+	line-height: 150px;
 }
 
 .counter.counter-small {
@@ -2821,6 +2822,24 @@ div[class*=box] {
 	height: 80px !important;
 	visibility: visible;
 	display: inline-block;
+}
+
+.circle {
+  background: #fff;
+  border-radius: 50%;
+  height: 150px;
+	width: 150px;
+	border: 1px solid black;
+}
+
+.circle-content {
+  color: #333;
+  float: left;
+  line-height: 1;
+  margin-top: -0.5em;
+  padding-top: 50%;
+  text-align: center;
+  width: 100%;
 }
 
 

@@ -9188,7 +9188,8 @@ ul.tab-nav:not(.tab-nav-lg) li a {
 }
 
 ul.tab-nav:not(.tab-nav-lg) li a p {
-padding-top: 12px;
+    margin-top: -185px;
+	margin-left: -6%;
 }
 
 
@@ -9234,11 +9235,12 @@ ul.tab-nav:not(.tab-nav-lg) li.ui-tabs-active a {
 	transition: none !important;
 	padding-top:18px;
 }
+
 .tabs.tabs-alt.tabs-tb ul.tab-nav li.ui-tabs-active a p { 
 	height: 125px; 
 	color: #29887d;
 	transition: none !important;
-	padding-top:55px;
+	margin-top: -142px;
 }
 
 
@@ -9362,7 +9364,7 @@ ul.tab-nav-lg.tab-nav-section li.ui-tabs-active:before {
 
 .tab-container {
 	position: relative;
-	padding: 110px 0 0;
+	padding: 50px 0 0;
 }
 
 ul.tab-nav li a i {
