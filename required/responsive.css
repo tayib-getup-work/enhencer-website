@@ -2033,7 +2033,7 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991.98px
 	#logo a.standard-logo { display: block; }
 	#logo a.retina-logo { display: inline-block; }
 }
-/* @media
+@media
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 575.98px),
 only screen and (   min--moz-device-pixel-ratio: 2) and (max-width: 575.98px),
 only screen and (     -o-min-device-pixel-ratio: 2/1) and (max-width: 575.98px),
@@ -2043,4 +2043,4 @@ only screen and (                min-resolution: 2dppx) and (max-width: 575.98px
 	#logo a.standard-logo { display: none; }
 	#logo a.retina-logo { display: inline-block; }
 }
- */
+

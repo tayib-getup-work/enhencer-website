@@ -1311,7 +1311,7 @@ var SEMICOLON = SEMICOLON || {};
 				if (retinaLogoImg) { defaultLogo.find('img').attr('src', retinaLogoImg); }
 			}
 			if ($body.hasClass('device-sm') || $body.hasClass('device-xs')) {
-				if (defaultMobileLogo) { defaultLogo.find('img').attr('src', defaultMobileLogo); }
+				// if (defaultMobileLogo) { defaultLogo.find('img').attr('src', defaultMobileLogo); }
 				if (retinaMobileLogo) { retinaLogo.find('img').attr('src', retinaMobileLogo); }
 			}
 		},
@@ -3845,7 +3845,7 @@ var SEMICOLON = SEMICOLON || {};
 			});
 			if (SEMICOLON.isMobile.any()) {
 				$body.addClass('device-touch');
-				
+
 			}
 			// var el = {
 			//     darkLogo : $("<img>", {src: defaultDarkLogo}),
@@ -4383,10 +4383,10 @@ $('#churnanpro')
 		1000
 	);
 
-	
-	/* Fraud */
 
-	$('#fraudlift')
+/* Fraud */
+
+$('#fraudlift')
 	.animateNumber(
 		{
 			number: 11.2,
