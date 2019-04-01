@@ -2855,7 +2855,6 @@ div[class*=box] {
 .stories-tab-top{
 	display: inherit;
 	text-align: -webkit-center;
-	/* margin-left:20%; */
 }
 
 .stories-tab-body{
@@ -2920,3 +2919,18 @@ div[class*=box] {
 	margin-top: 8px;
 }
 
+
+/* Home Page Custom CSS */
+
+.rotating-words{
+	font-weight:500; 
+	font-size: 2.2em !important;  
+	text-transform: none !important;
+	color: #777;
+}
+
+.feature-box h2{
+	font-weight: 400 !important; 
+	font-size: 1.5em; 
+	margin-top: 65px;
+}

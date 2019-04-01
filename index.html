@@ -34,11 +34,11 @@
 		type="text/css" /> -->
 	<link rel="stylesheet" href="required/googlefonts.min.css" type="text/css" />
 	<link rel="stylesheet" href="required/bootstrap.min.css" type="text/css" />
-	<link rel="stylesheet" href="required/style.css" type="text/css" />
-	<link rel="stylesheet" href="required/custom.css" type="text/css" />
+	<link rel="stylesheet" href="required/style.min.css" type="text/css" />
+	<link rel="stylesheet" href="required/custom.min.css" type="text/css" />
 	<link rel="shortcut icon" type="image/ico" href="./images/icons/favicon.ico" />
 	<!-- Bootstrap Switch CSS -->
-	<link rel="stylesheet" href="required/responsive.css" type="text/css" />
+	<link rel="stylesheet" href="required/responsive.min.css" type="text/css" />
 	<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 	<!-- Seo Demo Specific Stylesheet -->
 	<link rel="stylesheet" href="css/colors.php?color=FE9603" type="text/css" /> <!-- Theme Color -->
@@ -190,7 +190,7 @@
 							<div class="col-lg-6 col-md-8">
 								<div id="sliderTitle" class="slider-title" style="width:680px;">
 									<!-- <div class="badge badge-pill badge-default">SEO Ready</div> -->
-									<h2 id="mainTitle" class="main-title home-slider-title">Predictive Storyteller</h2>
+									<h1 id="mainTitle" class="main-title home-slider-title">Predictive Storyteller</h1>
 									<h3 id="mainsubTitleInfo"
 										class="mb-2 content-text main-title-info home-slider-subtitle">
 										<span style="color: #777;">
@@ -416,18 +416,17 @@
 				<br>
 				<div class="container clearfix py-8">
 					<div class="heading-block nobottomborder center divcenter mb-0 clearfix" style="width:74%">
-						<h3 id="featureTitle"
-							class="text-rotater mb-2 content-text main-title-info home-slider-subtitle"
-							data-separator="," data-rotate="fadeIn" data-speed="3000"
-							style="font-weight:500; font-size: 1.8em !important;  text-transform: none !important;">
+						<p id="featureTitle"
+							class="text-rotater mb-2 content-text main-title-info home-slider-subtitle rotating-words"
+							data-separator="," data-rotate="fadeIn" data-speed="3000">
 							<span class="t-rotate" style="color:#228E9F;">
 								Revolutionary, Effortless, Fastest
 							</span>
 							<span style="color: #777;">
 								way of communication between business users
 							</span>
-							<p style="color: #777;">to make predictions.</p>
-						</h3>
+							<p class="rotating-words">to make predictions.</p>
+						</p>
 					</div>
 					<br>
 					<div id="features" class="row">
@@ -437,7 +436,7 @@
 									<a><img src="demos/seo/images/icons/optimizing.svg" alt="Feature Icon"
 											class="nobg noradius"></a>
 								</div>
-								<h3 class="nott ls0" style="font-weight: 400; font-size: 1.5em; margin-top: 65px;">
+								<h3 class="nott ls0 home-h2-featues">
 									Automated Machine Learning</h3>
 								<p>Millions of hours are being spent to learn machine learning from courses, and coding
 									in Python or R.
@@ -450,7 +449,7 @@
 									<a><img src="demos/seo/images/icons/research.svg" alt="Feature Icon"
 											class="nobg noradius"></a>
 								</div>
-								<h3 class="nott ls0" style="font-weight: 400; font-size: 1.5em; margin-top: 65px;">
+								<h3 class="nott ls0 home-h2-featues">
 									Transparent Models</h3>
 								<p>Traditional tools generate incomprehensible outputs. Enhencer lays out causalities in
 									the data before your
@@ -467,7 +466,7 @@
 									<a><img src="demos/seo/images/icons/result.svg" alt="Feature Icon"
 											class="nobg noradius"></a>
 								</div>
-								<h3 class="nott ls0" style="font-weight: 400; font-size: 1.5em; margin-top: 65px;">Quick
+								<h3 class="nott ls0 home-h2-featues">Quick
 									Fit</h3>
 								<p>Predictive modeling has become essential to any modern business department. Fastest
 									and easiest way to
@@ -607,9 +606,9 @@
 						<div class="central">
 							<hr style="border-color:white; width:10%;">
 						</div>
-						<h2 style="text-align: center; color: white; font-weight: 300; font-size: 2.5em;">
+						<h1 style="text-align: center; color: white; font-weight: 300; font-size: 2.5em;">
 							Unveil
-							predictive stories hidden in your data</h2>
+							predictive stories hidden in your data</h1>
 						<a class="play-btn" href="https://www.youtube.com/watch?v=AOzeCMZB9Mg&t=1s" target="_blank"></a>
 					</div>
 				</div>
@@ -744,7 +743,7 @@
 
 			<!-- Footer Scripts
 	============================================= -->
-			<script src="required/functions.js"></script>
+			<script src="required/functions.min.js"></script>
 			<script>
 				$(document).ready(function () {
 					$("#footerContent").load("footer-index.html");

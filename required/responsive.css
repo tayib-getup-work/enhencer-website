@@ -1988,6 +1988,13 @@
 		height: 80px;
 	}
 
+	ul.tab-nav:not(.tab-nav-lg) {
+		margin: 0;
+		/* border-bottom: 2px solid #b5b5b5; */
+		list-style: none;
+		margin-left: 6.5%;
+	}
+
 
 
 }
