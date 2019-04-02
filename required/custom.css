@@ -2830,7 +2830,7 @@ div[class*=box] {
 	margin: -2px 11px 0 0;
 	text-align: center !important;
 	font-size: 20px;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	/* text-shadow: 1px 1px 1px rgba(0,0,0,0.3); */
 	/* cursor: pointer; */
 	font-style: normal;
 }
@@ -2880,7 +2880,7 @@ div[class*=box] {
   border-radius: 50%;
   height: 125px;
 	width: 125px;
-	border: 2px solid #333;
+	/* border: 2px solid #333; */
 	margin-bottom:50px;
 }
 
@@ -2933,4 +2933,19 @@ div[class*=box] {
 	font-weight: 400 !important; 
 	font-size: 1.5em; 
 	margin-top: 65px;
+}
+
+.home-stories-headings{
+	font-size: 1.7em !important;
+	width: max-content;
+	margin-left: 2% !important;
+}
+
+.home-stories-p{
+  font-size: 1.1em;
+	margin-left: 2% !important;
+}
+
+.home-stories-icon{
+	top:-17px;
 }

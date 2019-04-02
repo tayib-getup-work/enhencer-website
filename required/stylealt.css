@@ -7517,7 +7517,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box .fbox-icon i,
 .feature-box .fbox-icon img {
 	border-radius: 50%;
-	background-color: #1ABC9C;
+	background-color: #2ca497;
 }
 
 .feature-box .fbox-icon i {
@@ -9406,7 +9406,7 @@ ul.tab-nav li a i {
 		width: 330px;
 		padding: 20px 0;
 		border-bottom: 0;
-		border-right: 1px solid #DDD;
+		/* border-right: 1px solid #DDD; */
 	}
 	.card {
 		display: block; 
@@ -10336,6 +10336,7 @@ body:not(.device-touch) .team-overlay {
 
 .counter + h5 {
 	font-weight: 400;
+	font-size: 1.5em;
 	/* text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-top: 10px; */
@@ -21280,10 +21281,11 @@ small,
 
 .slider-title p,
 .feature-box.fbox-center p {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	line-height: 1.7;
 	color: #777;
 	letter-spacing: 0;
+	text-align: center;
 }
 
 .play-icon i {
