@@ -2748,10 +2748,8 @@ div[class*=box] {
 }
 
 .stories-p{
-	font-size: 1.1em;
-	color: #2f2f2f;
-	line-height: 160%;
-	padding-right: 20px;
+	font-size: 1.3em;
+	text-align: justify;
 }
 
 .stories-border-right{
@@ -2778,6 +2776,8 @@ div[class*=box] {
 
 .counter {
 	font-weight: 400;
+	color: #444;
+	margin-top:10px;
 }
 
 .stories-col_one_third { 
@@ -2842,6 +2842,33 @@ div[class*=box] {
 	height: 175px;  
 	background-size: cover; 
 	background-position: center;
+}
+
+.stories_lift:before{
+	content: '';
+	background: url(../images/svgs/change-position.svg) no-repeat;
+	zoom: 55%;
+	width: 80px !important;
+	height: 80px !important;
+	display: inline-block;
+}
+
+.stories_accuracy:before{
+	content: '';
+	background: url(../images/svgs/target.svg) no-repeat;
+	zoom: 55%;
+	width: 80px !important;
+	height: 80px !important;
+	display: inline-block;
+}
+
+.stories_profit:before{
+	content: '';
+	background: url(../images/svgs/bar-graph-with-dollar-sign.svg) no-repeat;
+	/* zoom: 55%; */
+	width: 80px !important;
+	height: 80px !important;
+	display: inline-block;
 }
 
 .stories-header{
