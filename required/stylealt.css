@@ -612,7 +612,7 @@ span.middot {
 .col_full { width: 100%; }
 .col_half,
 .postcontent.bothsidebar { width: 50%; }
-.col_one_third { width: 30.63%; }
+.col_one_third { width: 33.33%; }
 .col_two_third { width: 65.33%; }
 .col_one_fourth,
 .sidebar { width: 22%; }
@@ -647,7 +647,7 @@ body.stretched .container-fullwidth {
 .col_two_sixth {
 	display: block;
 	position: relative;
-	margin-right: 2%;
+	/* margin-right: 2%; */
 	margin-bottom: 5em; /* it was 50px */
 	float: left;
 	/* margin-left: 2%; */
@@ -7534,6 +7534,7 @@ body:not(.device-touch) .button.button-full strong {
 	letter-spacing: 0.2px;
 	margin-bottom: 0;
 	color: #333;
+	text-align: center;
 }
 
 .feature-box p {
@@ -8273,7 +8274,7 @@ body:not(.device-touch) .button.button-full strong {
 	font-size: 28px;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-	cursor: pointer;
+	/* cursor: pointer; */
 	font-style: normal;
 }
 
@@ -8310,11 +8311,11 @@ body:not(.device-touch) .social-icon {
 	height: 36px !important;
 	font-size: 28px;
 	line-height: 36px !important;
-	color: #444;
+	color: #555;
 	text-shadow: 1px 1px 1px #FFF;
 }
 
-.i-plain:hover { color: #777; }
+.i-plain:hover { color: #555; }
 
 .i-circled { border-radius: 50%; }
 
@@ -9230,7 +9231,7 @@ ul.tab-nav:not(.tab-nav-lg) li.ui-tabs-active a {
 	height: 43px;
 	line-height: 38px;
 	border-top: 3px solid #1ABC9C;
-	border-bottom: 3px solid #1ABC9C;
+	border-bottom: 3px solid #29887d;
 	background-color: white;
 }
 
@@ -10342,8 +10343,8 @@ body:not(.device-touch) .team-overlay {
 .counter + h5 {
 	font-weight: 400;
 	font-size: 1.1em;
-	/* text-transform: uppercase;
-	letter-spacing: 1px;
+	text-transform: uppercase;
+	/*letter-spacing: 1px;
 	margin-top: 10px; */
 	color: #444;
 }
@@ -10353,7 +10354,7 @@ body:not(.device-touch) .team-overlay {
 	position: relative;
 	margin: 20px auto 25px auto;
 	content: '';
-	width: 15%;
+	width: 11%;
 	border-top: 2px solid #232323;
 	opacity: 0.9;
 }
