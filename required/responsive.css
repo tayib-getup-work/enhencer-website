@@ -1999,6 +1999,11 @@
 		top:5px;
 	}
 
+	.side-tabs .tab-container {
+		overflow: hidden;
+		padding: 0 0 0 0;
+	}
+
 
 
 }

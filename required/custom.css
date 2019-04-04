@@ -1943,126 +1943,127 @@ display: block;  /* may not need this, but I've found I do */
 
 .fraud:before{
 	content: '';
-	background: url(../images/icons/services/icons8-credit-control-50.png) no-repeat;
+	background: url(../images/icons/services/credit\ card.svg) no-repeat;
 	position: relative;
 	z-index: 100000;
-	top: 22px;
+	top: 24px;
 	zoom: 50%;
-	background-size: 80px !important;
-	width: 80px !important;
-	height: 80px !important;
+	background-size: 125px !important;
+	width:  125px !important;
+	height:  125px !important;
 	visibility: visible;
 	display: inline-block;
 }
 
 .churn:before{
 	content: '';
-	background: url(../images/icons/services/icons8-customer-50.png) no-repeat;
+	background: url(../images/icons/services/user.svg) no-repeat;
 	position: relative;
 	z-index: 100000;
-	top: 22px;
+	top: 24px;
 	zoom: 50%;
-	background-size: 80px !important;
-	width: 80px !important;
-	height: 80px !important;
+	background-size: 125px !important;
+	width:  125px !important;
+	height:  125px !important;
 	visibility: visible;
 	display: inline-block;
 }
 
-.nex_best_product:before{
+.next_action:before{
 	content: '';
-	background: url(../images/icons/services/icons8-add-shopping-cart-50.png) no-repeat;
+	background: url(../images/icons/services/route.svg) no-repeat;
 	position: relative;
 	z-index: 100000;
-	top: 22px;
+	top: 24px;
 	zoom: 50%;
-	background-size: 80px !important;
-	width: 80px !important;
-	height: 80px !important;
+	background-size: 125px !important;
+	width: 125px !important;
+	height: 125px !important;
 	visibility: visible;
 	display: inline-block;
 }
 
 .product_propensity:before{
 	content: '';
-	background: url(../images/icons/services/icons8-rent-50.png) no-repeat;
+	background: url(../images/icons/services/house.svg) no-repeat;
 	position: relative;
 	z-index: 100000;
-	top: 22px;
+	top: 24px;
 	zoom: 50%;
-	background-size: 80px !important;
-	width: 80px !important;
-	height: 80px !important;
+	background-size: 125px !important;
+	width: 125px !important;
+	height: 125px !important;
 	visibility: visible;
 	display: inline-block;
+	color:red;
 }
 
 .risk_assessment:before{
 	content: '';
-	background: url(../images/icons/services/icons8-watch-your-step-50.png) no-repeat;
+	background: url(../images/icons/services/accidnt.svg) no-repeat;
 	position: relative;
 	z-index: 100000;
-	top: 22px;
+	top: 24px;
 	zoom: 50%;
-	background-size: 80px !important;
-	width: 80px !important;
-	height: 80px !important;
+	background-size: 125px !important;
+	width: 125px !important;
+	height: 125px !important;
 	visibility: visible;
 	display: inline-block;
 }
 
-.next_best_action:before{
+.next-best:before{
 	content: '';
-	background: url(../images/icons/services/icons8-track-order-50.png) no-repeat;
+	background: url(../images/icons/services/cart.svg) no-repeat;
 	position: relative;
 	z-index: 100000;
-	top: 22px;
-	zoom: 50%;
-	background-size: 80px !important;
-	width: 80px !important;
-	height: 80px !important;
+	top: 24px;
+	zoom: 47%;
+	background-size: 125px !important;
+	width: 125px !important;
+	height: 125px !important;
 	visibility: visible;
 	display: inline-block;
 }
 
 .predictive_maintenance:before{
 	content: '';
-	background: url(../images/icons/services/icons8-maintenance-50.png) no-repeat;
+	background: url(../images/icons/services/maintanence.svg) no-repeat;
 	position: relative;
 	z-index: 100000;
-	top: 22px;
-	zoom: 43%;
-	background-size: 80px !important;
-	width: 80px !important;
-	height: 80px !important;
+	top: 24px;
+	zoom: 47%;
+	background-size: 125px !important;
+	width: 125px !important;
+	height: 125px !important;
 	visibility: visible;
 	display: inline-block;
 }
 
 .customer_lifetime_value:before{
 	content: '';
-	background: url(../images/icons/services/icons8-buy-upgrade-50.png) no-repeat;
+	background: url(../images/icons/services/lifetime.svg) no-repeat;
 	position: relative;
 	z-index: 100000;
-	top: 22px;
+	top: 24px;
 	zoom: 50%;
-	background-size: 80px !important;
-	width: 80px !important;
-	height: 80px !important;
+	background-size: 125px !important;
+	width: 125px !important;
+	height: 125px !important;
 	visibility: visible;
 	display: inline-block;
 }
 
 .demand_forecasting:before{
 	content: '';
-	background: url(../images/icons/services/icons8-demand-50.png) no-repeat;
+	background: url(../images/icons/services/demand.svg) no-repeat;
 	position: relative;
 	z-index: 100000;
-	top: 22px;
+	top: 24px;
 	zoom: 50%;
-	background-size: 80px !important;
-	width: 80px !important;
-	height: 80px !important;
+	background-size: 125px !important;
+	width: 125px !important;
+	height: 125px !important;
 	visibility: visible;
 	display: inline-block;
 }
@@ -2963,14 +2964,16 @@ div[class*=box] {
 }
 
 .home-stories-headings{
-	font-size: 1.7em !important;
-	width: max-content;
-	margin-left: 2% !important;
+	font-size: 1.8em !important;
+	/* width: max-content; */
+	/* margin-left: 2% !important; */
+	text-align: center;
 }
 
 .home-stories-p{
   font-size: 1.1em;
-	margin-left: 2% !important;
+	/* margin-left: 2% !important; */
+	margin-top:-10px !important;
 }
 
 .home-stories-icon{

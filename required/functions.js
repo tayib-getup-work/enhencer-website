@@ -1328,6 +1328,21 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof features != 'undefined') {
 					features.classList.remove("row");
 				}
+				if (typeof storiesfeatures != 'undefined') {
+					storiesfeatures.classList.remove("row");
+				}
+				if (typeof storiesfeatures2 != 'undefined') {
+					storiesfeatures2.classList.remove("row");
+				}
+				if (typeof storiesfeatures3 != 'undefined') {
+					storiesfeatures3.classList.remove("row");
+				}
+				if (typeof storiesfeatures4 != 'undefined') {
+					storiesfeatures4.classList.remove("row");
+				}
+				if (typeof storiesfeatures5 != 'undefined') {
+					storiesfeatures5.classList.remove("row");
+				}
 				if (typeof connections1strow != 'undefined') {
 					connections1strow.classList.remove("row");
 				}
