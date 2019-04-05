@@ -2051,7 +2051,27 @@
 		overflow: hidden;
 		padding: 0 0 0 0;
 	}
+	.feature-box.fbox-large { padding: 0 0 0 0; }
 
+	.okicon{
+		display: contents !important;
+	}
+
+	.home-h2{
+		font-size: 2em !important;
+		text-align: center !important;
+		margin-top: 30px;
+	}
+	
+	.home-h2-subtitle{
+		font-size: 1.4em !important;
+		text-align: center !important;
+		margin-top: 30px;
+	}
+	
+	.lefty{
+		margin-left: 0% !important;
+	}
 
 
 }
