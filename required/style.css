@@ -9722,9 +9722,9 @@ body:not(.device-touch) .clients-grid li a {
 	position: relative;
 	padding: 20px;
 	background-color: #FFF;
-	border: 1px solid rgba(0,0,0,0.1);
+	/* border: 1px solid rgba(0,0,0,0.1); */
 	border-radius: 5px;
-	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	/* box-shadow: 0 1px 1px rgba(0,0,0,0.1); */
 }
 
 .testi-image {
@@ -21470,7 +21470,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 
 .testimonial {
 	border: 0;
-	box-shadow: 0 0 35px rgba(140, 152, 164, 0.2);
+	/* box-shadow: 0 0 35px rgba(140, 152, 164, 0.2); */
 	border-radius: 0.25rem;
 	padding: 25px;
 }

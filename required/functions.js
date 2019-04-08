@@ -4443,3 +4443,6 @@ $('#fraudpro')
 		},
 		1000
 	);
+
+/* Home Clients Icon Change on Hover */
+
