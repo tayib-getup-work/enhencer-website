@@ -2073,8 +2073,69 @@
 		margin-left: 0% !important;
 	}
 
+	.home-hr{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.home-quote-top{
+		font-size: 6em;
+		display: flex;
+		color: #e4e4e482;
+		margin-left: 0%;
+		position: relative;
+		margin-bottom: -75px;
+	}
+
+	.home-quote-bottom{
+		font-size: 6em;
+		display: flex;
+		color: #e4e4e482;
+		margin-left: 80%;
+		position: relative;
+		margin-top: -75px;
+	}
+
+	.watch-video-section{
+		background-image: url('../images/creativity-819371_1920.webp'); width: 100%;
+		height: 365px;  background-size: cover;
+	}
+
+	.home-testi-h1-p{
+		line-height:133% !important; 
+		width: 270px;     
+		margin-top: 75px;
+		margin-left: 0%;
+		}
+
+	.home-testi-icon {
+		font-weight: 600;
+		color: #ffffff57;
+		font-size: 6em;
+		display: flex;
+		margin-left: 52%;
+		margin-top: -273px;
+	}
+
+	.home-testi-h1{
+		font-size:3em; 
+		text-align: right; 
+		padding-top: 56px;
+		height:365px;
+	}
+
+	.home-testi-top-border{
+		margin-left: 51%; 
+		margin-top: -32px;
+	}
+	.home-testi-bottom-border{
+		margin-top: 55px; 
+		margin-left: -9%;
+	}
 
 }
+
 
 
 

@@ -1014,7 +1014,7 @@ article {
 	display: block;
 	line-height: 22px;
 	padding: 39px 15px;
-	color: #444;
+	color: white;
 	font-weight: bold;
 	font-size: 15px;
 	letter-spacing: 1px;
@@ -1957,11 +1957,11 @@ display: block;  /* may not need this, but I've found I do */
 
 .churn:before{
 	content: '';
-	background: url(../images/icons/services/user.svg) no-repeat;
+	background: url(../images/svgs/man\ running.svg) no-repeat;
 	position: relative;
 	/* z-index: 100000; */
 	top: 24px;
-	zoom: 50%;
+	zoom: 54%;
 	background-size: 125px !important;
 	width:  125px !important;
 	height:  125px !important;
@@ -2359,7 +2359,7 @@ display: block;  /* may not need this, but I've found I do */
 	cursor: pointer;
 	outline: none;
 	white-space: nowrap;
-	margin: 5px;
+	/* margin: 5px; */
 	padding: 0 22px;
 	font-size: 2.4em;
 	height: 200px;
@@ -2523,7 +2523,7 @@ body {
 	content: "";
 	position: absolute;
 	left: 0; right: 0%;
-	top: 63.4%; bottom: 26.4%;
+	top: 65.1%; bottom: 25.1%;
 	background: rgba(0,0,0,.2);
 	z-index: 1;
 }
@@ -2955,6 +2955,7 @@ div[class*=box] {
 	font-size: 2.2em !important;  
 	text-transform: none !important;
 	color: #777;
+	font-style: italic;
 }
 
 .feature-box h2{
@@ -3021,3 +3022,111 @@ div[class*=box] {
   box-shadow: 0 0px 15px 0 rgba(0,0,0,0.09), 0 3px 11px 0 rgba(0,0,0,0.09);
 }
 
+.module{
+	border-image: linear-gradient(to right, #f3f3f3 , #afafafdb) 1 4%;
+	border-width: 5px;
+	border-style: solid;
+	/* border: 5px; */
+	border-image-slice: 1;
+	border-left: 0px;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+.module2{
+	border-image: linear-gradient(to right,#afafafdb, #f3f3f3) 1 4%;
+	border-width: 3px;
+	border-style: solid;
+	/* border: 5px; */
+	border-image-slice: 1;
+	border-left: 0px;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+.home-hr{
+	width: 47%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-quote-top{
+	font-size: 6em;
+	display: flex;
+	color: #e4e4e482;
+	margin-left: 24%;
+	position: relative;
+	margin-bottom: -75px;
+}
+
+.home-quote-bottom{
+	font-size: 6em;
+	display: flex;
+	color: #e4e4e482;
+	margin-left: 71.5%;
+	position: relative;
+	margin-top: -75px;
+}
+
+.footer-hr{
+	box-sizing: content-box;
+	height: 0;
+	margin-top: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(255,255,255,1);
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dark.foot #top-social li a {
+	color: #fff;
+}
+
+.dark.foot #top-social li {
+	border-left: 0px !important;
+}
+
+.footet-contact-button{
+	text-transform: none;
+	background-color: white !important;
+	color: #12546d !important;
+	font-size: 1.1em !important;
+}
+
+.footet-contact-button:hover{
+	box-shadow: 0 0 10px rgba(255,255,255,1) !important;
+}
+
+.home-testi-h1{
+	font-size:4em; 
+	text-align: right; 
+	padding-top: 56px;
+}
+
+
+.home-testi-h1-p{
+line-height:133% !important; 
+width: 350px;     
+margin-top: 75px;
+margin-left: 9%;
+}
+
+.home-testi-icon{
+	font-weight: 600; 
+	color: #ffffff57; 
+	font-size: 6em; 
+	display: flex; 
+	margin-left: 55%; 
+	margin-top: -360px;
+}
+
+.home-testi-top-border{
+	margin-left: 43%; 
+	margin-top: -32px;
+}
+
+.home-testi-bottom-border{
+	margin-top: 55px; 
+	margin-left: -3%;
+}

@@ -1328,6 +1328,15 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof features != 'undefined') {
 					features.classList.remove("row");
 				}
+				if (typeof testi != 'undefined') {
+					testi.classList.remove("row");
+				}
+				if (typeof testisec != 'undefined') {
+					testisec.classList.remove("col-8");
+				}
+				if (typeof testifirst != 'undefined') {
+					testifirst.classList.remove("col-4");
+				}
 				if (typeof storiesfeatures != 'undefined') {
 					storiesfeatures.classList.remove("row");
 				}

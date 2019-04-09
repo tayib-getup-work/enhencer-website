@@ -9820,8 +9820,8 @@ body:not(.device-touch) .clients-grid li a {
 .testimonial-full .testi-image img,
 .testimonial-full .testi-image i {
 	display: block;
-	width: 72px;
-	height: 72px;
+	width: 100px;
+	height: 100px;
 }
 
 .testimonial-full .testi-image i { line-height: 72px; }
@@ -9829,6 +9829,8 @@ body:not(.device-touch) .clients-grid li a {
 .testimonial-full .testi-content {
 	text-align: center;
 	font-size: 18px;
+	padding-right: 8%;
+    padding-left: 8%;
 }
 
 .testimonial-full .testi-meta { margin-top: 15px; }
@@ -9867,13 +9869,13 @@ body:not(.device-touch) .clients-grid li a {
 
 .testimonial .flex-control-nav li {
 	margin: 0 2px;
-	width: 6px;
-	height: 6px;
+	width: 20px;
+	height: 15px;
 }
 
 .testimonial .flex-control-nav li a {
-	width: 6px !important;
-	height: 6px !important;
+	width: 12px !important;
+	height: 12px !important;
 	border: none;
 	background-color: #1ABC9C;
 	opacity: 0.5;
