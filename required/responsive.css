@@ -2209,7 +2209,12 @@
     width: 45px;
     margin-left: 76%;
     margin-top: -10px;
-}
+	}
+	#footer-menu { 
+		float: right;
+		text-align: center !important;
+	}
+
 	
 
 }
