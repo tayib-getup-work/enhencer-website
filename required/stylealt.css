@@ -6619,6 +6619,12 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	width: 95px;
 	padding-right: 0px;
 	font-size: 15px;
+	background-color: #228e9f !important;
+
+}
+
+.try-free-button:hover{
+	box-shadow: 0 4px 15px #228e9f !important;
 }
 
 body:not(.device-touch) .button {
