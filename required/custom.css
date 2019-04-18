@@ -3108,10 +3108,10 @@ div[class*=box] {
 
 
 .home-testi-h1-p{
-line-height:133% !important; 
-width: 383px;     
-margin-top: 75px;
-margin-left: 5%;
+	line-height:133% !important; 
+	width: 383px;     
+	margin-top: 75px;
+	margin-left: 5%;
 }
 
 .home-testi-icon{
@@ -3520,4 +3520,7 @@ margin-left: 5%;
   position: absolute;
 	margin-top: 155px;
 	width: -webkit-fill-available;
+}
+
+#top-social{ color: #12546d !important;
 }
