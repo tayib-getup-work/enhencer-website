@@ -10646,6 +10646,8 @@ blockquote.float-right {
 	position:relative;
 	overflow:hidden;
 	-webkit-transform:translate3d(0,0,0);
+	height: 135px !important;
+
 }
 
 .owl-carousel.owl-loaded { display:block }
@@ -11033,7 +11035,7 @@ blockquote.float-right {
 	color: rgba(255, 255, 255, 0.7);
 }
 
-.owl-carousel .owl-stage { padding: 20px 0; }
+.owl-carousel .owl-stage { padding: 0 0; }
 
 
 /* ----------------------------------------------------------------
