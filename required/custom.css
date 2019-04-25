@@ -3574,4 +3574,26 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   line-height: 0.8;
 }
 
+.career-ol{
+	padding-left: 7%;
+	margin-top: 20px;
+	line-height: 172%;
+}
 
+.career-ol-header{
+	padding-left: 7%;
+}
+
+.career-ol-p{
+	margin-top:20px;
+}
+
+.career-ol-icon{
+	padding-left: 3%;
+}
+
+.career-ol-info-icon{
+	margin-right:3%;
+	font-weight: 700;
+	vertical-align: middle;
+}

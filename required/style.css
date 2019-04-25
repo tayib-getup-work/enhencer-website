@@ -1009,8 +1009,8 @@ html[xmlns] .slider-wrap {display: block;}
 #header.transparent-header + #page-title.page-title-parallax,
 #header.transparent-header + #google-map,
 #slider + #header.transparent-header {
-	top: -100px;
-	margin-bottom: -100px;
+	top: 65px;
+	margin-bottom: 80px;
 }
 
 #header.transparent-header.floating-header + #slider,
@@ -9059,6 +9059,7 @@ body:not(.device-touch) .social-icon i {
 	cursor: pointer;
 	border-top: 1px dotted #DDD;
 	padding: 10px 0 10px 20px;
+	background-color: #eeeeee;
 }
 
 .acctitlec { cursor: auto; }
@@ -15697,7 +15698,7 @@ body #side-panel.dark #side-panel-trigger-close a {
 	margin-right: 5px;
 }
 
-.iconlist-color li i { color: #1ABC9C; }
+.iconlist-color li i { color: #1ABC9C !important; }
 
 .icon-border {
   padding: .2em .25em .15em;
