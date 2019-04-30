@@ -2342,6 +2342,53 @@
 		background-position: 0px 0px !important;
 	}
 
+	.col_one_third_alt {
+		display: block;
+		position: relative;
+		float: none;
+	}
+
+	.col_one_third_alt {
+		width: 100.33%;
+	}
+
+
+	.footer-ol-info-icon-right{
+		margin-right:4%;
+		margin-left: 0;
+		font-weight: 300;
+		vertical-align: inherit;
+		width: 20px;
+		height: 20px;
+		text-align: right;
+		float: none;
+	}
+
+	.fotter-second-address{
+		font-family: 'Raleway', sans-serif; 
+		font-size: 15px; 
+		margin-top: 55px; 
+		/* padding-right: 2%; */
+		text-align: center;
+	}
+
+	.fotter-fırst-address{
+		font-family: 'Raleway', sans-serif; 
+		font-size: 15px;
+		margin-top: 30px;
+		padding-right: 5%;
+		text-align: center;
+	}
+
+	.footer-reach-button {
+		text-align: center;
+		font-size: 1.1em;
+		margin-top: 50px;
+		margin-bottom: 25px;
+	}
+	
+
+
 	
 
 }
