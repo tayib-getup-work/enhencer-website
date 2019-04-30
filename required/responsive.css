@@ -2164,9 +2164,6 @@
 		margin-top: 15px;
 	}
 	
-
-
-
 	.home-stories-icon{
 		top:5px;
 	}
@@ -2337,6 +2334,12 @@
 	#footer-menu { 
 		float: right;
 		text-align: center !important;
+	}
+
+	.career-header{
+		background-image: url('images/about/parallax.jpg') !important; 
+		padding: 55px 0 !important; 
+		background-position: 0px 0px !important;
 	}
 
 	

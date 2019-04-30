@@ -1314,7 +1314,7 @@ var SEMICOLON = SEMICOLON || {};
 				if (defaultMobileLogo) { defaultLogo.find('img').attr('src', defaultMobileLogo); }
 				if (retinaMobileLogo) { retinaLogo.find('img').attr('src', retinaMobileLogo); }
 			}
-			if(SEMICOLON.isMobile.any()) {
+			if (SEMICOLON.isMobile.any()) {
 				if (retinaDarkLogo) { retinaLogo.find('img').attr('src', retinaDarkLogo); }
 				if (defaultDarkLogo) { defaultLogo.find('img').attr('src', retinaDarkLogo); }
 				if (defaultLogoImg) { defaultLogo.find('img').attr('src', retinaLogoImg); }
@@ -4453,5 +4453,9 @@ $('#fraudpro')
 		1000
 	);
 
-/* Home Clients Icon Change on Hover */
-
+$(document).ready(function () {
+	$('.toggle').click(function () {
+		$('.sidebar-contact').toggleClass('active')
+		$('.toggle').toggleClass('active')
+	})
+})

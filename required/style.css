@@ -613,6 +613,7 @@ span.middot {
 .col_half,
 .postcontent.bothsidebar { width: 50%; }
 .col_one_third { width: 30.63%; }
+.col_one_third_alt { width: 33.33%; }
 .col_two_third { width: 65.33%; }
 .col_one_fourth,
 .sidebar { width: 22%; }
@@ -652,6 +653,13 @@ body.stretched .container-fullwidth {
 	float: left;
 	/* margin-left: 2%; */
 }
+
+.col_one_third_alt {
+	display: block;
+	position: relative;
+	float: left;
+}
+
 
 .col_half{
 	display: block;
