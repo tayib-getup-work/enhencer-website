@@ -2354,13 +2354,13 @@
 
 
 	.footer-ol-info-icon-right{
-		margin-right:4%;
+		margin-right:2%;
 		margin-left: 0;
 		font-weight: 300;
 		vertical-align: inherit;
 		width: 20px;
 		height: 20px;
-		text-align: right;
+		text-align: left;
 		float: none;
 	}
 
