@@ -6649,6 +6649,11 @@ body:not(.device-touch) .button {
 	text-shadow: none !important;
 }
 
+#header.sticky-header .button-light{
+	background-color:	#fbfbfb !important;
+}
+
+
 .button-light-bg {
 	background-color: #f5f5f5;
 	color: #333;

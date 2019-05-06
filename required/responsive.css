@@ -1394,7 +1394,7 @@
 	}
 
 	.entry-meta li {
-		font-size: 11px;
+		font-size: 14px;
 		margin: 0 10px 10px 0;
 	}
 
@@ -2290,7 +2290,7 @@
 	
 	.flip-card-column{
 		width:150px;
-		margin-left: auto;
+		margin-left: auto !important;
 		margin-right: auto;
 	}
 
@@ -2387,6 +2387,18 @@
 		margin-bottom: 25px;
 	}
 	
+	.news-h2 {
+		font-size: 2.1em !important;
+		font-weight: 400 !important;
+		text-align: left;
+	}
+
+	.cookie-p {
+		margin: 15px 0 -15px 0;
+		text-align: center;
+		color: white;
+		font-size: 1.2em;
+	}
 
 
 	

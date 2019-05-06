@@ -1026,6 +1026,7 @@ article {
 	-webkit-transition: margin .4s ease, padding .4s ease;
 	-o-transition: margin .4s ease, padding .4s ease;
 	transition: margin .4s ease, padding .4s ease;
+	text-align: center;
 }
 
 #footer-menu ul li > a span { display: none; }
@@ -3156,7 +3157,7 @@ div[class*=box] {
 .home-mid-para{
 	font-size: 30px;
 	text-align: center;
-	width: 720px;
+	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -25px;
@@ -3183,7 +3184,7 @@ div[class*=box] {
 
 .flip-card-column{
 	width:200px;
-	margin-left: -7% !important;
+	margin-left: 0% !important;
 	margin-left: auto;
   margin-right: auto;
 }
@@ -3796,15 +3797,15 @@ padding-right: 5%;
 	left: 0;
 	right: 0;
 	padding: 10px 0;
-	background-color: #2b2b2b;
+	background-color: #12546d;
 	z-index: 10000;
 }
 
 .cookie-p {
-	margin: 0 0 10px 0;
+	margin: 15px 0 -15px 0;
 	text-align: center;
-	color: #b2b2b2;
-	font-size: 1em;
+	color: white;
+	font-size: 1.3em;
 }
 
 div.cookiebtns {
@@ -3814,20 +3815,20 @@ div.cookiebtns {
 .cookie-a {
 	padding: 5px 8px;
 	color: #b2b2b2;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .cookie-news{
-	color: #2b2b2b;
+	color: #12546d;
 	border-radius: 2px;
-	background-color: #b2b2b2;
+	background-color: white;
 	cursor: pointer;
 	text-decoration: none;
 }
 
 .cookie-news:hover {
 	background-color: white;
-	color: #2b2b2b;
+	color: #12546d;
 }
 
 #hide_bar {
@@ -3863,5 +3864,7 @@ div.cookiebtns {
 
 .cookie-close{
 	font-weight: bold;
-  color: #afafaf !important;
+	color: #fffdfd !important;
+	text-decoration: underline !important;
+	margin-left: 0.5%;
 }
