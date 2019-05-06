@@ -3394,7 +3394,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	background-color: transparent !important;
 	padding: 0 !important;
 	font-size: 12px;
-	float: left;
+	/* float: left; */
 }
 
 body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
@@ -8683,7 +8683,7 @@ body:not(.device-touch) .social-icon i {
 
 .si-share {
 	position: relative;
-	padding-left: 5px;
+	/* padding-left: 5px; */
 	border-top: 1px solid #EEE;
 	border-bottom: 1px solid #EEE;
 }
@@ -21944,7 +21944,7 @@ body:not(.device-touch) .social-icon i {
 
 .si-share {
 	position: relative;
-	padding-left: 5px;
+	/* padding-left: 5px; */
 	border-top: 1px solid #EEE;
 	border-bottom: 1px solid #EEE;
 }

@@ -2247,7 +2247,7 @@ display: block;  /* may not need this, but I've found I do */
 }
 
 .blog-p{
-	font-size:1.3em;
+	font-size:1.3em !important;
 }
 
 
@@ -3783,4 +3783,85 @@ padding-right: 5%;
 	font-size: 1.1em; 
 	margin-top: 53px; 
 	margin-bottom: 41px;
+}
+
+
+
+/* Coockie Pop-up */
+
+#cookie_bar {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px 0;
+	background-color: #2b2b2b;
+	z-index: 10000;
+}
+
+.cookie-p {
+	margin: 0 0 10px 0;
+	text-align: center;
+	color: #b2b2b2;
+	font-size: 1em;
+}
+
+div.cookiebtns {
+	text-align: center;
+}
+
+.cookie-a {
+	padding: 5px 8px;
+	color: #b2b2b2;
+	font-size: 12px;
+}
+
+.cookie-news{
+	color: #2b2b2b;
+	border-radius: 2px;
+	background-color: #b2b2b2;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.cookie-news:hover {
+	background-color: white;
+	color: #2b2b2b;
+}
+
+#hide_bar {
+	cursor: pointer;
+	-webkit-transition: all ease-out 200ms;
+	-ms-transition: all ease-out 200ms;
+	-o-transition: all ease-out 200ms;
+	transition: all ease-out 200ms;
+}
+
+#hide_bar:hover {
+	color:white;
+}
+
+#eat {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -10px 0 0 -60px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+
+.news-h2{
+	font-size: 2.5em !important;
+	font-weight: 400 !important;
+}
+
+.cookie-title{
+	font-weight: bold;
+}
+
+.cookie-close{
+	font-weight: bold;
+  color: #afafaf !important;
 }

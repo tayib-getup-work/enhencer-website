@@ -293,7 +293,7 @@
 							<div class="swap-on-hover oc-item">
 								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/11.jpg" />
 								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/otokar-63622_1.jpg"/>
+									src="demos/seo/images/clients/colored/otokar-63622_1.jpg" />
 							</div>
 						</div>
 					</div>
@@ -841,6 +841,17 @@
 			</div>
 			<div id="footerContent">
 			</div>
+
+			<div id="cookie_bar">
+				<p class="cookie-p"><b class="cookie-title">Startup of the Year - Enhencer : </b>A jury consisting of C-level executives and
+					directors in startup ecosystem in Turkey has chosen Enhencer as "Startup of the Year"</p>
+				<div class="cookiebtns clearfix">
+					<a class="cookie-a cookie-news" href="news/Startup-of-the-Year-Enhencer.html">Read More</a>
+					<a class="cookie-a cookie-close" id="hide_bar">Close</a>
+				</div>
+			</div>
+
+
 			<!-- Go To Top
 	============================================= -->
 			<div id="gotoTop" class="icon-angle-up"></div>
@@ -857,6 +868,50 @@
 				$(document).ready(function () {
 					$("#footerContent").load("footer-index.html");
 				});
+			</script>
+
+			<script>
+				(function ($) {
+
+					$(document).ready(function () {
+						createCookie('cnil', 1, 0);
+						$('#cookie_bar').toggle();
+					});
+					$('#hide_bar').on('click', function () {
+						$('#cookie_bar').toggle();
+					});
+
+					$('#eat').on('click', function () {
+						$.removeCookie('cnil', { path: '/' });
+						$('#cookie_bar').toggle();
+					});
+
+				})(jQuery);
+
+
+				//
+				// Gestion des cookies
+				function createCookie(name, value, days) {
+					var expires;
+					if (days) {
+						var date = new Date();
+						date.setTime(date.getTime() + 1);
+						expires = "; expires=" + date.toGMTString();
+					}
+					else expires = "";
+					document.cookie = name + "=" + value + expires + "; path=/";
+				}
+
+				function readCookie(name) {
+					var nameEQ = name + "=";
+					var ca = document.cookie.split(';');
+					for (var i = 0; i < ca.length; i++) {
+						var c = ca[i];
+						while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+						if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+					}
+					return null;
+				}
 			</script>
 
 </body>
