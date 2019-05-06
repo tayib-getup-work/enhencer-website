@@ -11838,6 +11838,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	bottom: 50px;
 	cursor: pointer;
 	border-radius: 2px;
+	z-index: 100000;
 }
 
 body:not(.device-touch) #gotoTop {

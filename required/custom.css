@@ -3066,7 +3066,7 @@ div[class*=box] {
 	font-size: 6em;
 	display: flex;
 	color: #e4e4e482;
-	margin-left: 71.5%;
+	margin-left: 76.5%;
 	position: relative;
 	margin-top: -75px;
 }
@@ -3796,7 +3796,7 @@ padding-right: 5%;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	padding: 10px 0;
+	/* padding: 10px 0; */
 	background-color: #12546d;
 	z-index: 10000;
 }
@@ -3813,7 +3813,7 @@ div.cookiebtns {
 }
 
 .cookie-a {
-	padding: 5px 8px;
+	padding: 10px 10px;
 	color: #b2b2b2;
 	font-size: 15px;
 }
