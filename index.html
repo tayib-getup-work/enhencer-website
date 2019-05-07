@@ -243,58 +243,58 @@
 							<div class="swap-on-hover oc-item">
 								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/1.png" />
 								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/Anadolu_Efes_200.png" />
+									src="demos/seo/images/clients/colored/Anadolu Efes.jpg" />
 							</div>
 							<div class="swap-on-hover oc-item">
 								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/2.png" />
 								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/Chobani_200.png" />
+									src="demos/seo/images/clients/colored/Chonabi.png" />
 							</div>
 							<div class="swap-on-hover oc-item">
 								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/3.png" />
 								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/eureko_200.png" />
+									src="demos/seo/images/clients/colored/Eureko Sigorta.png" />
 							</div>
 							<div class="swap-on-hover oc-item">
 								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/4.png" />
 								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/Garanti_filo_200.png" />
+									src="demos/seo/images/clients/colored/Garanti Filo.jpg" />
 							</div>
 							<div class="swap-on-hover oc-item">
 								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/5.png" />
 								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/Multinet_200.png" />
+									src="demos/seo/images/clients/colored/Multinet.png" />
 							</div>
 							<div class="swap-on-hover oc-item">
 								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/6.png" />
-								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/NN_200.png" />
+								<img class="swap-on-hover__back-image" src="demos/seo/images/clients/colored/NN.jpg" />
 							</div>
 							<div class="swap-on-hover oc-item">
 								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/7.png" />
 								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/Sigortam_net_200.png" />
+									src="demos/seo/images/clients/colored/Sigortamnet.jpg" />
 							</div>
 							<div class="swap-on-hover oc-item">
 								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/8.png" />
 								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/tcmb_200.png" />
+									src="demos/seo/images/clients/colored/TCMB.png" />
 							</div>
 							<div class="swap-on-hover oc-item">
 								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/9.png" />
 								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/filliboya_logo_freelogovectors.net_.png" />
+									src="demos/seo/images/clients/colored/Filli Boya.png" />
 							</div>
 							<div class="swap-on-hover oc-item">
 								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/10.png" />
 								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/amelos.png" />
+									src="demos/seo/images/clients/colored/Amelos.png" />
 							</div>
 							<div class="swap-on-hover oc-item">
-								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/11.jpg" />
+								<img class="swap-on-hover__front-image" src="demos/seo/images/clients/11.png" />
 								<img class="swap-on-hover__back-image"
-									src="demos/seo/images/clients/colored/otokar-63622_1.jpg" />
+									src="demos/seo/images/clients/colored/Otokar.jpg" />
 							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -844,10 +844,11 @@
 
 			<div id="cookie_bar">
 				<p class="cookie-p"><b class="cookie-title">Enhencer named "Startup of the Year" by TechSquare 2019.
-				<span class="cookiebtns clearfix" style="margin-left: 1%;">
-					<a class="cookie-a cookie-news" href="news/Startup-of-the-Year-Enhencer.html" target="_blank">Read More</a>
-					<a class="cookie-a cookie-close" id="hide_bar">Close</a>
-				</span>
+						<span class="cookiebtns clearfix" style="margin-left: 1%;">
+							<a class="cookie-a cookie-news" id="read_bar" href="news/Startup-of-the-Year-Enhencer.html"
+								target="_blank">Read More</a>
+							<a class="cookie-a cookie-close" id="hide_bar">Close</a>
+						</span>
 			</div>
 
 
@@ -879,7 +880,9 @@
 					$('#hide_bar').on('click', function () {
 						$('#cookie_bar').toggle();
 					});
-
+					$('#read_bar').on('click', function () {
+						$('#cookie_bar').toggle();
+					});
 					$('#eat').on('click', function () {
 						$.removeCookie('cnil', { path: '/' });
 						$('#cookie_bar').toggle();
