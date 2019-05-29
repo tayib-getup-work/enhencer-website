@@ -3868,3 +3868,18 @@ div.cookiebtns {
 	text-decoration: underline !important;
 	margin-left: 0.5%;
 }
+
+.cookie-pricing-title{
+	font-weight: normal;
+	line-height: 180%;
+}
+
+.cookie-pricing-p {
+	margin: 15px 0 -15px 0;
+	text-align: center;
+	color: white;
+	font-size: 1.3em;
+	width: 80%;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
