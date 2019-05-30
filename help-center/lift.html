@@ -1,6 +1,7 @@
 <div>
-        <h1 class="help-h1" style="color: #42B05F;">Lift</h1>
-        <p class="help-p">Lift is a powerful tool to analyze the performance for prediction.</p>
+    <h1 class="help-h1" style="color: #42B05F;">Lift</h1>
+    <p class="help-p">Lift is a powerful metric to analyze the performance of a prediction.
+    </p>
 
     <img src="./help-center/images/Predict Lift.png" class="img-shadow img-border">
     <br>
@@ -9,27 +10,32 @@
 
     <ol class="help-p help-bullet-padding help-bullet-padding">
         <li>
-            Lift and Adjust corresponds to the same output section. The both allow users to adjust and see the
-            captured responses and lift that the model is proposing.</li>
+            Lift and Adjust corresponds to the same output section. They both allow users to adjust and see the captured
+            responses and lift that the model is providing.
+        </li>
         <li>
-            “Counts of Target Choice” box represents the captured response analysis for the model. This is explained
-            below here.</li>
+            “Counts of Target Choice” box represents the captured response analysis for the model. It is explained below
+            here.</li>
 
-        <li>“Proportion of Target” Choice box provides the lift analysis for the selected model.</li>
-        <li>The large dots represent the proportion of data that is chosen to observe both Captured responses and
-            the Lift. You can easily drag the large point across the point line in the graph to see the changes happens
-            when selecting a different proportion of data. </li>
+        <li>“Proportion of Target” Choice box provides the lift analysis for the selected model.
+        </li>
+        <li>The large dots represent the proportion of data that is chosen to observe both Captured responses and the
+            Lift. You can easily increase or decrease the cutoff threshold by clicking Plus and Minus buttons to see the
+            changes happen.
+        </li>
     </ol>
     <div class="interpretation" id="liftinterpret">
-        <p class="help-p"><b>Interpretation:</b>
+        <p class="help-p"><b>Interpretation:
+            </b>
             <br>
             Captured Responses:
+
             <br>
-            The Lift above shows that if you sort predictions from highest to lowest and get top 25% of the
-            predictions, the average customer churn in the top 25% is 74.3% compared to overall 25% which corresponds
-            to a lift of 2.98. In other words, the top 25% proportion of the data has churn rate of 74.3% which is 2.98
-            times higher than the overall population proportion. If you move the large point across the line graph you
+            The Lift above shows that if you sort predictions from highest to lowest and get top 25% of the predictions,
+            the average customer churn in the top 25% is 74.3% compared to overall 25% which corresponds to a lift of
+            2.98. In other words, the top 25% proportion of the data has a churn rate of 74.3% which is 2.98 times
+            higher than the overall population proportion. If you change the cutoff thresholdt across the line graph you
             will observe different lifts for different selected proportions.</p>
 
     </div>
-    </div>
+</div>

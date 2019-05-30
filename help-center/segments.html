@@ -1,64 +1,73 @@
 <div>
     <h1 class="help-h1" style="color: #259C8D;">Segments</h1>
-    <p class="help-p">Segments is a powerful tool that shows segments of the target variable and their features. Model
-        is created segments can be accessed by simply clicking the <b style="padding: 1px; border: 1px solid #259C8D; color:#259C8D;">Segments</b>
-        button.</p>
+    <p class="help-p">"Segments" is a useful section that shows segments of the target variable and their features.
+        After the model is created, segments can be accessed simply by clicking the Segments button.
+    </p>
     <img src="./help-center/images/Enhence Segments.png" class="img-shadow img-border">
     <br>
     <br>
     <br>
     <ol class="help-p help-bullet-padding help-bullet-padding">
         <li>
-            Right side of the analyze screen in this case shows all the segments available for the target variable.
+            The right side of the analyze screen, in this case, shows all the segments available for the target
+            variable.
+
         </li>
         <li>
-            Area labeled as 2 represents the features of the selected segment.</li>
+            The area labeled as 2 represents the features of the selected segment.
+        </li>
         <li>
-            The Number in the right corner represents the sample size of the selected segment. Segment size shows how
-            many individual records fall into that segment.</li>
+            The number in the right edge represents the sample size of the selected segment. Segment size shows how many
+            individual records fall into that segment.
+        </li>
         <li>
-            The number in the left corner represents the <a class="help-link" style="color: #259C8D;" href="#liftinterpret">Lift</a>
-            for the segment.</li>
+            The number in the left corner represents the Lift for the segment. Lift is the total impact of the segment
+            or the node, compared to the entire data average.
+        </li>
     </ol>
 
-    <p class="help-p">Segments are sorted from highest lift to the lowest lift therefore you can scroll down for many
-        other segments and the bottom segment has the lowest lift among all the segments.
+    <p class="help-p">Segments are sorted from the highest lift to the lowest lift.
+
     </p>
     <hr>
     <br>
     <div class="interpretation" id="liftinterpret">
         <p class="help-p"><b>Interpretation:</b>
             <br>
-            What all these mumbo jumbo means in English is; We want to know which
-            customers are more likely
-            to become churn. The first segment contains 44 customers from the whole population with the highest lift of
-            4.01. Lift is explained below.</p>
-        <p class="help-p">The features of these 44 customers are: Customers -</p>
+            What all these mumbo-jumbo means in English is; We want to know which customers are more likely to become
+            churn. The first segment contains 44 customers from the whole population with the highest lift of 4.01. Lift
+            is explained below.
+        </p>
+        <p class="help-p">The features of these 44 customers are; Customers -
+        </p>
         <ul class="help-p help-bullet-padding help-bullet-padding">
             <li>
-                With online usage less than 15.1 hours per week.
+                With online usage of fewer than 15.1 hours per week.
+
             </li>
             <li>
-                Who have Primary Social Media Account Twitter, Instagram or Vkontakte
+                Who have Primary Social Media Account as Twitter, Instagram or Vkontakte
+
             </li>
             <li>
-                Who are from these countries: Italy, Brazil, South Korea, Canada, United States, Spain, Japan, France,
+                Who are from these countries; Italy, Brazil, South Korea, Canada, United States, Spain, Japan, France,
                 United Kingdom, Turkey or China
+
             </li>
             <li>
-                With offline Usage less than 11.9 hours per week.
+                With offline usage of fewer than 11.9 hours per week.
         </ul>
-        <p class="help-p">The features are actually the effects of the other variables form the left panel on the
-            target variable and these are obtained by the model.
+        <p class="help-p">The features are actually the effects of the other variables from the left panel on the target
+            variable and these are obtained by the model.
+
             <br>
             <br>
-            <b>The lift 4.01 means customers in the selected segment have 4 times higher chance of becoming churn than
-                the
-                other customers.</b> Lift is the multiplier for the segment’s distribution compared to average
-            distribution.
-            This means these 44 customers in this segment with the mentioned feature above has 100% possibility of
-            becoming churn whereas in the overall population of 4000 customers on average customers have 24.95% chance
-            of becoming churn.
+            The lift 4.01 means that customers in the selected segment have a 4 times higher chance of becoming churn
+            than the other customers. Lift is the multiplier for the segment’s distribution compared to average
+            distribution. This means these 44 customers in this segment with the mentioned feature above has 100%
+            possibility of becoming churn whereas in the overall population of 4000 customers have a 24.95% chance
+            of becoming churn on average.
+
         </p>
     </div>
 </div>
