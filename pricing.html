@@ -596,6 +596,11 @@
                 </div>
             </div>
             <p style="font-size:20px; text-align: center; color: #555;">*No credit card required.</p>
+            <p class="container" style="font-size:20px; text-align: center; color: #555;">ML works with prepared data,
+                and we know that
+                preparation of
+                the data is a pain. For any plan, we would like to offer you free guidance and help for data
+                preparation and complete a Proof of Concept on sample/anonymized data.</p>
             <br>
             <br>
 
@@ -900,16 +905,7 @@
             <div id="footerContent" style="    margin-top: 60px;">
             </div>
 
-            <div id="cookie_bar">
-                <p class="cookie-pricing-p"><b class="cookie-pricing-title">ML works with prepared data, and we know that preparation of
-                        the data is a pain. For any plan, we would like to offer you free guidance and help for data
-                        preparation and complete a Proof of Concept on sample/anonymized data.
-                        <span class="cookiebtns clearfix" style="margin-left: 1%;">
-                            <a class="cookie-a cookie-news" id="read_bar" href="news/Startup-of-the-Year-Enhencer.html"
-                                target="_blank">Read More</a>
-                            <a class="cookie-a cookie-close" id="hide_bar">Close</a>
-                        </span>
-            </div>
+
 
             <!-- Go To Top
 	============================================= -->
@@ -963,50 +959,7 @@
 
             </script>
 
-<script>
-    (function ($) {
 
-        $(document).ready(function () {
-            createCookie('cnil', 1, 0);
-            $('#cookie_bar').toggle();
-        });
-        $('#hide_bar').on('click', function () {
-            $('#cookie_bar').toggle();
-        });
-        $('#read_bar').on('click', function () {
-            $('#cookie_bar').toggle();
-        });
-        $('#eat').on('click', function () {
-            $.removeCookie('cnil', { path: '/' });
-            $('#cookie_bar').toggle();
-        });
-
-    })(jQuery);
-
-
-    // Gestion des cookies
-    function createCookie(name, value, days) {
-        var expires;
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + 1);
-            expires = "; expires=" + date.toGMTString();
-        }
-        else expires = "";
-        document.cookie = name + "=" + value + expires + "; path=/";
-    }
-
-    function readCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-        }
-        return null;
-    }
-</script>
 
 </body>
 
