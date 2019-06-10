@@ -1510,6 +1510,10 @@ var SEMICOLON = SEMICOLON || {};
 				// if (typeof storiestab != 'undefined') {
 				// 	storiestab.classList.add("side-tabs");
 				// }
+
+				if (typeof homeheadervideo != 'undefined') {
+					homeheadervideo.classList.remove("row");
+				}
 			}
 		},
 
