@@ -883,18 +883,18 @@ article {
 	div.laptop-wrapper video {
     box-sizing: border-box;
     background: url(images/services/macbook.png) center center no-repeat;
-    background-size: 679px 351px;
+    background-size: 823px 429px;
     padding-top: 2.2%;
     padding-right: 25.6%;
     padding-bottom: 5.6%;
     padding-left: 25.6%;
     position: absolute;
-    top: 65px;
+    top: -25px;
     left: 5%;
-    width: 880px;
-    height: 390px;
-		/* pointer-events: none; */
-	}
+    width: 991px;
+    height: 460px;
+    /* pointer-events: none; */
+}
 
 	.margin-home-video{
     margin-top: -15%;
@@ -3885,7 +3885,9 @@ div.cookiebtns {
 }
 
 .home-title{
-	width:480px;
+	width: 605px;
+	margin-left: -17%;
+	margin-top: -20px;
 }
 
 .bg-blueish {
