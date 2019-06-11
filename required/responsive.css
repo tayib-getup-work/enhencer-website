@@ -61,6 +61,35 @@
 	.home-testi-top-border {
     margin-left: 44%;
 	}
+
+	div.laptop-wrapper video {
+		box-sizing: border-box;
+		background: url(images/services/macbook.png) center center no-repeat;
+		background-size: 628px 332px;
+		padding-top: 2.2%;
+		padding-right: 25.6%;
+		padding-bottom: 5.6%;
+		padding-left: 25.6%;
+		position: absolute;
+		top: -40px;
+		left: -3%;
+		width: 840px;
+		height: 450px;
+		/* pointer-events: none; */
+	}
+
+	.home-title{
+		width: 485px;
+		margin-left: 0%;
+		margin-top: -30px;
+	}
+
+	.main-title-info {
+		font-size: 1.2em !important;
+		font-weight: 200;
+		line-height: 175%;
+	}
+	
 }
 
 @media (max-width: 1440.98px) {
