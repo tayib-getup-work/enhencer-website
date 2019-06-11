@@ -137,6 +137,34 @@
 	.flip-card-column {
     margin-left: -20%;
 	}
+
+	div.laptop-wrapper video {
+		box-sizing: border-box;
+		background: url(images/services/macbook.png) center center no-repeat;
+		background-size: 720px 375px;
+		padding-top: 2.2%;
+		padding-right: 25.6%;
+		padding-bottom: 5.6%;
+		padding-left: 25.6%;
+		position: absolute;
+		top: -40px;
+		left: 0%;
+		width: 911px;
+		height: 460px;
+		/* pointer-events: none; */
+	}
+
+	.home-title{
+		width: 500px;
+		margin-left: -15%;
+		margin-top: -30px;
+	}
+
+	.main-title-info {
+		font-size: 1.2em !important;
+		font-weight: 200;
+		line-height: 175%;
+	}
 }
 
 @media (max-width: 1680.98px) {
