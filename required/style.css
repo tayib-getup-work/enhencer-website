@@ -9790,8 +9790,8 @@ body:not(.device-touch) .clients-grid li a {
 
 .testi-meta {
 	margin-top: 10px;
-	font-size: 14px;
-	font-weight: 500;
+	font-size: 0.9em;
+	font-weight: 600;
 	text-transform: uppercase;
 }
 
@@ -9801,7 +9801,7 @@ body:not(.device-touch) .clients-grid li a {
 	display: block;
 	font-weight: normal;
 	color: #999;
-	font-size: 12px;
+	font-size: 1em;
 	text-transform: none;
 	padding-left: 10px;
 }
@@ -21511,7 +21511,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 	text-align: center;
 	font-style: normal !important;
 	font-family: var(--fontfamily) !important;
-	font-size: var(--basefontsize) !important;
+	font-size: 1em !important;
 }
 
 .testi-meta {
