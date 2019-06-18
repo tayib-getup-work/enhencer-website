@@ -889,7 +889,7 @@ article {
     padding-bottom: 5.6%;
     padding-left: 25.6%;
     position: absolute;
-    top: -40px;
+    top: 0;
     left: 5%;
     width: 1115px;
     height: 460px;
@@ -3887,7 +3887,7 @@ div.cookiebtns {
 .home-title{
 	width: 605px;
 	margin-left: -1%;
-	margin-top: -30px;
+	margin-top: -20px;
 }
 
 .bg-blueish {
@@ -3909,4 +3909,23 @@ div.cookiebtns {
 
 .top-bar-margin{
 	margin-right: -1% !important;
+}
+
+
+.main-title-info-rotate {
+	font-size: 2em !important;
+	font-weight: 500;
+	line-height: 175%;
+}
+
+
+.integration-margin-bottom {
+	margin-bottom: 55px;
+}
+
+.home-integration-heading {
+    text-align: center;
+    color: #228E9F !important;
+    font-weight: 300 !important;
+    font-size: 3em !important;
 }
