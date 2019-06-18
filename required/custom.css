@@ -891,7 +891,7 @@ article {
     position: absolute;
     top: -40px;
     left: 5%;
-    width: 991px;
+    width: 1115px;
     height: 460px;
     /* pointer-events: none; */
 }
@@ -3057,7 +3057,7 @@ div[class*=box] {
 	font-size: 6em;
 	display: flex;
 	color: #e4e4e482;
-	margin-left: 21%;
+	margin-left: 18%;
 	position: relative;
 	margin-bottom: -70px;
 }
@@ -3066,7 +3066,7 @@ div[class*=box] {
 	font-size: 6em;
 	display: flex;
 	color: #e4e4e482;
-	margin-left: 76.5%;
+	margin-left: 77.5%;
 	position: relative;
 	margin-top: -75px;
 }
@@ -3160,7 +3160,7 @@ div[class*=box] {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: -25px;
+	margin-top: 0;
 }
 
 .home-mid-para-hr{
@@ -3429,7 +3429,7 @@ div[class*=box] {
   top: 49.5%;
 } */
 .ps-timeline-sec .container ol.ps-timeline {
-  margin: 330px 0;
+  margin: 380px 0;
   padding: 0;
   border-top: 2px solid #348e80;
   list-style: none;
@@ -3859,7 +3859,7 @@ div.cookiebtns {
 }
 
 .cookie-title{
-	font-weight: bold;
+	font-weight: normal;
 }
 
 .cookie-close{
@@ -3886,7 +3886,7 @@ div.cookiebtns {
 
 .home-title{
 	width: 605px;
-	margin-left: -25%;
+	margin-left: -1%;
 	margin-top: -30px;
 }
 
@@ -3896,4 +3896,17 @@ div.cookiebtns {
 
 .mobile-slider{
 	/* background-color: #e2e2e2; */
+}
+
+.container-home-wide-body {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+}
+
+.top-bar-margin{
+	margin-right: -1% !important;
 }
