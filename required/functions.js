@@ -270,7 +270,6 @@ var SEMICOLON = SEMICOLON || {};
 					if (negativeHeight) { scrHeight = scrHeight - Number(negativeHeight); }
 
 					element.css('height', scrHeight);
-					console.log(element)
 					if (element.attr('id') == 'slider' && !element.hasClass('canvas-slider-grid')) { if (element.has('.swiper-slide')) { element.find('.swiper-slide').css('height', scrHeight); } }
 				});
 			}
@@ -3703,6 +3702,8 @@ var SEMICOLON = SEMICOLON || {};
 		ticker: function () {
 
 			var $ticker = jQuery('.scw-ticker');
+			console.log($ticker)
+
 			if ($ticker.length < 1) { return true; }
 
 			$ticker.each(function () {
@@ -3720,6 +3721,7 @@ var SEMICOLON = SEMICOLON || {};
 					elementItemsMd = element.attr('data-items-md'),
 					elementItemsSm = element.attr('data-items-sm'),
 					elementItemsXs = element.attr('data-items-xs');
+					console.log(element)
 
 				if (!elementItems) { elementItems = 5; }
 				if (!elementItemsXl) { elementItemsXl = Number(elementItems); }
@@ -3729,7 +3731,9 @@ var SEMICOLON = SEMICOLON || {};
 				if (!elementItemsXs) { elementItemsXs = Number(elementItemsSm); }
 
 				tickerItemWidth = windowWidth / elementItems;
+				console.log(tickerItemWidth)
 				tickerWidth = (tickerItemWidth * tickerItemCount);
+				console.log(tickerItemCount)
 
 				element.find('.scw-ticker-wrap').after('<div class="scw-ticker-wrap-clone"></div>');
 
