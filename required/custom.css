@@ -424,7 +424,7 @@ h1.heading {
 	font-size: 2em;
 }
 .main-title-info {
-	font-size: 1.4em !important;
+	font-size: 2em !important;
 	font-weight: 200;
 	line-height: 175%;
 }
@@ -3885,7 +3885,7 @@ div.cookiebtns {
 }
 
 .home-title{
-	width: 605px;
+	width: 730px;
 	margin-left: -1%;
 	margin-top: -20px;
 }
