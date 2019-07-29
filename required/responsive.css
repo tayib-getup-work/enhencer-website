@@ -23,7 +23,7 @@
 
 @media (max-width: 1280.98px) {
 	.main-title-info {
-		font-size: 1.1em !important;
+		font-size: 1.5em !important;
 		font-weight: 200;
 		line-height: 175%;
 	}
@@ -37,7 +37,7 @@
 	}
 
 	.home-title {
-		width: 492px;
+		width: 500px;
 		margin-left: -1%;
 		margin-top: -30px;
 	}
@@ -165,13 +165,13 @@
 	}
 
 	.home-title{
-		width: 485px;
+		width: 500px;
 		margin-left: 0%;
 		margin-top: -30px;
 	}
 
 	.main-title-info {
-		font-size: 1.2em !important;
+		font-size: 1.5em !important;
 		font-weight: 200;
 		line-height: 175%;
 	}
@@ -253,13 +253,13 @@
 	}
 
 	.home-title{
-		width: 500px;
+		width: 525px;
 		margin-left: -2%;
 		margin-top: -30px;
 	}
 
 	.main-title-info {
-		font-size: 1.2em !important;
+		font-size: 1.6em !important;
 		font-weight: 200;
 		line-height: 175%;
 	}
@@ -322,6 +322,12 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 0;
+	}
+
+	.home-title{
+		width: 690px;
+		margin-left: -1%;
+		margin-top: -20px;
 	}
 }
 

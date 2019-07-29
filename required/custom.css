@@ -3002,6 +3002,12 @@ div[class*=box] {
 
 .lefty{
 	margin-left: 3% !important;
+	margin-right: 40% !important;
+}
+
+
+.righty{
+	margin-left: 40% !important;
 }
 
 .mbhuge{
