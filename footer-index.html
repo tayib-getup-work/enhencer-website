@@ -148,4 +148,12 @@
 
 
 
-
+<script>
+$(function () {
+    $('#collapseExample').on('shown.bs.collapse', function (e) {
+            $('html,body').animate({
+                scrollTop: $('#collapseExample').offset().top -80
+            }, 1500); 
+    }); 
+});
+</script>

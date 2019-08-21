@@ -3935,3 +3935,30 @@ div.cookiebtns {
     font-weight: 300 !important;
     font-size: 3em !important;
 }
+
+.career_col_half {
+	display: block;
+	width:50%;
+    position: relative;
+    /* margin-right: 1%; */
+    margin-bottom: 5em;
+    float: left;
+	/* margin-left: 2%; */
+	
+}
+
+
+.privacy-h2{
+	font-weight: 400 !important;
+    font-size: 2.8em !important;
+}
+
+
+.privacy-h3{
+	font-weight: 400 !important;
+    font-size: 1.8em !important;
+}
+
+.privacy-bullet{
+	margin-left: 2%;
+}
