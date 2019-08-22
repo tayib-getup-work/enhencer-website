@@ -3393,7 +3393,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	margin: -10px 0 0 0 !important;
 	background-color: transparent !important;
 	padding: 0 !important;
-	font-size: 12px;
+	font-size: 1.2em;
 	/* float: left; */
 }
 
@@ -3401,7 +3401,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 #header.transparent-header + #page-title.page-title-parallax .breadcrumb { margin-top: 35px !important; }
 
-.breadcrumb a { color: #555; }
+.breadcrumb a { color: #fff; }
 
 .breadcrumb a:hover { color:rgb(34, 142, 159) !important; }
 
