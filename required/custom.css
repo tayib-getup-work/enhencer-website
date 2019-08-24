@@ -2016,19 +2016,6 @@ display: block;  /* may not need this, but I've found I do */
 	display: inline-block;
 }
 
-.next-best:before{
-	content: '';
-	background: url(../images/icons/services/cart.svg) no-repeat;
-	position: relative;
-	/* z-index: 100000; */
-	top: 24px;
-	zoom: 47%;
-	background-size: 125px !important;
-	width: 125px !important;
-	height: 125px !important;
-	visibility: visible;
-	display: inline-block;
-}
 
 .predictive_maintenance:before{
 	content: '';
@@ -4014,4 +4001,108 @@ div.cookiebtns {
 }
 
 
+
+
+.home_stories_banner_h3{
+    /* text-align: center; */
+    color: #3e8a81;
+    font-weight: 400;
+    font-size: 2.2em;
+    line-height: 1.5;
+    vertical-align: middle;
+    /* height: 75px; */
+}
+
+.home_stories_banner_p{
+    font-size: 1.5em;
+    /* text-align: center; */
+    font-weight: 200;
+    color: black;
+    padding-right: 10%;
+}
+
+.home_stories_banner_ul {
+    /* text-align: center; */
+	list-style-position: inside;
+	margin-left: 2%;
+}
+
+
+.purchase_prpensity:before{
+    content: '';
+    background: url(../stories/images/overview/icons/cart.png) no-repeat;
+    position: relative;
+    /* z-index: 100000; */
+    top: 45px;
+    /* zoom: 70%; */
+    background-size: 125px !important;
+    width: 125px !important;
+    height: 125px !important;
+    visibility: visible;
+    display: inline-block;
+    margin-left: -14%;
+}
+
+
+
+/* Why Enhencer Card */
+
+@import url(https://fonts.googleapis.com/css?family=Lora|Roboto:400,500);
+
+
+.shadow-1 {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+}
+
+.why_card_background1 {
+    background-image: url(../images/why/19682.jpg);
+    background-size: cover;
+    margin-left: -2%;
+    height: 300px;
+    width: 104%;
+}
+
+
+.why_card_background2 {
+    background-image: url(../images/why/19687.jpg);
+    background-size: cover;
+    margin-left: -2%;
+    height: 300px;
+    width: 104%;
+}
+
+.why_card_background3 {
+    background-image: url(../images/why/19688.jpg);
+    background-size: cover;
+    margin-left: -2%;
+    height: 300px;
+    width: 104%;
+}
+
+
+
+.why_card_background1-1 {
+    background-image: url(../images/why/1-1.png);
+    background-size: cover;
+    margin-left: -2%;
+    height: 275px;
+    width: 104%;
+}
+
+
+.why_card_background2-2 {
+    background-image: url(../images/why/2-2.png);
+    background-size: cover;
+    margin-left: -2%;
+    height: 275px;
+    width: 104%;
+}
+
+.why_card_background3-3 {
+    background-image: url(../images/why/3-3.png);
+    background-size: cover;
+    margin-left: -2%;
+    height: 250px;
+    width: 104%;
+}
 
