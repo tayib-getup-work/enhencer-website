@@ -45,6 +45,9 @@
 	<!-- Bootstrap Switch CSS -->
 	<link rel="stylesheet" href="required/responsive.css" type="text/css" />
 	<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+
+	<link rel="stylesheet/scss" type="text/css" href="required/buttons.scss">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.3/sass.min.js"></script>
 	<!-- Seo Demo Specific Stylesheet -->
 	<!-- / -->
 	<!-- Document Title
@@ -120,8 +123,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="/" class="standard-logo" data-dark-logo="images/enhence-logo-type-32.gif"><img
-								id="logoImage" src="images/enhence-logo-type-32.gif" alt="Enhencer Logo"></a>
+						<a href="/" class="standard-logo" data-dark-logo="images/enhencer.png"><img id="logoImage"
+								src="images/enhencer.png" alt="Enhencer Logo"></a>
 						<a href="/" class="retina-logo" data-dark-logo="images/enhencer-logo-32.gif"><img id="logoImage"
 								src="images/enhencer-logo-32.gif" alt="Enhencer Logo"></a>
 					</div>
@@ -188,9 +191,8 @@
 		============================================= -->
 
 		<!-- style="background: #FFF url('./images/hero-1.webp') center center no-repeat; background-size: cover;" -->
-		<section id="slider" class="slider-element slider-parallax full-screen clearfix"
-			style="background-color: #fbfbfb;">
-			<div class="slider-parallax-inner">
+		<section id="slider" class="slider-element slider-parallax  full-screen clearfix">
+			<div class="slider-parallax-inner bgimg">
 				<div class="vertical-middle mobile-slider">
 					<div class="container-home-wide-body topmargin-sm">
 						<div id="homeheadervideo" class="row">
@@ -202,31 +204,33 @@
 									</h1>
 									<h3 id="mainsubTitleInfo"
 										class="mb-2 content-text main-title-info home-slider-subtitle">
-										<span style="color: #777;">Enhencer is the simplest Automated Machine Learning
-											platform with its revolutionary UX.
-											Few clicks are now enough to predict future events, cases or behaviors on
-											your business tasks.
+										<span style="color: #fff;">Simplest Automated Machine Learning platform
+											that predicts future events, cases or behaviors
+											on your business tasks
+
 										</span>
 									</h3>
 									<br>
 									<div id="homesliderbuttons">
-										<a id="homesliderbutton" style="margin-left: 0%; width: 120px; height: auto;"
-											href="https://app.enhencer.com/#!/signup"
-											onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Try Free'});;"
-											target="_blank"
-											class="button button-rounded try-free-button home-slider-button-pc-font">Try
-											Free</a>
-										<a id="homesliderbutton2" href="contact-form.html" target="_blank"
-											class="button button-rounded button-light bg-white border nott ls0 border-blue button-enhencer-default-green"
-											style="margin-left: 5%; text-align: center; font-size: 1.4em; height: auto; ">Contact
-											Us</a>
+
+										<a onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Try Free'});;"
+											class="button button-rounded header-try-button"
+											href="https://app.enhencer.com/#!/signup">Try it Free</a>
+
+										<a onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Try Free'});;"
+											class="button button-rounded header-meet-button"
+											href="https://app.enhencer.com/#!/signup">Meet Out Data-Scientist</a>
 									</div>
 								</div>
 
 
 							</div>
-							<div class="col-lg-6 col-md-8">
+							<div class="col-lg-6 col-md-8" style="    margin-top: -140px;">
 								<div>
+									<h1 class="main-title" style="    color: #2ca497 !important;
+										text-align: center;
+										font-size: 4em;">Predictive Storyteller
+									</h1>
 									<div id="homevideo" class="laptop-wrapper margin-home-video">
 										<video class="video-fluid z-depth-1" loop autoplay muted>
 											<source src="images\video\Stop Motion Video Compressed.mp4"
@@ -431,15 +435,19 @@
 				<!-- Features
 				============================================= -->
 
-
-				<div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
+				<h1 class="nott mt-5 ls0 mb-3 home-integration-heading">
+					Use Cases
+				</h1>
+				<div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false" style="padding-top: 0 !important;
+				padding-left: 0 !important;
+				padding-right: 0 !important;">
 					<div class="flexslider" style="margin-top:50px;">
 						<div class="slider-wrap">
 
 							<div class="slide">
 
 								<div class="row" style="height: 825PX;">
-									<div class="col-5">
+									<div class="col-5" style="padding-left: 0 !important;">
 										<a href="#"><img src="stories/images/overview/Cross-Sell-tiny.png"
 												alt="Customer Testimonails"></a>
 									</div>
@@ -451,7 +459,7 @@
 										<div>
 											<h2 style="color: #004159;
 											font-weight: 400;
-											font-size: 4em;"><i class="purchase_prpensity"></i>
+											font-size: 4em;    margin-top: -25px;"><i class="purchase_prpensity"></i>
 												Cross-sell/Up-sell
 											</h2>
 										</div>
@@ -467,7 +475,8 @@
 												</p>
 											</div>
 											<div>
-												<h3 class="home_stories_banner_h3">Shoot for the stars
+												<h3 class="home_stories_banner_h3"
+													style="    margin-bottom: 20px !important;">Shoot for the stars
 												</h3>
 												<p class="mt-3 home_stories_banner_p">Enhencer discovers the
 													relationships between purchasing and other
@@ -478,7 +487,7 @@
 											<div>
 												<h3 class="home_stories_banner_h3">Make the most of what you have
 												</h3>
-												<p class="mt-3 home_stories_banner_p">You can export a prediction
+												<p class="mt-3 mb-1 home_stories_banner_p">You can export a prediction
 													formula which outputs cross-selling
 													likelihood for each existing customer and you can start increasing:
 													<ul class="home_stories_banner_p home_stories_banner_ul">
@@ -493,6 +502,9 @@
 														</li>
 													</ul>
 												</p>
+												<a class="button_read_more mt-3">Read More<i
+														class="icon-line-arrow-right" style="    margin-left: 0.5%;													line-height: 20px;
+													vertical-align: text-bottom;"></i></a>
 											</div>
 										</div>
 									</div>
@@ -504,8 +516,77 @@
 							<div class="slide">
 
 								<div class="row" style="height: 825PX;">
-									<div class="col-5">
-										<a href="#"><img src="stories/images/overview/Cross-Sell-tiny.png"
+
+
+
+
+									<div class="col-7" style="padding-left: 10%;">
+
+										<div>
+											<h2 style="color: #004159;
+											font-weight: 400;
+											font-size: 4em;    margin-top: -25px;"><i class="likelihood_to_purchase"></i>
+												Likelihood to Purchase
+											</h2>
+										</div>
+
+										<div>
+											<div>
+												<h3 class="home_stories_banner_h3">To buy or not to buy
+												</h3>
+												<p class="mt-3 home_stories_banner_p">Which lead has a high likelihood
+													to purchase? What are the factors leading to a purchase?
+												</p>
+											</div>
+											<div>
+												<h3 class="home_stories_banner_h3"
+													style="    margin-bottom: 20px !important;">Can we learn from the
+													past to predict the future?
+												</h3>
+												<p class="mt-3 home_stories_banner_p">Enhencer predicts the likelihood
+													of a new lead to make a purchase with much higher accuracy than any
+													expert guess. you can focus on leads with higher propensity score to
+													increase profit with less marketing effort.
+												</p>
+											</div>
+											<div>
+												<h3 class="home_stories_banner_h3">Accuracy + Speed = Profit
+												</h3>
+												<p class="mt-3 mb-1 home_stories_banner_p">Few minutes are enough to
+													build a propensity model and you can start increasing:
+													<ul class="home_stories_banner_p home_stories_banner_ul">
+														<li>
+															Conversion rates in e-mail marketing
+														</li>
+														<li>
+															Click-through/conversion rates for Ads
+														</li>
+														<li>
+															Closing rates of sales calls
+														</li>
+													</ul>
+												</p>
+												<a class="button_read_more mt-3">Read More<i
+														class="icon-line-arrow-right" style="    margin-left: 0.5%;													line-height: 20px;
+													vertical-align: text-bottom;"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="col-5" style="padding-left: 0 !important;">
+										<a href="#"><img src="stories/images/overview/Likelihood-to-Purchase.png"
+												alt="Customer Testimonails"></a>
+									</div>
+								</div>
+
+
+							</div>
+
+
+							<div class="slide">
+
+								<div class="row" style="height: 825PX;">
+									<div class="col-5" style="padding-left: 0 !important;">
+										<a href="#"><img src="stories/images/overview/demand_forecasting.png"
 												alt="Customer Testimonails"></a>
 									</div>
 
@@ -515,115 +596,44 @@
 
 										<div>
 											<h2 style="color: #004159;
-												font-weight: 400;
-												font-size: 4em;"><i class="purchase_prpensity"></i>
-												Cross-sell/Up-sell
+											font-weight: 400;
+											font-size: 4em;    margin-top: 25px;"><i class="demand_forecasting"></i>
+												Demand Forecasting
 											</h2>
 										</div>
 
 										<div>
 											<div>
-												<h3 class="home_stories_banner_h3">A bird in the hand is worth two in
-													the bush
+												<h3 class="home_stories_banner_h3">Get out of the darkness
 												</h3>
-												<p class="mt-3 home_stories_banner_p">Which customers have the highest
-													probability to purchase other
-													products?
+												<p class="mt-3 home_stories_banner_p">Demand Forecasting is pretty
+													explanatory itself, and every business with sales, stock,
+													production, and planning operations can benefit from it.
 												</p>
 											</div>
 											<div>
-												<h3 class="home_stories_banner_h3">Shoot for the stars
+												<h3 class="home_stories_banner_h3"
+													style="    margin-bottom: 20px !important;">Mine till you shine
 												</h3>
-												<p class="mt-3 home_stories_banner_p">Enhencer discovers the
-													relationships between purchasing and other
-													features and behaviors of customers, then shows you who has a higher
-													likelihood to make another purchase, and why so.
+												<p class="mt-3 home_stories_banner_p">Enhencer predicts a probability
+													for next timeframe (day/week/month) by learning from sales history.
+													It can also build models in an incredibly short time for hundreds or
+													thousands of products.
+
 												</p>
 											</div>
 											<div>
-												<h3 class="home_stories_banner_h3">Make the most of what you have
+												<h3 class="home_stories_banner_h3">Do not act with your guess
 												</h3>
-												<p class="mt-3 home_stories_banner_p">You can export a prediction
-													formula which outputs cross-selling
-													likelihood for each existing customer and you can start increasing:
-													<ul class="home_stories_banner_p home_stories_banner_ul">
-														<li>
-															Save your time on marketing activities
-														</li>
-														<li>
-															Increase cross-sell/up-sell rates
-														</li>
-														<li>
-															Increase customer satisfaction
-														</li>
-													</ul>
+												<p class="mt-3 mb-1 home_stories_banner_p">Forecasting demand is
+													essential for a business as you might have disastrous consequences
+													when you lack data-driven decision support systems, which are
+													already commonplace in many organizations.
+
 												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-
-
-							</div>
-
-							<div class="slide">
-
-								<div class="row">
-									<div class="col-4">
-										<a href="#"><img src="stories/images/overview/Cross-Sell-tiny.png"
-												alt="Customer Testimonails"></a>
-									</div>
-
-
-
-									<div class="col-8">
-
-										<div>
-											<h2 style="text-align: center;
-												color: #12546d;
-												font-weight: 400;
-												font-size: 4em;">
-												Cross-sell/Up-sell
-											</h2>
-										</div>
-
-										<div class="row">
-											<div class="col_one_third">
-												<h3 class="home_stories_banner_h3">A bird in the hand is worth two in
-													the bush
-												</h3>
-												<p class="mt-3 home_stories_banner_p">Which customers have the highest
-													probability to purchase other
-													products?
-												</p>
-											</div>
-											<div class="col_one_third">
-												<h3 class="home_stories_banner_h3">Shoot for the stars
-												</h3>
-												<p class="mt-3 home_stories_banner_p">Enhencer discovers the
-													relationships between purchasing and other
-													features and behaviors of customers, then shows you who has a higher
-													likelihood to make another purchase, and why so.
-												</p>
-											</div>
-											<div class="col_one_third">
-												<h3 class="home_stories_banner_h3">Make the most of what you have
-												</h3>
-												<p class="mt-3 home_stories_banner_p">You can export a prediction
-													formula which outputs cross-selling
-													likelihood for each existing customer and you can start increasing:
-													<ul class="home_stories_banner_p home_stories_banner_ul">
-														<li>
-															Save your time on marketing activities
-														</li>
-														<li>
-															Increase cross-sell/up-sell rates
-														</li>
-														<li>
-															Increase customer satisfaction
-														</li>
-													</ul>
-												</p>
+												<a class="button_read_more mt-3">Read More<i
+														class="icon-line-arrow-right" style="  margin-top: 45px;  margin-left: 0.5%;													line-height: 20px;
+													vertical-align: text-bottom;"></i></a>
 											</div>
 										</div>
 									</div>
@@ -638,173 +648,6 @@
 				</div>
 
 
-
-
-				<br>
-				<br>
-				<div class="container-home-wide-body clearfix">
-
-					<h1 class="nott mt-5 ls0 mb-3 home-integration-heading">
-						Use Cases
-					</h1>
-
-					<div class="col_one_third" style="height: 200px;">
-						<div class="feature-box fbox-center fbox-plain home-card">
-							<div class="fbox-icon">
-								<a href="stories.html"><i class="product_propensity"></i></a>
-							</div>
-							<a href="stories.html">
-								<h3 class="home-stories-headings">Product Propensity
-								</h3>
-							</a>
-							<a href="stories.html">
-								<p class="home-stories-p">Predict your customers' tendency to buy certain products.
-								</p>
-							</a>
-						</div>
-					</div>
-
-					<div class="col_one_third" style="height: 200px;">
-						<div class="feature-box fbox-center fbox-plain home-card">
-							<div class="fbox-icon">
-								<a href="stories.html"><i class="predictive_maintenance"></i></a>
-							</div>
-							<a href="stories.html">
-								<h3 class="home-stories-headings">Predictive Maintenance
-								</h3>
-							</a>
-							<a href="stories.html">
-								<p class="home-stories-p">Identify devices before they break down and maximize your
-									operation time.
-								</p>
-							</a>
-						</div>
-					</div>
-
-					<div class="col_one_third col_last" style="height: 200px;">
-						<div class="feature-box fbox-center fbox-plain home-card">
-							<div class="fbox-icon">
-								<a href="stories.html"><i class="churn"></i></a>
-							</div>
-							<a href="stories.html">
-								<h3 class="home-stories-headings">Churn Prevention
-								</h3>
-							</a>
-							<a href="stories.html">
-								<p class="home-stories-p">Support your campaign management by predicting the customers
-									that are more likely to leave in the future.
-								</p>
-							</a>
-						</div>
-					</div>
-
-					<div class="col_one_third" style="height: 200px;">
-						<div class="feature-box fbox-center fbox-plain home-card">
-							<div class="fbox-icon">
-								<a href="stories.html"><i class="fraud"></i></a>
-							</div>
-							<a href="stories.html">
-								<h3 class="home-stories-headings">Fraud Detection
-								</h3>
-							</a>
-							<a href="stories.html">
-								<p class="home-stories-p">Predict the most likely cases of fraud before they happen to
-									alert related units.
-								</p>
-							</a>
-						</div>
-					</div>
-					<div class="col_one_third" style="height: 200px;">
-						<div class="feature-box fbox-center fbox-plain home-card">
-							<div class="fbox-icon">
-								<a href="stories.html"><i class="demand_forecasting"></i></a>
-							</div>
-							<a href="stories.html">
-								<h3 class="home-stories-headings">Demand Forecasting
-								</h3>
-							</a>
-							<a href="stories.html">
-								<p class="home-stories-p">Predict the demand for the future by learning from previous
-									events.
-								</p>
-							</a>
-						</div>
-					</div>
-					<div class="col_one_third col_last" style="height: 200px;">
-						<div class="feature-box fbox-center fbox-plain home-card">
-							<div class="fbox-icon">
-								<a href="stories.html"><i class="risk_assessment"></i></a>
-							</div>
-							<a href="stories.html">
-								<h3 class="home-stories-headings">Risk Assessment
-								</h3>
-							</a>
-							<a href="stories.html">
-								<p class="home-stories-p">Learn the highest risk customers from your data, and take
-									necessary precautions.
-								</p>
-								</p>
-							</a>
-						</div>
-					</div>
-
-					<div class="col_one_third" style="height: 200px;">
-						<div class="feature-box fbox-center fbox-plain home-card">
-							<div class="fbox-icon">
-								<a href="stories.html"><i class="next-best"></i></a>
-							</div>
-							<a href="stories.html">
-								<h3 class="home-stories-headings">Next Best Product
-								</h3>
-							</a>
-							<a href="stories.html">
-								<p class="home-stories-p">Find the products that your customer would likely purchase
-									by
-									previous cross-sell
-									behaviors.
-								</p>
-							</a>
-						</div>
-					</div>
-					<div class="col_one_third" style="height: 200px;">
-						<div class="feature-box fbox-center fbox-plain home-card">
-							<div class="fbox-icon">
-								<a href="stories.html"><i class="customer_lifetime_value"></i></a>
-							</div>
-							<a href="stories.html">
-								<h3 class="home-stories-headings">Customer Lifetime Value
-								</h3>
-							</a>
-							<a href="stories.html">
-								<p class="home-stories-p">Plan your marketing campaigns according to data-backed
-									Customer
-									Lifetime Value
-									insights.
-								</p>
-							</a>
-						</div>
-					</div>
-
-					<div class="col_one_third col_last" style="height: 200px;">
-						<div class="feature-box fbox-center fbox-plain home-card">
-							<div class="fbox-icon">
-								<a href="stories.html"><i class="next_action"></i></a>
-							</div>
-							<a href="stories.html">
-								<h3 class="home-stories-headings">Next Best Action
-								</h3>
-							</a>
-							<a href="stories.html">
-								<p class="home-stories-p">Best action for the right customer, at the right time,
-									through
-									the right channel.
-								</p>
-								</p>
-							</a>
-						</div>
-					</div>
-
-				</div>
 
 				<!-- Client Carousel
 				============================================= -->
@@ -900,354 +743,12 @@
 				<br>
 				<br>
 
-				<!-- Why Enhencer 1-->
-
-				<div>
-					<h1 class="nott mt-5 ls0 mb-3 home-integration-heading">
-						Why Enhencer?
-					</h1>
-				</div>
-				<br>
-				<br>
-				<br>
-				<div class="row container-home-wide-body">
-					<div class="col-4">
-
-						<div class="shadow-1" style="width: 420px; overflow: hidden; border-radius: 1px;    margin-left: auto;
-						margin-right: auto;">
-							<img src="images\why\1.png" alt="Man with backpack">
-
-							<div class="px-2 py-2" style="margin-top: -25px;">
-								<div class="okicon mb-4" style="width: 80px">
-									<a><img src="images/svgs/artificial-intelligence.svg"></a>
-								</div>
-
-								<h1 class="mb-4" style="    line-height: 1.25;
-								font-weight: 500;
-								font-size: 2em;">
-									Automated Machine Learning
-								</h1>
-
-								<p class="mb-1" style="text-align: justify; font-size: 1.2em;">
-									Millions of hours are being spent to learn machine
-									learning
-									from courses, and coding
-									in Python or R.
-									Enhencer now lets business users invest more of their time to get insights.
-								</p>
-
-							</div>
-						</div>
-					</div>
-
-
-					<div class="col-4">
-
-						<div class="shadow-1" style="width: 420px;     height: 585px;
-						overflow: hidden; border-radius: 1px;    margin-left: auto;
-						margin-right: auto;">
-							<img src="images\why\2.png" alt="Man with backpack">
-
-							<div class="px-2 py-2" style="margin-top: -25px;">
-								<div class="okicon mb-4" style="width: 80px">
-									<a><img src="images/svgs/computermodel.svg"></a>
-								</div>
-
-								<h1 class="mb-4" style="    line-height: 1.25;
-								font-weight: 500;
-								font-size: 2em;
-								height: 73px;">
-									Transparent Models
-								</h1>
-
-								<p class="mb-1" style="text-align: justify; font-size: 1.2em;">
-									Traditional tools generate incomprehensible
-									outputs.
-									Enhencer lays out causalities in the data before your eyes with its colorful
-								</p>
-
-							</div>
-						</div>
-					</div>
-
-					<div class="col-4">
-
-						<div class="shadow-1" style="width: 420px;  height: 585px; overflow: hidden; border-radius: 1px;    margin-left: auto;
-						margin-right: auto;">
-							<img src="images\why\3.png" alt="Man with backpack">
-
-							<div class="px-2 py-2" style="margin-top: -25px;">
-								<div class="okicon mb-4" style="width: 80px">
-									<a><img src="images/svgs/rocket-ship.svg"></a>
-								</div>
-
-								<h1 class="mb-4" style="    line-height: 1.25;
-								font-weight: 500;
-								font-size: 2em;height: 73px;">
-									Quick Fit
-								</h1>
-
-								<p class="mb-1" style="text-align: justify; font-size: 1.2em;">
-									Millions of hours are being spent to learn machine
-									learning
-									from courses, and coding
-									in Python or R.
-									Enhencer now lets business users invest more of their time to get insights.
-								</p>
-
-							</div>
-						</div>
-					</div>
-
-
-				</div>
-
-
-
-				<!-- Why Enhencer 2-->
-
-				<div>
-					<h1 class="nott mt-5 ls0 mb-3 home-integration-heading">
-						Why Enhencer?
-					</h1>
-				</div>
-				<br>
-				<br>
-				<br>
-				<div class="row container-home-wide-body">
-					<div class="col-4">
-
-						<div class="shadow-1" style="width: 420px; overflow: hidden; border-radius: 1px;    margin-left: auto;
-						margin-right: auto;">
-							<img src="images\why\1.png" alt="Man with backpack">
-
-							<div class="px-2 py-2" style="margin-top: -25px;">
-								<div class="okicon mb-4" style="width: 80px;     margin-left: auto;
-								margin-right: auto;">
-									<a><img src="images/svgs/artificial-intelligence.svg"></a>
-								</div>
-
-								<h1 class="mb-4" style="      text-align: center;  line-height: 1.25;
-								font-weight: 500;
-								font-size: 2em;">
-									Automated Machine Learning
-								</h1>
-
-								<p class="mb-1" style="text-align: center; font-size: 1.2em;">
-									Millions of hours are being spent to learn machine
-									learning
-									from courses, and coding
-									in Python or R.
-									Enhencer now lets business users invest more of their time to get insights.
-								</p>
-
-							</div>
-						</div>
-					</div>
-
-
-					<div class="col-4">
-
-						<div class="shadow-1" style="width: 420px;     height: 585px;
-						overflow: hidden; border-radius: 1px;    margin-left: auto;
-						margin-right: auto;">
-							<img src="images\why\2.png" alt="Man with backpack">
-
-							<div class="px-2 py-2" style="margin-top: -25px;">
-								<div class="okicon mb-4" style="width: 80px;     margin-left: auto;
-								margin-right: auto;">
-									<a><img src="images/svgs/computermodel.svg"></a>
-								</div>
-
-								<h1 class="mb-4" style="      text-align: center;  line-height: 1.25;
-								font-weight: 500;
-								font-size: 2em;
-								height: 73px;">
-									Transparent Models
-								</h1>
-
-								<p class="mb-1" style="text-align: center; font-size: 1.2em;">
-									Traditional tools generate incomprehensible
-									outputs.
-									Enhencer lays out causalities in the data before your eyes with its colorful
-								</p>
-
-							</div>
-						</div>
-					</div>
-
-					<div class="col-4">
-
-						<div class="shadow-1" style="width: 420px;  height: 585px; overflow: hidden; border-radius: 1px;    margin-left: auto;
-						margin-right: auto;">
-							<img src="images\why\3.png" alt="Man with backpack">
-
-							<div class="px-2 py-2" style="margin-top: -25px;">
-								<div class="okicon mb-4" style="width: 80px;     margin-left: auto;
-								margin-right: auto;">
-									<a><img src="images/svgs/rocket-ship.svg"></a>
-								</div>
-
-								<h1 class="mb-4" style="    line-height: 1.25;
-								font-weight: 500;
-								font-size: 2em;height: 73px;     text-align: center;">
-									Quick Fit
-								</h1>
-
-								<p class="mb-1" style="text-align: center; font-size: 1.2em;">
-									Millions of hours are being spent to learn machine
-									learning
-									from courses, and coding
-									in Python or R.
-									Enhencer now lets business users invest more of their time to get insights.
-								</p>
-
-							</div>
-						</div>
-					</div>
-
-
-				</div>
-
-
-				<!-- Why Enhencer 3-->
-
-				<div>
-					<h1 class="nott mt-5 ls0 mb-3 home-integration-heading">
-						Why Enhencer?
-					</h1>
-				</div>
-				<br>
-				<br>
-				<br>
-				<div class="row container-home-wide-body">
-					<div class="col-4">
-
-						<div class="shadow-1" style="width: 420px; overflow: hidden; border-radius: 1px;    margin-left: auto;
-			margin-right: auto;">
-
-							<div class="px-2 py-2" style="margin-top: -25px;">
-								<div class="why_card_background1">
-
-									<div class="okicon mb-4" style="width: 80px;     margin-left: auto;
-					margin-right: auto;     padding-top: 70px;">
-										<a><img src="images/why/artificial-intelligence-white.svg"></a>
-									</div>
-
-									<h1 class="mb-4" style="    text-align: center;
-									line-height: 1.25;
-									font-weight: 500;
-									font-size: 2em;
-									color: white;
-									width: 95%;
-									margin-right: auto;
-									margin-left: auto;">
-										Automated Machine Learning
-									</h1>
-								</div>
-
-
-								<p class="mb-1"
-									style="text-align: center; font-size: 1.4em; margin-top: 40px; margin-bottom: 40px !important;">
-									Millions of hours are being spent to learn machine
-									learning
-									from courses, and coding
-									in Python or R.
-									Enhencer now lets business users invest more of their time to get insights.
-								</p>
-
-							</div>
-
-						</div>
-					</div>
-
-
-					<div class="col-4">
-
-						<div class="shadow-1" style="width: 420px; overflow: hidden; border-radius: 1px;    margin-left: auto;
-			margin-right: auto;     height: 510px;">
-
-							<div class="px-2 py-2" style="margin-top: -25px;">
-								<div class="why_card_background2">
-
-									<div class="okicon mb-4" style="width: 80px;     margin-left: auto;
-					margin-right: auto;     padding-top: 70px;">
-										<a><img src="images/why/computermodel-white.svg"></a>
-									</div>
-
-									<h1 class="mb-4" style="    text-align: center;
-									line-height: 1.25;
-									font-weight: 500;
-									font-size: 2em;
-									color: white;
-									width: 95%;
-									margin-right: auto;
-									margin-left: auto;">
-										Transparent Models
-									</h1>
-								</div>
-
-
-								<p class="mb-1"
-									style="text-align: center; font-size: 1.4em; margin-top: 40px; margin-bottom: 40px !important;">
-									Traditional tools generate incomprehensible
-									outputs.
-									Enhencer lays out causalities in the data before your eyes with its colorful
-								</p>
-
-							</div>
-
-						</div>
-					</div>
-
-					<div class="col-4">
-
-						<div class="shadow-1" style="width: 420px; overflow: hidden; border-radius: 1px;    margin-left: auto;
-			margin-right: auto;     height: 510px;">
-
-							<div class="px-2 py-2" style="margin-top: -25px;">
-								<div class="why_card_background3">
-
-									<div class="okicon mb-4" style="width: 80px;     margin-left: auto;
-					margin-right: auto;     padding-top: 70px;">
-										<a><img src="images/why/rocket-ship-white.svg"></a>
-									</div>
-
-									<h1 class="mb-4" style="    text-align: center;
-									line-height: 1.25;
-									font-weight: 500;
-									font-size: 2em;
-									color: white;
-									width: 95%;
-									margin-right: auto;
-									margin-left: auto;">
-										Quick Fit
-									</h1>
-								</div>
-
-
-								<p class="mb-1"
-									style="text-align: center; font-size: 1.4em; margin-top: 40px; margin-bottom: 40px !important; ">
-									Predictive modeling has become essential to any
-									modern
-									business department. Fastest and easiest way to implement self-service analytics
-									in
-									your business is Enhencer.
-								</p>
-
-							</div>
-
-						</div>
-					</div>
-
-
-				</div>
 
 
 				<!-- Why Enhencer 4-->
 
 				<div>
-					<h1 class="nott mt-5 ls0 mb-3 home-integration-heading">
+					<h1 class="nott mt-3 ls0 mb-3 home-integration-heading">
 						Why Enhencer?
 					</h1>
 				</div>
@@ -1257,14 +758,14 @@
 				<div class="row container-home-wide-body">
 					<div class="col-4">
 
-						<div class="shadow-1" style="width: 420px; overflow: hidden; border-radius: 1px;    margin-left: auto;
+						<div style="width: 420px; overflow: hidden; border-radius: 1px;    margin-left: auto;
 			margin-right: auto;">
 
 							<div class="px-2 py-2" style="margin-top: -25px;">
 								<div class="why_card_background1-1">
 
 									<div class="okicon mb-4" style="width: 80px;     margin-left: auto;
-					margin-right: auto;     padding-top: 90px;">
+					margin-right: auto;     padding-top: 70px;">
 										<a><img src="images/why/artificial-intelligence-white.svg"></a>
 									</div>
 
@@ -1298,14 +799,14 @@
 
 					<div class="col-4">
 
-						<div class="shadow-1" style="width: 420px; overflow: hidden; border-radius: 1px;    margin-left: auto;
+						<div style="width: 420px; overflow: hidden; border-radius: 1px;    margin-left: auto;
 			margin-right: auto;     height: 590px;">
 
 							<div class="px-2 py-2" style="margin-top: -25px;">
 								<div class="why_card_background2-2">
 
 									<div class="okicon mb-4" style="width: 80px;     margin-left: auto;
-					margin-right: auto;     padding-top: 90px;">
+					margin-right: auto;     padding-top: 70px;">
 										<a><img src="images/why/computermodel-white.svg"></a>
 									</div>
 
@@ -1336,14 +837,14 @@
 
 					<div class="col-4">
 
-						<div class="shadow-1" style="width: 420px; overflow: hidden; border-radius: 1px;    margin-left: auto;
+						<div style="width: 420px; overflow: hidden; border-radius: 1px;    margin-left: auto;
 			margin-right: auto;     height: 590px;">
 
 							<div class="px-2 py-2" style="margin-top: -25px;">
 								<div class="why_card_background3-3">
 
 									<div class="okicon mb-4" style="width: 80px;     margin-left: auto;
-					margin-right: auto;     padding-top: 90px;">
+					margin-right: auto;     padding-top: 70px;">
 										<a><img src="images/why/rocket-ship-white.svg"></a>
 									</div>
 
@@ -1377,65 +878,50 @@
 
 				</div>
 
+				<!-- Integreations Carousel
+				============================================= -->
 
-
-				<div class="clearfix py-8">
-					<div class="section nobg m-0 border-bottom py-3">
-						<h1 class="nott mt-5 ls0 mb-3 home-integration-heading">
-							Why Enhencer?
-						</h1>
-						<br>
-						<div>
-							<div class="container" style="padding-top:35px;">
-								<div class="feature-box fbox-large fbox-plain fbox-dark mbhuge">
-									<div class="fbox-icon mtshort okicon">
-										<a><img src="images/svgs/artificial-intelligence.svg"></a>
-									</div>
-									<h3 class="home-h2 lefty">Automated Machine Learning</h3>
-									<p class="home-h2-subtitle lefty">Millions of hours are being spent to learn machine
-										learning
-										from courses, and coding
-										in Python or R.
-										Enhencer now lets business users invest more of their time to get insights.</p>
-								</div>
-								<div class="feature-box fbox-large fbox-plain fbox-dark mbhuge"
-									style="text-align:right;">
-									<div class="fbox-icon icon-right mtshort okicon">
-										<a>
-											<img src="images/svgs/computermodel.svg"></a>
-									</div>
-									<h3 class="home-h2">Transparent Models
-									</h3>
-									<p class="home-h2-subtitle righty">Traditional tools generate incomprehensible
-										outputs.
-										Enhencer lays out causalities in the data before your eyes with its colorful
-									</p>
-								</div>
-								<div class="feature-box fbox-large fbox-plain fbox-dark" style="padding-bottom:75px;">
-									<div class="fbox-icon mtshort okicon">
-										<a><img src="images/svgs/rocket-ship.svg"></a>
-									</div>
-									<h3 class="home-h2 lefty">Quick Fit
-									</h3>
-									<p class="home-h2-subtitle lefty">Predictive modeling has become essential to any
-										modern
-										business department. Fastest and easiest way to implement self-service analytics
-										in
-										your business is Enhencer.
-
-									</p>
-								</div>
+				<br>
+				<br>
+				<div class="heading-block nobottomborder center divcenter mb-0 clearfix" style="margin-top:50px;">
+					<h1 class="nott ls0 mb-3 home-integration-heading">
+						<b style="    font-weight: 500;">Connect</b> to Many Platforms with Zero Effort
+					</h1>
+				</div>
+				<br>
+				<div class="section nobg m-0 py-5" style="padding: 10px 0 !important;">
+					<div class="container-home-wide-body ">
+						<div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="100"
+							data-loop="true" data-autoplay="5000" data-nav="false" data-pagi="false" data-items-xs="2"
+							data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
+							<div class="oc-item"><a href="connect.html"><img src="images/integrations/ga-360.png"
+										alt="Clients"></a>
 							</div>
-
+							<div class="oc-item"><a href="connect.html"><img src="images/integrations/Pipedrive_150.png"
+										alt="Clients"></a></div>
+							<div class="oc-item"><a href="typeform-integration.html"><img
+										src="images/integrations/Typeform_150.png" alt="Clients"></a></div>
+							<div class="oc-item"><a href="mssql.html"><img
+										src="images/integrations/MSSQL_Server_150.png" alt="Clients"></a></div>
+							<div class="oc-item"><a href="google-form.html"><img
+										src="images/integrations/Google_Forms_150.png" alt="Clients"></a></div>
+							<div class="oc-item"><a href="connect.html"><img src="images/integrations/Hubspot_150.png"
+										alt="Clients"></a></div>
+							<div class="oc-item"><a href="connect.html"><img src="images/integrations/Mailchimp.png"
+										alt="Clients"></a></div>
+							<div class="oc-item"><a href="mysql.html"><img src="images/integrations/Mysql_150.png"
+										alt="Clients"></a></div>
+							<div class="oc-item"><a href="qlik-view.html"><img src="images/integrations/Qlik.png"
+										alt="Clients"></a>
+							</div>
+							<div class="oc-item"><a href="connect.html"><img src="images/integrations/Tableau.png"
+										alt="Clients"></a></div>
 						</div>
 					</div>
-
-					<br>
-					<br>
-					<br>
-
-
 				</div>
+
+
+
 				<!-- Testimonials
 				============================================= -->
 				<div id="testi" class="row" style="margin-top:25px;">
@@ -1520,49 +1006,38 @@
 
 				</div>
 
-
-				<!-- Integreations Carousel
-				============================================= -->
+				<!-- Call to Action -->
 
 				<br>
 				<br>
-				<div class="heading-block nobottomborder center divcenter mb-0 clearfix" style="margin-top:50px;">
-					<h1 class="nott ls0 mb-3 home-integration-heading">
-						Connect
-						Data Sources with Zero Effort</h1>
+				<br>
+
+
+				<div>
+					<h1 class="nott mt-3 ls0 mb-3 home-integration-heading">
+						Got Intrigued! Check Out Enhencer Today
+					</h1>
 				</div>
 				<br>
-				<div class="section nobg m-0 border-bottom py-5" style="padding: 10px 0 !important;">
-					<div class="container-home-wide-body ">
-						<div id="oc-clients"
-							class="owl-carousel image-carousel carousel-widget integration-margin-bottom"
-							data-margin="100" data-loop="true" data-autoplay="5000" data-nav="false" data-pagi="false"
-							data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
-							<div class="oc-item"><a href="connect.html"><img src="images/integrations/ga-360.png"
-										alt="Clients"></a>
-							</div>
-							<div class="oc-item"><a href="connect.html"><img src="images/integrations/Pipedrive_150.png"
-										alt="Clients"></a></div>
-							<div class="oc-item"><a href="typeform-integration.html"><img
-										src="images/integrations/Typeform_150.png" alt="Clients"></a></div>
-							<div class="oc-item"><a href="mssql.html"><img
-										src="images/integrations/MSSQL_Server_150.png" alt="Clients"></a></div>
-							<div class="oc-item"><a href="google-form.html"><img
-										src="images/integrations/Google_Forms_150.png" alt="Clients"></a></div>
-							<div class="oc-item"><a href="connect.html"><img src="images/integrations/Hubspot_150.png"
-										alt="Clients"></a></div>
-							<div class="oc-item"><a href="connect.html"><img src="images/integrations/Mailchimp.png"
-										alt="Clients"></a></div>
-							<div class="oc-item"><a href="mysql.html"><img src="images/integrations/Mysql_150.png"
-										alt="Clients"></a></div>
-							<div class="oc-item"><a href="qlik-view.html"><img src="images/integrations/Qlik.png"
-										alt="Clients"></a>
-							</div>
-							<div class="oc-item"><a href="connect.html"><img src="images/integrations/Tableau.png"
-										alt="Clients"></a></div>
-						</div>
+				<br>
+				<br>
+
+				<div class="row">
+					<div class="col_half" style="text-align:right;">
+						<a class="button_read_more2 mt-3">Try it Free</a>
+					</div>
+					<div class="col_half" style="text-align:left;">
+						<a class="button_read_more mt-3">Meet Our Data-Scientist</a>
 					</div>
 				</div>
+
+				<br>
+				<br>
+
+
+
+
+
 				<div id="footerContent">
 				</div>
 
@@ -1638,6 +1113,24 @@
 						return null;
 					}
 				</script>
+
+				<script>
+					$(function () {
+						$('.btn-6')
+							.on('mouseenter', function (e) {
+								var parentOffset = $(this).offset(),
+									relX = e.pageX - parentOffset.left,
+									relY = e.pageY - parentOffset.top;
+								$(this).find('span').css({ top: relY, left: relX })
+							})
+							.on('mouseout', function (e) {
+								var parentOffset = $(this).offset(),
+									relX = e.pageX - parentOffset.left,
+									relY = e.pageY - parentOffset.top;
+								$(this).find('span').css({ top: relY, left: relX })
+							});
+						$('[href=#]').click(function () { return false });
+					});</script>
 
 </body>
 
