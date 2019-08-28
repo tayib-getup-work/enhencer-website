@@ -1513,7 +1513,55 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof homeheadervideo != 'undefined') {
 					homeheadervideo.classList.remove("row");
 				}
+				if (typeof bgimg != 'undefined') {
+					bgimg.classList.remove("bgimg");
+				}
+				if (typeof caseslide1 != 'undefined') {
+					caseslide1.classList.remove("row");
+				}
+				if (typeof caseslide2 != 'undefined') {
+					caseslide2.classList.remove("row");
+				}
+				if (typeof caseslide3 != 'undefined') {
+					caseslide3.classList.remove("row");
+				}
+				if (typeof caseslide4 != 'undefined') {
+					caseslide4.classList.remove("row");
+				}
+				if (typeof caseimage1 != 'undefined') {
+					caseimage1.classList.add("dpn");
+				}
+				if (typeof caseimage2 != 'undefined') {
+					caseimage2.classList.add("dpn");
+				}
+				if (typeof caseimage3 != 'undefined') {
+					caseimage3.classList.add("dpn");
+				}
+				if (typeof caseimage4 != 'undefined') {
+					caseimage4.classList.add("dpn");
+				}
+				if (typeof casesecondcol1 != 'undefined') {
+					casesecondcol1.classList.remove("col-7");
+				}
+				if (typeof casesecondcol2 != 'undefined') {
+					casesecondcol2.classList.remove("col-7");
+				}
+				if (typeof casesecondcol3 != 'undefined') {
+					casesecondcol3.classList.remove("col-7");
+				}
+				if (typeof casesecondcol4 != 'undefined') {
+					casesecondcol4.classList.remove("col-7");
+				}
+
+			 
+			
+			if (typeof whyenhencer != 'undefined') {
+				whyenhencer.classList.remove("row");
 			}
+			if (typeof calltoaction != 'undefined') {
+				calltoaction.classList.remove("row");
+			}
+		}
 		},
 
 
@@ -3721,7 +3769,7 @@ var SEMICOLON = SEMICOLON || {};
 					elementItemsMd = element.attr('data-items-md'),
 					elementItemsSm = element.attr('data-items-sm'),
 					elementItemsXs = element.attr('data-items-xs');
-					console.log(element)
+				console.log(element)
 
 				if (!elementItems) { elementItems = 5; }
 				if (!elementItemsXl) { elementItemsXl = Number(elementItems); }
@@ -4468,44 +4516,44 @@ $(document).ready(function () {
 	})
 })
 
-(function($) {
-	
-	if (readCookie('cnil') != 1) {
-		createCookie('cnil', 1, 0);
-		$('#cookie_bar').toggle();
-	}
-	$('#hide_bar').on('click', function() {
-		$('#cookie_bar').toggle();
-	});
-	
-	$('#eat').on('click', function() {
-		$.removeCookie('cnil', { path: '/' });
-		$('#cookie_bar').toggle();
-  });
+	(function ($) {
 
-})(jQuery);
+		if (readCookie('cnil') != 1) {
+			createCookie('cnil', 1, 0);
+			$('#cookie_bar').toggle();
+		}
+		$('#hide_bar').on('click', function () {
+			$('#cookie_bar').toggle();
+		});
+
+		$('#eat').on('click', function () {
+			$.removeCookie('cnil', { path: '/' });
+			$('#cookie_bar').toggle();
+		});
+
+	})(jQuery);
 
 
 //
 // Gestion des cookies
-	function createCookie(name, value, days) {
-		var expires;
-		if (days) {
-			var date = new Date();
-			date.setTime(date.getTime() + 1);
-			expires = "; expires=" + date.toGMTString();
-		}
-		else expires = "";
-		document.cookie = name + "=" + value + expires + "; path=/";
+function createCookie(name, value, days) {
+	var expires;
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime() + 1);
+		expires = "; expires=" + date.toGMTString();
 	}
+	else expires = "";
+	document.cookie = name + "=" + value + expires + "; path=/";
+}
 
-	function readCookie(name) {
-		var nameEQ = name + "=";
-		var ca = document.cookie.split(';');
-		for (var i = 0; i < ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-		}
-		return null;
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for (var i = 0; i < ca.length; i++) {
+		var c = ca[i];
+		while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
 	}
+	return null;
+}

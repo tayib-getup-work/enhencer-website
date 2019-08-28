@@ -3336,6 +3336,7 @@ div[class*=box] {
 .ps-timeline-sec {
   position: relative;
   background: #fff;
+  z-index: 100000;
 }
 .ps-timeline-sec .container {
   position: relative;
@@ -3841,7 +3842,7 @@ padding-right: 5%;
 	right: 0;
 	/* padding: 10px 0; */
 	background-color: #12546d;
-	z-index: 10000;
+	z-index: 100000;
 }
 
 .cookie-p {
@@ -3930,7 +3931,7 @@ div.cookiebtns {
 .home-title{
 	width: 715px;
 	margin-left: -1%;
-	/* margin-top: 45px; */
+	margin-top: -90px;
 }
 
 .bg-blueish {
@@ -4031,20 +4032,13 @@ div.cookiebtns {
     color: #3e8a81 !important;
 }
 
-.purchase_prpensity:before{
-    content: '';
-    background: url(../stories/images/overview/icons/cart.png) no-repeat;
-    position: relative;
-    /* z-index: 100000; */
-    top: 45px;
-    /* zoom: 70%; */
-    background-size: 125px !important;
-    width: 125px !important;
-    height: 125px !important;
-    visibility: visible;
-    display: inline-block;
-    margin-left: -14%;
+.home_stories_banner_h1{
+	color: #004159;
+    font-weight: 400;
+    font-size: 3em;
+    margin-top: -25px;
 }
+
 
 
 
@@ -4052,6 +4046,50 @@ div.cookiebtns {
 
 @import url(https://fonts.googleapis.com/css?family=Lora|Roboto:400,500);
 
+.why_enhencer_h2{
+	text-align: center;
+	line-height: 1.25;
+	font-weight: 400;
+	font-size: 2em;
+	color: black;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;margin-top: 35px;
+}
+
+.why_enhencer_card{
+	width: 420px;
+    overflow: hidden;
+    border-radius: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.why_enhencer_card_bottom_part{
+	margin-top: -25px;
+}
+
+.why_enhencer_card_p {    
+	text-align: center;
+    font-size: 1.4em;
+    margin-top: 40px;
+	margin-bottom: 40px !important;
+}
+
+.why_enhencer_card_picture{
+	width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+
+.mt-xl {
+	margin-top: 4.5rem !important;
+}
+
+.mt-xxl {
+	margin-top: 5.7rem !important;
+}
 
 .shadow-1 {
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
@@ -4219,7 +4257,7 @@ div.cookiebtns {
     line-height: 45px;
     text-transform: none;
     background-color: white !important;
-    color: #12546d !important;
+    color: #13364a  !important;
     font-size: 1.3em !important;
     /* line-height: 45px; */
     height: 45px;
@@ -4253,17 +4291,32 @@ div.cookiebtns {
 
 .likelihood_to_purchase:before{
     content: '';
-    background: url(../stories/images/overview/icons/cart.png) no-repeat;
+    background: url(../stories/images/overview/icons/cash_counter.png) no-repeat;
     position: relative;
     /* z-index: 100000; */
     top: 45px;
     /* zoom: 70%; */
-    background-size: 125px !important;
-    width: 125px !important;
-    height: 125px !important;
+    background-size: 80px !important;
+    width: 107px !important;
+    height: 110px !important;
     visibility: visible;
     display: inline-block;
-    margin-left: -14%;
+    margin-left: -13%;
+}
+
+.churn_proability:before{
+    content: '';
+    background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+    position: relative;
+    /* z-index: 100000; */
+    top: 45px;
+    /* zoom: 70%; */
+    background-size: 80px !important;
+    width: 107px !important;
+    height: 110px !important;
+    visibility: visible;
+    display: inline-block;
+    margin-left: -13%;
 }
 
 .demand_forecasting:before{
@@ -4271,14 +4324,15 @@ div.cookiebtns {
     background: url(../stories/images/overview/icons/man_with_a_sign.png) no-repeat;
     position: relative;
     /* z-index: 100000; */
-    top: 45px;
+    top: 50px;
+    left: 4%;
     /* zoom: 70%; */
-    background-size: 125px !important;
-    width: 125px !important;
-    height: 125px !important;
+    background-size: 169px !important;
+    width: 257px !important;
+    height: 170px !important;
     visibility: visible;
     display: inline-block;
-    margin-left: -14%;
+    margin-left: -13%;
 }
 
 
@@ -4293,7 +4347,7 @@ div.cookiebtns {
 }
 
 .header_title_right_margin_top{
-	margin-top: -140px !important;
+	margin-top: -220px !important;
 }
 
 
@@ -4301,4 +4355,113 @@ div.cookiebtns {
 	color: #13364a !important;
 	text-align: center;
 	font-size: 49px;
+}
+
+.purchase_prpensity:before{
+    content: '';
+    background: url(../stories/images/overview/icons/cart.png) no-repeat;
+    position: relative;
+    /* z-index: 100000; */
+    top: 45px;
+    /* zoom: 70%; */
+    background-size: 100px !important;
+    width: 125px !important;
+    height: 110px !important;
+    visibility: visible;
+    display: inline-block;
+    margin-left: -13%;
+}
+
+
+
+/* Wave Animation */
+
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.waveWrapperInner {
+    position: inherit;
+    width: 100%;
+    /* overflow: visible; */
+    height: 9.4%;
+    bottom: 47.6%;
+    background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
+}
+.bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 5;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
+
+.menu-subtitle{
+	color: #fff !important;
+}
+
+.dpn{
+	display: none;
+}
+
+.something-padding{
+	padding-left: 10%;
+}
+
+.something-left{
+	text-align: left;
+}
+
+.something-right{
+	text-align: right;
 }
