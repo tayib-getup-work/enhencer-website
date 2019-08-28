@@ -3472,7 +3472,7 @@ div[class*=box] {
   top: 49.5%;
 } */
 .ps-timeline-sec .container ol.ps-timeline {
-  margin: 380px 0;
+  margin: 350px 0;
   padding: 0;
   border-top: 2px solid #348e80;
   list-style: none;
@@ -3968,7 +3968,7 @@ div.cookiebtns {
     text-align: center;
     color: #228E9F !important;
     font-weight: 300 !important;
-    font-size: 3em !important;
+    font-size: 3.5em !important;
 }
 
 .career_col_half {
@@ -4224,7 +4224,8 @@ div.cookiebtns {
     /* line-height: 45px; */
     height: 45px;
     width: 145px;
-    text-align: center;
+	text-align: center;
+	margin-left: 0%;
 }
 
 .header-try-button:hover{
@@ -4241,7 +4242,8 @@ div.cookiebtns {
     height: 45px;
     width: 275px;
     text-align: center;
-    border: 1px solid #fff;
+	border: 1px solid #fff;
+	margin-left: 3%;
 }
 
 .header-meet-button:hover{
@@ -4279,3 +4281,24 @@ div.cookiebtns {
     margin-left: -14%;
 }
 
+
+
+.header_title_margin_top{
+	margin-top: -45px !important;
+}
+
+
+.header_buttonrow_margin_top{
+	margin-top: 25px !important;
+}
+
+.header_title_right_margin_top{
+	margin-top: -140px !important;
+}
+
+
+.header_title_right{
+	color: #13364a !important;
+	text-align: center;
+	font-size: 49px;
+}
