@@ -1584,6 +1584,9 @@ var SEMICOLON = SEMICOLON || {};
 					topsocial.classList.remove("top-social-mobile-hide");
 				}
 
+				if (typeof slider != 'undefined') {
+					slider.classList.remove("height-for-mobile");
+				}
 
 			}
 		},

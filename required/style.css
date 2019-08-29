@@ -21613,6 +21613,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 		height: 70px; 
 		margin-top: 0px;
 		background-color: #fbfbfb;
+		z-index: 1000000;
 	}
 	#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img  {
 		height: 50px;
