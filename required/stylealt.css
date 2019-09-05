@@ -21594,9 +21594,10 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 		margin-bottom: 30px;
 	}
 
-	#header,
-	#header-wrap,
-	#logo img { margin-top: 15px; height: 50px; }
+	#header, #header-wrap, #logo img {
+		margin-top: 25px;
+		height: 22px;
+	}
 
 	#header.sticky-header:not(.static-sticky),
 	#header.sticky-header:not(.static-sticky) #header-wrap { 
@@ -21604,12 +21605,11 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 		margin-top: 0px;
 		background-color: #fbfbfb;
 	}
-	#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img  {
-		height: 50px;
-		margin-top: 10px;
+	#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+		height: 22px;
+		margin-top: 25px;
 		background-color: #fbfbfb;
 	}
-
 	#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
 		padding-top: 24px;
 		padding-bottom: 24px;

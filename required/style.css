@@ -670,6 +670,16 @@ body.stretched .container-fullwidth {
 	/* margin-left: 2%; */
 }
 
+.col_half_blog{
+	display: block;
+	position: relative;
+	/* margin-right: 1%; */
+	margin-bottom: 5em; /* it was 50px */
+	float: left;
+	width: 50%;
+	/* margin-left: 2%; */
+}
+
 .col_full {
 	clear: both;
 	float: none;
@@ -698,7 +708,7 @@ body.stretched .container-fullwidth {
 	position: relative;
 	display: block;
 	width: 100%;
-	height: auto;
+	/* height: 715px; */
 	overflow: hidden;
 	-webkit-backface-visibility: hidden;
 }
@@ -712,11 +722,20 @@ body.stretched .container-fullwidth {
 .flexslider a:focus  { outline: none; border: none; }
 .slider-wrap,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none; border: none;}
+.flex-direction-nav {
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+	border: none;
+	height: 810px;
+}
 
 .flexslider {position: relative;margin: 0; padding: 0;}
 .flexslider .slider-wrap > .slide {display: none; -webkit-backface-visibility: hidden;}
-.flexslider .slider-wrap img {width: 100%; display: block;}
+.flexslider .slider-wrap img {
+	width: 100%; 
+	display: block;
+}
 .flex-pauseplay span {text-transform: capitalize;}
 
 .slider-wrap:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
@@ -6621,17 +6640,17 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 }
 
 
-.try-free-button{
-	text-align: center;
-	padding-left: 0px;
-	width: 95px;
-	padding-right: 0px;
-	font-size: 15px;
-	background-color: #228e9f !important;
+.try-free-button {
+    text-align: center;
+    padding-left: 0px;
+    width: 95px;
+    padding-right: 0px;
+    font-size: 15px;
+    background-color: #13364a !important;
 }
 
-.try-free-button:hover{
-	box-shadow: 0 4px 15px #228e9f !important;
+.try-free-button:hover {
+    box-shadow: 0 1px 7px #13364a !important;
 }
 
 
@@ -9909,13 +9928,13 @@ body:not(.device-touch) .clients-grid li a {
 -----------------------------------------------------------------*/
 
 .testimonial.testimonial-full .flex-control-nav {
-	position: relative;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	height: 6px;
-	margin-top: 20px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 6px;
+    margin-top: -135px; /* it was -135px */ 
 }
 
 .testimonial.testimonial-full .flex-control-nav li {
@@ -10933,7 +10952,7 @@ blockquote.float-right {
 	height: 280px;
 	border-radius: 6px;
 	color: #FFF;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 
 .flip-card-back { background-color: #666; }
@@ -10969,17 +10988,17 @@ blockquote.float-right {
 }
 
 .flip-card-back {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 200px
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 185px;
 }
 
 .flip-card-inner {
 	-webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
 	transform: translateY(-50%) translateZ(60px) scale(0.94);
-	top: 53%;
+	top: 50%;
 	position: absolute;
 	left: 0;
 	width: 100%;
@@ -21616,8 +21635,8 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 		z-index: 1000000;
 	}
 	#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img  {
-		height: 50px;
-		margin-top: 10px;
+		height: 22px;
+		margin-top: 25px;
 		background-color: #fbfbfb;
 	}
 
