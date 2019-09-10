@@ -9934,7 +9934,7 @@ body:not(.device-touch) .clients-grid li a {
     right: 0;
     left: 0;
     height: 6px;
-    margin-top: -135px; /* it was -135px */ 
+    margin-top: -100px; /* it was -135px */ 
 }
 
 .testimonial.testimonial-full .flex-control-nav li {

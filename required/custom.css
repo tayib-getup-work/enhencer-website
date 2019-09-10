@@ -3858,10 +3858,13 @@ padding-right: 5%;
 }
 
 .cookie-p {
-	margin: 15px 0 -15px 0;
-	text-align: center;
-	color: white;
-	font-size: 1.3em;
+    margin: 18px 0 18px 0;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50%;
 }
 
 div.cookiebtns {
@@ -3962,6 +3965,8 @@ div.cookiebtns {
     margin-left: auto;
     max-width: 80%;
 }
+
+
 
 .top-bar-margin{
 	margin-right: -1% !important;
@@ -4372,8 +4377,8 @@ div.cookiebtns {
     position: inherit;
     width: 100%;
     /* overflow: visible; */
-    height: 7.7%;
-    bottom: 50%;
+    height: 56.7%;
+    bottom: 56%;
     background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
 }
 .bgTop {
@@ -4457,3 +4462,29 @@ div.cookiebtns {
 .enhencer_color_dark_blue{
 	color: #13364a;
 }
+
+
+/* One Page Scroll */
+
+#site {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+#section-wrapper {
+    position: relative;
+    width: 100%;
+     height: 100%;
+    min-height: 100%;
+}
+
+
+
+div.section {
+    width: 100%;
+    position: relative;
+     height: 100%;
+    min-height: 100%;
+}
+
