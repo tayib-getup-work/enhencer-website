@@ -4495,3 +4495,16 @@ div.cookiebtns {
     left: 74px;
 }
 
+.forced_sticky_header{
+	height: 70px !important;
+    margin-top: 0px !important;
+    background-color: #fbfbfb !important;
+	z-index: 1000000 !important;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1) !important;
+	margin-top: -25px !important;
+}
+
+
+.page1.active div:parent {
+
+}
