@@ -432,6 +432,7 @@ h1.heading {
 	font-size: 1.8em !important;
 	font-weight: 200;
 	line-height: 175%;
+	margin-bottom: 25px
 }
 
 .main-title-info-small {
@@ -3942,8 +3943,10 @@ div.cookiebtns {
 
 .home-title{
 	width: 715px;
-	margin-left: -1%;
-	margin-top: -90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start
 }
 
 .bg-blueish {
@@ -3951,7 +3954,7 @@ div.cookiebtns {
 }
 
 .mobile-slider{
-	/* background-color: #e2e2e2; */
+	top: 40% !important;
 }
 
 .container-home-wide-body {
@@ -3960,7 +3963,7 @@ div.cookiebtns {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .top-bar-margin{
@@ -4224,7 +4227,8 @@ div.cookiebtns {
 
   .bgimg {
 	background-image: url('../images/home_layer.png');
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
+	/* background-position-x: -15%; */
 }
 
 
@@ -4457,3 +4461,34 @@ div.cookiebtns {
 .enhencer_color_dark_blue{
 	color: #13364a;
 }
+
+
+/* Added by Orkhan */
+
+#homeheadervideo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#macbook-container {
+	position: relative;
+    /* background-image: url(../images/macbook.png); */
+    width: 620px;
+    height: 322px;
+}
+
+#macbook-container img {
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#macbook-container video {
+	position: absolute;
+    width: 76%;
+    top: 19px;
+    left: 74px;
+}
+

@@ -131,7 +131,7 @@
 					<!-- #logo end -->
 					<!-- Primary Navigation
 					============================================= -->
-					<nav id="primary-menu" class="with-arrows" style="width:680px;">
+					<nav id="primary-menu" class="with-arrows">
 						<ul id="primarymenumobile" class="ul.sf-js-enabled">
 							<li>
 								<a href="connect.html"
@@ -166,23 +166,26 @@
 						</ul>
 						<!-- Menu Buttons Please Make this button css a class
 						============================================= -->
-						<a href="https://app.enhencer.com/#!/login"
-							onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
-							target="_blank"
-							class="button button-rounded button-light bg-blueish border nott ls0 border-blue button-enhencer-default-green"
-							style="text-align: center; padding-left: 0px; width: 82px; padding-right: 0px;margin-left: 3%;">
-							<div
-								style="text-align: center; margin-top: -2px; background-color: transparent !important;">
-								Sign in
-							</div>
-						</a>
-						<a href="https://app.enhencer.com/#!/signup"
-							onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-							target="_blank" class="button button-rounded fright try-free-button">
-							<div style="text-align: center">
-								Try it Free
-							</div>
-						</a>
+						<div
+							style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 200px;">
+							<a href="https://app.enhencer.com/#!/login"
+								onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
+								target="_blank"
+								class="button button-rounded button-light bg-blueish border nott ls0 border-blue button-enhencer-default-green"
+								style="text-align: center; padding-left: 0px; width: 82px; padding-right: 0px;margin-left: 3%;">
+								<div
+									style="text-align: center; margin-top: -2px; background-color: transparent !important;">
+									Sign in
+								</div>
+							</a>
+							<a href="https://app.enhencer.com/#!/signup"
+								onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
+								target="_blank" class="button button-rounded fright try-free-button">
+								<div style="text-align: center">
+									Try it Free
+								</div>
+							</a>
+						</div>
 					</nav><!-- #primary-menu end -->
 				</div>
 			</div>
@@ -195,9 +198,9 @@
 			<div id="bgimg" class="slider-parallax-inner bgimg">
 				<div class="vertical-middle mobile-slider">
 					<div class="container-home-wide-body topmargin-sm">
-						<div id="homeheadervideo" class="row">
-							<div class="col-lg-6 col-md-8 header_title_margin_top">
-								<div id="sliderTitle" class="slider-title home-title">
+						<div id="homeheadervideo">
+							<div class="header_title_margin_top">
+								<div id="sliderTitle" class="slider-title home-title zoomer">
 									<!-- <div class="badge badge-pill badge-default">SEO Ready</div> -->
 									<h1 id="mainTitle" class="main-title home-slider-title">Turn Data to Profits in
 										Minutes
@@ -210,8 +213,8 @@
 
 										</span>
 									</h3>
-									<br>
-									<div id="homesliderbuttons" class="mt-4">
+									<div id="homesliderbuttons"
+										style="display: flex; flex-direction: row; justify-content: start; align-items: center; margin-top: 30px">
 
 										<a onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Try Free'});;"
 											class="button button-rounded header-try-button"
@@ -225,17 +228,17 @@
 
 
 							</div>
-							<div class="col-lg-6 col-md-8 header_title_right_margin_top">
-								<div>
-									<div id="homevideo" class="laptop-wrapper margin-home-video">
-										<video class="video-fluid z-depth-1" loop autoplay muted>
-											<source src="images\video\Stop Motion Video Compressed.mp4"
-												type="video/mp4" />
-										</video>
-
-									</div>
-								</div>
+							<div id="macbook-container" class="macbook-zoomer">
+								<img src="images/macbook.png">
+								<video src="images\video\Stop Motion Video Compressed.mp4" type="video/mp4" loop autoplay muted> </video>
 							</div>
+
+							<!-- <div id="homevideo" class="laptop-wrapper margin-home-video">
+								<video class="video-fluid z-depth-1" loop autoplay muted>
+									<source src="images\video\Stop Motion Video Compressed.mp4" type="video/mp4" />
+								</video>
+
+							</div> -->
 						</div>
 					</div>
 				</div>
