@@ -68,9 +68,9 @@
 	<div id="wrapper" class="onepage-wrapper clearfix"
 		style="transform: translate3d(0px, 0%, 0px); transition: transform 1000ms ease 0s;">
 
-    <!-- Sticky Forced Header -->
+		<!-- Sticky Forced Header -->
 
-		<div class="dpn transparent-header floating-header clearfix sticky-header forced_sticky_header">
+		<div class="hidden-elem transparent-header floating-header clearfix sticky-header forced_sticky_header">
 			<div id="header-wrap">
 				<div class="container-home-wide-body clearfix">
 					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
@@ -1364,23 +1364,35 @@
 			}
 		</script>
 
-<script>
-	function handleScroll(){
-		var page1 = document.getElementsByClassName('page1')[0];
-		if(page1.classList.includes('active')){
-			console.log('active!');
-		}
-	}
-</script>
+		<script>
+			function handleScroll() {
+				var page1 = document.getElementsByClassName('page1')[0];
+				if (page1.classList.includes('active')) {
+					console.log('active!');
+				}
+			}
+		</script>
 		<script>
 			onePageScroll(".main", {
 				sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
 				easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", 
 				// "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
-				animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
+				animationTime: 800,             // AnimationTime let you define how long each section takes to animate
 				pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
 				updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
-				beforeMove: function (index) { },  // This option accepts a callback function. The function will be called before the page moves.
+				beforeMove: function (index) {
+					var page1 = document.getElementsByClassName('page1')[0];
+					var forced_sticky_header = document.getElementsByClassName('forced_sticky_header')[0];
+					if (page1.classList.contains('active')) {
+						if (!forced_sticky_header.classList.contains('hidden-elem')) {
+							forced_sticky_header.classList.add('hidden-elem');
+						}
+					} else {
+						if (forced_sticky_header.classList.contains('hidden-elem')) {
+							forced_sticky_header.classList.remove('hidden-elem');
+						}
+					}
+				},  // This option accepts a callback function. The function will be called before the page moves.
 				afterMove: function (index) { },   // This option accepts a callback function. The function will be called after the page moves.
 				loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
 				keyboard: true,                  // You can activate the keyboard controls

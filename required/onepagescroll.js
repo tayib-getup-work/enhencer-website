@@ -126,15 +126,17 @@ function onePageScroll(element, options) {
 			var page1 = document.getElementsByClassName('page1')[0];
 			var forced_sticky_header = document.getElementsByClassName('forced_sticky_header')[0];
 			if (page1.classList.contains('active')) {
-				forced_sticky_header.classList.remove('dpn');
-				forced_sticky_header.classList.add('dpn');
+				if(!forced_sticky_header.classList.contains('dpn')){
+					forced_sticky_header.classList.add('dpn');
+				}
 			}else{
-				forced_sticky_header.classList.remove('dpn');
+				if(forced_sticky_header.classList.contains('dpn')){
+					forced_sticky_header.classList.remove('dpn');
+				}
 			}
 		}
 
 		_mouseWheelHandler = function (event) {
-			handleHeader();
 			event.preventDefault();
 			var delta = event.wheelDelta || -event.detail;
 			if (!_hasClass(body, "disabled-onepage-scroll")) _init_scroll(event, delta);
@@ -153,7 +155,6 @@ function onePageScroll(element, options) {
 		}
 
 		_keydownHandler = function (e) {
-			handleHeader();
 			var tag = e.target.tagName.toLowerCase();
 
 			if (!_hasClass(body, "disabled-onepage-scroll")) {
@@ -361,7 +362,6 @@ function onePageScroll(element, options) {
 	/*-------------------------------------------*/
 
 	_init_scroll = function (event, delta) {
-		handleHeader();
 		var deltaOfInterest = delta,
 			timeNow = new Date().getTime();
 
