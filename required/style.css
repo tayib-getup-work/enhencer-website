@@ -10679,7 +10679,7 @@ blockquote.float-right {
     position: relative;
     overflow: hidden;
     -webkit-transform: translate3d(0,0,0);
-    height: 200px !important;
+    height: 150px !important;
 }
 
 .owl-carousel.owl-loaded { display:block }
@@ -10826,6 +10826,7 @@ blockquote.float-right {
 
 .owl-carousel .owl-dots,
 .owl-carousel .owl-nav {
+	display: none; /* There was no display css here before */
 	text-align: center;
 	-webkit-tap-highlight-color: transparent;
 	line-height: 1;
