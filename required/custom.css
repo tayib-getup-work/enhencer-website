@@ -3966,7 +3966,7 @@ div.cookiebtns {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 90%;
+    max-width: 82%;
 }
 
 
@@ -4041,7 +4041,7 @@ div.cookiebtns {
 }
 .home_stories_image_col{
 	padding-left: 0 !important;
-    height: 663px;
+    height: 585px;
 }
 
 .home_stories_banner_ul {
@@ -4130,7 +4130,7 @@ div.cookiebtns {
     border-radius: 4px;
     color: #004159;
     outline: 0 none;
-    padding: 15px 25px;
+    padding: 12px 25px;
     position: relative;
     transition: all 0.75s ease-in-out 0s;
     cursor: pointer;
@@ -4140,7 +4140,7 @@ div.cookiebtns {
 	margin-left: 0.5%;
     line-height: 20px;
     vertical-align: text-bottom;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 

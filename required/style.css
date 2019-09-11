@@ -727,7 +727,7 @@ body.stretched .container-fullwidth {
 	padding: 0; 
 	list-style: none; 
 	border: none;
-	height: 810px;
+	height: 705px;
 }
 
 .flexslider {position: relative;margin: 0; padding: 0;}
@@ -10654,7 +10654,7 @@ blockquote.float-right {
 }
 
 .owl-carousel {
-	display:none;
+	/* display:none; */
 	-webkit-tap-highlight-color:transparent;
 	position:relative;
 	z-index:1;
@@ -10676,11 +10676,10 @@ blockquote.float-right {
 }
 
 .owl-carousel .owl-stage-outer {
-	position:relative;
-	overflow:hidden;
-	-webkit-transform:translate3d(0,0,0);
-	height: 200px !important;
-
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    height: 200px !important;
 }
 
 .owl-carousel.owl-loaded { display:block }
