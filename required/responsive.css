@@ -465,7 +465,7 @@
 	}
 
 	.zoomer {
-		zoom: 0.9
+		zoom: 0.95
 	}
 
 	.macbook-zoomer {
@@ -1065,9 +1065,6 @@
 		background-position-x: -50%;
 	}
 
-	.zoomer {
-		zoom: 0.8
-	}
 
 	.macbook-zoomer {
 		zoom: 0.95

@@ -139,10 +139,14 @@ dl, dt, dd, ol, ul, li {
 	color: #FFF;
 	text-shadow: none;
 }
-
-::-moz-selection {
-	background: #1ABC9C; /* Firefox */
-	color: #FFF;
+	- Wedding
+	-
+::-moz-selection {	- Wedding
+	-
+	background: #1ABC9C; /* Firefox */	- Wedding
+	-
+	color: #FFF;	- Wedding
+	-
 	text-shadow: none;
 }
 
@@ -2124,7 +2128,6 @@ body.top-search-open #top-cart,
 body.top-search-open #side-panel-trigger,
 body.top-search-open #top-account { opacity: 0; }
 
-#header.sticky-header.semi-transparent { background-color: transparent; }
 
 #header-wrap {
 	position: relative;
@@ -14029,10 +14032,10 @@ body #side-panel.dark { background-color: #383838; }
 
 .dark #header.sticky-header.semi-transparent,
 .dark #header.semi-transparent.floating-header,
-.dark #header.semi-transparent.floating-header.sticky-header .container,
+.container,
 #header.dark.sticky-header.semi-transparent,
 #header.dark.semi-transparent.floating-header,
-#header.dark.semi-transparent.floating-header.sticky-header .container { background-color: transparent; }
+ .container { background-color: transparent; }
 
 .dark #header.semi-transparent.sticky-header #header-wrap,
 #header.dark.semi-transparent.sticky-header #header-wrap { background-color: rgba(0,0,0,0.6); }
