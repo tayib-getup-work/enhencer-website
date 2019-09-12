@@ -3953,7 +3953,7 @@ div.cookiebtns {
 }
 
 .bg-blueish {
-	background-color: #fff!important;
+    background-color: transparent !important;
 }
 
 .mobile-slider{
@@ -4033,7 +4033,7 @@ div.cookiebtns {
 }
 
 .home_stories_banner_p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     /* text-align: center; */
     font-weight: 200;
     color: black;
@@ -4124,7 +4124,7 @@ div.cookiebtns {
 
 
 .button_read_more {
-    font: 15px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
+    font: 20px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
     background: white;
     border: 1px solid #004159;
     border-radius: 4px;
@@ -4182,13 +4182,13 @@ div.cookiebtns {
 /* Button read more 2 */
 
 .button_read_more2 {
-    font: 15px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
+    font: 20px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
     background: white;
     border: 1px solid #004159;
     border-radius: 4px;
     color: #004159;
     outline: 0 none;
-    padding: 13px 69px;
+    padding: 13px 89px;
     position: relative;
     transition: all 0.75s ease-in-out 0s;
     cursor: pointer;
