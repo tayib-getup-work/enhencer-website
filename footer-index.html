@@ -84,7 +84,7 @@
     </div>
     <br>
     <div class="central">
-        <a onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Contact Us'});"
+        <a id="reachus" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Contact Us'});"
             class="button button-rounded footet-contact-button" data-toggle="collapse" href="#collapseExample"
             aria-expanded="false" aria-controls="collapseExample" style="text-transform: none;">Reach Us</a>
     </div>
@@ -110,7 +110,8 @@
                     <div class="central">
                         <a href="contact-form.html" target="_blank"
                             onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Contact Us'});"
-                            class="button button-rounded footet-contact-button-alt footer-reach-button">Meet Our Data-Scientist</a>
+                            class="button button-rounded footet-contact-button-alt footer-reach-button">Meet Our
+                            Data-Scientist</a>
                     </div>
                 </div>
                 <div class="col_one_third_alt mb-0 fotter-second-address">
@@ -147,11 +148,19 @@
 
 
 <script>
-$(function () {
-    $('#collapseExample').on('shown.bs.collapse', function (e) {
+    $(function () {
+        $('#collapseExample').on('shown.bs.collapse', function (e) {
             $('html,body').animate({
-                scrollTop: $('#collapseExample').offset().top -80
-            }, 1500); 
-    }); 
-});
+                scrollTop: $('#collapseExample').offset().top - 80
+            }, 1500);
+        });
+    });
+
+    $(document).ready(function () {
+        console.log('tayib')
+        $('#reachus').click(function () {
+            console.log('oguz')
+            $('#blankbr').addClass("dpn");
+        });
+    });
 </script>

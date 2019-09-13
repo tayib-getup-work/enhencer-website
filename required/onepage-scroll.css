@@ -1,3 +1,5 @@
+@media (min-width: 1279.98px) {
+
 body, html {
   margin: 0;
   overflow: hidden;
@@ -92,4 +94,6 @@ body, .onepage-wrapper, html {
 
 body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
   position: inherit;
+}
+
 }

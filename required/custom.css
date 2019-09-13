@@ -4493,6 +4493,10 @@ div.cookiebtns {
 	display: none;
 }
 
+.dpb{
+	display: block !important;
+}
+
 .something-padding {
     padding-left: 15.2%;
 }
@@ -4566,4 +4570,18 @@ div.cookiebtns {
 
 .hidden-elem {
 	opacity: 0 !important;
+}
+
+
+.temp_margin_top{
+	margin-top: 52.8px !important;
+}
+
+
+.temp_margin_top_reverse{
+	margin-top: -52.8px !important;
+}
+
+.elif{
+	padding-top : 50px;
 }

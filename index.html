@@ -49,8 +49,44 @@
 	<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 
 	<link rel="stylesheet/scss" type="text/css" href="required/buttons.scss">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.3/sass.min.js"></script>
+	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.3/sass.min.js"></script> -->
 	<script src="required/onepagescroll.js"></script>
+
+	<!-- <script>
+		var head = document.getElementsByTagName('head')[0];
+		var js = document.createElement("script");
+
+		js.type = "text/javascript";
+
+		if (screen.width > 1279) {
+			console.log('tayib')
+
+			js.src = "required/onepagescroll.js";
+		}
+
+		head.appendChild(js);
+		console.log({ s1 })
+
+
+	</script> -->
+
+	<!-- <script type="text/javascript">
+		if (screen.width > 1279) {
+			document.getElementsByTagName("head")[0].innerHTML += ("&lt;script src=\&quot;required/onepagescroll.js\&quot;  type=\&quot;text/javascript\&quot;&gt;\&lt;/script\&gt;");
+		}
+	</script> -->
+
+	<!-- <script>
+		if (screen.width > 1279) {
+			console.log('elif')
+			var head = document.getElementsByTagName('head')[0];
+			var s1 = document.createElement("link");
+			s1.type = "text/css";
+			s1.href = "required/onepage-scroll.css";
+			console.log({ s1 })
+			head.appendChild(s1);
+		}
+	</script> -->
 
 	<!-- Seo Demo Specific Stylesheet -->
 	<!-- / -->
@@ -70,7 +106,8 @@
 
 		<!-- Sticky Forced Header -->
 
-		<div class="hidden-elem transparent-header floating-header clearfix sticky-header forced_sticky_header">
+		<div id="forced_header"
+			class="hidden-elem transparent-header floating-header clearfix sticky-header forced_sticky_header">
 			<div id="header-wrap">
 				<div class="container-home-wide-body clearfix">
 					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
@@ -143,9 +180,10 @@
 					</nav><!-- #primary-menu end -->
 				</div>
 			</div>
-		</div><!-- #header end -->
+		</div>
+		<!-- #header end -->
 
-		<div class="main">
+		<div id="scrollermain" class="main">
 			<!-- Section 1
 		============================================= -->
 
@@ -821,13 +859,13 @@
 									<!-- Employee Turnover Prediction  -->
 
 									<div class="slide">
-										<div id="caseslide3" class="row">
-											<div id="caseimage3" class="col-5 home_stories_image_col"
+										<div id="caseslide5" class="row">
+											<div id="caseimage5" class="col-5 home_stories_image_col"
 												style="padding-left: 0 !important;">
 												<a><img src="stories/images/overview/Employee_Turnover_Prediction.png"
 														alt="Customer Testimonails"></a>
 											</div>
-											<div id="casesecondcol3" class="col-7 mt-4">
+											<div id="casesecondcol5" class="col-7 mt-4">
 
 												<div>
 													<h2 class="home_stories_banner_h1"><i class="churn_proability"></i>
@@ -869,8 +907,8 @@
 
 									<!-- Dealer Sales Forecasting -->
 									<div class="slide">
-										<div id="caseslide2" class="row">
-											<div id="casesecondcol2" class="col-7 something-padding">
+										<div id="caseslide6" class="row">
+											<div id="casesecondcol6" class="col-7 something-padding">
 												<div>
 													<h2 class="home_stories_banner_h1"><i
 															class="purchase_prpensity"></i>
@@ -913,7 +951,7 @@
 													</div>
 												</div>
 											</div>
-											<div id="caseimage2" class="col-5 home_stories_image_col"
+											<div id="caseimage6" class="col-5 home_stories_image_col"
 												style="padding-left: 0 !important;">
 												<a><img src="stories/images/overview/Dealer_Sales_Forecasting.png"
 														alt="Customer Testimonails"></a>
@@ -924,13 +962,13 @@
 									<!-- Fraud Prevention -->
 
 									<div class="slide">
-										<div id="caseslide1" class="row">
-											<div id="caseimage1" class="col-5 home_stories_image_col"
+										<div id="caseslide7" class="row">
+											<div id="caseimage7" class="col-5 home_stories_image_col"
 												style="padding-left: 0 !important;">
 												<a><img src="stories/images/overview/Fraud_Prevention.png"
 														alt="Customer Testimonails"></a>
 											</div>
-											<div id="casesecondcol1" class="col-7">
+											<div id="casesecondcol7" class="col-7">
 												<div>
 													<h2 class="home_stories_banner_h1"><i class="fraud_prevention"></i>
 														Fraud Prevention
@@ -970,8 +1008,8 @@
 
 									<!-- Failure Prediction -->
 									<div class="slide">
-										<div id="caseslide2" class="row">
-											<div id="casesecondcol2" class="col-7 something-padding">
+										<div id="caseslide8" class="row">
+											<div id="casesecondcol8" class="col-7 something-padding">
 												<div>
 													<h2 class="home_stories_banner_h1"><i
 															class="failure_prevention"></i>
@@ -1006,7 +1044,7 @@
 													</div>
 												</div>
 											</div>
-											<div id="caseimage2" class="col-5 home_stories_image_col"
+											<div id="caseimage8" class="col-5 home_stories_image_col"
 												style="padding-left: 0 !important;">
 												<a><img src="stories/images/overview/Failure_Prediction.png"
 														alt="Customer Testimonails"></a>
@@ -1404,17 +1442,20 @@
 				<div id="content">
 					<div class="content-wrap pt-0">
 						<!-- Call to Action -->
-
-						<br>
-						<br>
-						<br>
-						<div>
+						<div id="blankbr">
+							<br>
+							<br>
+							<br>
+						</div>
+						<div id="predicttogether">
 							<h1 class="nott mt-3 ls0 mb-3 home-integration-heading">
 								Let's predict the future together! </h1>
 						</div>
-						<br>
-						<br>
-						<br>
+						<div id="blankbr2">
+							<br>
+							<br>
+							<br>
+						</div>
 						<div id="calltoaction" class="row">
 							<div class="col_half something-right">
 								<a class="try_it_free_light mt-3" target="_blank"
@@ -1426,9 +1467,172 @@
 									Data-Scientists</a>
 							</div>
 						</div>
-						<br>
-						<br>
-						<div id="footerContent" style="    margin-top: 1px;">
+						<div id="blankbr3">
+							<br>
+							<br>
+							<br>
+						</div>
+						<div class="section m-0 border-bottom py-5"
+							style="padding: 10px 0 !important; background-color: #12546D;">
+							<div class="central">
+								<div>
+									<a href="/"><img class="footer-logo" src="images/enhencer_white.svg"
+											alt="Enhencer Logo"></a>
+								</div>
+							</div>
+							<div class="central">
+								<nav id="footer-menu" class="with-arrows">
+									<ul>
+										<li><a href="about-us.html"
+												onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Blog'});">
+												<div class="t300">About Us</div>
+											</a>
+										</li>
+										<li>
+											<a href="blog/">
+												<div class="t300">Blog</div>
+											</a>
+										</li>
+
+										<li><a href="partnership.html"
+												onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Partnership'});">
+												<div class="t300">Partnership</div>
+											</a>
+										</li>
+										<li><a href="faq.html">
+												<div class="t300">FAQs</div>
+											</a>
+										</li>
+										<li><a href="career.html">
+												<div class="t300">Career</div>
+											</a>
+										</li>
+										<li><a href="help.html"
+												onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Help-Center'});">
+												<div class="t300">Help-Center</div>
+											</a>
+										</li>
+
+
+
+										<li><a href="privacy-policy.html">
+												<div class="t300">Privacy Policy</div>
+											</a>
+										</li>
+										<li><a href="terms-of-use.html">
+												<div class="t300">Terms of Use</div>
+											</a>
+										</li>
+
+									</ul>
+								</nav>
+							</div>
+							<div class="central">
+								<div class="dark foot col_last clearfix nobottommargin">
+									<!-- Top Social
+												============================================= -->
+									<div id="top-social">
+										<ul>
+											<li><a href="https://www.youtube.com/channel/UCIgWv2OQm6vSMlpXph4nbLA?view_as=subscriber"
+													class="si-youtube" target="_blank"><span class="ts-icon"><i
+															class="icon-youtube"></i></span><span
+														class="ts-text">Youtube</span></a></li>
+											<li><a href="https://www.linkedin.com/company/enhencer/" class="si-linkedin"
+													target="_blank"><span class="ts-icon"><i
+															class="icon-linkedin"></i></span><span
+														class="ts-text">LinkedIn</span></a></li>
+											<li><a href="https://www.quora.com/topic/Enhencer" class="si-quora"
+													target="_blank"><span class="ts-icon"><i
+															class="icon-quora"></i></span><span
+														class="ts-text">Quora</span></a>
+											</li>
+											<li><a href="https://www.instagram.com/enhencerapp/" class="si-instagram"
+													target="_blank"><span class="ts-icon"><i
+															class="icon-instagram2"></i></span><span
+														class="ts-text">Instagram</span></a></li>
+											<li><a href="https://twitter.com/enhencerapp?lang=en" class="si-twitter"
+													target="_blank"><span class="ts-icon"><i
+															class="icon-twitter"></i></span><span
+														class="ts-text">Twitter</span></a></li>
+											<li><a href="https://www.facebook.com/Enhencer/" class="si-facebook"
+													target="_blank"><span class="ts-icon"><i
+															class="icon-facebook"></i></span><span
+														class="ts-text">Facebook</span></a></li>
+										</ul>
+									</div><!-- #top-social end -->
+
+								</div>
+							</div>
+							<br>
+							<div class="central">
+								<a id="reachus"
+									onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Contact Us'});"
+									class="button button-rounded footet-contact-button" data-toggle="collapse"
+									href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+									style="text-transform: none;">Reach Us</a>
+							</div>
+
+							<div class="collapse" id="collapseExample" style="margin-top: 30px;">
+								<div class="card-footer card-footer-body">
+									<div class="container" style="border-top: 1px solid white;">
+										<div class="col_one_third_alt mb-0 fotter-fırst-address">
+
+											<i class="icon-building footer-ol-info-icon"></i><span
+												style="font-size: 1.3em;">Headquarter</span>
+											<br>
+											<i class="icon-map-marker2 footer-ol-info-icon" style="padding-left: 0.5%;">
+											</i> ODTÜ TEKNOKENT
+											İkizler Binası K1-2
+											<span style="margin-left: 8.5%;">06800 Ankara
+												/ Türkiye</span>
+											<br>
+											<i class="icon-call footer-ol-info-icon"></i>+90 312 286 8672
+											<br>
+											<i class="icon-email3 footer-ol-info-icon"></i>info@enhencer.com
+
+										</div>
+										<div class="col_one_third_alt">
+											<div class="central">
+												<a href="contact-form.html" target="_blank"
+													onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Contact Us'});"
+													class="button button-rounded footet-contact-button-alt footer-reach-button">Meet
+													Our
+													Data-Scientist</a>
+											</div>
+										</div>
+										<div class="col_one_third_alt mb-0 fotter-second-address">
+											<div>
+												<i class="icon-building footer-ol-info-icon-right"></i><span
+													style="font-size: 1.3em;">Istanbul
+													Branch</span></div>
+											<div style="margin-top:15px;">
+												<i class="icon-map-marker2 footer-ol-info-icon-right"
+													style="padding-right: 0.3%;"></i>Bostancı
+												Mh. Yazmacı Tahir Sk. No: 27/8
+												<span style="margin-right: 7%;"> Kadıköy - İstanbul /
+													Türkiye</span></div>
+											<div style="margin-top:15px;">
+												<i class="icon-call footer-ol-info-icon-right"></i><span>+90 506
+													545 77 14</span></div>
+											<div style="margin-top:15px;">
+												<i class="icon-email3 footer-ol-info-icon-right"></i>info@enhencer.com
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<br>
+							<div class="central">
+								<a>
+									<hr class="footer-hr">
+									<div class="t300" style="color: white;">Enhencer &#9400; 2019. All Rights Reserved.
+									</div>
+								</a>
+							</div>
+							<br>
 						</div>
 					</div>
 				</div>
@@ -1512,33 +1716,36 @@
 		</script>
 
 		<script>
-			onePageScroll(".main", {
-				sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
-				easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", 
-				// "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
-				animationTime: 800,             // AnimationTime let you define how long each section takes to animate
-				pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
-				updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
-				beforeMove: function (index) {
-					var page1 = document.getElementsByClassName('page1')[0];
-					var forced_sticky_header = document.getElementsByClassName('forced_sticky_header')[0];
-					if (page1.classList.contains('active')) {
-						if (!forced_sticky_header.classList.contains('hidden-elem')) {
-							forced_sticky_header.classList.add('hidden-elem');
+			if (screen.width > 1279) {
+				console.log('tayib')
+				onePageScroll(".main", {
+					sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+					easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", 
+					// "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+					animationTime: 800,             // AnimationTime let you define how long each section takes to animate
+					pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+					updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+					beforeMove: function (index) {
+						var page1 = document.getElementsByClassName('page1')[0];
+						var forced_sticky_header = document.getElementsByClassName('forced_sticky_header')[0];
+						if (page1.classList.contains('active')) {
+							if (!forced_sticky_header.classList.contains('hidden-elem')) {
+								forced_sticky_header.classList.add('hidden-elem');
+							}
+						} else {
+							if (forced_sticky_header.classList.contains('hidden-elem')) {
+								forced_sticky_header.classList.remove('hidden-elem');
+							}
 						}
-					} else {
-						if (forced_sticky_header.classList.contains('hidden-elem')) {
-							forced_sticky_header.classList.remove('hidden-elem');
-						}
-					}
-				},  // This option accepts a callback function. The function will be called before the page moves.
-				afterMove: function (index) { },   // This option accepts a callback function. The function will be called after the page moves.
-				loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
-				keyboard: true,                  // You can activate the keyboard controls
-				responsiveFallback: false        // You can fallback to normal page scroll by defining the width of the browser in which
-				// you want the responsive fallback to be triggered. For example, set this to 600 and whenever 
-				// the browser's width is less than 600, the fallback will kick in.
-			});
+					},  // This option accepts a callback function. The function will be called before the page moves.
+					afterMove: function (index) { },   // This option accepts a callback function. The function will be called after the page moves.
+					loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+					keyboard: true,                  // You can activate the keyboard controls
+					responsiveFallback: false        // You can fallback to normal page scroll by defining the width of the browser in which
+					// you want the responsive fallback to be triggered. For example, set this to 600 and whenever 
+					// the browser's width is less than 600, the fallback will kick in.
+				});
+			}
 		</script>
 
 		<!-- <script>
@@ -1557,6 +1764,34 @@
 						$(this).find('span').css({ top: relY, left: relX })
 					});
 				$('[href=#]').click(function () { return false });
+			});
+		</script> -->
+		<!-- <script>
+			$(function () {
+				$('#collapseExample').on('shown.bs.collapse', function (e) {
+					$('html,body').animate({
+						scrollTop: $('#collapseExample').offset().top - 80
+					}, 1500);
+				});
+			});
+
+			$(document).ready(function () {
+				if ($('#reachus').hasClass('collapsed')) {
+					$('#reachus').click(function () {
+						$('#blankbr').addClass("dpb");
+						// $('#predicttogether').addClass("temp_margin_top");
+						$('#blankbr2').addClass("dpb");
+						$('#blankbr3').addClass("dpb");
+					});
+				}
+				else {
+					$('#reachus').click(function () {
+						$('#blankbr').addClass("dpn");
+						// $('#predicttogether').addClass("temp_margin_top_reverse");
+						$('#blankbr2').addClass("dpn");
+						$('#blankbr3').addClass("dpn");
+					});
+				}
 			});
 		</script> -->
 

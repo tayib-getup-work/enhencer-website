@@ -1553,16 +1553,27 @@ var SEMICOLON = SEMICOLON || {};
 					casesecondcol4.classList.remove("col-7");
 				}
 
-			 
-			
-			if (typeof whyenhencer != 'undefined') {
-				whyenhencer.classList.remove("row");
+
+
+				if (typeof whyenhencer != 'undefined') {
+					whyenhencer.classList.remove("row");
+				}
+				if (typeof calltoaction != 'undefined') {
+					calltoaction.classList.remove("row");
+				}
 			}
-			if (typeof calltoaction != 'undefined') {
-				calltoaction.classList.remove("row");
+
+			if (screen.width < 1280) {
+				if (typeof forced_header != 'undefined') {
+					forced_header.classList.add("dpn");
+				}
+				if (typeof scrollermain != 'undefined') {
+					scrollermain.classList.remove("main");
+				}
 			}
-		}
 		},
+
+
 
 
 
