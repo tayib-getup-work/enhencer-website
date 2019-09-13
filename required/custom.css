@@ -3597,40 +3597,11 @@ div[class*=box] {
 }
 
 
-/* Clinets Swap */
-
-.swap-on-hover {
-  position: relative;	
-	margin:  0 auto;
-	max-width: 150px;
-}
-
-/* Select the image and make it absolute to the container */
-.swap-on-hover img {
-  position: absolute;
-  top:0;
-  left:0;
-	overflow: hidden;
-	/* Sets the width and height for the images*/
-	width: 150px;
-	height: 150px;
-}
-
-/* 
-	We set z-index to be higher than the back image, so it's alwyas on the front.
-
-We give it an opacity leaner to .25s, that way when we hover we will get a nice fading effect. 
-*/
-.swap-on-hover .swap-on-hover__front-image {
-  z-index: 9999;
-  transition: opacity .1s linear;
-  cursor: pointer;
-}
-
-/* When we hover the figure element, the block with .swap-on-hover, we want to use > so the front-image is going to have opacity of 0, which means it will be hidden, to the back image will show */
-.swap-on-hover:hover > .swap-on-hover__front-image{
-  opacity: 0;
-}
+.client_logo {
+	position: relative;	
+	  margin:  0 auto;
+	  max-width: 150px;
+  }
 
 .page-load-status {
   display: none; /* hidden by default */
@@ -4121,10 +4092,10 @@ div.cookiebtns {
 
 
 
-
+/* Button read more  */
 
 .button_read_more {
-    font: 20px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
+    font: 15px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
     background: white;
     border: 1px solid #004159;
     border-radius: 4px;
@@ -4135,7 +4106,6 @@ div.cookiebtns {
     transition: all 0.75s ease-in-out 0s;
     cursor: pointer;
 }
-
 .button_read_more_arrow{
 	margin-left: 0.5%;
     line-height: 20px;
@@ -4157,7 +4127,7 @@ div.cookiebtns {
 	width: 100%;
 	z-index: 3;
   }
-  
+
   .button_read_more::before {
 	border-bottom: 1px solid #3e8a81;
 	border-left: 1px solid #3e8a81;
@@ -4178,10 +4148,19 @@ div.cookiebtns {
 	color: #3e8a81 !important;
   }
 
+  .button_read_more:active::after, .button_read_more:active::before {
+	transform: scale(1);
+  }
 
-/* Button read more 2 */
+  .button_read_more:active {
+	border: 1px solid #3e8a81;
+	color: #3e8a81 !important;
+  }
+  
 
-.button_read_more2 {
+/* try_it_free_light Used in the Home Page Call To action */
+
+.try_it_free_light {
     font: 20px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
     background: white;
     border: 1px solid #004159;
@@ -4194,7 +4173,7 @@ div.cookiebtns {
     cursor: pointer;
 }
 
-  .button_read_more2::after, .button_read_more2::before {
+  .try_it_free_light::after, .try_it_free_light::before {
 	border-radius: 4px;
 	content: "";
 	height: 100%;
@@ -4207,22 +4186,71 @@ div.cookiebtns {
 	z-index: 3;
   }
   
-  .button_read_more2::before {
+  .try_it_free_light::before {
 	border-bottom: 1px solid #3e8a81;
 	border-left: 1px solid #3e8a81;
 	transform-origin: 0 100% 0;
   }
   
-  .button_read_more2::after {
+  .try_it_free_light::after {
 	border-right: 1px solid #3e8a81;
 	border-top: 1px solid #3e8a81;
 	transform-origin: 100% 0 0;
   }
   
-  .button_read_more2:hover::after, .button_read_more2:hover::before {
+  .try_it_free_light:hover::after, .try_it_free_light:hover::before {
 	transform: scale(1);
   }
-  .button_read_more2:hover {
+  .try_it_free_light:hover {
+	border: 1px solid #3e8a81;
+	color: #3e8a81 !important;
+  }
+
+
+  /* meet_our_light Used in the Home Page Call To action */
+
+.meet_our_light {
+    font: 20px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
+    background: white;
+    border: 1px solid #004159;
+    border-radius: 4px;
+    color: #004159;
+    outline: 0 none;
+    padding: 13px 25px;
+    position: relative;
+    transition: all 0.75s ease-in-out 0s;
+    cursor: pointer;
+}
+
+  .meet_our_light::after, .meet_our_light::before {
+	border-radius: 4px;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	transform: scale(0);
+	transition: all 0.5s ease-in-out 0s;
+	width: 100%;
+	z-index: 3;
+  }
+  
+  .meet_our_light::before {
+	border-bottom: 1px solid #3e8a81;
+	border-left: 1px solid #3e8a81;
+	transform-origin: 0 100% 0;
+  }
+  
+  .meet_our_light::after {
+	border-right: 1px solid #3e8a81;
+	border-top: 1px solid #3e8a81;
+	transform-origin: 100% 0 0;
+  }
+  
+  .meet_our_light:hover::after, .meet_our_light:hover::before {
+	transform: scale(1);
+  }
+  .meet_our_light:hover {
 	border: 1px solid #3e8a81;
 	color: #3e8a81 !important;
   }
@@ -4354,6 +4382,36 @@ div.cookiebtns {
 }
 
 
+.fraud_prevention:before{
+    content: '';
+    background: url(../stories/images/overview/icons/icons8-fraud-100.png) no-repeat;
+    position: relative;
+    /* z-index: 100000; */
+    top: 45px;
+    /* zoom: 70%; */
+    background-size: 100px !important;
+    width: 125px !important;
+    height: 110px !important;
+    visibility: visible;
+    display: inline-block;
+    margin-left: -13%;
+}
+
+.failure_prevention:before{
+    content: '';
+    background: url(../stories/images/overview/icons/icons8-settings-96.png) no-repeat;
+    position: relative;
+    /* z-index: 100000; */
+    top: 45px;
+    /* zoom: 70%; */
+    background-size: 100px !important;
+    width: 125px !important;
+    height: 110px !important;
+    visibility: visible;
+    display: inline-block;
+    margin-left: -13%;
+}
+
 
 /* Wave Animation */
 
@@ -4435,10 +4493,9 @@ div.cookiebtns {
 	display: none;
 }
 
-.something-padding{
-	padding-left: 10%;
+.something-padding {
+    padding-left: 15.2%;
 }
-
 .something-left{
 	text-align: left;
 }

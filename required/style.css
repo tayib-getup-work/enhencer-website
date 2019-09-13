@@ -733,7 +733,7 @@ body.stretched .container-fullwidth {
 .flexslider {position: relative;margin: 0; padding: 0;}
 .flexslider .slider-wrap > .slide {display: none; -webkit-backface-visibility: hidden;}
 .flexslider .slider-wrap img {
-	width: 100%; 
+	/* width: 100%;  */
 	display: block;
 }
 .flex-pauseplay span {text-transform: capitalize;}
