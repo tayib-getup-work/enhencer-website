@@ -1528,6 +1528,18 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof caseslide4 != 'undefined') {
 					caseslide4.classList.remove("row");
 				}
+				if (typeof caseslide5 != 'undefined') {
+					caseslide5.classList.remove("row");
+				}
+				if (typeof caseslide6 != 'undefined') {
+					caseslide6.classList.remove("row");
+				}
+				if (typeof caseslide7 != 'undefined') {
+					caseslide7.classList.remove("row");
+				}
+				if (typeof caseslide8 != 'undefined') {
+					caseslide8.classList.remove("row");
+				}
 				if (typeof caseimage1 != 'undefined') {
 					caseimage1.classList.add("dpn");
 				}
@@ -1539,6 +1551,18 @@ var SEMICOLON = SEMICOLON || {};
 				}
 				if (typeof caseimage4 != 'undefined') {
 					caseimage4.classList.add("dpn");
+				}
+				if (typeof caseimage5 != 'undefined') {
+					caseimage5.classList.add("dpn");
+				}
+				if (typeof caseimage6 != 'undefined') {
+					caseimage6.classList.add("dpn");
+				}
+				if (typeof caseimage7 != 'undefined') {
+					caseimage7.classList.add("dpn");
+				}
+				if (typeof caseimage8 != 'undefined') {
+					caseimage8.classList.add("dpn");
 				}
 				if (typeof casesecondcol1 != 'undefined') {
 					casesecondcol1.classList.remove("col-7");
@@ -1552,15 +1576,35 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof casesecondcol4 != 'undefined') {
 					casesecondcol4.classList.remove("col-7");
 				}
-
-
-
+				if (typeof casesecondcol5 != 'undefined') {
+					casesecondcol5.classList.remove("col-7");
+				}
+				if (typeof casesecondcol6 != 'undefined') {
+					casesecondcol6.classList.remove("col-7");
+				}
+				if (typeof casesecondcol7 != 'undefined') {
+					casesecondcol7.classList.remove("col-7");
+				}
+				if (typeof casesecondcol8 != 'undefined') {
+					casesecondcol8.classList.remove("col-7");
+				}
 				if (typeof whyenhencer != 'undefined') {
 					whyenhencer.classList.remove("row");
 				}
 				if (typeof calltoaction != 'undefined') {
 					calltoaction.classList.remove("row");
 				}
+				if (typeof mainsubTitleInfo != 'undefined') {
+					mainsubTitleInfo.classList.remove("mt-5");
+				}
+				if (typeof calltoaction1 != 'undefined') {
+					calltoaction1.classList.remove("col_half");
+				}
+				if (typeof calltoaction2 != 'undefined') {
+					calltoaction2.classList.remove("col_half");
+				}
+
+
 			}
 
 			if (screen.width < 1280) {
@@ -3937,6 +3981,7 @@ var SEMICOLON = SEMICOLON || {};
 				} else {
 					$('#primary-menu > ul, #primary-menu > div > ul').toggleClass('d-block');
 				}
+				console.log('dfgdhf');
 				$body.toggleClass("primary-menu-open");
 				return false;
 			});
