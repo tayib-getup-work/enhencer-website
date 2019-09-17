@@ -4560,25 +4560,6 @@ div.cookiebtns {
 	align-items: flex-end;
 }
 
-#macbook_container {
-	position: relative;
-    /* background-image: url(../images/macbook.png); */
-    width: 620px;
-    height: 322px;
-}
-
-#macbook_container img {
-	position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-#macbook_container video {
-	position: absolute;
-    width: 76%;
-    top: 19px;
-    left: 74px;
-}
 
 .forced_sticky_header{
 	height: 95px !important;
@@ -4670,4 +4651,210 @@ div.cookiebtns {
 .call_to_action_flex{
 	display: flex;
     flex-direction: row;
+}
+
+
+
+
+
+/* ======================================================================================================================================== */
+/* ======================================================================================================================================== */
+/* Added by Orkhan */
+
+
+
+
+
+
+#macbook-container {
+	position: relative;
+    /* background-image: url(../images/macbook.png); */
+    width: 620px;
+    height: 322px;
+}
+
+#macbook-container img {
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#macbook-container video {
+	position: absolute;
+    width: 76%;
+    top: 19px;
+    left: 74px;
+}
+
+.home-sticky-header {
+	height: 75px !important;
+    background-color: #fbfbfb !important;
+    z-index: 1000000 !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4) !important;
+    position: fixed;
+	width: 100%;
+	transition-duration: 0.6s;
+	opacity: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5%;
+}
+
+.transparent-sticky-header {
+	height: 75px;
+	background-color: transparent;
+	z-index: 1000000;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-menu {
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex: 0 1 600px;
+}
+
+.navbar-menu-button {
+	border: none;
+	background: none;
+	color: #444;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.navbar-menu-button:hover {
+	color: #2CA497;
+	cursor: pointer
+}
+
+.top-social {
+	/* margin: 5px auto;
+	max-width: 100%;
+	padding: 0 15px; */
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-social a {
+	width: 40px;
+	color: #FFF !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+	-webkit-transition: color .1s ease-in-out, background-color .3s ease-in-out, width .3s ease-in-out;
+	-o-transition: color .1s ease-in-out, background-color .3s ease-in-out, width .3s ease-in-out;
+	transition: color .1s ease-in-out, background-color .3s ease-in-out, width .3s ease-in-out;
+}
+
+.top-social a.si-youtube:hover, .top-social a.si-linkedin:hover {
+	width: 105px
+}
+
+.top-social a.si-quora:hover {
+	width: 90px
+}
+
+.top-social a.si-instagram2:hover, .top-social a.si-facebook:hover {
+	width: 114px;
+}
+
+.top-social a.si-twitter:hover {
+	width: 94px
+}
+
+.top-social-icon {
+	color: #555;
+	text-align: center;
+	font-size: 18px;
+}
+
+.top-social-text {
+	display: none;
+	position: relative;
+	font-size: 15px;
+	float: left;
+	width: auto;
+	overflow: hidden;
+	height: 40px;
+	line-height: 40px;
+}
+
+.top-social a:hover .top-social-text {
+	display: inline
+}
+
+.top-social a:hover .top-social-icon {
+	color: white;
+}
+
+.hidden-elem {
+	opacity: 0 !important;
+	pointer-events: none;
+}
+
+.first-section-main-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 12%
+}
+
+.home-layer {
+	position: absolute;
+	z-index: -1;
+	top: 0
+}
+
+@media(max-width: 1680px) and (min-width: 1500px) {
+	.home-layer {
+		left: -12%;
+	}
+}
+
+@media(max-width: 1499px) and (min-width: 1440px) {
+	.home-layer {
+		left: -5%;
+	}
+
+	.zoomer {
+		zoom: 0.9;
+	}
+}
+
+@media(max-width: 1439px) and (min-width: 1300px) {
+	.home-layer {
+		left: -20%;
+	}
+}
+
+@media(max-width: 1299px) and (min-width: 1220px) {
+	.home-layer {
+		left: -25%;
+	}
+}
+
+@media(max-width: 1219px) and (min-width: 1150px) {
+	.home-layer {
+		left: -30%;
+	}
+}
+
+@media(min-width: 1800px) {
+	.macbook-zoomer {
+		zoom: 1.1
+	}
 }
