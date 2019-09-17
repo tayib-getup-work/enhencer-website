@@ -2151,6 +2151,10 @@
 
 @media (max-width: 575.98px) {
 
+	.visible-mobile {
+		display: block;
+	}
+
 
 	.container,
 	#header.full-header .container,
@@ -3592,6 +3596,14 @@
 		display: none;
 	}
 }
+
+@media(min-width: 1150px) {
+	.visible-desktop {
+		display: block;
+	}
+}
+
+
 
 
 
