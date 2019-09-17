@@ -39,8 +39,6 @@ box-shadow: 0 1px 5px 1px #228e9f !important;
 
 
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,900);
-$fontstack_heading: "Merriweather", sans-serif;
-$fontstack_body: "Merriweather", sans-serif;
 body {
   font-size:100%;
   line-height:1.6;
@@ -70,7 +68,7 @@ block-content p {
 }
 .subtitle {
 
-	font-family: $fontstack_heading;
+	font-family: "Merriweather", sans-serif;
 	font-weight:300;
 	text-transform:uppercase;
 	text-align:center;
@@ -96,12 +94,12 @@ block-content p {
 
 h1, h2 {
 
-	font-family: $fontstack_heading;
+	font-family: "Merriweather", sans-serif;
 	font-weight:900;
 
 }
 p {
-	font-family: $fontstack_body;
+	font-family: "Merriweather", sans-serif;
 	line-height:1.5;
 }
 
@@ -300,7 +298,7 @@ hr.style7 {
 	Header HEro
 -----------------------------------------------------------------*/
 
-.splash_img:{   
+.splash_img{   
 background-image:url("Images/bakemock.jpg") no-repeat center;
 background-size:100% 100%; 
 width: 100%;
@@ -4819,42 +4817,11 @@ div.cookiebtns {
 	top: 0
 }
 
-@media(max-width: 1680px) and (min-width: 1500px) {
-	.home-layer {
-		left: -12%;
-	}
-}
-
-@media(max-width: 1499px) and (min-width: 1440px) {
-	.home-layer {
-		left: -5%;
-	}
-
-	.zoomer {
-		zoom: 0.9;
-	}
-}
-
-@media(max-width: 1439px) and (min-width: 1300px) {
-	.home-layer {
-		left: -20%;
-	}
-}
-
-@media(max-width: 1299px) and (min-width: 1220px) {
-	.home-layer {
-		left: -25%;
-	}
-}
-
-@media(max-width: 1219px) and (min-width: 1150px) {
-	.home-layer {
-		left: -30%;
-	}
-}
-
-@media(min-width: 1800px) {
-	.macbook-zoomer {
-		zoom: 1.1
-	}
+.navbar-right-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	align-items: center;
+	width: 200px;
 }
