@@ -1603,6 +1603,15 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof calltoaction2 != 'undefined') {
 					calltoaction2.classList.remove("col_half");
 				}
+				if (typeof why1 != 'undefined') {
+					why1.classList.remove("col-4");
+				}
+				if (typeof why2 != 'undefined') {
+					why2.classList.remove("col-4");
+				}
+				if (typeof why3 != 'undefined') {
+					why3.classList.remove("col-4");
+				}
 
 
 			}
