@@ -2931,6 +2931,8 @@
 		font-size: 1em;
 		width: 99%;
 		height: 5.5vh;
+		position: sticky;
+		bottom: 0;
 	}
 
 	.cookie-a {
