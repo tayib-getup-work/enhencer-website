@@ -4269,7 +4269,8 @@ div.cookiebtns {
     color: #13364a !important;
     font-size: 1.3em !important;
     /* line-height: 45px; */
-    height: 45px;
+	height: 45px;
+	padding: 0 14px;
     width: 145px;
     text-align: center;
     margin-left: 0%;
@@ -4285,9 +4286,8 @@ div.cookiebtns {
     background-color: #13364a !important;
     color: #ffffff !important;
     font-size: 1.3em !important;
-    /* line-height: 45px; */
     height: 45px;
-    width: 275px;
+    width: 15em;
     text-align: center;
     border: 1.5px solid #fff;
     margin-left: 3%;
@@ -4806,6 +4806,7 @@ div.cookiebtns {
 .first-section-main-flex {
 	display: flex;
 	flex-direction: row;
+	/* flex-wrap: wrap; */
 	justify-content: space-between;
 	align-items: flex-end;
 	margin-top: 12%

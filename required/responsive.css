@@ -2156,6 +2156,23 @@
 	}
 
 
+	#mobile-header {
+		visibility: visible;
+		width: 100%;
+		height: 50px;
+		display: flex; 
+		flex-direction: row;
+		justify-content: space-between;
+		align-content: center;
+		padding: 0 5%;
+		background: #13364a;
+		box-shadow: 0 0 10px rgba(0,0,0,0.4) !important;
+		position: sticky;
+		top: 0;
+		left: 0;
+		z-index: 20000000;
+	}
+
 	.container,
 	#header.full-header .container,
 	.container-fullwidth {
@@ -3027,13 +3044,15 @@
 	}
 	.home-slider-subtitle {
 		text-align: center;
-		width: 100%;
+		width: 90%;
 	}
 
 	.main-title {
 		color: #13364a;
 		font-weight: 400 !important;
-		font-size: 2.4em;
+		font-size: 2em;
+    	width: 90%;
+    	text-align: center;
 	}
 
 	.header_title_right_margin_top {
@@ -3445,10 +3464,8 @@
 
 	#macbook_container {
 		position: relative;
-		/* background-image: url(../images/macbook.png); */
-		width: auto;
-		height: auto;
-		margin-top: -333px;
+		margin: 0 auto 20px;
+		width: 90%;
 	}
 	.macbook-zoomer {
 		zoom: 1;

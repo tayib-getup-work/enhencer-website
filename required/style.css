@@ -9929,7 +9929,7 @@ body:not(.device-touch) .clients-grid li a {
 
 .testimonial.testimonial-full .flex-control-nav {
     position: relative;
-    top: 0;
+    top: 20px;
     bottom: 0;
     right: 0;
     left: 0;
