@@ -14,7 +14,7 @@
  *
  * ========================================================== */
 
-if (screen.width > 1279) {
+if (screen.width > 1150) {
 
 
 	function onePageScroll(element, options) {
