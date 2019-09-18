@@ -1065,10 +1065,6 @@
 		background-position-x: -50%;
 	}
 
-	.zoomer {
-		zoom: 0.8
-	}
-
 	.macbook-zoomer {
 		zoom: 0.95
 	}
@@ -2154,6 +2150,11 @@
 
 
 @media (max-width: 575.98px) {
+
+	.visible-mobile {
+		display: block;
+	}
+
 
 	.container,
 	#header.full-header .container,
@@ -3584,19 +3585,77 @@
 
 }
 
+@media(min-width: 576px) {
+	.visible-mobile {
+		display: none;
+	}
+}
+
+@media(max-width: 1149px) {
+	.visible-desktop {
+		display: none;
+	}
+}
+
+@media(min-width: 1150px) {
+	.visible-desktop {
+		display: block;
+	}
+}
 
 
 
 
 
+@media(max-width: 1149px) {
+	.home-layer {
+		display: none
+	}
 
+	.navbar-right-buttons {
+		display: none
+	}
+}
 
+@media(max-width: 1680px) and (min-width: 1500px) {
+	.home-layer {
+		left: -12%;
+	}
+}
 
+@media(max-width: 1499px) and (min-width: 1440px) {
+	.home-layer {
+		left: -5%;
+	}
 
+	.zoomer {
+		zoom: 0.9;
+	}
+}
 
+@media(max-width: 1439px) and (min-width: 1300px) {
+	.home-layer {
+		left: -20%;
+	}
+}
 
+@media(max-width: 1299px) and (min-width: 1220px) {
+	.home-layer {
+		left: -25%;
+	}
+}
 
+@media(max-width: 1219px) and (min-width: 1150px) {
+	.home-layer {
+		left: -30%;
+	}
+}
 
+@media(min-width: 1800px) {
+	.macbook-zoomer {
+		zoom: 1.1
+	}
+}
 
 /* ----------------------------------------------------------------
 	Retina CSS
