@@ -1,18 +1,18 @@
 
 
 .border-blue {
-    border: 1.5px solid #228e9f !important;
+    border: 1.5px solid #13364a !important;
 }
 
 .border-green {
 	border: 1.5px solid var(--buttonthemecolor) !important; 
 }
 .button-enhencer-default-green {
-    color: #228e9f !important;
+    color: #13364a !important;
 }
 
 .button-enhencer-default-green:hover {
-box-shadow: 0 1px 5px 1px #228e9f !important;
+box-shadow: 0 1px 5px 1px #13364a !important;
 }
 
 .content-text {
@@ -3823,7 +3823,7 @@ padding-right: 5%;
 	left: 0;
 	right: 0;
 	/* padding: 10px 0; */
-	background-color: #12546d;
+	background-color: #13364a;
 	z-index: 100000;
 }
 
