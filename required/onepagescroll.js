@@ -125,7 +125,7 @@ if (screen.width > 1150) {
 				}
 			}
 
-			handleHeader = function () {
+			/* handleHeader = function () {
 				var page1 = document.getElementsByClassName('page1')[0];
 				var forced_sticky_header = document.getElementsByClassName('forced_sticky_header')[0];
 				if (page1.classList.contains('active')) {
@@ -137,7 +137,7 @@ if (screen.width > 1150) {
 						forced_sticky_header.classList.remove('dpn');
 					}
 				}
-			}
+			} */
 
 			_mouseWheelHandler = function (event) {
 				event.preventDefault();

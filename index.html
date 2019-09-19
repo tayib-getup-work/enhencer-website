@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="css/colors.php?color=FE9603" type="text/css" /> <!-- Theme Color -->
 	<link rel="stylesheet" href="required/googlefonts.min.css" type="text/css" />
 	<link rel="stylesheet" href="required/bootstrap.min.css" type="text/css" />
-	<link rel="stylesheet" href="required/style.min.css" type="text/css" />
+	<link rel="stylesheet" href="required/style.css" type="text/css" />
 	<link rel="stylesheet" href="required/custom.css" type="text/css" />
 	<link rel="stylesheet" href="required/onepage-scroll.css" type="text/css" />
 
@@ -62,14 +62,14 @@
 			class="hidden-elem transparent-header floating-header clearfix sticky-header forced_sticky_header">
 			<div id="header-wrap">
 				<div class="container-home-wide-body clearfix">
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+					<div id="primary-menu-trigger"><i class="icon-reorder" style="color: white"></i></div>
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
 						<a href="/" class="standard-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
-								src="images/Log_new.png" alt="Enhencer Logo"></a>
+								src="images/enhencer.png" alt="Enhencer Logo"></a>
 						<a href="/" class="retina-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
-								src="images/Log_new.png" alt="Enhencer Logo"></a>
+								src="images/enhencer.png" alt="Enhencer Logo"></a>
 					</div>
 					<!-- #logo end -->
 					<nav id="primary-menu" class="with-arrows">
@@ -110,16 +110,16 @@
 							<a href="https://app.enhencer.com/#!/login"
 								onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
 								target="_blank"
-								class="button button-rounded button-light bg-blueish border nott ls0 border-blue button-enhencer-default-green"
-								style="text-align: center; padding-left: 0px; width: 82px; padding-right: 0px;margin-left: 8%;">
+								class="button button-rounded button-light bg-blueish border nott ls0 button-enhencer-default-green">
 								<div
-									style="text-align: center; margin-top: -2px; background-color: transparent !important;">
+									style="color: white; text-align: center; font-size: 15px; background-color: transparent !important;">
 									Sign in
 								</div>
 							</a>
 							<a href="https://app.enhencer.com/#!/signup"
 								onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-								target="_blank" class="button button-rounded fright try-free-button">
+								target="_blank" class="button button-rounded fright try-free-button"
+								style="width: 100px">
 								<div style="text-align: center">
 									Try it Free
 								</div>
@@ -130,18 +130,65 @@
 			</div>
 		</div>
 
-		
+
 		<!-- # Sticky Forced Header end -->
 
 		<div id="scrollermain" class="main">
 			<!-- Section 1
 		============================================= -->
-
-
-
-
 			<section class="page1">
-				
+				<img class="home-layer zoomer" src="images/home_layer.png" alt="">
+				<div class="container-home-wide-body">
+					<br>
+					<br>
+					<div class="transparent-sticky-header"><a href="/" style="width: 200px"><img
+								src="images/enhencer.png"></a>
+						<div class="navbar-menu">
+							<a class="navbar-menu-button" href="connect.html">Connect</a>
+							<a class="navbar-menu-button" href="stories/">Cases</a>
+							<a class="navbar-menu-button" href="help.html">Help</a>
+							<a class="navbar-menu-button" href="pricing.html">Pricing</a>
+							<a class="navbar-menu-button" href="blog/">Blog</a>
+							<div class="navbar-right-buttons"><a href="https://app.enhencer.com/#!/login" onClick="gtag('event', 'click' , { event_category: 'Landing' ,
+									event_action: 'Top Bar' , event_label: 'Sign-in' });" target='blank'
+									class="button button-rounded button-light bg-blueish border nott ls0 border-blue button-enhencer-default-green"
+									style="text-align: center; padding-left: 0px; width: 82px; padding-right: 0px;margin-left: 3%;">
+									<div
+										style="text-align: center; margin-top: -2px; background-color: transparent !important;">
+										Sign in</div>
+								</a><a href="https://app.enhencer.com/#!/signup"
+									onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free' });"
+									target="_blank" class="button button-rounded fright try-free-button">
+									<div style="text-align: center">Try it Free</div>
+								</a></div>
+						</div>
+					</div>
+					<div class="first-section-main-flex">
+						<div class="header_title_margin_top">
+							<div id="sliderTitle" class="slider-title home-title zoomer">
+								<h1 id="mainTitle" class="main-title home-slider-title">Turn Data to Profits in Minutes
+								</h1>
+								<div id="macbook-container" class="macbook-zoomer mobile-macbook"><img src="images/macbook.png">
+									<video src="images/video/Stop Motion Video Compressed.mp4" type="video/mp4" loop autoplay muted></video>
+								</div>
+								<h3 id="mainsubTitleInfo"
+									class="mb-2 content-text main-title-info home-slider-subtitle mt-5"><span
+										class="menu-subtitle">Simplest Automated Machine Learning platform that predicts
+										future events, cases or behaviors on your business tasks</span></h3>
+								<div id="homesliderbuttons">
+									<a onClick="gtag('event', 'click' , { event_category: 'Landing', event_action: 'Home' , event_label: 'Try Free'});"
+										class="button button-rounded header-try-button"
+										href="https://app.enhencer.com/#!/signup">Try it Free</a><a
+										onClick="gtag('event', 'click' , { event_category: 'Landing', event_action: 'Home', event_label: 'Try Free' });;"
+										class="button button-rounded header-meet-button" target="_blank"
+										href="contact-form.html">Meet Our Data-Scientists</a></div>
+							</div>
+						</div>
+						<div id="macbook-container" class="macbook-zoomer desktop-macbook"><img src="images/macbook.png"><video
+								src="images/video/Stop Motion Video Compressed.mp4" type="video/mp4" loop autoplay
+								muted> </video></div>
+					</div>
+				</div>
 			</section>
 
 
@@ -362,9 +409,7 @@
 					================================ -->
 
 						<div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false"
-							style="padding-top: 0 !important;
-				padding-left: 0 !important;
-				padding-right: 0 !important;">
+							style="padding: 0 !important;">
 							<div class="flexslider">
 								<div class="slider-wrap">
 
@@ -1467,7 +1512,7 @@
 
 		<!-- Footer Scripts
 	============================================= -->
-		<script src="required/functions.min.js"></script>
+		<script src="required/functions.js"></script>
 		<script>
 			$(document).ready(function () {
 				$("#footerContent").load("footer-index.html");
@@ -1517,7 +1562,7 @@
 			}
 		</script>
 
-		<script>
+		<!-- <script>
 			var pageOne = document.getElementsByClassName('page1')[0];
 			var sectionOneDesktop = document.createElement('div');
 			sectionOneDesktop.setAttribute("style", "padding-top: 50px");
@@ -1529,9 +1574,9 @@
 
 			var wrapper = document.getElementById('wrapper');
 
-			var mobileHeader = document.createElement('div');
+			/* var mobileHeader = document.createElement('div');
 			mobileHeader.innerHTML = '<img src="images/enhencer.png" style="height: 18px; width: 161px; margin: 16px 0;"><div class="dropdown"><i class="icon-reorder" style="color: white; font-size: 25px; height: 100%; padding-top: 7px"></i></div>'
-			mobileHeader.id = "mobile-header"
+			mobileHeader.id = "mobile-header" */
 
 
 			handleWindowSizeAlignment();
@@ -1556,17 +1601,17 @@
 						elements[i].remove();
 					}
 					wrapper.prepend(mobileHeader);
-					pageOne.append(sectionOneMobile);
+					/* pageOne.append(sectionOneMobile); */
 				}
 			}
 
 			window.addEventListener("resize", handleWindowSizeAlignment);
 
 
-		</script>
+		</script> -->
 
 		<script>
-			if (screen.width > 1150) {
+			if (window.innerWidth > 1150) {
 				onePageScroll(".main", {
 					sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
 					easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", 
@@ -1594,6 +1639,9 @@
 					// you want the responsive fallback to be triggered. For example, set this to 600 and whenever 
 					// the browser's width is less than 600, the fallback will kick in.
 				});
+			} else {
+				var forced_sticky_header = document.getElementsByClassName('forced_sticky_header')[0];
+				forced_sticky_header.classList.remove('hidden-elem');
 			}
 		</script>
 

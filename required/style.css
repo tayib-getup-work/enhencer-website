@@ -272,7 +272,6 @@ small { font-family: 'Lato', sans-serif; }
 #wrapper {
 	position: relative;
 	float: none;
-	width: 1220px;
 	margin: 0 auto;
 	background-color: #FFF;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -6646,7 +6645,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
     width: 95px;
     padding-right: 0px;
     font-size: 15px;
-    background-color: #278F9F!important;
+    background-color: #13364a !important;
 }
 
 .try-free-button:hover {
@@ -21591,7 +21590,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 
 /* Responsive Device more than 992px (.device-md >)
 -----------------------------------------------------------------*/
-@media (min-width: 992px) {
+@media (min-width: 1150px) {
 
 	#header.transparent-header.floating-header + #slider {
 		top: -165px;
@@ -21600,15 +21599,11 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 
 	#header.transparent-header.floating-header { margin-top: 25px; }
 
-	#header:not(.sticky-header) #header-wrap .container { 
-		/* box-shadow: var(--headerboxshadow) */
-	 }
 
 	#header.transparent-header + #page-title.page-title-parallax .container { padding-top: 80px; }
 	#footer-menu ul li > a,
 	#primary-menu ul li > a {
-		padding-top: 29px;
-		padding-bottom: 29px;
+		padding: 27px 15px;
 		text-transform: none;
 		letter-spacing: 0;
 		font-size: var(--menufontsize);
@@ -21692,8 +21687,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 		color: #AAA;
 	}
 
-	/* Feature Box
-	-----------------------------------------------------------------*/
+	
 	.feature-box:after {
 	    position: absolute;
 	    right: -2.1875rem;
@@ -21709,12 +21703,6 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 	.feature-box.no-middot:after { content: none }
 }
 
-
-/* DIRTY Responsive pricing table CSS */
-
-/* 
-- make mobile switch sticky
-*/
 * {
 	box-sizing:border-box;
 	padding:0;

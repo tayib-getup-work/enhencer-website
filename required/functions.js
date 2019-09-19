@@ -1617,9 +1617,9 @@ var SEMICOLON = SEMICOLON || {};
 			}
 
 			if (screen.width < 1280) {
-				if (typeof forced_header != 'undefined') {
+				/* if (typeof forced_header != 'undefined') {
 					forced_header.classList.add("dpn");
-				}
+				} */
 				if (typeof scrollermain != 'undefined') {
 					scrollermain.classList.remove("main");
 				}
