@@ -224,14 +224,24 @@
 		/* height: 75px; */
 	}
 
-	.home_stories_banner_p {
-		font-size: 1.3em;
+	.home_stories_banner_p_right {
+		font-size: 16px;
 		/* text-align: center; */
-		font-weight: 200;
-		color: black;
-		padding-right: 10%;
+		font-weight: 400;
+		color: #666;
+		padding-right: 2.5%;
+		padding-left: 2.5%;
+		text-align: center;
 	}
-
+	.home_stories_banner_p_left {
+		font-size: 16px;
+		/* text-align: center; */
+		font-weight: 400;
+		color: #666;
+		padding-right: 2.5%;
+		text-align: center;
+		padding-left: 2.5%;
+	}
 	.button_read_more {
 		font: 15px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
 		background: white;
@@ -2757,6 +2767,11 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	.mobile_fottoer_margin{
+		margin-bottom: -1px !important;
 	}
 	.module2 {
 		border-image: linear-gradient(to right,#f3f3f3, #f3f3f3) 1 4%;
@@ -2943,7 +2958,7 @@
 	}
 
 	.cookie-p {
-		margin: 3px 0 0px 0;
+		margin: 3px 0 6px 0;
 		text-align: center;
 		color: white;
 		font-size: 1em;
@@ -3171,25 +3186,23 @@
 		margin-bottom: 15px;
 	}
 
-	.home_stories_banner_p {
-		font-size: 1.3em;
+	.home_stories_banner_p_right {
+		font-size: 16px;
 		/* text-align: center; */
-		font-weight: 200;
-		color: black;
-		padding-right: 4%;
-		padding-left: 4%;
+		font-weight: 400;
+		color: #666;
+		padding-right: 2.5%;
+		padding-left: 2.5%;
 		text-align: center;
 	}
-
-	.home_stories_banner_p {
-		font-size: 1em;
+	.home_stories_banner_p_left {
+		font-size: 16px;
 		/* text-align: center; */
-		font-weight: 200;
-		color: black;
-		padding-right: 4%;
-		padding-left: 4%;
+		font-weight: 400;
+		color: #666;
+		padding-right: 2.5%;
 		text-align: center;
-		margin-bottom: 15px;
+		padding-left: 2.5%;
 	}
 
 
@@ -3582,7 +3595,7 @@
 		left: 0;
 		right: 0;
 		padding: 1px 0;
-		background-color: #12546d;
+		background-color: #13364a;
 		z-index: 100000;
 	}
 	.why_enhencer_card {
@@ -3670,7 +3683,7 @@
 
 @media(min-width: 1800px) {
 	.macbook-zoomer {
-		zoom: 1.1
+		zoom: 1.2;
 	}
 }
 
