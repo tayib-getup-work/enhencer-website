@@ -226,20 +226,16 @@
 
 	.home_stories_banner_p_right {
 		font-size: 16px;
-		/* text-align: center; */
 		font-weight: 400;
 		color: #666;
 		padding-right: 2.5%;
 		padding-left: 2.5%;
-		text-align: center;
 	}
 	.home_stories_banner_p_left {
 		font-size: 16px;
-		/* text-align: center; */
 		font-weight: 400;
 		color: #666;
 		padding-right: 2.5%;
-		text-align: center;
 		padding-left: 2.5%;
 	}
 	.button_read_more {
@@ -2187,6 +2183,7 @@
 		border-top: 1px solid white !important; 
 		border-bottom-left-radius: 10px;
 		border-bottom-right-radius: 10px;
+		box-shadow: 0 0 20px rgba(0,0,0,0.4) !important
 	}
 
 	.transparent-sticky-header {
@@ -3361,6 +3358,7 @@
 		height: 782px !important;
 		overflow: hidden;
 		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 	}
 	.clinets_section_margin_mobile{
 		margin-top: -125px !important;

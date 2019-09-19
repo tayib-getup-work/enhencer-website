@@ -6647,11 +6647,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
     width: 95px;
     padding-right: 0px;
     font-size: 15px;
-<<<<<<< HEAD
     background-color: #13364a !important;
-=======
-    background-color: #13364a!important;
->>>>>>> b02e2ed8245c226452a6bec1dc1f592c823738e1
 }
 
 .try-free-button:hover {

@@ -4489,7 +4489,7 @@ div.cookiebtns {
     width: 100%;
     /* overflow: visible; */
     height: 40.7%;
-    bottom: 59.2%;
+    bottom: 59.3%;
     background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
 }
 .bgTop {
@@ -4774,6 +4774,7 @@ div.cookiebtns {
 
 .top-social a {
 	width: 40px;
+	margin-right: 10px;
 	color: #FFF !important;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	display: flex;
@@ -4803,7 +4804,7 @@ div.cookiebtns {
 }
 
 .top-social-icon {
-	color: #555;
+	color: white;
 	text-align: center;
 	font-size: 18px;
 }
@@ -4848,7 +4849,6 @@ div.cookiebtns {
 }
 
 .navbar-right-buttons {
-<<<<<<< HEAD
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -4880,12 +4880,3 @@ div.cookiebtns {
 	align-items: center;
 	margin-top: 30px
 }
-=======
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 10px;
-    align-items: center;
-    width: 225px;
-}
->>>>>>> b02e2ed8245c226452a6bec1dc1f592c823738e1
