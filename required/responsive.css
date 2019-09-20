@@ -2165,6 +2165,14 @@
 		margin-top: 50px;
 	}
 
+	.mobile_timeline_float_left{
+		margin-left:50% !important;
+		float: left !important;
+	}
+	.mobile_padding_none{
+		padding-left:0px !important;
+		padding-right: 0px !important;
+	}
 	
 
 	.forced_sticky_header {
@@ -2792,7 +2800,11 @@
 		right: 0;
 		left: 0;
 		height: 6px;
-		margin-top: -200px;
+		margin-top: 25px;
+	}
+	.testimonial_slider_wrap_mobile {
+		height: auto !important;
+		margin-bottom: 0 !important;
 	}
 	.call_to_action_flex {
 		display: flex;
@@ -2817,9 +2829,13 @@
 	}
 	.testimonial-full .testi-content {
 		text-align: center;
-		font-size: 1.1em;
+		font-size: 1em;
 		padding-right: 0%;
 		padding-left: 0%;
+	}
+	.testimonial_slider_wrap_mobile {
+		height: auto !important;
+		/* margin-bottom: 138px !important; */
 	}
 	.testimonial_fslider {
 		margin-top: 30px;
@@ -2881,7 +2897,6 @@
 		padding-left: 0 !important;
 		padding-top: 120px !important;
 		border-top: 0 !important;
-		margin-left: 30px !important;
 	}
 	
 	.flip-card-column{
@@ -3088,6 +3103,7 @@
 		font-size: 1.2em !important;
 		font-weight: 200;
 		line-height: 175%;
+		text-align: center;
 	}
 	.home-slider-subtitle {
 		text-align: center;
@@ -3201,7 +3217,7 @@
 		left: 4%;
 		/* zoom: 70%; */
 		background-size: 147px !important;
-		width: 152px !important;
+		width: 147px !important;
 		height: 152px !important;
 		visibility: visible;
 		display: inline-block;
@@ -3223,7 +3239,7 @@
 	}
 
 	.home_stories_banner_p_right {
-		font-size: 16px;
+		font-size: 14px;
 		/* text-align: center; */
 		font-weight: 400;
 		color: #666;
@@ -3232,7 +3248,7 @@
 		text-align: center;
 	}
 	.home_stories_banner_p_left {
-		font-size: 16px;
+		font-size: 14px;
 		/* text-align: center; */
 		font-weight: 400;
 		color: #666;
@@ -3355,13 +3371,13 @@
 		position: relative;
 		display: block;
 		width: 100%;
-		height: 782px !important;
-		overflow: hidden;
+		height: auto !important;
+		overflow: visible;
 		-webkit-backface-visibility: hidden;
 		backface-visibility: hidden;
 	}
-	.clinets_section_margin_mobile{
-		margin-top: -125px !important;
+	.clinets_section_margin_mobile {
+		margin-top: 35px !important;
 	}
 	.video_section_margin_mobile{
 		margin-top: -45px !important;
@@ -3371,7 +3387,7 @@
 		width: 100%;
 		/* overflow: visible; */
 		height: 350px;
-		bottom: 77.5%;
+		bottom: 78.5%;
 		background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
 	}
 	.why_enhencer_card_picture {
@@ -3451,8 +3467,9 @@
 
 	.cookie-a {
 		padding: 10px 10px;
-		color: #b2b2b2;
-		font-size: 12px;
+		color: #13364a;
+		font-size: 14px;
+		font-weight: 600;
 	}
 
 	.logo-small {
@@ -3658,7 +3675,10 @@
 		font-weight: 300;
 		font-size: 2em;
 	}
-
+	#primarymenumobile div {
+		color: white;
+		text-align: center;
+	}
 
 }
 
