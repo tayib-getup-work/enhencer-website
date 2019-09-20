@@ -1,16 +1,16 @@
 .border-blue {
-    border: 1.5px solid #13364a !important;
+    border: 1.5px solid #1b7f91 !important;
 }
 
 .border-green {
 	border: 1.5px solid var(--buttonthemecolor) !important; 
 }
 .button-enhencer-default-green {
-    color: #13364a !important;
+    color: #1b7f91 !important;
 }
 
 .button-enhencer-default-green:hover {
-box-shadow: 0 1px 5px 1px #13364a !important;
+box-shadow: 0 1px 5px 1px #1b7f91 !important;
 }
 
 .content-text {
@@ -4027,7 +4027,7 @@ div.cookiebtns {
 }
 
 .home_stories_banner_p_left {
-    font-size: 16px;
+    font-size: 18px;
     /* text-align: center; */
     font-weight: 400;
     color: #666;
@@ -4035,7 +4035,7 @@ div.cookiebtns {
 }
 
 .home_stories_banner_p_right {
-    font-size: 16px;
+    font-size: 18px;
     /* text-align: center; */
     font-weight: 400;
     color: #666;
@@ -4063,6 +4063,7 @@ div.cookiebtns {
     font-weight: 400;
     font-size: 3em;
     margin-top: -25px;
+    margin-bottom: 5px !important;
 }
 
 
@@ -4658,8 +4659,8 @@ div.cookiebtns {
 .turnover_prediction_h1{
 	margin-left: -9.7%;
 }
-.sales_forecast_h1{
-	margin-left: -13.5%;
+.sales_forecast_h1 {
+    margin-left: -10%;
 }
 .fraud_prevention_h1 {
     margin-left: -13.5%;
@@ -4667,10 +4668,11 @@ div.cookiebtns {
 .failure_prevention_h1{
 	margin-left: -13.5%;
 }
-.connect_mobile_margin{
-	margin-top: 0px;
+.connect_mobile_margin {
+    margin-top: 0px;
+    padding-left: 6%;
+    padding-right: 6%;
 }
-
 .testimonial_fslider{
 	margin-top:20px; 
 	height: 300px !important;
@@ -4864,14 +4866,14 @@ div.cookiebtns {
 }
 
 #forced_header .navbar-right-buttons a {
-	text-align: center;
-	padding-left: 0px;
-	width: 82px;
-	padding-right: 0px;
-	margin-left: 4%;
-	border: 1px solid white;
-	border-radius: 5px;
-	background: transparent !important;
+    text-align: center;
+    padding-left: 0px;
+    width: 82px;
+    padding-right: 0px;
+    margin-left: 4%;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent !important;
 }
 
 #forced_header .navbar-right-buttons a:hover {
@@ -4925,13 +4927,13 @@ div.cookiebtns {
 	}
   
 	.onepage-pagination {
-	  position: absolute;
-	  right: 10px;
-	  top: 50%;
-	  z-index: 5;
-	  list-style: none;
-	  margin: 0;
-	  padding: 0;
+		position: absolute;
+		right: 10px;
+		top: 42%;
+		z-index: 5;
+		list-style: none;
+		margin: 0;
+		padding: 0;
 	}
 	.onepage-pagination li {
 	  padding: 0;

@@ -6618,26 +6618,25 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	Buttons
 -----------------------------------------------------------------*/
 
-
 .button {
-	display: inline-block;
-	position: relative;
-	cursor: pointer;
-	outline: none;
-	white-space: nowrap;
-	margin: 5px;
-	padding: 0 22px;
-	font-size: 14px;
-	height: 40px;
-	line-height: 40px;
-	background-color: #1ABC9C;
-	color: #FFF;
-	font-weight: 700;
-	text-transform: none;
-	letter-spacing: 1px;
-	border: none;
-	border-radius: 5px !important;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 0 22px;
+    font-size: 15px;
+    height: 40px;
+    line-height: 37px;
+    background-color: #1ABC9C;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 
