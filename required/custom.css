@@ -4990,3 +4990,1313 @@ div.cookiebtns {
 	}
   
   }
+
+
+  /* PC Responsive */
+  @media(max-width: 1680px) and (min-width: 1500px) {
+	.home-layer {
+		left: -12%;
+	}
+}
+
+@media(max-width: 1499px) and (min-width: 1440px) {
+	.home-layer {
+		left: -5%;
+	}
+
+	.zoomer {
+		zoom: 0.85;
+	}
+
+	.home-title {
+		zoom: 0.8 !important;
+	}
+}
+
+@media(max-width: 1439px) and (min-width: 1300px) {
+	.home-layer {
+		left: -20%;
+	}
+}
+
+@media(max-width: 1299px) and (min-width: 1220px) {
+	.home-layer {
+		left: -25%;
+	}
+}
+
+@media(max-width: 1219px) and (min-width: 1150px) {
+	.home-layer {
+		left: -30%;
+	}
+}
+
+@media(min-width: 1800px) {
+	.macbook-zoomer {
+		zoom: 1.2;
+	}
+}
+@media(min-width: 1150px) {
+	.visible-desktop {
+		display: block;
+	}
+}
+@media(min-width: 1150px) {
+	.visible-mobile {
+		display: none;
+	}
+
+	.mobile-macbook {
+		display: none;
+	}
+
+	.desktop-macbook {
+		display: inherit;
+	}
+}
+@media (max-width: 1281.98px) {
+	.main-title-info {
+		font-size: 1.5em !important;
+		font-weight: 200;
+		line-height: 175%;
+	}
+
+	.slider-title h1 {
+		font-size: 50px;
+		line-height: 1.3;
+		letter-spacing: -1px;
+		font-weight: 700;
+		margin-bottom: 26px;
+	}
+
+	.home-title {
+		width: 500px;
+		margin-left: -1%;
+		margin-top: -30px;
+	}
+
+	div.laptop-wrapper video {
+		box-sizing: border-box;
+		background: url(images/services/macbook.png) center center no-repeat;
+		background-size: 646px 337px;
+		padding-top: 2.2%;
+		padding-right: 25.6%;
+		padding-bottom: 5.6%;
+		padding-left: 25.6%;
+		position: absolute;
+		top: -40px;
+		left: -4%;
+		width: 857px;
+		height: 460px;
+		/* pointer-events: none; */
+	}
+
+	.home-quote-top {
+		font-size: 6em;
+		display: flex;
+		color: #e4e4e482;
+		margin-left: 8%;
+		position: relative;
+		margin-bottom: -70px;
+	}
+
+	.home-quote-bottom {
+		font-size: 6em;
+		display: flex;
+		color: #e4e4e482;
+		margin-left: 86%;
+		position: relative;
+		margin-top: -75px;
+	}
+
+	.flip-card-column {
+		width: 200px;
+		margin-left: -34% !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+
+	.home-mid-para {
+		font-size: 25px;
+		text-align: center;
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+	}
+
+	.container-home-wide-body {
+		position: relative;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 91%;
+	}
+
+	.bgimg {
+		background-image: url(../images/home_layer.png);
+		background-repeat: no-repeat;
+		background-position-x: -130%;
+		background-position-y: 55px;
+	}
+
+	.macbook-zoomer {
+		zoom: 0.8
+	}
+
+	.slider-title h1 {
+		font-size: 36px;
+		line-height: 1.3;
+		letter-spacing: -1px;
+		font-weight: 700;
+		margin-bottom: 26px;
+	}
+
+	.main-title-info {
+		font-size: 1.3em !important;
+		font-weight: 200;
+		line-height: 175%;
+	}
+
+	.header-try-button {
+		line-height: 40px;
+		text-transform: none;
+		background-color: white !important;
+		color: #13364a !important;
+		font-size: 1.1em !important;
+		/* line-height: 45px; */
+		height: 40px;
+		width: 145px;
+		text-align: center;
+		margin-left: 0%;
+	}
+
+	.header-meet-button {
+		line-height: 39px;
+		text-transform: none;
+		background-color: #13364a !important;
+		color: #ffffff !important;
+		font-size: 1.1em !important;
+		/* line-height: 45px; */
+		height: 40px;
+		width: 260px;
+		text-align: center;
+		border: 1px solid #fff;
+		margin-left: 3%;
+	}
+
+	.header_title_margin_top {
+		margin-top: 25px !important;
+	}
+
+	.header_title_right_margin_top {
+		margin-top: -120px !important;
+	}
+
+
+
+	.margin-home-video {
+		margin-top: -2%;
+		margin-left: -23%;
+	}
+
+	div.laptop-wrapper video {
+		box-sizing: border-box;
+		background: url(images/services/macbook.png) center center no-repeat;
+		background-size: 646px 337px;
+		padding-top: 3.2%;
+		padding-right: 26.6%;
+		padding-bottom: 5.6%;
+		padding-left: 26.6%;
+		position: absolute;
+		top: -40px;
+		left: -4%;
+		width: 857px;
+		height: 460px;
+		/* pointer-events: none; */
+	}
+	.home-integration-heading {
+		text-align: center;
+		color: #228E9F !important;
+		font-weight: 300 !important;
+		font-size: 3em !important;
+	}
+
+	.purchase_prpensity:before {
+		content: '';
+		background: url(../stories/images/overview/icons/cart.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 45px;
+		/* zoom: 70%; */
+		background-size: 90px !important;
+		width: 104px !important;
+		height: 103px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -16%;
+	}
+
+	.home_stories_banner_h1 {
+		color: #004159;
+		font-weight: 400;
+		font-size: 2.5em;
+		margin-top: -25px;
+	}
+
+	.home_stories_banner_h3 {
+		/* text-align: center; */
+		color: #3e8a81;
+		font-weight: 400;
+		font-size: 2em;
+		line-height: 1.5;
+		vertical-align: middle;
+		/* height: 75px; */
+	}
+
+	.home_stories_banner_p_right {
+		font-size: 16px;
+		font-weight: 400;
+		color: #666;
+		padding-right: 2.5%;
+		padding-left: 2.5%;
+	}
+	.home_stories_banner_p_left {
+		font-size: 16px;
+		font-weight: 400;
+		color: #666;
+		padding-right: 2.5%;
+		padding-left: 2.5%;
+	}
+	.button_read_more {
+		font: 15px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
+		background: white;
+		border: 1px solid #004159;
+		border-radius: 4px;
+		color: #004159;
+		outline: 0 none;
+		padding: 15px 25px;
+		position: relative;
+		transition: all 0.75s ease-in-out 0s;
+		cursor: pointer;
+	}
+
+	.likelihood_to_purchase:before {
+		content: '';
+		background: url(../stories/images/overview/icons/cash_counter.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 45px;
+		/* zoom: 70%; */
+		background-size: 70px !important;
+		width: 88px !important;
+		height: 90px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -16%;
+	}
+
+	.demand_forecasting:before {
+		content: '';
+		background: url(../stories/images/overview/icons/man_with_a_sign.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 50px;
+		left: 4%;
+		/* zoom: 70%; */
+		background-size: 147px !important;
+		width: 208px !important;
+		height: 152px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -16%;
+	}
+
+	.churn_proability:before {
+		content: '';
+		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 45px;
+		/* zoom: 70%; */
+		background-size: 75px !important;
+		width: 81px !important;
+		height: 92px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -15%;
+	}
+
+	.waveWrapperInner {
+		position: inherit;
+		width: 100%;
+		/* overflow: visible; */
+		height: 7.4%;
+		bottom: 48.5%;
+		background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
+	}
+	.why_enhencer_card {
+		width: 358px;
+		overflow: hidden;
+		border-radius: 1px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.why_enhencer_card_picture {
+		width: 73px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 70px;
+	}
+
+	.why_enhencer_h2 {
+		text-align: center;
+		line-height: 1.25;
+		font-weight: 400;
+		font-size: 1.6em;
+		color: black;
+		width: 95%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 35px;
+	}
+
+	.why_enhencer_card_p {
+		text-align: center;
+		font-size: 1.2em;
+		margin-top: 40px;
+		margin-bottom: 40px !important;
+	}
+
+	.why_card_background3-3 {
+		background-image: url(../images/why/3-3.png);
+		background-size: cover;
+		margin-left: -2%;
+		height: 250px;
+		width: 104%;
+		margin-bottom: 57px;
+	}
+
+	.mt-xxl {
+		margin-top: 4.7rem !important;
+	}
+
+	.home-integration-heading {
+		text-align: center;
+		color: #228E9F !important;
+		font-weight: 300 !important;
+		font-size: 2.7em !important;
+	}
+
+	.button_read_more2 {
+		font: 15px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
+		background: white;
+		border: 1px solid #004159;
+		border-radius: 4px;
+		color: #004159;
+		outline: 0 none;
+		padding: 15px 69px;
+		position: relative;
+		transition: all 0.75s ease-in-out 0s;
+		cursor: pointer;
+	}
+
+	.owl-carousel .owl-stage-outer {
+		position: relative;
+		overflow: hidden;
+		-webkit-transform: translate3d(0,0,0);
+		height: 135px !important;
+	}
+
+	.home-testi-bottom-border {
+		margin-top: 55px;
+		margin-left: -4%;
+	}
+
+	.home-testi-top-border {
+		margin-left: 44%;
+		margin-top: -32px;
+	}
+
+
+}
+
+@media (min-width: 1282px) and (max-width: 1366.98px) {
+	
+	.home-quote-top{
+		margin-left: 8%;
+	}
+
+	.flip-card-column {
+		margin-left: 3% !important;
+	}
+
+	.home-testi-h1 {
+		font-size: 3.2em;
+		margin-left: -2%;
+	}
+	.home-testi-h1-p{
+		line-height:133% !important; 
+		width: 305px;     
+		margin-top: 75px;
+		margin-left: 5%;
+	}
+
+	.home-testi-icon {
+    margin-left: 52%;
+    margin-top: -290px;
+	}
+
+	.testi-content p {
+    font-size: 2.3vh !important;
+	}
+
+	.home-testi-h1{
+		padding-top: 80px;
+	}
+
+	.home-testi-bottom-border{
+		margin-left: -4%;
+	}
+
+	.home-testi-top-border {
+    margin-left: 44%;
+	}
+
+	div.laptop-wrapper video {
+		box-sizing: border-box;
+		background: url(images/services/macbook.png) center center no-repeat;
+		background-size: 641px 332px;
+		padding-top: 1.2%;
+		padding-right: 24.6%;
+		padding-bottom: 3.6%;
+		padding-left: 24.6%;
+		position: absolute;
+		top: 40px;
+		left: 4%;
+		width: 855px;
+		height: 450px;
+		/* pointer-events: none; */
+	}
+	.home-title{
+		width: 500px;
+		margin-left: 0%;
+		margin-top: -30px;
+	}
+
+	.main-title-info {
+		font-size: 1.5em !important;
+		font-weight: 200;
+		line-height: 175%;
+	}
+	
+	.container-home-wide-body {
+		position: relative;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 90%;
+	}
+
+	.zoomer {
+		zoom: 0.9
+	}
+
+	.macbook-zoomer {
+		zoom: 0.9
+	}
+
+	.bgimg {
+		background-image: url(../images/home_layer.png);
+		background-repeat: no-repeat;
+		background-position-x: -120%;
+		background-position-y: 10px;
+	}
+
+	.slider-title h1 {
+		font-size: 36px;
+		line-height: 1.3;
+		letter-spacing: -1px;
+		font-weight: 700;
+		margin-bottom: 26px;
+	}
+
+	.flip-card-container {
+		max-width: 72%;
+	}
+
+	.ps-timeline-sec .container ol.ps-timeline {
+		margin: 315px 0;
+		padding: 0;
+		border-top: 2px solid #348e80;
+		list-style: none;
+	}
+
+	.main-title-info {
+		font-size: 1.35em !important;
+		font-weight: 200;
+		line-height: 175%;
+	}
+
+	.header-try-button {
+		line-height: 40px;
+		text-transform: none;
+		background-color: white !important;
+		color: #13364a !important;
+		font-size: 1.1em !important;
+		/* line-height: 45px; */
+		height: 40px;
+		width: 135px;
+		text-align: center;
+		margin-left: 0%;
+	}
+
+	.header-meet-button {
+		line-height: 39px;
+		text-transform: none;
+		background-color: #13364a !important;
+		color: #ffffff !important;
+		font-size: 1.1em !important;
+		/* line-height: 45px; */
+		height: 40px;
+		width: 275px;
+		text-align: center;
+		border: 1px solid #fff;
+		margin-left: 3%;
+	}
+
+	.header_title_margin_top {
+		margin-top: 8px !important;
+	}
+
+
+
+	.home-integration-heading {
+		text-align: center;
+		color: #228E9F !important;
+		font-weight: 300 !important;
+		font-size: 2.6em !important;
+	}
+
+	.home-mid-para {
+		font-size: 25px;
+		text-align: center;
+		width: 823px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+	}
+
+	.purchase_prpensity:before {
+		content: '';
+		background: url(../stories/images/overview/icons/cart.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 45px;
+		/* zoom: 70%; */
+		background-size: 85px !important;
+		width: 88px !important;
+		height: 100px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -13%;
+	}
+
+	.home_stories_banner_p {
+		font-size: 1.3em;
+		/* text-align: center; */
+		font-weight: 200;
+		color: black;
+		padding-right: 15%;
+	}
+	.home_stories_banner_p {
+		font-size: 1.3em;
+		/* text-align: center; */
+		font-weight: 200;
+		color: black;
+		padding-right: 10%;
+	}	
+
+	.button_read_more {
+		font: 15px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
+		background: white;
+		border: 1px solid #004159;
+		border-radius: 4px;
+		color: #004159;
+		outline: 0 none;
+		padding: 15px 25px;
+		position: relative;
+		transition: all 0.75s ease-in-out 0s;
+		cursor: pointer;
+	}
+	.likelihood_to_purchase:before {
+		content: '';
+		background: url(../stories/images/overview/icons/cash_counter.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 45px;
+		/* zoom: 70%; */
+		background-size: 68px !important;
+		width: 72px !important;
+		height: 94px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -13%;
+	}
+
+	.demand_forecasting:before {
+		content: '';
+		background: url(../stories/images/overview/icons/man_with_a_sign.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 50px;
+		left: 4%;
+		/* zoom: 70%; */
+		background-size: 158px !important;
+		width: 234px !important;
+		height: 167px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -17%;
+	}
+
+	.churn_proability:before {
+		content: '';
+		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 45px;
+		/* zoom: 70%; */
+		background-size: 75px !important;
+		width: 72px !important;
+		height: 96px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -13%;
+	}
+
+	.waveWrapperInner {
+		position: inherit;
+		width: 100%;
+		/* overflow: visible; */
+		height: 7.4%;
+		bottom: 49.5%;
+		background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
+	}
+	.owl-carousel .owl-stage-outer {
+		position: relative;
+		overflow: hidden;
+		-webkit-transform: translate3d(0,0,0);
+		height: 125px !important;
+	}
+
+	.why_enhencer_card {
+		width: 350px;
+		overflow: hidden;
+		border-radius: 1px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.why_enhencer_card_picture {
+		width: 65px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 70px;
+	}
+
+	.why_enhencer_h2 {
+		text-align: center;
+		line-height: 1.25;
+		font-weight: 400;
+		font-size: 1.6em;
+		color: black;
+		width: 95%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 35px;
+	}
+
+	.why_enhencer_card_p {
+		text-align: center;
+		font-size: 1.2em;
+		margin-top: 40px;
+		margin-bottom: 40px !important;
+	}
+	
+
+	.home-integration-heading {
+		text-align: center;
+		color: #228E9F !important;
+		font-weight: 300 !important;
+		font-size: 2.4em !important;
+	}
+
+	.button_read_more2 {
+		font: 15px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
+		background: white;
+		border: 1px solid #004159;
+		border-radius: 4px;
+		color: #004159;
+		outline: 0 none;
+		padding: 15px 69px;
+		position: relative;
+		transition: all 0.75s ease-in-out 0s;
+		cursor: pointer;
+	}
+	
+
+	.header_title_right_margin_top {
+		margin-top: -120px !important;
+	}
+}
+
+@media (min-width: 1367px) and (max-width: 1440.98px) {
+	.home-quote-top {
+    margin-left: 10%;
+	}
+
+	.home-quote-bottom {
+    margin-left: 85.5%;
+	}
+
+	.home-mid-para {
+		font-size: 22px;
+	}
+
+	.home-mid-para-hr {
+    width: 28%;
+	}
+
+	.home-testi-h1 {
+    font-size: 3.3em;
+	}
+
+	.home-testi-h1-p {
+		width: 335px;
+		margin-left: -5%;
+	}
+
+	.home-testi-icon {
+    margin-left: 56%;
+    margin-top: -305px;
+	}
+	.home-testi-bottom-border {
+    margin-left: -4%;
+	}
+
+	.home-testi-top-border {
+    margin-left: 44%;
+	}
+
+	.home-testi-h1 {
+    padding-top: 90px;
+	}
+
+	.flip-card-column {
+    margin-left: -20%;
+	}
+
+	div.laptop-wrapper video {
+		box-sizing: border-box;
+		background: url(images/services/macbook.png) center center no-repeat;
+		background-size: 699px 363px;
+		padding-top: 2.2%;
+		padding-right: 25.6%;
+		padding-bottom: 4.6%;
+		padding-left: 25.6%;
+		position: absolute;
+		top: -40px;
+		left: -4%;
+		width: 896px;
+		height: 460px;
+		/* pointer-events: none; */
+	}
+	.home-title{
+		width: 525px;
+		margin-left: -2%;
+		margin-top: -30px;
+	}
+
+	.main-title-info {
+		font-size: 1.6em !important;
+		font-weight: 200;
+		line-height: 175%;
+	}
+
+	.bgimg {
+		background-image: url(../images/home_layer.png);
+		background-repeat: no-repeat;
+		background-position-x: -80%;
+    	background-position-y: 10px;
+	}
+
+	.header_title_right_margin_top {
+		margin-top: -125px !important;
+		margin-left: 2%;
+	}
+
+	.margin-home-video {
+		margin-top: -2%;
+		margin-left: -27%;
+	}
+
+	.slider-title h1 {
+		font-size: 38px;
+		line-height: 1.3;
+		letter-spacing: -1px;
+		font-weight: 700;
+		margin-bottom: 26px;
+	}
+
+	.main-title-info {
+		font-size: 1.4em !important;
+		font-weight: 200;
+		line-height: 175%;
+	}
+
+	.home-title {
+		width: 525px;
+		margin-left: -2%;
+		margin-top: 26px;
+	}
+
+	.header-try-button {
+		line-height: 40px;
+		text-transform: none;
+		background-color: white !important;
+		color: #13364a !important;
+		font-size: 1.1em !important;
+		/* line-height: 45px; */
+		height: 40px;
+		width: 130px;
+		text-align: center;
+		margin-left: 0%;
+	}
+
+
+	.header-meet-button {
+		line-height: 39px;
+		text-transform: none;
+		background-color: #13364a !important;
+		color: #ffffff !important;
+		font-size: 1.1em !important;
+		/* line-height: 45px; */
+		height: 40px;
+		width: 275px;
+		text-align: center;
+		border: 1px solid #fff;
+		margin-left: 3%;
+	}
+
+	.home-integration-heading {
+		text-align: center;
+		color: #228E9F !important;
+		font-weight: 300 !important;
+		font-size: 3em !important;
+	}
+
+	.home-mid-para {
+		font-size: 26px;
+		text-align: center;
+		width: 785px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+	}
+
+	.home_stories_banner_h1 {
+		color: #004159;
+		font-weight: 400;
+		font-size: 2.8em;
+		margin-top: -25px;
+	}
+
+	.purchase_prpensity:before {
+		content: '';
+		background: url(../stories/images/overview/icons/cart.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 45px;
+		/* zoom: 70%; */
+		background-size: 86px !important;
+		width: 94px !important;
+		height: 100px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -13%;
+	}
+
+	.home_stories_banner_h3 {
+		/* text-align: center; */
+		color: #3e8a81;
+		font-weight: 400;
+		font-size: 2em;
+		line-height: 1.5;
+		vertical-align: middle;
+		/* height: 75px; */
+	}
+
+	.home_stories_banner_p {
+		font-size: 1.4em;
+		/* text-align: center; */
+		font-weight: 200;
+		color: black;
+		padding-right: 10%;
+	}
+
+
+	.button_read_more {
+		font: 17px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
+		background: white;
+		border: 1px solid #004159;
+		border-radius: 4px;
+		color: #004159;
+		outline: 0 none;
+		padding: 15px 25px;
+		position: relative;
+		transition: all 0.75s ease-in-out 0s;
+		cursor: pointer;
+	}
+
+	.likelihood_to_purchase:before {
+		content: '';
+		background: url(../stories/images/overview/icons/cash_counter.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 45px;
+		/* zoom: 70%; */
+		background-size: 68px !important;
+		width: 78px !important;
+		height: 92px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -13%;
+	}
+
+	.demand_forecasting:before {
+		content: '';
+		background: url(../stories/images/overview/icons/man_with_a_sign.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 50px;
+		left: 4%;
+		/* zoom: 70%; */
+		background-size: 155px !important;
+		width: 216px !important;
+		height: 151px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -15%;
+	}
+
+	.churn_proability:before {
+		content: '';
+		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 45px;
+		/* zoom: 70%; */
+		background-size: 77px !important;
+		width: 78px !important;
+		height: 93px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -13%;
+	}
+
+	.why_enhencer_card {
+		width: 350px;
+		overflow: hidden;
+		border-radius: 1px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.why_enhencer_card_picture {
+		width: 70px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 70px;
+	}
+
+	.why_enhencer_h2 {
+		text-align: center;
+		line-height: 1.25;
+		font-weight: 400;
+		font-size: 1.7em;
+		color: black;
+		width: 95%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 35px;
+	}
+
+	.why_enhencer_card_p {
+		text-align: center;
+		font-size: 1.1em;
+		margin-top: 40px;
+		margin-bottom: 40px !important;
+	}
+
+	.why_card_background3-3 {
+		background-image: url(../images/why/3-3.png);
+		background-size: cover;
+		margin-left: -2%;
+		height: 250px;
+		width: 104%;
+		margin-bottom: 57px;
+	}
+
+	.mt-xxl {
+		margin-top: 4.7rem !important;
+	}
+
+	.home-integration-heading {
+		text-align: center;
+		color: #228E9F !important;
+		font-weight: 300 !important;
+		font-size: 2.8em !important;
+	}
+
+	.owl-carousel .owl-stage-outer {
+		position: relative;
+		overflow: hidden;
+		-webkit-transform: translate3d(0,0,0);
+		height: 140px !important;
+	}
+
+	.waveWrapperInner {
+		position: inherit;
+		width: 100%;
+		/* overflow: visible; */
+		height: 7.4%;
+		bottom: 48%;
+		background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
+	}
+	
+	.button_read_more2 {
+		font: 17px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
+		background: white;
+		border: 1px solid #004159;
+		border-radius: 4px;
+		color: #004159;
+		outline: 0 none;
+		padding: 15px 75px;
+		position: relative;
+		transition: all 0.75s ease-in-out 0s;
+		cursor: pointer;
+	}
+
+	.macbook-zoomer {
+		zoom: 0.95
+	}
+
+}
+
+@media(min-width: 1441px) and (max-width: 1499.98px){
+	.bgimg {
+		background-position-x: -50%;
+	}
+
+	.macbook-zoomer {
+		zoom: 0.95
+	}
+
+}
+
+@media (min-width: 1500px) and (max-width: 1680.98px) {
+
+	.home-quote-top {
+    margin-left: 14%;
+	}
+	.home-quote-bottom {
+    margin-left: 80.5%;
+	}
+	.home-mid-para {
+		font-size: 23px;
+	}
+
+	.home-mid-para-hr {
+    width: 25.7%;
+	}
+	.flip-card-column {
+    margin-left: -7%;
+	}
+	.home-testi-h1 {
+    font-size: 3.3em;
+	}
+
+	.home-testi-h1-p {
+		width: 345px;
+		margin-left: 2%;
+	}
+	.home-testi-icon {
+    margin-left: 55%;
+    margin-top: -300px;
+	}
+	.home-testi-h1 {
+    padding-top: 75px;
+	}
+
+	div.laptop-wrapper video {
+		box-sizing: border-box;
+		background: url(images/services/macbook.png) center center no-repeat;
+		background-size: 740px 390px;
+		padding-top: 2.2%;
+		padding-right: 25.6%;
+		padding-bottom: 5.6%;
+		padding-left: 25.6%;
+		position: absolute;
+		top: -40px;
+		left: 5%;
+		width: 985px;
+		height: 460px;
+		/* pointer-events: none; */
+	}
+	
+	.home-mid-para {
+		font-size: 23px;
+		text-align: center;
+		width: 697px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+	}
+
+	.home-title{
+		width: 690px;
+		margin-left: -1%;
+		margin-top: -20px;
+	}
+
+	.bgimg {
+		background-image: url(../images/home_layer.png);
+		background-repeat: no-repeat;
+		background-position-x: -210px;
+	}
+
+	.slider-title h1 {
+		font-size: 43px;
+		line-height: 1.3;
+		letter-spacing: -1px;
+		font-weight: 700;
+		margin-bottom: 26px;
+	}
+
+	.home-title {
+		width: 607px;
+		margin-left: -1%;
+		margin-top: -20px;
+	}
+
+	.main-title-info {
+		font-size: 1.5em !important;
+		font-weight: 200;
+		line-height: 175%;
+	}
+
+	.header_title_right_margin_top {
+		margin-top: -155px !important;
+	}
+
+
+
+
+	.churn_proability:before {
+		content: '';
+		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		position: relative;
+		/* z-index: 100000; */
+		top: 45px;
+		/* zoom: 70%; */
+		background-size: 80px !important;
+		width: 93px !important;
+		height: 95px !important;
+		visibility: visible;
+		display: inline-block;
+		margin-left: -13%;
+	}
+
+	.waveWrapperInner {
+		position: inherit;
+		width: 100%;
+		/* overflow: visible; */
+		height: 7.4%;
+		bottom: 48.3%;
+		background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
+	}
+
+	.why_enhencer_card {
+		width: 375px;
+		overflow: hidden;
+		border-radius: 1px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.why_enhencer_h2 {
+		text-align: center;
+		line-height: 1.25;
+		font-weight: 400;
+		font-size: 1.8em;
+		color: black;
+		width: 95%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 35px;
+	}
+
+	.why_enhencer_card_p {
+		text-align: center;
+		font-size: 1.2em;
+		margin-top: 40px;
+		margin-bottom: 40px !important;
+	}
+
+	.home-integration-heading {
+		text-align: center;
+		color: #228E9F !important;
+		font-weight: 300 !important;
+		font-size: 3em !important;
+	}
+
+	.header-meet-button {
+		line-height: 43px;
+		text-transform: none;
+		background-color: #13364a !important;
+		color: #ffffff !important;
+		font-size: 1.1em !important;
+		/* line-height: 45px; */
+		height: 45px;
+		width: 265px;
+		text-align: center;
+		border: 1px solid #fff;
+		margin-left: 3%;
+	}
+
+	.header-try-button {
+		line-height: 45px;
+		text-transform: none;
+		background-color: white !important;
+		color: #13364a !important;
+		font-size: 1.1em !important;
+		/* line-height: 45px; */
+		height: 45px;
+		width: 145px;
+		text-align: center;
+		margin-left: 0%;
+	}
+
+	.owl-carousel .owl-stage-outer {
+		position: relative;
+		overflow: hidden;
+		-webkit-transform: translate3d(0,0,0);
+		height: 175px !important;
+	}
+}
