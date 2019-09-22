@@ -2754,16 +2754,14 @@ div[class*=box] {
     position: relative;
     float: left;	
 }
-
-.stories-container{
+.stories-container {
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 80%;
+    max-width: 81.5%;
 }
-
 .stories-container-body{
     position: relative;
     padding-right: 15px;
@@ -2773,14 +2771,14 @@ div[class*=box] {
     max-width: 65%;
 }
 
-.stories_header_background {
-	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/likelihood_to_purchase.jpg)
-  }
 
-  .try_today_button {
+
+
+.try_today_button {
     background-color: #ffffff;
     -moz-border-radius: 32px;
-    -webkit-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	border: 2px solid white;
     border-radius: 32px;
     display: inline-block;
     cursor: pointer;
@@ -2791,7 +2789,10 @@ div[class*=box] {
     text-decoration: none;
 }
 .try_today_button:hover {
-	background-color:#ffffff;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    box-shadow: 0 1px 5px 1px white!important;
 }
 .try_today_button:active {
 	position:relative;
@@ -4691,6 +4692,116 @@ div.cookiebtns {
 	margin-top: 32px !important;
 }
 
+.likelihood_to_purchase_header_background {
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/likelihood_to_purchase.jpg)
+}
+.cross_sell_header_background {
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/cross-sell.jpeg)
+}
+.churn_probability_header_background {
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/Churn\ Probability.jpeg)
+}
+.demad_forecasting_header_background {
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/Demand-Forecasting.jpg)
+}
+.fraud_prevention_header_background {
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/fraud-prevention.png)
+}
+.employee_turnover_prediction_header_background {
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/Employee-Turnover-Prediction.png)
+}
+.predictive_maintenance_header_background {
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/Predictive-Maintenance.jpg)
+}
+
+.stories_header_title{
+	height: 228px; 
+	line-height: 228px !important; 
+	color: #fff !important; 
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 4em !important;
+}
+.stories_left_h2{
+	font-size: 3em;
+    font-weight: 600;
+    color: #109E6B;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.stories_right_h2 {
+    font-size: 3em;
+    font-weight: 600;
+    color: #109E6B;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: right;
+}
+.stories_cartoon_h2{
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 3em;    
+	padding-top: 80px;
+    font-weight: 300;
+	color: #D42027; 
+	font-family: Pacifico; 
+	font-style: normal;
+}
+
+
+.stories_div_flex{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.stories_left_div_flex{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+	justify-content: center;
+	padding-right: 7%;
+}
+.stories_right_div_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7%;
+}
+.stories_third_div_flex{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+	justify-content: center;
+}
+.stories_left_para_p{
+    font-size: 1.4em;
+    text-align: justify;
+    font-weight: 300;
+    color: #58686C;
+}
+
+.stories_right_para_p{
+    font-size: 1.4em;
+    text-align: justify;
+    font-weight: 300;
+    color: #58686C;
+}
+
+.stories_bullet{
+	margin-left:9%;
+	line-height: 1.8;
+	font-size: 1.5em;
+    font-weight: 300;
+    text-align: justify;
+    color: #866CB0;
+    display: flex;
+    flex-direction: column;
+}
+.stories_margin_top_xxl{
+	margin-top: 10rem !important;
+}
+.stories_padding_top_xxl{
+	padding-top: 7rem !important;
+}
 
 
 /* ======================================================================================================================================== */
@@ -4873,7 +4984,8 @@ div.cookiebtns {
     margin-left: 4%;
     border: 2px solid white;
     border-radius: 5px;
-    background: transparent !important;
+	background: transparent !important;
+	line-height: 37px;
 }
 
 #forced_header .navbar-right-buttons a:hover {
@@ -4889,6 +5001,19 @@ div.cookiebtns {
 	margin-top: 30px
 }
 
+.one_page_body{
+	display: block;
+    position: static;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	margin: 0;
+    overflow: hidden;
+    -webkit-transition: opacity 400ms;
+    -moz-transition: opacity 400ms;
+    transition: opacity 400ms;
+}
+
 
 
 /* One Page Scroll */
@@ -4896,11 +5021,11 @@ div.cookiebtns {
 @media (min-width: 1150px) {
 
 	body, html {
-	  margin: 0;
-	  overflow: hidden;
-	  -webkit-transition: opacity 400ms;
-	  -moz-transition: opacity 400ms;
-	  transition: opacity 400ms;
+		margin: 0;
+		overflow: auto;
+		-webkit-transition: opacity 400ms;
+		-moz-transition: opacity 400ms;
+		transition: opacity 400ms;
 	}
   
 	body, .onepage-wrapper, html {
@@ -4995,7 +5120,7 @@ div.cookiebtns {
 
 
   /* PC Responsive */
-  @media(max-width: 1680px) and (min-width: 1500px) {
+@media(max-width: 1680px) and (min-width: 1500px) {
 	.home-layer {
 		left: -12%;
 	}
@@ -6302,3 +6427,4 @@ div.cookiebtns {
 		height: 175px !important;
 	}
 }
+
