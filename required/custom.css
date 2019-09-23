@@ -4858,28 +4858,27 @@ div.cookiebtns {
 .stories_header_flex {
     display: flex;
     flex-direction: column;
-    height: 22vh;
     align-items: flex-start;
     justify-content: space-between;
 }
-.stories_header_subtitle{
-	color: white;
+.stories_header_subtitle {
+    color: white;
     width: 49%;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .try_today_button_stories {
     background-color: #ffffff;
     -moz-border-radius: 32px;
-	-webkit-border-radius: 32px;
-	border: 2px solid white;
+    -webkit-border-radius: 32px;
+    border: 2px solid white;
     border-radius: 32px;
     display: inline-block;
     cursor: pointer;
     color: #000000;
     /* font-family: Helvetica Neue; */
     font-size: 15px;
-    padding: 10px 35px;
+    padding: 8px 35px;
     text-decoration: none;
 }
 .try_today_button_stories:hover {
@@ -4887,6 +4886,10 @@ div.cookiebtns {
     background: transparent;
     border: 2px solid white;
     box-shadow: 0 1px 5px 1px white!important;
+}
+.stories_tab_flex{
+	display: flex;
+    flex-direction: row;
 }
 
 /* ======================================================================================================================================== */
