@@ -2434,6 +2434,18 @@
 		color: white;
 		text-align: center;
 	}
+	.one_page_body {
+		display: block;
+		position: static;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		overflow: auto;
+		-webkit-transition: opacity 400ms;
+		-moz-transition: opacity 400ms;
+		transition: opacity 400ms;
+	}
 
 }
 
