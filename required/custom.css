@@ -38,6 +38,10 @@ box-shadow: 0 1px 5px 1px #1b7f91 !important;
 	color: #2ca497;
 }
 
+#primarymenumobile li:hover div {
+	color: #2ca497 !important;
+}
+
 /* ----------------------------------------------------------------
 	Timeline
 -----------------------------------------------------------------*/
@@ -4113,7 +4117,7 @@ div.cookiebtns {
     line-height: 1.25;
     font-weight: 400;
     font-size: 1.6em;
-    color: black;
+    color: #1b7f91;
     width: 95%;
     margin-right: auto;
     margin-left: auto;
@@ -4531,9 +4535,9 @@ div.cookiebtns {
 .waveWrapperInner {
     position: inherit;
     width: 100%;
-    /* overflow: visible; */
-    height: 40.7%;
-    bottom: 59.3%;
+	height: 40.7%;
+	top: 0;
+    /* bottom: 59.3%; */
     background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
 }
 .bgTop {
@@ -5051,7 +5055,7 @@ div.cookiebtns {
 .navbar-right-buttons {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 225px;
     height: 70px;
@@ -5344,6 +5348,10 @@ div.cookiebtns {
 		max-width: 91%;
 	}
 
+	#whyenhencer {
+		zoom: 0.85
+	}
+
 	.bgimg {
 		background-image: url(../images/home_layer.png);
 		background-repeat: no-repeat;
@@ -5538,14 +5546,6 @@ div.cookiebtns {
 		margin-left: -15%;
 	}
 
-	.waveWrapperInner {
-		position: inherit;
-		width: 100%;
-		/* overflow: visible; */
-		height: 7.4%;
-		bottom: 48.5%;
-		background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
-	}
 	.why_enhencer_card {
 		width: 358px;
 		overflow: hidden;
@@ -5561,17 +5561,6 @@ div.cookiebtns {
 		padding-top: 70px;
 	}
 
-	.why_enhencer_h2 {
-		text-align: center;
-		line-height: 1.25;
-		font-weight: 400;
-		font-size: 1.6em;
-		color: black;
-		width: 95%;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 35px;
-	}
 
 	.why_enhencer_card_p {
 		text-align: center;
@@ -5888,14 +5877,6 @@ div.cookiebtns {
 		margin-left: -13%;
 	}
 
-	.waveWrapperInner {
-		position: inherit;
-		width: 100%;
-		/* overflow: visible; */
-		height: 7.4%;
-		bottom: 49.5%;
-		background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
-	}
 	.owl-carousel .owl-stage-outer {
 		position: relative;
 		overflow: hidden;
@@ -5918,17 +5899,6 @@ div.cookiebtns {
 		padding-top: 70px;
 	}
 
-	.why_enhencer_h2 {
-		text-align: center;
-		line-height: 1.25;
-		font-weight: 400;
-		font-size: 1.6em;
-		color: black;
-		width: 95%;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 35px;
-	}
 
 	.why_enhencer_card_p {
 		text-align: center;
@@ -6233,18 +6203,6 @@ div.cookiebtns {
 		padding-top: 70px;
 	}
 
-	.why_enhencer_h2 {
-		text-align: center;
-		line-height: 1.25;
-		font-weight: 400;
-		font-size: 1.7em;
-		color: black;
-		width: 95%;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 35px;
-	}
-
 	.why_enhencer_card_p {
 		text-align: center;
 		font-size: 1.1em;
@@ -6279,14 +6237,6 @@ div.cookiebtns {
 		height: 140px !important;
 	}
 
-	.waveWrapperInner {
-		position: inherit;
-		width: 100%;
-		/* overflow: visible; */
-		height: 7.4%;
-		bottom: 48%;
-		background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
-	}
 	
 	.button_read_more2 {
 		font: 17px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
@@ -6431,14 +6381,6 @@ div.cookiebtns {
 		margin-left: -13%;
 	}
 
-	.waveWrapperInner {
-		position: inherit;
-		width: 100%;
-		/* overflow: visible; */
-		height: 7.4%;
-		bottom: 48.3%;
-		background-image: linear-gradient(to top, #228e9f 20%, #004159 80%);
-	}
 
 	.why_enhencer_card {
 		width: 375px;
@@ -6446,18 +6388,6 @@ div.cookiebtns {
 		border-radius: 1px;
 		margin-left: auto;
 		margin-right: auto;
-	}
-
-	.why_enhencer_h2 {
-		text-align: center;
-		line-height: 1.25;
-		font-weight: 400;
-		font-size: 1.8em;
-		color: black;
-		width: 95%;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 35px;
 	}
 
 	.why_enhencer_card_p {
