@@ -1458,6 +1458,21 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof connecttabrow9 != 'undefined') {
 					connecttabrow9.classList.remove("row");
 				}
+				if (typeof connecttabrow10 != 'undefined') {
+					connecttabrow10.classList.remove("row");
+				}
+				if (typeof connecttabrow11 != 'undefined') {
+					connecttabrow11.classList.remove("row");
+				}
+				if (typeof connecttabrow12 != 'undefined') {
+					connecttabrow12.classList.remove("row");
+				}
+				if (typeof connecttabrow13 != 'undefined') {
+					connecttabrow13.classList.remove("row");
+				}
+				if (typeof connecttabrow14 != 'undefined') {
+					connecttabrow14.classList.remove("row");
+				}
 				if (typeof featuresmargin != 'undefined') {
 					featuresmargin.classList.remove("margin-left-features-pc");
 				}
@@ -1606,6 +1621,29 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof footeraddress != 'undefined') {
 					footeraddress.classList.add("dpn");
 				}
+				if (typeof storiesheaderbreadcrumb != 'undefined') {
+					storiesheaderbreadcrumb.classList.add("dpn");
+				}
+				if (typeof storiesfirstrow != 'undefined') {
+					storiesfirstrow.classList.remove("stories_col_half");
+				}
+				if (typeof storiesfirstrow2 != 'undefined') {
+					storiesfirstrow2.classList.remove("stories_col_half");
+				}
+				if (typeof stories2ndrow != 'undefined') {
+					stories2ndrow.classList.remove("stories_col_half");
+				}
+				if (typeof stories2ndrow2 != 'undefined') {
+					stories2ndrow2.classList.remove("stories_col_half");
+				}
+				if (typeof stories3rdrow != 'undefined') {
+					stories3rdrow.classList.remove("stories_col_half");
+				}
+				if (typeof stories3rdrow2 != 'undefined') {
+					stories3rdrow2.classList.remove("stories_col_half");
+				}
+
+
 
 
 			}

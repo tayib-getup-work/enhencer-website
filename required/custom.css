@@ -2444,8 +2444,9 @@ display: block;  /* may not need this, but I've found I do */
 	height: auto;
 }
 
-.blog-header{
-	height: 300px;
+.blog-header {
+    height: 300px;
+    padding-top: 20px;
 }
 
 body {
@@ -4763,22 +4764,29 @@ div.cookiebtns {
 	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/Dealer-Sales-Forecasting.png)
 }
 
-.stories_header_title{
-	height: 228px; 
-	line-height: 228px !important; 
-	color: #fff !important; 
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+.stories_card_padding{
+	padding-right: 4% !important;
+    padding-left: 4% !important;
+}
+.stories_card_height{
+	height: 350px !important;
+}
+.stories_header_title {
+    height: 150px;
+    line-height: 150px !important;
+    color: #fff !important;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 4em !important;
 }
-.stories_left_h2{
-	font-size: 3em;
+.stories_left_h2 {
+    font-size: 2.5em;
     font-weight: 600;
     color: #109E6B;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .stories_right_h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 600;
     color: #109E6B;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -4786,16 +4794,32 @@ div.cookiebtns {
 }
 .stories_cartoon_h2{
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	font-size: 3em;    
+	font-size: 2.5em;    
 	padding-top: 80px;
     font-weight: 300;
 	color: #D42027; 
 	font-family: Pacifico; 
 	font-style: normal;
 }
+.stories_first_image{
+	text-align: right;
+}
+.stories_2nd_image{
+	text-align: left;
+}
+.stories_3rd_image{
+	text-align: right;
+}
+.
 
 
 .stories_div_flex{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.stories_2nd_div_flex{
 	display: flex;
     flex-direction: row;
     align-items: center;
@@ -4811,7 +4835,6 @@ div.cookiebtns {
 .stories_right_div_flex {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     padding-left: 7%;
 }
@@ -4864,7 +4887,7 @@ div.cookiebtns {
 .stories_header_flex {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: inherit;
     justify-content: space-between;
 }
 .stories_header_subtitle {
@@ -4899,9 +4922,39 @@ div.cookiebtns {
 }
 .stories_home_header{
 	background-image: url('../stories/images/stories-home.jpg'); background-size: cover; background-position: right; padding-top: 125px !important;
-        background-repeat: no-repeat;
+     background-repeat: no-repeat;
 }
-
+.stories_try_it_free_button {
+    background-color: transparent;
+    -moz-border-radius: 32px;
+    -webkit-border-radius: 32px;
+    border: 2px solid white;
+    border-radius: 32px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    padding: 10px 35px;
+    text-decoration: none;
+    margin-right: 3%;
+}
+.stories_try_it_free_button:hover {
+    color: #444;
+    background: white;
+    border: 2px solid white;
+    box-shadow: 0 1px 5px 1px white!important;
+}
+.stories_button_flex{
+	display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.stories_individual_header_flex{
+	display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: flex-start;
+}
 /* ======================================================================================================================================== */
 /* ======================================================================================================================================== */
 /* Added by Orkhan */
@@ -5086,24 +5139,30 @@ div.cookiebtns {
 	line-height: 37px;
 }
 
-.white-header .navbar-right-buttons a {
-	border: 2px solid rgb(34, 142, 159) !important;
-}
+/* .white-header .navbar-right-buttons a {
+    border: 2px solid rgb(19, 54, 74) !important;
+} */
 
 
 #forced_header .navbar-right-buttons a:hover {
 	box-shadow: 0 1px 5px 1px white
 }
 
-.white-header .navbar-right-buttons a:hover {
+/* .white-header .navbar-right-buttons a:hover {
 	box-shadow: 0 1px 5px 1px rgb(34, 142, 159) !important;
 }
+ */
 
-
-.white-header .navbar-right-buttons a div {
-	color: rgb(34, 142, 159) !important
+/* .white-header .navbar-right-buttons a div {
+    color: white;
+} */
+.white_header_sign_in_button{
+	color: #1b7f91 !important;
+    border: 2px solid #1b7f91 !important;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
 }
-
 #homesliderbuttons {
 	display: flex;
 	flex-direction: row;

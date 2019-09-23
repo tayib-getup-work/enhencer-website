@@ -3382,6 +3382,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	padding: 60px 0;
 	background-color: #F5F5F5;
 	border-bottom: 1px solid #EEE;
+	padding-top: 130px !important;
 }
 
 #page-title .container { position: relative; }
@@ -6653,6 +6654,19 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
     box-shadow: 0 1px 7px #13364a !important;
 }
 
+.try-free-button-header {
+    text-align: center;
+    padding-left: 0px;
+    width: 95px;
+    padding-right: 0px;
+    font-size: 14px;
+    background-color: #13364a !important;
+}
+
+.try-free-button-header:hover {
+    box-shadow: 0 1px 7px #13364a !important;
+}
+
 
 body:not(.device-touch) .button {
 	-webkit-transition: all .2s ease-in-out;
@@ -6705,7 +6719,7 @@ body:not(.device-touch) .button {
 	padding: 0 26px;
 	font-size: 16px;
 	height: 46px;
-	line-height: 46px;
+	/* line-height: 46px; */
 }
 
 .button.button-xlarge {

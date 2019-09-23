@@ -44,7 +44,7 @@
 
     <!-- Bootstrap Switch CSS -->
 
-    <link rel="stylesheet" href="../required/responsive.min.css" type="text/css" />
+    <link rel="stylesheet" href="../required/responsive.css" type="text/css" />
     <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 
     <!-- Seo Demo Specific Stylesheet -->
@@ -63,96 +63,24 @@
         ============================================= -->
     <div id="wrapper" class="clearfix">
 
-        <!-- Top Bar
-            ============================================= -->
-        <div id="top-bar" class="transparent-topbar">
-
-            <div class="container-home-wide-body clearfix">
-
-                <div class="col_half nobottommargin clearfix">
-
-                    <!-- Top Links
-                        ============================================= -->
-                    <div class="top-links">
-                        <ul>
-                            <!-- <li><a href="https://blog.enhencer.com" target="_blank">Blog</a></li>
-                                <li><a href="faqs.html">FAQs</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="#"><img src="demos/seo/images/flags/eng.png" alt="Lang">Eng</a>
-                                    <ul>
-                                        <li><a href="#"><img src="demos/seo/images/flags/fre.png" alt="Lang">Fre</a></li>
-                                        <li><a href="#"><img src="demos/seo/images/flags/ara.png" alt="Lang">Ara</a></li>
-                                        <li><a href="#"><img src="demos/seo/images/flags/tha.png" alt="Lang">Tha</a></li>
-                                    </ul>
-                                </li> -->
-                        </ul>
-                    </div>
-                    <!-- .top-links end -->
-
-                </div>
-
-                <div class="col_half fright dark col_last clearfix nobottommargin">
-
-                    <!-- Top Social
-                        ============================================= -->
-                    <div id="top-social">
-                        <ul>
-                            <li><a href="https://www.youtube.com/channel/UCIgWv2OQm6vSMlpXph4nbLA?view_as=subscriber"
-                                    class="si-youtube" target="_blank"><span class="ts-icon"><i
-                                            class="icon-youtube"></i></span><span class="ts-text">Youtube</span></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/company/enhencer/" class="si-linkedin"
-                                    target="_blank"><span class="ts-icon"><i class="icon-linkedin"></i></span><span
-                                        class="ts-text">LinkedIn</span></a></li>
-                            <li><a href="https://www.quora.com/topic/Enhencer" class="si-quora" target="_blank"><span
-                                        class="ts-icon"><i class="icon-quora"></i></span><span
-                                        class="ts-text">Quora</span></a></li>
-                            <li><a href="https://www.instagram.com/enhencerapp/" class="si-instagram2"
-                                    target="_blank"><span class="ts-icon"><i class="icon-instagram2"></i></span><span
-                                        class="ts-text">Instagram</span></a></li>
-                            <li><a href="https://twitter.com/enhencerapp?lang=en" class="si-twitter"
-                                    target="_blank"><span class="ts-icon"><i class="icon-twitter"></i></span><span
-                                        class="ts-text">Twitter</span></a></li>
-                            <li><a href="https://www.facebook.com/Enhencer/" class="si-facebook" target="_blank"><span
-                                        class="ts-icon"><i class="icon-facebook"></i></span><span
-                                        class="ts-text">Facebook</span></a></li>
-                        </ul>
-                    </div><!-- #top-social end -->
-
-                </div>
-
-            </div>
-
-        </div><!-- #top-bar end -->
-
-        <!-- Header
-            ============================================= -->
-        <header id="header" class="transparent-header floating-header clearfix">
-
+        <div class="transparent-header floating-header clearfix sticky-header forced_sticky_header white-header">
             <div id="header-wrap">
-
                 <div class="container-home-wide-body clearfix">
-
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
                     <!-- Logo
                         ============================================= -->
                     <div id="logo">
-                        <a href="/" class="standard-logo" data-dark-logo="../images/Log_new.png"><img
+                        <a href="/" class="standard-logo" data-dark-logo="../images/Log_new.png"><img id="logoImage"
                                 src="../images/Log_new.png" alt="Enhencer Logo"></a>
-                        <a href="/" class="retina-logo" data-dark-logo="../images/Log_new.png"><img
+                        <a href="/" class="retina-logo" data-dark-logo="../images/Log_new.png"><img id="logoImage"
                                 src="../images/Log_new.png" alt="Enhencer Logo"></a>
-                    </div><!-- #logo end -->
-
-                    <!-- Primary Navigation
-                        ============================================= -->
-                    <nav id="primary-menu" class="with-arrows" style="width: 780px; ">
-
-                        <ul id="primarymenumobile" class="ul.sf-js-enabled">
-
+                    </div>
+                    <!-- #logo end -->
+                    <nav id="primary-menu" class="with-arrows">
+                        <ul id="primarymenumobile" class="ul.sf-js-enabled" style="margin-top: -3px;">
                             <li>
                                 <a href="/"
-                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Product'});">
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
                                     <div>Product</div>
                                 </a>
                             </li>
@@ -174,7 +102,6 @@
                                     <div>Help</div>
                                 </a>
                             </li>
-
                             <li>
                                 <a href="../pricing.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
@@ -187,46 +114,31 @@
                                     <div>Blog</div>
                                 </a>
                             </li>
-
                         </ul>
 
-                        <!-- Top Search
-                            ============================================= -->
-                        <!-- <div id="top-search" class="fleft">
-                                <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-                                <form action="search.html" method="get">
-                                    <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-                                </form>
-                            </div>#top-search end -->
-
-                        <!-- Menu Buttons Please Make this button css a class
-                            ============================================= -->
-                        <a href="https://app.enhencer.com/#!/login"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
-                            target="_blank"
-                            class="button button-rounded button-light bg-white border nott ls0 border-blue button-enhencer-default-green"
-                            style="text-align: center;
-                            padding-left: 0px;
-                            width: 82px;
-                            padding-right: 0px;margin-left: 3%; background-color: transparent !important;">Sign
-                            in</a>
-                        <a href="https://app.enhencer.com/#!/signup"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-                            target="_blank" class="button button-rounded fright try-free-button">Try
-                            Free</a>
-
-
-                    </nav><!-- #primary-menu end -->
-
+                        <div class="navbar-right-buttons">
+                            <a href="https://app.enhencer.com/#!/login"
+                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
+                                target="_blank"
+                                class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green white_header_sign_in_button">
+                                <div>
+                                    Sign in
+                                </div>
+                            </a>
+                            <a href="https://app.enhencer.com/#!/signup"
+                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
+                                target="_blank" class="button button-rounded fright try-free-button-header"
+                                style="width: 100px">
+                                <div style="text-align: center">
+                                    Try it Free
+                                </div>
+                            </a>
+                        </div>
+                    </nav>
                 </div>
-
             </div>
+        </div>
 
-        </header><!-- #header end -->
-        <br>
-        <br>
-        <br>
-        <br>
 
 
         <!-- Page Title
@@ -234,13 +146,19 @@
         <section id="page-title" class="demad_forecasting_header_background">
 
             <div class="stories-container clearfix">
-                <div>
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">></a></li>
-                        <li class="breadcrumb-item"><a href="#">STORIES</a></li>
+                <div class="stories_individual_header_flex">
+                    <ol id="storiesheaderbreadcrumb" class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../stories/">> STORIES</a></li>
                     </ol>
-                    <h1 class="stories_header_title">Demand Forecasting </h1>
-                    <a href="#" class="try_today_button">Meet Our Data-Scientist</a>
+                    <h1 class="stories_header_title">Demand Forecasting
+
+                    </h1>
+                    <div class="stories_button_flex">
+                        <a href="https://app.enhencer.com/#!/login" target="_blank"
+                            class="stories_try_it_free_button">Try it Free</a>
+                        <a href="../contact-form.html" target="_blank" class="try_today_button">Meet Our
+                            Data-Scientists</a>
+                    </div>
                 </div>
             </div>
 
@@ -248,23 +166,27 @@
 
         <!-- Content
 		============================================= -->
-
+        <br>
+        <br>
         <br>
         <br>
         <br>
         <div class="stories-container-body clearfix stories_div_flex">
-            <div class="stories_col_half stories_left_div_flex">
+            <div id="storiesfirstrow" class="stories_col_half stories_left_div_flex">
                 <h2 class="stories_left_h2">Get out of the darkness
+
                 </h2>
                 <p class="stories_left_para_p">Demand Forecasting is pretty explanatory itself, and every business with
                     sales, stock, production, and planning operations can benefit from it. It means learning from past
                     sales data to forecast future demand but as in every other modeling process, design of the problem
                     and data preparation are the pivotal processes before modeling the demand.
+
+
                 </p>
             </div>
-            <div class="stories_col_half">
-                <div style="text-align: right;">
-                    <img src="../stories/images/product_funnel.png" alt="Italian Trulli" style="width: 100%;">
+            <div id="storiesfirstrow2" class="stories_col_half">
+                <div class="stories_first_image">
+                    <img src="../stories/images/product_funnel.png" alt="Italian Trulli" style="width: 90%;">
                 </div>
             </div>
         </div>
@@ -276,22 +198,24 @@
         <br>
         <br>
 
-        <div class="stories-container-body clearfix stories_div_flex">
+        <div class="stories-container-body clearfix stories_2nd_div_flex">
 
-            <div class="stories_col_half">
+            <div id="stories2ndrow2" class="stories_col_half stories_2nd_image">
                 <div>
-                    <img src="../stories/images/man and graphs.png" alt="Italian Trulli" style="width: 100%;">
+                    <img src="../stories/images/man and graphs.png" alt="Italian Trulli" style="width: 90%;">
                 </div>
             </div>
-            <div class="stories_col_half stories_right_div_flex">
+            <div id="stories2ndrow" class="stories_col_half stories_right_div_flex">
                 <h2 class="stories_right_h2">Mine till you shine
+
                 </h2>
                 <p class="stories_right_para_p">
                     Enhencer predicts a probability for the next timeframe(day/week/month) by detecting and learning the
                     patterns in sales history. Plus, here is another cool job Enhencer can do for you: It can build
-                    <b>tens, hundreds, or thousands of models</b> in an incredibly short time for predicting the demand
-                    of each
+                    tens, hundreds, or thousands of models in an incredibly short time for predicting the demand of each
                     SKU(product), thus providing a very high-resolution picture of your firm's future.
+
+
                 </p>
             </div>
         </div>
@@ -306,7 +230,7 @@
 
 
         <div class="stories-container-body clearfix stories_div_flex">
-            <div class="stories_col_half stories_third_div_flex">
+            <div id="stories3rdrow" class="stories_col_half stories_third_div_flex">
                 <h2 class="stories_cartoon_h2">If you cannot explain it to someone, you didn't learn it well.
                 </h2>
                 <p class="stories_left_para_p">In the age of machine learning, no business should leave it to guesses.
@@ -316,10 +240,12 @@
                     when you lack data-driven decision support systems, which are already commonplace in many
                     organizations.
 
+
                 </p>
+
             </div>
-            <div class="stories_col_half">
-                <div style="text-align: right;">
+            <div id="stories3rdrow2" class="stories_col_half">
+                <div class="stories_3rd_image">
                     <img src="../stories/images/accuracy.png" alt="Italian Trulli" style="width: 68%;">
                 </div>
             </div>
@@ -327,20 +253,23 @@
 
 
 
-        <!-- Flow Chart -->
 
-        <div class="container clearfix py-8 mb-4 stories_margin_top_xxl">
+        <!-- Flow Chart 
+				============================================= -->
+
+        <div class="stories-container-body clearfix py-8 mb-4">
             <h1 class="nott mt-5 ls0 mb-3 home-integration-heading">
                 Predictive Business Intelligence
             </h1>
-            <p class="home-mid-para">Enhencer lets you share your predictions with others in beautiful
+            <p class="home-mid-para">Enhencer lets you share your predictions with others in
+                beautiful
                 dashboards.
                 That’s why we call it: Predictive Storyteller
             </p>
         </div>
 
-        <section class="ps-timeline-sec">
-            <div class="container flip-card-container">
+        <div class="ps-timeline-sec mobile_timeline_float_left">
+            <div class="container flip-card-container mobile_padding_none">
                 <ol class="ps-timeline">
                     <li>
                         <div class="container timeline-item-top">
@@ -363,9 +292,13 @@
                                         <div class="flip-card-inner flip-card-back-height">
                                             <i><img src="../images/svgs/cloud upload white.svg"
                                                     class="flip-card-back-icon"></i>
-                                            <h2 class="mb-2 text-white flip-card-back-title">Keep your data
+                                            <h2 class="mb-2 text-white flip-card-back-title">Keep
+                                                your
+                                                data
                                                 alive</h2>
-                                            <p class="mb-2 text-white flip-card-back-subtitle">Use our offline
+                                            <p class="mb-2 text-white flip-card-back-subtitle">Use
+                                                our
+                                                offline
                                                 and online data
                                                 integrations for a continuous flow.
                                             </p>
@@ -376,8 +309,8 @@
                         </div>
                         <div class="ps-bot">
                             <!-- <p>Use our offline
-										and online data
-										integrations for a continuous flow.</p> -->
+                                and online data
+                                integrations for a continuous flow.</p> -->
                         </div>
                         <span class="ps-sp-top">1</span>
                     </li>
@@ -401,8 +334,11 @@
                                     <div class="flip-card-back no-after flip-card-back-predict">
                                         <div class="flip-card-inner flip-card-back-height">
                                             <i><img src="../images/svgs/chip white.svg" class="flip-card-back-icon"></i>
-                                            <h2 class="mb-2 text-white flip-card-back-title">See the future</h2>
-                                            <p class="mb-2 text-white flip-card-back-subtitle">Get predictions
+                                            <h2 class="mb-2 text-white flip-card-back-title">See the
+                                                future
+                                            </h2>
+                                            <p class="mb-2 text-white flip-card-back-subtitle">Get
+                                                predictions
                                                 for new data and
                                                 monitor accuracy.
                                             </p>
@@ -413,8 +349,8 @@
                         </div>
                         <div class="ps-top">
                             <!-- <p>Get predictions
-										for new data and
-										monitor accuracy.</p> -->
+                                for new data and
+                                monitor accuracy.</p> -->
                         </div>
                         <span class="ps-sp-bot">2</span>
                     </li>
@@ -440,9 +376,12 @@
                                         <div class="flip-card-inner flip-card-back-height">
                                             <i><img src="../images/svgs/puzzle white.svg"
                                                     class="flip-card-back-icon"></i>
-                                            <h2 class="mb-2 text-white flip-card-back-title">Shortcut To Action
+                                            <h2 class="mb-2 text-white flip-card-back-title">
+                                                Shortcut To
+                                                Action
                                             </h2>
-                                            <p class="mb-2 text-white flip-card-back-subtitle">Integrate
+                                            <p class="mb-2 text-white flip-card-back-subtitle">
+                                                Integrate
                                                 predictions in any
                                                 format to take actions
                                             </p>
@@ -453,9 +392,9 @@
                         </div>
                         <div class="ps-bot">
                             <!-- <p>Integrate
-										predictions in any
-										format to take actions
-									</p> -->
+                                predictions in any
+                                format to take actions
+                            </p> -->
                         </div>
                         <span class="ps-sp-top">3</span>
                     </li>
@@ -480,9 +419,12 @@
                                         <div class="flip-card-inner flip-card-back-height">
                                             <i><img src="../images/svgs/Track White.svg"
                                                     class="flip-card-back-icon"></i>
-                                            <h2 class="mb-2 text-white flip-card-back-title">Validate &
+                                            <h2 class="mb-2 text-white flip-card-back-title">
+                                                Validate &
                                                 Calibrate</h2>
-                                            <p class="mb-2 text-white flip-card-back-subtitle">Monitor the
+                                            <p class="mb-2 text-white flip-card-back-subtitle">
+                                                Monitor
+                                                the
                                                 Predictions and
                                                 Observed Events to calculate ROI
                                             </p>
@@ -493,18 +435,20 @@
                         </div>
                         <div class="ps-top" style="margin-left:5%;">
                             <!-- <p>Monitor the
-										Predictions and
-										Observed Events to calculate ROI</p> -->
+                                Predictions and
+                                Observed Events to calculate ROI</p> -->
                         </div>
                         <span class="ps-sp-bot">4</span>
                     </li>
                 </ol>
             </div>
-        </section>
+        </div>
+
+        <!-- #Flow Chart Ends -->
 
 
         <!-- Why Enhencer 4-->
-        <div id="whyenhencer" class="row container-home-wide-body stories_padding_top_xxl">
+        <div id="whyenhencer" class="row stories-container-body stories_padding_top_xxl">
             <div id="why1" class="col-4">
 
                 <div class="why_enhencer_card">
@@ -607,25 +551,19 @@
             <h1 class="nott mt-3 ls0 mb-3 home-integration-heading">
                 Let's predict the future together! </h1>
         </div>
-        <div id="blankbr2">
-            <br>
-            <br>
-            <br>
-        </div>
+        <br>
         <div id="calltoaction" class="row call_to_action_flex">
             <div id="calltoaction1" class="col_half something-right">
-                <a class="try_it_free_light mt-3" target="_blank" href="https://app.enhencer.com/#!/signup">Try
+                <a class="try_it_free_light " target="_blank" href="https://app.enhencer.com/#!/signup">Try
                     it Free</a>
             </div>
             <div id="calltoaction2" class="col_half something-left">
-                <a href="contact-form.html" target="_blank" class="meet_our_light mt-3">Meet Our
+                <a href="../contact-form.html" target="_blank" class="meet_our_light ">Meet Our
                     Data-Scientists</a>
             </div>
         </div>
 
         <br>
-        <br>
-
         <!-- Footer
 		============================================= -->
         <div id="footerContent">
@@ -643,7 +581,7 @@
 
         <!-- Footer Scripts
 ============================================= -->
-        <script src="../required/functions.min.js"></script>
+        <script src="../required/functions.js"></script>
         <script>
             $(document).ready(function () {
                 $("#footerContent").load("footer-stories.html");
