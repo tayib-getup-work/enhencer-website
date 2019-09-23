@@ -38,6 +38,10 @@ box-shadow: 0 1px 5px 1px #1b7f91 !important;
 	color: #2ca497;
 }
 
+#primarymenumobile li:hover div {
+	color: #2ca497 !important;
+}
+
 /* ----------------------------------------------------------------
 	Timeline
 -----------------------------------------------------------------*/
