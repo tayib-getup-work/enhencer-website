@@ -23,7 +23,7 @@
 
 
 
-@media (max-width: 991.98px) {
+@media (max-width: 1149px) {
 
 	#wrapper {
 		width: 100%;
@@ -233,7 +233,7 @@
 
 	#primary-menu ul > li > a,
 	#primary-menu.style-2 > div > ul > li > a {
-		padding: 14px 5px !important;
+		padding: 14px 5px;
 		border: none !important;
 		margin: 0 !important;
 	}
@@ -947,6 +947,14 @@
 		border-bottom-left-radius: 10px;
 		border-bottom-right-radius: 10px;
 		box-shadow: 0 0 20px rgba(0,0,0,0.4) !important
+	}
+
+	#primarymenumobile li {
+		height: 40px;
+	}
+
+	#primarymenumobile li a {
+		padding: 9px 5px !important;
 	}
 
 	.transparent-sticky-header {
