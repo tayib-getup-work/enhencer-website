@@ -1606,12 +1606,6 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof footeraddress != 'undefined') {
 					footeraddress.classList.add("dpn");
 				}
-				if (typeof blankbr != 'undefined') {
-					blankbr.classList.add("dpn");
-				}
-				if (typeof blankbr2 != 'undefined') {
-					blankbr2.classList.add("dpn");
-				}
 
 
 			}
