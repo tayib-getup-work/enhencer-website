@@ -27,6 +27,12 @@
                 type = "text/javascript"; e.parentNode.insertBefore($, e)
         })(document, "script");
     </script>
+    <script src="required/jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#white-header").load("required/header.html"); 
+    });
+    </script> 
     <!--End of Zendesk Chat Script-->
 
 
@@ -44,7 +50,7 @@
 
     <!-- Bootstrap Switch CSS -->
 
-    <link rel="stylesheet" href="required/responsive.min.css" type="text/css" />
+    <link rel="stylesheet" href="required/responsive.css" type="text/css" />
     <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 
     <!-- Seo Demo Specific Stylesheet -->
@@ -62,83 +68,7 @@
 	============================================= -->
     <div id="wrapper" class="clearfix">
 
-        <!-- Sticky Forced Header -->
-
-		<div id="forced_header"
-        class="transparent-header floating-header clearfix sticky-header forced_sticky_header">
-        <div id="header-wrap">
-            <div class="container-home-wide-body clearfix">
-                <div id="primary-menu-trigger"><i class="icon-reorder" style="color: white"></i></div>
-                <!-- Logo
-                ============================================= -->
-                <div id="logo">
-                    <a href="/" class="standard-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
-                            src="images/enhencer.png" alt="Enhencer Logo"></a>
-                    <a href="/" class="retina-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
-                            src="images/enhencer.png" alt="Enhencer Logo"></a>
-                </div>
-                <!-- #logo end -->
-                <nav id="primary-menu" class="with-arrows">
-                    <ul id="primarymenumobile" class="ul.sf-js-enabled" style="margin-top: -3px;">
-                        <li>
-                            <a href="connect.html"
-                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
-                                <div style="color: white">Connect</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="stories/"
-                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Stories'});">
-                                <div style="color: white">Cases</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="help.html"
-                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Help'});">
-                                <div style="color: white">Help</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="pricing.html"
-                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
-                                <div style="color: white">Pricing</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="blog/"
-                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
-                                <div style="color: white">Blog</div>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <div class="navbar-right-buttons">
-                        <a href="https://app.enhencer.com/#!/login"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
-                            target="_blank"
-                            class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green">
-                            <div
-                                style="color: white; text-align: center; font-size: 15px; background-color: transparent !important;">
-                                Sign in
-                            </div>
-                        </a>
-                        <a href="https://app.enhencer.com/#!/signup"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-                            target="_blank" class="button button-rounded fright try-free-button"
-                            style="width: 100px">
-                            <div style="text-align: center">
-                                Try it Free
-                            </div>
-                        </a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- # Sticky Forced Header end -->
-
+        <div id="white-header"></div>
 
         <!-- Page Title
         ============================================= -->
