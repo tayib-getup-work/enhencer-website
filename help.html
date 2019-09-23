@@ -79,49 +79,55 @@
 
         <!-- Sticky Forced Header -->
 
-        <div id="forced_header" class="transparent-header floating-header clearfix sticky-header forced_sticky_header">
+        <div class="transparent-header floating-header clearfix sticky-header forced_sticky_header white-header">
             <div id="header-wrap">
                 <div class="container-home-wide-body clearfix">
-                    <div id="primary-menu-trigger"><i class="icon-reorder" style="color: white"></i></div>
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
                     <!-- Logo
-                ============================================= -->
+                            ============================================= -->
                     <div id="logo">
                         <a href="/" class="standard-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
-                                src="images/enhencer.png" alt="Enhencer Logo"></a>
+                                src="images/Log_new.png" alt="Enhencer Logo"></a>
                         <a href="/" class="retina-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
-                                src="images/enhencer.png" alt="Enhencer Logo"></a>
+                                src="images/Log_new.png" alt="Enhencer Logo"></a>
                     </div>
                     <!-- #logo end -->
                     <nav id="primary-menu" class="with-arrows">
                         <ul id="primarymenumobile" class="ul.sf-js-enabled" style="margin-top: -3px;">
                             <li>
+                                <a href="/"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
+                                    <div>Product</div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="connect.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
-                                    <div style="color: white">Connect</div>
+                                    <div>Connect</div>
                                 </a>
                             </li>
                             <li>
                                 <a href="stories/"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Stories'});">
-                                    <div style="color: white">Cases</div>
+                                    <div>Cases</div>
                                 </a>
                             </li>
                             <li>
                                 <a href="help.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Help'});">
-                                    <div style="color: white">Help</div>
+                                    <div>Help</div>
                                 </a>
                             </li>
                             <li>
                                 <a href="pricing.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
-                                    <div style="color: white">Pricing</div>
+                                    <div>Pricing</div>
                                 </a>
                             </li>
                             <li>
                                 <a href="blog/"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
-                                    <div style="color: white">Blog</div>
+                                    <div>Blog</div>
                                 </a>
                             </li>
                         </ul>
@@ -150,13 +156,12 @@
             </div>
         </div>
 
-
         <!-- # Sticky Forced Header end -->
 
 
         <!-- Content
         ============================================= -->
-        <div class="container-fluid h-100">
+        <div class="container-fluid h-100" style="    padding-top: 55px;">
             <div class="row h-100">
                 <div class="col-1-5 bg-light" style="margin-bottom: -72px;"></div>
                 <div class="col-2-5 collapse d-md-flex bg-light pt-2" id="sidebar"

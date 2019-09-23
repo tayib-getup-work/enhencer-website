@@ -87,12 +87,7 @@
         // On load
         doSomething(mediaQuery);
     </script>
-    <script src="required/jquery.js"></script>
-    <script>
-        $(function () {
-            $("#white-header").load("required/header.html");
-        });
-    </script>
+
 </head>
 
 
@@ -103,8 +98,83 @@
     <div id="wrapper" class="clearfix">
 
 
-        <div id="white-header"></div>
-
+            <div class="transparent-header floating-header clearfix sticky-header forced_sticky_header white-header">
+                    <div id="header-wrap">
+                        <div class="container-home-wide-body clearfix">
+                            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                            <!-- Logo
+                                ============================================= -->
+                            <div id="logo">
+                                <a href="/" class="standard-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
+                                        src="images/Log_new.png" alt="Enhencer Logo"></a>
+                                <a href="/" class="retina-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
+                                        src="images/Log_new.png" alt="Enhencer Logo"></a>
+                            </div>
+                            <!-- #logo end -->
+                            <nav id="primary-menu" class="with-arrows">
+                                <ul id="primarymenumobile" class="ul.sf-js-enabled" style="margin-top: -3px;">
+                                    <li>
+                                        <a href="/"
+                                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
+                                            <div>Product</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="connect.html"
+                                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
+                                            <div>Connect</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="stories/"
+                                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Stories'});">
+                                            <div>Cases</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="help.html"
+                                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Help'});">
+                                            <div>Help</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pricing.html"
+                                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                            <div>Pricing</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="blog/"
+                                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                            <div>Blog</div>
+                                        </a>
+                                    </li>
+                                </ul>
+        
+                                <div class="navbar-right-buttons">
+                                    <a href="https://app.enhencer.com/#!/login"
+                                        onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
+                                        target="_blank"
+                                        class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green">
+                                        <div
+                                            style="color: white; text-align: center; font-size: 15px; background-color: transparent !important;">
+                                            Sign in
+                                        </div>
+                                    </a>
+                                    <a href="https://app.enhencer.com/#!/signup"
+                                        onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
+                                        target="_blank" class="button button-rounded fright try-free-button"
+                                        style="width: 100px">
+                                        <div style="text-align: center">
+                                            Try it Free
+                                        </div>
+                                    </a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+        
         <!-- Pricing
         ============================================= -->
         <div style="background: url('demos/seo/images/sections/4.png') no-repeat center top / cover; padding: 0">
@@ -114,7 +184,7 @@
                         <br>
                         <br>
                         <br>
-                        <h3 id="pricingmobileheading" class="nott ls0" style="width: 100%; text-align: center; font-size:2.2em; font-weight: 200; font-family: 'Poppins', sans-serif;
+                        <h3 id="pricingmobileheading" class="nott ls0" style="width: 100%; text-align: center; font-size:2.2em;    padding-top: 55px; font-weight: 200; font-family: 'Poppins', sans-serif;
                             color: #444;">Choose the plan that can handle your data. You can cancel anytime</h3>
                     </div>
                     <p style="font-size:20px; text-align:center; color: #555;">Whether you are a startup or a

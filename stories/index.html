@@ -27,7 +27,9 @@
                 type = "text/javascript"; e.parentNode.insertBefore($, e)
         })(document, "script");
     </script>
+
     <!--End of Zendesk Chat Script-->
+
 
 
     <!-- Stylesheets
@@ -35,22 +37,18 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet"
         type="text/css" />
     <link rel="stylesheet" href="../css/colors.php?color=FE9603" type="text/css" /> <!-- Theme Color -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="../required/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="../required/stylealt.css" type="text/css" />
+    <link rel="stylesheet" href="../required/style.css" type="text/css" />
     <link rel="stylesheet" href="../required/custom.css" type="text/css" />
 
     <link rel="shortcut icon" type="image/ico" href="../images/icons/favicon.ico" />
 
     <!-- Bootstrap Switch CSS -->
 
-    <link rel="stylesheet" href="../required/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../required/responsive.min.css" type="text/css" />
     <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 
     <!-- Seo Demo Specific Stylesheet -->
-    <!-- / -->
-
     <!-- / -->
 
     <!-- Document Title
@@ -66,80 +64,12 @@
     <div id="wrapper" class="clearfix">
 
 
-        <!-- Top Bar
-		============================================= -->
-        <div id="top-bar" class="transparent-topbar">
-
-            <div class="container clearfix">
-
-                <div class="col_half nobottommargin clearfix">
-
-                    <!-- Top Links
-                        ============================================= -->
-                    <div class="top-links">
-                        <ul>
-                            <!-- <li><a href="https://blog.enhencer.com" target="_blank">Blog</a></li>
-                                <li><a href="faqs.html">FAQs</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="#"><img src="demos/seo/images/flags/eng.png" alt="Lang">Eng</a>
-                                    <ul>
-                                        <li><a href="#"><img src="demos/seo/images/flags/fre.png" alt="Lang">Fre</a></li>
-                                        <li><a href="#"><img src="demos/seo/images/flags/ara.png" alt="Lang">Ara</a></li>
-                                        <li><a href="#"><img src="demos/seo/images/flags/tha.png" alt="Lang">Tha</a></li>
-                                    </ul>
-                                </li> -->
-                        </ul>
-                    </div>
-                    <!-- .top-links end -->
-
-                </div>
-
-                <div class="col_half fright dark col_last clearfix nobottommargin">
-
-                    <!-- Top Social
-                        ============================================= -->
-                    <div id="top-social">
-                        <ul>
-                            <li><a href="https://www.youtube.com/channel/UCIgWv2OQm6vSMlpXph4nbLA?view_as=subscriber"
-                                    class="si-youtube" target="_blank"><span class="ts-icon"><i
-                                            class="icon-youtube"></i></span><span class="ts-text">Youtube</span></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/company/enhencer/" class="si-linkedin"
-                                    target="_blank"><span class="ts-icon"><i class="icon-linkedin"></i></span><span
-                                        class="ts-text">LinkedIn</span></a></li>
-                            <li><a href="https://www.quora.com/topic/Enhencer" class="si-quora" target="_blank"><span
-                                        class="ts-icon"><i class="icon-quora"></i></span><span
-                                        class="ts-text">Quora</span></a></li>
-                            <li><a href="https://www.instagram.com/enhencerapp/" class="si-instagram2"
-                                    target="_blank"><span class="ts-icon"><i class="icon-instagram2"></i></span><span
-                                        class="ts-text">Instagram</span></a></li>
-                            <li><a href="https://twitter.com/enhencerapp?lang=en" class="si-twitter"
-                                    target="_blank"><span class="ts-icon"><i class="icon-twitter"></i></span><span
-                                        class="ts-text">Twitter</span></a></li>
-                            <li><a href="https://www.facebook.com/Enhencer/" class="si-facebook" target="_blank"><span
-                                        class="ts-icon"><i class="icon-facebook"></i></span><span
-                                        class="ts-text">Facebook</span></a></li>
-                        </ul>
-                    </div><!-- #top-social end -->
-
-                </div>
-
-            </div>
-
-        </div><!-- #top-bar end -->
-
-        <!-- Header
-            ============================================= -->
-        <header id="header" class="transparent-header floating-header clearfix">
-
+        <div class="transparent-header floating-header clearfix sticky-header forced_sticky_header white-header">
             <div id="header-wrap">
-
-                <div class="container clearfix">
-
+                <div class="container-home-wide-body clearfix">
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
                     <!-- Logo
-                        ============================================= -->
+                                ============================================= -->
                     <div id="logo">
                         <a href="/" class="standard-logo" data-dark-logo="../images/Log_new.png"><img id="logoImage"
                                 src="../images/Log_new.png" alt="Enhencer Logo"></a>
@@ -147,22 +77,24 @@
                                 src="../images/Log_new.png" alt="Enhencer Logo"></a>
                     </div>
                     <!-- #logo end -->
-
-                    <!-- Primary Navigation
-                        ============================================= -->
-                    <nav id="primary-menu" class="with-arrows" style="width: 680px; ">
-
-                        <ul id="primarymenumobile" class="ul.sf-js-enabled">
+                    <nav id="primary-menu" class="with-arrows">
+                        <ul id="primarymenumobile" class="ul.sf-js-enabled" style="margin-top: -3px;">
+                            <li>
+                                <a href="/"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
+                                    <div>Product</div>
+                                </a>
+                            </li>
                             <li>
                                 <a href="../connect.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
                                     <div>Connect</div>
                                 </a>
                             </li>
-                            <li class="current">
-                                <a href="../stories.html"
+                            <li>
+                                <a href="../stories/"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Stories'});">
-                                    <div>Stories</div>
+                                    <div>Cases</div>
                                 </a>
                             </li>
                             <li>
@@ -171,7 +103,6 @@
                                     <div>Help</div>
                                 </a>
                             </li>
-
                             <li>
                                 <a href="../pricing.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
@@ -186,648 +117,405 @@
                             </li>
                         </ul>
 
-                        <!-- Top Search
-						============================================= -->
-                        <!-- <div id="top-search" class="fleft">
-							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-							<form action="search.html" method="get">
-								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-							</form>
-						</div>#top-search end -->
-
-                        <!-- Menu Buttons
-                            ============================================= -->
-                        <a href="https://app.enhencer.com/#!/login"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
-                            target="_blank"
-                            class="button button-rounded button-light-bg border nott ls0 border-blue button-enhencer-default-green"
-                            style="text-align: center;
-                           padding-left: 0px;
-                           width: 82px;
-                           padding-right: 0px; background-color: transparent; margin-left: 3%; background-color: transparent !important;">Sign
-                            in</a>
-                        <a href="https://app.enhencer.com/#!/signup"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-                            target="_blank" class="button button-rounded fright try-free-button">Try
-                            Free</a>
-
-                    </nav><!-- #primary-menu end -->
-
+                        <div class="navbar-right-buttons">
+                            <a href="https://app.enhencer.com/#!/login"
+                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
+                                target="_blank"
+                                class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green">
+                                <div
+                                    style="color: white; text-align: center; font-size: 15px; background-color: transparent !important;">
+                                    Sign in
+                                </div>
+                            </a>
+                            <a href="https://app.enhencer.com/#!/signup"
+                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
+                                target="_blank" class="button button-rounded fright try-free-button"
+                                style="width: 100px">
+                                <div style="text-align: center">
+                                    Try it Free
+                                </div>
+                            </a>
+                        </div>
+                    </nav>
                 </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Page Title
+        ============================================= -->
+
+        <section id="page-title" class="stories_home_header">
+            <div class="container-home-wide-body clearfix stories_header_flex">
+                <h1 class="stories_home_title">
+                    Industry Defining Used Cases</h1>
+                <p class="stories_header_subtitle">Discover the industry-defining cases where Enhencer has shown the
+                    brilliance in putting up the only
+                    end result that matters - "Sucess"</p>
+                <a href="../connect.html" target="_blank" class="try_today_button_stories">Meet Our Data-Scientists</a>
 
             </div>
 
-        </header><!-- #header end -->
+        </section><!-- #page-title end -->
 
-        <!-- Content Starts -->
-
-        <!-- <div class="typeform-widget" data-url="https://enhencer.typeform.com/to/jFtTvU"
-            style="width: 100%; height: 790px;"></div>
-        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script> -->
-
-        <!-- <br>
         <br>
         <br>
 
-        <section id="slider" class="slider-element blog-header clearfix">
-            <div class="image-blog-header-overlay blog-home-background">
-                <div class="container">
-                    <div class="blog-home-header">
-                        Welcome to Our Blog
-                    </div>
-                    <div class="blog-home-subtitle">
-                        Learn more about data science & discover how analytics is shaping our life.
 
-                    </div>
-                    <br>
-                    <div class="blog-home-subscribe" style="margin-left: -0.5%;"><a
-                            href="https://app.enhencer.com/#!/login"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
-                            target="_blank" class="button button-light border nott ls0 border-blog-white"
-                            style="text-align: center; padding-left: 0px; width: 200px; height: 50px; padding-right: 0px;background-color: transparent !important;">
-                            <div
-                                style="font-size: 1.3em; text-align: center; margin-top: 2px;color: white; background-color: transparent !important;">
-                                Subscribe Today
-                            </div>
-                        </a></div>
-                </div>
+        <!-- Tabs
+		============================================= -->
+        <section>
+            <div class="container-home-wide-body clearfix">
+                <div class="tabs side-tabs nobottommargin clearfix" id="tab-6" style="margin-top: 0px !important;">
 
-            </div>
-        </section> -->
-        <br>
-        <br>
-        <br>
-        <section id="slider" class="slider-element clearfix">
-            <div class="container">
-                <div id="storiestab" class="tabs tabs-alt tabs-tb tabs-justify clearfix" id="tab-8">
-
-                    <ul class="tab-nav clearfix">
-                        <li><a href="#tabs-29"><i class="fas fa-hand-holding-usd stories-tab-icons"></i>
-                                <p>Purchase Propensity</p>
-                            </a></li>
-                        <li><a href="#tabs-30"><i class="fas fa-tools stories-tab-icons"></i>
-                                <p>Predictive Maintenance</p>
-                            </a></li>
-                        <li><a href="#tabs-31"><i class="fas fa-dollar-sign stories-tab-icons"></i>
-                                <p>Profit Analysis</p>
-                            </a></li>
-                        <li><a href="#tabs-32"><i class="fas fa-user-alt-slash stories-tab-icons"></i>
-                                <p>Churn Analysis</p>
-                            </a></li>
-                        <li><a href="#tabs-33"><i class="far fa-credit-card stories-tab-icons"></i>
-                                <p>Fraud Detection</p>
-                            </a></li>
+                    <ul class="tab-nav tab-nav2 clearfix" style="margin-left: 0% !important;">
+                        <li><a href="#tabs-21"><i></i>All Categories</a></li>
+                        <li><a href="#tabs-22">E-Commerce</a></li>
+                        <li><a href="#tabs-24">Organization</a></li>
+                        <li><a href="#tabs-23">Retail</a></li>
+                        <li><a href="#tabs-25">Manufacturing</a></li>
                     </ul>
 
-                    <div class="tab-container">
+                    <div class="tab-container tab-content clearfix" id="tabs-21">
 
-                        <div class="tab-content clearfix" id="tabs-29">
-                            <div class="container">
-                                <!-- <h1 class="stories-h1">Purchase Propensity
-                            </h1> -->
-                                <div>
-                                    <div id="storiesfeatures" class="row">
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder">
-                                                <div class="fbox-icon">
-                                                    <a><i class="fas fa-industry"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;">
-                                                    Industry</h3>
-                                                <p>Insurance Companies</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 pl-0 pr-0 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder">
-                                                <div class="fbox-icon">
-                                                    <a><i class="far fa-times-circle"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;">
-                                                    Pain</h3>
-                                                <p>Targeting the most likely audience to sell from the correct channel
-
+                        <section class="wrapper">
+                            <div class="container-fostrap">
+                                <div id="connecttabrow" class="row">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='likelihood-to-purchase.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img class="img-center" src="images/likelihood_to_purchase.jpg" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>
+                                                        Likelihood to Purchase
+                                                    </a>
+                                                </h4>
+                                                <p class="">Which lead has a high likelihood to purchase? What are the
+                                                    factors leading to a purchase?
                                                 </p>
-
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder no-middot">
-                                                <div class="fbox-icon">
-                                                    <a><i class="far fa-lightbulb"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;">
-                                                    Solution</h3>
-                                                <p>Learning from past data and predicting customers’ likelihood to buy,
-                                                    to
-                                                    trigger
-                                                    correct actions</p>
                                             </div>
                                         </div>
                                     </div>
-
-                                    <p class="mt-5 stories-p">
-                                        Enhencer has one of the widest applications in the insurance industry. One of
-                                        our
-                                        insurance clients was having problems with customer profiles buying only one
-                                        product, and not more.
-
-                                        <br>
-                                        <br>
-                                        In this occasion, Enhencer directly connected to the database which contains
-                                        customer information (e.g. Income, Education, Complaints, Offer details) and
-                                        from
-                                        149 attributes in customer data, 21 of them came forward as most relevant for
-                                        buyer
-                                        behavior.
-
-                                        <br>
-                                        <br>
-                                        They have a total of 1.1 million customers, and if they called each client
-                                        without
-                                        modeling, 114 thousands would have the tendency to buy the additional product.
-                                        Instead of calling 1.1 million clients and selling to 114 thousands of them,
-                                        Enhencer told them who to call, and they sold the product in 7 out of 10 calls
-                                        (70%
-                                        Hit Rate).
-                                    </p>
-                                </div>
-
-
-                                <div class="section notopborder topmargin-sm bottommargin-sm noborder nobg">
-
-                                    <div class="container clearfix">
-
-                                        <div class="col_one_third nobottommargin center" data-animate="bounceIn">
-                                            <i
-                                                class="i-plain i-xlarge divcenter nobottommargin fas fa-angle-double-up"></i>
-                                            <div class="counter counter-lined"><span data-from="0" data-decimals="1"
-                                                    data-to="7.2" data-refresh-interval="0.5" data-speed="100"></span>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='cross-sell.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img src="images/cross-sell.jpeg" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>
+                                                        Cross-sell/Up-sell
+                                                    </a>
+                                                </h4>
+                                                <p class="">
+                                                    Which customers have the highest probability to purchase other
+                                                    products? </p>
                                             </div>
-                                            <h5>Lift</h5>
-                                        </div>
 
-                                        <div class="col_one_third nobottommargin center" data-animate="bounceIn"
-                                            data-delay="200">
-                                            <i class="i-plain i-xlarge divcenter nobottommargin icon-bullseye"></i>
-                                            <div class="counter counter-lined"><span data-from="0" data-decimals="1"
-                                                    data-to="84.3" data-refresh-interval="10" data-speed="1700"></span>%
-                                            </div>
-                                            <h5>Accuracy</h5>
                                         </div>
-
-                                        <div class="col_one_third nobottommargin center col_last"
-                                            data-animate="bounceIn" data-delay="600">
-                                            <i class="i-plain i-xlarge divcenter nobottommargin fas fa-donate"></i>
-                                            <div class="counter counter-lined">$<span data-from="0" data-to="140"
-                                                    data-refresh-interval="20" data-speed="1700"></span>K</div>
-                                            <h5>Profit/Year</h5>
-                                        </div>
-
                                     </div>
-
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='Churn-Probability.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img class="b-b-1" src="images/Churn Probability.jpeg" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>Churn Probability
+                                                    </a>
+                                                </h4>
+                                                <p class="">With Enhencer, you will clearly see which customers will
+                                                    leave, and most importantly why are they leaving.</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
-
-
-                            </div>
-                        </div>
-                        <div class="tab-content clearfix" id="tabs-30">
-                            <div class="container">
-                                <div>
-                                    <div id="storiesfeatures2" class="row">
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder">
-                                                <div class="fbox-icon">
-                                                    <a><i class="fas fa-industry"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;"
-                                                    style="font-size: 2em !important;">
-                                                    Industry</h3>
-                                                <p>IT Sector</p>
+                                <div id="connecttabrow7" class="row">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='demand-forecasting.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img class="img-center b-b-1" src="images/Demand-Forecasting.jpg" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>Demand Forecasting
+                                                    </a>
+                                                </h4>
+                                                <p class="">Enhencer predicts a probability for next timeframe
+                                                    (day/week/month) by learning from sales history.</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder">
-                                                <div class="fbox-icon">
-                                                    <a><i class="far fa-times-circle"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;">
-                                                    Pain</h3>
-                                                <p>Unexpected server breakdowns</p>
-
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='fraud-prevention.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img class="b-b-1" src="images/fraud-prevention.png" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>Fraud Prevention
+                                                    </a>
+                                                </h4>
+                                                <p class="">
+                                                    Detecting and preventing fraud will reveal quite valuable insights
+                                                    if fraud is a problem for your business.</p>
                                             </div>
-                                        </div>
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder no-middot">
-                                                <div class="fbox-icon">
-                                                    <a><i class="far fa-lightbulb"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;">
-                                                    Solution</h3>
-                                                <p> Predicting the breakdown before it happens
 
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='employee-turnover-prediction.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img src="images/Employee-Turnover-Prediction.png" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>Employee Turnover Prediction
+                                                    </a>
+                                                </h4>
+                                                <p class="">Enhencer uses Machine Learning to predict which employees
+                                                    are most likely to
+                                                    leave and with high accuracy.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <p class="mt-5 stories-p">
-                                        A subsidiary of a giant conglomerate, operating in IT/Networking field, have
-                                        reached us to seek a solution for their server downtime prediction, using
-                                        previously recorded log data.
-
-
-                                        <br>
-                                        <br>
-                                        The log data was not prepared, and our team also helped them with wrangling the
-                                        data before we could import the features to Enhencer. In the process, we used
-                                        certain features from the log data, which showed us patterns 1 minute before the
-                                        server goes down.
-
-
-                                        <br>
-                                        <br>
-                                        After modeling this data with Enhencer's algorithms in a few minutes, we have
-                                        exported the result and implemented it to the server for real-time predictive
-                                        maintenance.
-                                        <br>
-                                        <br>
-                                        Why wait until your devices go down? Contact us for more on Enhencer.
-
-                                    </p>
                                 </div>
 
+                                <div id="connecttabrow8" class="row">
 
-                                <div class="section notopborder topmargin-sm bottommargin-sm noborder nobg">
-
-                                    <div class="container clearfix">
-
-                                        <div class="col_one_third nobottommargin center" data-animate="bounceIn">
-                                            <i
-                                                class="i-plain i-xlarge divcenter nobottommargin fas fa-angle-double-up"></i>
-                                            <div class="counter counter-lined"><span data-from="0" data-decimals="1"
-                                                    data-to="11.2" data-refresh-interval="0.5" data-speed="100"></span>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='predictive-maintenance.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img src="images/Predictive-Maintenance.jpg" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>Predictive Maintenance
+                                                    </a>
+                                                </h4>
+                                                <p class="">With sensor data, Enhencer can predict the outcome of a test
+                                                    result or when a machine will fail.
+                                                </p>
                                             </div>
-                                            <h5>Lift</h5>
-                                        </div>
 
-                                        <div class="col_one_third nobottommargin center" data-animate="bounceIn"
-                                            data-delay="200">
-                                            <i class="i-plain i-xlarge divcenter nobottommargin icon-bullseye"></i>
-                                            <div class="counter counter-lined"><span data-from="0" data-decimals="1"
-                                                    data-to="93.4" data-refresh-interval="10" data-speed="1700"></span>%
-                                            </div>
-                                            <h5>Accuracy</h5>
                                         </div>
-
-                                        <div class="col_one_third nobottommargin center col_last"
-                                            data-animate="bounceIn" data-delay="600">
-                                            <i class="i-plain i-xlarge divcenter nobottommargin fas fa-donate"></i>
-                                            <div class="counter counter-lined">$<span data-from="0" data-to="90"
-                                                    data-refresh-interval="20" data-speed="1700"></span>K</div>
-                                            <h5>Profit/Year</h5>
-                                        </div>
-
                                     </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='dealer-sales-performance.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img src="images/Dealer-Sales-Forecasting.png" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>Dealer Sales Forecasting
+                                                    </a>
+                                                </h4>
+                                                <p class="">Machine Learning models will not only provide you the best
+                                                    and worst performers but also shed light on why a dealer is
+                                                    performing good or bad.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
 
                                 </div>
                             </div>
-
-                        </div>
-                        <div class="tab-content clearfix" id="tabs-31">
-                            <div class="container">
-                                <div>
-                                    <div id="storiesfeatures3" class="row">
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder">
-                                                <div class="fbox-icon">
-                                                    <a><i class="fas fa-industry"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;"
-                                                    style="font-size: 2em !important;">
-                                                    Industry</h3>
-                                                <p>FMCG / Retail
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder">
-                                                <div class="fbox-icon">
-                                                    <a><i class="far fa-times-circle"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;">
-                                                    Pain</h3>
-                                                <p>Why? Where? When? and Which products maximize my profit?</p>
-
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder no-middot">
-                                                <div class="fbox-icon">
-                                                    <a><i class="far fa-lightbulb"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;">
-                                                    Solution</h3>
-                                                <p> Stories with and often unexpected relationships between different
-                                                    business variables are where you can generate the most value.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <p class="mt-5 stories-p">
-                                        One of the top ten beverage companies in Europe by sales volume used our
-                                        Predictive Storyteller for analyzing their sales based on store, salesperson,
-                                        region, profit, and market share.
-
-
-                                        <br>
-                                        <br>
-                                        Their data was quite complex with tons of variables possibly hiding many stories
-                                        about their "hows" and "whys". We used store based variables such as total
-                                        investment and sales amount, competitor and market sales values, and other
-                                        contributing variables were salespeople and locations.
-
-
-
-                                        <br>
-                                        <br>
-                                        They were able to identify how and why they had bad performing resellers in good
-                                        performing classes (hidden outliers) and pinpoint who were those outliers.
-
-                                        <br>
-                                        <br>
-                                        Also, salesperson performance was measured effectively with those parameters.
-                                        Field Sales Managers were the ones who received the most useful insights as they
-                                        did not know many of those stories about the resellers before.
-
-                                    </p>
-                                </div>
-
-
-                                <div class="section notopborder topmargin-sm bottommargin-sm noborder nobg">
-
-                                    <div class="container clearfix">
-
-                                        <div class="col_one_third nobottommargin center" data-animate="bounceIn">
-                                            <i
-                                                class="i-plain i-xlarge divcenter nobottommargin fas fa-angle-double-up"></i>
-                                            <div class="counter counter-lined"><span data-from="0" data-decimals="1"
-                                                    data-to="1.3" data-refresh-interval="0.1" data-speed="100"></span>
-                                            </div>
-                                            <h5>Lift</h5>
-                                        </div>
-
-                                        <div class="col_one_third nobottommargin center" data-animate="bounceIn"
-                                            data-delay="200">
-                                            <i class="i-plain i-xlarge divcenter nobottommargin icon-bullseye"></i>
-                                            <div class="counter counter-lined"><span data-from="0" data-to="6"
-                                                    data-refresh-interval="1" data-speed="400"></span>%
-                                            </div>
-                                            <h5>Error</h5>
-                                        </div>
-
-                                        <div class="col_one_third nobottommargin center col_last"
-                                            data-animate="bounceIn" data-delay="600">
-                                            <i class="i-plain i-xlarge divcenter nobottommargin fas fa-donate"></i>
-                                            <div class="counter counter-lined">$<span data-from="0" data-to="370"
-                                                    data-refresh-interval="20" data-speed="1700"></span>K</div>
-                                            <h5>Profit/Year</h5>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content clearfix" id="tabs-32">
-                            <div class="container">
-                                <div>
-                                    <div id="storiesfeatures4" class="row">
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder">
-                                                <div class="fbox-icon">
-                                                    <a><i class="fas fa-industry"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;"
-                                                    style="font-size: 2em !important;">
-                                                    Industry</h3>
-                                                <p>Insurance Companies
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder">
-                                                <div class="fbox-icon">
-                                                    <a><i class="far fa-times-circle"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;">
-                                                    Pain</h3>
-                                                <p>Losing existing customers</p>
-
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder no-middot">
-                                                <div class="fbox-icon">
-                                                    <a><i class="far fa-lightbulb"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;">
-                                                    Solution</h3>
-                                                <p> Taking the action for the customers who are the highest likely ones.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <p class="mt-5 stories-p">
-                                        A worldwide insurance company had a case where 29% of the customers would cancel
-                                        a current policy within three months. Enhencer connected to the database to
-                                        import the historical data, and then performed the analysis in a few minutes
-                                        thanks to Automated Machine Learning Algorithms.
-
-                                        <br>
-                                        <br>
-                                        As the churn trends differ depending on Life and Non-Life Product group, two
-                                        different prediction algorithms were implemented. Results revealed that the most
-                                        valuable information sources were; the age of a customer, the value of insured
-                                        assets, purchasing channel, and the number of other insurances.
-
-                                        <br>
-                                        <br>
-                                        In the application phase, whenever a new sale is made, the churn probability of
-                                        the customer is instantaneously projected to call center’s screen.
-
-                                        <br>
-                                        <br>
-                                        Enhencer identified every 8 churn case out of 10 correctly (%20 False Positive
-                                        Rate).
-                                        <br>
-                                        <br>
-                                        Instead of calling each new policy owner, insurance company contacted the 20%
-                                        with the highest churn risk and reached 90% of customers who planned to churn.
-                                        With tailor-made offers to that high-risk group, they converted 28% of losses to
-                                        profits.
-
-                                    </p>
-                                </div>
-
-
-                                <div class="section notopborder topmargin-sm bottommargin-sm noborder nobg">
-
-                                    <div class="container clearfix">
-
-                                        <div class="col_one_third nobottommargin center" data-animate="bounceIn">
-                                            <i
-                                                class="i-plain i-xlarge divcenter nobottommargin fas fa-angle-double-up"></i>
-                                            <div class="counter counter-lined"><span data-from="0" data-decimals="1"
-                                                    data-to="6.3" data-refresh-interval="0.1" data-speed="100"></span>
-                                            </div>
-                                            <h5>Lift</h5>
-                                        </div>
-
-                                        <div class="col_one_third nobottommargin center" data-animate="bounceIn"
-                                            data-delay="200">
-                                            <i class="i-plain i-xlarge divcenter nobottommargin icon-bullseye"></i>
-                                            <div class="counter counter-lined"><span data-from="0" data-decimals="1"
-                                                    data-to="89.2" data-refresh-interval="0.5" data-speed="400"></span>%
-                                            </div>
-                                            <h5>Accuracy</h5>
-                                        </div>
-
-                                        <div class="col_one_third nobottommargin center col_last"
-                                            data-animate="bounceIn" data-delay="600">
-                                            <i class="i-plain i-xlarge divcenter nobottommargin fas fa-donate"></i>
-                                            <div class="counter counter-lined">$<span data-from="0" data-to="280"
-                                                    data-refresh-interval="20" data-speed="1700"></span>K</div>
-                                            <h5>Profit/Year</h5>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <div class="tab-content clearfix" id="tabs-33">
-                            <div class="container">
-                                <div>
-                                    <div id="storiesfeatures5" class="row">
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder">
-                                                <div class="fbox-icon">
-                                                    <a><i class="fas fa-industry"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;"
-                                                    style="font-size: 2em !important;">
-                                                    Industry</h3>
-                                                <p>Insurance Companies
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder">
-                                                <div class="fbox-icon">
-                                                    <a><i class="far fa-times-circle"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;">
-                                                    Pain</h3>
-                                                <p>Fraudulent work contracts
-                                                </p>
-
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 pl-0 pr-0 mt-5">
-                                            <div class="feature-box fbox-center noborder no-middot">
-                                                <div class="fbox-icon">
-                                                    <a><i class="far fa-lightbulb"></i></a>
-                                                </div>
-                                                <h3 class="nott ls0 home-h2-featues" style="font-size: 2em !important;">
-                                                    Solution</h3>
-                                                <p> Performing checks to the highest risk group in the data.
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <p class="mt-5 stories-p">
-                                        Fraud is a pain in the majority of organizations, whether they are aware of it
-                                        or not. Analysis and prediction of patterns and behaviors leading to fraud are
-                                        best done with Machine Learning.
-
-                                        <br>
-                                        <br>
-                                        As the churn trends differ depending on Life and Non-Life Product group, two
-                                        different prediction algorithms were implemented. Results revealed that the most
-                                        valuable information sources were; the age of a customer, the value of insured
-                                        assets, purchasing channel, and the number of other insurances.
-
-                                        <br>
-                                        <br>
-                                        This time we analyzed past company data containing Fraud and Not Fraud flags,
-                                        and then scored the new data with Enhencer. The organization was able to spot 2
-                                        cases of fraud after checking 1.000 members.
-
-                                        <br>
-                                        <br>
-                                        After Enhencer's analysis, spotted fraud cases went up to 120 in 1.000 checks.
-                                        Lift provided here is more than 60 times. This number can give you a feeling for
-                                        the scale of the saved working-time and the prevented large financial loss with
-                                        Enhencer.
-
-
-                                    </p>
-                                </div>
-
-
-                                <div class="section notopborder topmargin-sm bottommargin-sm noborder nobg">
-
-                                    <div class="container clearfix">
-
-                                        <div class="col_one_third nobottommargin center" data-animate="bounceIn">
-                                            <i
-                                                class="i-plain i-xlarge divcenter nobottommargin fas fa-angle-double-up"></i>
-                                            <div class="counter counter-lined"><span data-from="0" data-decimals="1"
-                                                    data-to="11.2" data-refresh-interval="0.1" data-speed="100"></span>
-                                            </div>
-                                            <h5>Lift</h5>
-                                        </div>
-
-                                        <div class="col_one_third nobottommargin center" data-animate="bounceIn"
-                                            data-delay="200">
-                                            <i class="i-plain i-xlarge divcenter nobottommargin icon-bullseye"></i>
-                                            <div class="counter counter-lined"><span data-from="0" data-decimals="1"
-                                                    data-to="93.4" data-refresh-interval="0.5" data-speed="400"></span>%
-                                            </div>
-                                            <h5>Accuracy</h5>
-                                        </div>
-
-                                        <div class="col_one_third nobottommargin center col_last"
-                                            data-animate="bounceIn" data-delay="600">
-                                            <i class="i-plain i-xlarge divcenter nobottommargin fas fa-donate"></i>
-                                            <div class="counter counter-lined">$<span data-from="0" data-decimals="1"
-                                                    data-to="1.4" data-refresh-interval="0.1" data-speed="40"></span>M
-                                            </div>
-                                            <h5>Profit/Year</h5>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
 
                     </div>
 
-                </div>
+                    <div class="tab-container tab-content clearfix" id="tabs-22">
 
-            </div>
+
+                        <section class="wrapper">
+                            <div class="container-fostrap">
+                                <div id="connecttabrow2" class="row">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='cross-sell.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img src="images/cross-sell.jpeg" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>
+                                                        Cross-sell/Up-sell
+                                                    </a>
+                                                </h4>
+                                                <p class="">
+                                                    Which customers have the highest probability to purchase other
+                                                    products? </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='Churn-Probability.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img class="b-b-1" src="images/Churn Probability.jpeg" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>Churn Probability
+                                                    </a>
+                                                </h4>
+                                                <p class="">With Enhencer, you will clearly see which customers will
+                                                    leave, and most importantly why are they leaving.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+
+                    <div class="tab-container tab-content clearfix" id="tabs-23">
+
+                        <section class="wrapper">
+                            <div class="container-fostrap">
+                                <div id="connecttabrow3" class="row">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='dealer-sales-performance.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img src="images/Dealer-Sales-Forecasting.png" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>Dealer Sales Forecasting
+                                                    </a>
+                                                </h4>
+                                                <p class="">Machine Learning models will not only provide you the best
+                                                    and worst performers but also shed light on why a dealer is
+                                                    performing good or bad.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='likelihood-to-purchase.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img class="img-center" src="images/likelihood_to_purchase.jpg" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>
+                                                        Likelihood to Purchase
+                                                    </a>
+                                                </h4>
+                                                <p class="">Which lead has a high likelihood to purchase? What are the
+                                                    factors leading to a purchase?
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                    </div>
+
+                    <div class="tab-container tab-content clearfix" id="tabs-24">
+
+                        <section class="wrapper">
+                            <div class="container-fostrap">
+                                <div id="connecttabrow4" class="row">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='fraud-prevention.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img class="b-b-1" src="images/fraud-prevention.png" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>Fraud Prevention
+                                                    </a>
+                                                </h4>
+                                                <p class="">
+                                                    Detecting and preventing fraud will reveal quite valuable insights
+                                                    if fraud is a problem for your business.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='employee-turnover-prediction.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img src="images/Employee-Turnover-Prediction.png" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>Employee Turnover Prediction
+                                                    </a>
+                                                </h4>
+                                                <p class="">Enhencer uses Machine Learning to predict which employees
+                                                    are most likely to
+                                                    leave and with high accuracy.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                    </div>
+
+                    <div class="tab-container tab-content clearfix" id="tabs-25">
+
+                        <section class="wrapper">
+                            <div class="container-fostrap">
+                                <div id="connecttabrow5" class="row">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <div onclick="location.href='predictive-maintenance.html';" class="card"
+                                            style="cursor: pointer;">
+                                            <a class="img-card">
+                                                <img src="images/Predictive-Maintenance.jpg" />
+                                            </a>
+                                            <div class="card-content">
+                                                <h4 class="card-title">
+                                                    <a>Predictive Maintenance
+                                                    </a>
+                                                </h4>
+                                                <p class="">With sensor data, Enhencer can predict the outcome of a test
+                                                    result or when a machine will fail.
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                    </div>
+
+
         </section>
+
+
 
         <!-- Footer
 		============================================= -->
@@ -836,24 +524,54 @@
 
 
         <!-- Go To Top
-	============================================= -->
+        ============================================= -->
         <div id="gotoTop" class="icon-angle-up"></div>
 
         <!-- External JavaScripts
-	============================================= -->
+    ============================================= -->
         <script src="../required/jquery.js"></script>
         <script src="../required/plugins.min.js"></script>
 
         <!-- Footer Scripts
 ============================================= -->
-        <script src="../required/functions.js"></script>
+        <script src="../required/functions.min.js"></script>
         <script>
             $(document).ready(function () {
-                $("#footerContent").load("../footer-index.html");
+                $("#footerContent").load("footer-stories.html");
             });
         </script>
 
+        <script>
+            //Pricing Table Script
+            jQuery(document).ready(function ($) {
+                function pricingSwitcher(elementCheck, elementParent, elementPricing) {
+                    elementParent.find('.pts-left,.pts-right').removeClass('pts-switch-active');
+                    elementPricing.find('.pts-switch-content-left,.pts-switch-content-right').addClass('hidden');
 
+                    if (elementCheck.filter(':checked').length > 0) {
+                        elementParent.find('.pts-right').addClass('pts-switch-active');
+                        elementPricing.find('.pts-switch-content-right').removeClass('hidden');
+                    } else {
+                        elementParent.find('.pts-left').addClass('pts-switch-active');
+                        elementPricing.find('.pts-switch-content-left').removeClass('hidden');
+                    }
+                }
+
+                $('.pts-switcher').each(function () {
+                    var element = $(this),
+                        elementCheck = element.find(':checkbox'),
+                        elementParent = $(this).parents('.pricing-tenure-switcher'),
+                        elementPricing = $(elementParent.attr('data-container'));
+
+                    pricingSwitcher(elementCheck, elementParent, elementPricing);
+
+                    elementCheck.on('change', function () {
+                        pricingSwitcher(elementCheck, elementParent, elementPricing);
+                    });
+                });
+            });
+
+        </script>
 
 </body>
 

@@ -32,8 +32,8 @@ box-shadow: 0 1px 5px 1px #1b7f91 !important;
 #primarymenumobile div {
     color: #444;
     text-align: center;
+    font-size: 0.9em;
 }
-
 #primarymenumobile div:hover {
 	color: #2ca497;
 }
@@ -4896,6 +4896,10 @@ div.cookiebtns {
 .stories_tab_flex{
 	display: flex;
     flex-direction: row;
+}
+.stories_home_header{
+	background-image: url('../stories/images/stories-home.jpg'); background-size: cover; background-position: right; padding-top: 125px !important;
+        background-repeat: no-repeat;
 }
 
 /* ======================================================================================================================================== */
