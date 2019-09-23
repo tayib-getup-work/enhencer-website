@@ -4611,6 +4611,12 @@ div.cookiebtns {
 	opacity: 1;
 }
 
+.white-header {
+	background: white !important;
+}
+
+
+
 .hidden-elem {
 	opacity: 0 !important;
 }
@@ -4992,10 +4998,23 @@ div.cookiebtns {
 	line-height: 37px;
 }
 
-#forced_header .navbar-right-buttons a:hover {
-	box-shadow: 0 1px 5px 1px white !important
+.white-header .navbar-right-buttons a {
+	border: 2px solid rgb(34, 142, 159) !important;
 }
 
+
+#forced_header .navbar-right-buttons a:hover {
+	box-shadow: 0 1px 5px 1px white
+}
+
+.white-header .navbar-right-buttons a:hover {
+	box-shadow: 0 1px 5px 1px rgb(34, 142, 159) !important;
+}
+
+
+.white-header .navbar-right-buttons a div {
+	color: rgb(34, 142, 159) !important
+}
 
 #homesliderbuttons {
 	display: flex;
