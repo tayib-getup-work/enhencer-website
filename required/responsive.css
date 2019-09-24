@@ -21,7 +21,17 @@
 
 }
 
+@media (min-width: 600px) and (max-width: 1149px) {
+	#logo img {
+		height: 25px;
+	}
+}
 
+@media (max-width: 599px) {
+	#logo img {
+		height: 20px;
+	}
+}
 
 @media (max-width: 1149px) {
 
@@ -1111,6 +1121,18 @@
 
 @media (max-width: 1149.98px) {
 
+	.visible-desktop {
+		display: none;
+	}
+
+	.home-layer {
+		display: none
+	}
+
+	.navbar-right-buttons {
+		display: none
+	}
+
 	.visible-mobile {
 		display: block;
 	}
@@ -1162,12 +1184,6 @@
 
 	.navbar-menu {
 		display: none;
-	}
-
-	#logo img {
-		width: 40%;
-		margin: 0 auto;
-		height: auto;
 	}
 
 
@@ -2705,28 +2721,6 @@
 }
 
 
-
-@media(max-width: 1149px) {
-	.visible-desktop {
-		display: none;
-	}
-}
-
-
-
-
-
-
-
-@media(max-width: 1149px) {
-	.home-layer {
-		display: none
-	}
-
-	.navbar-right-buttons {
-		display: none
-	}
-}
 
 
 

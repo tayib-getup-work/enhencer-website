@@ -1470,6 +1470,13 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #footer-menu.style-2.center
 
 }
 
+
+#logo img {
+	width: auto;
+	margin: 0 auto;
+	height: 25px;
+}
+
 #header.split-menu #footer-menu {
 	float: none;
 	margin: 0;
@@ -5292,6 +5299,10 @@ div.cookiebtns {
   
 	body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
 	  position: inherit;
+	}
+
+	#logo {
+		margin-top: 21px;
 	}
   
 }
