@@ -428,7 +428,7 @@ h1.heading {
 }
 .main-title {
 	color: #fff;
-	font-weight: 200 !important;
+	font-weight: 500 !important;
 	font-size: 4.4em;
 }
 .main-title-small {
@@ -2315,8 +2315,7 @@ display: block;  /* may not need this, but I've found I do */
 .blog-subscribe{
 	text-align: center; 
 	padding-left: 0px; 
-	width: 200px; 
-	height: 50px; 
+    width: 265px;	height: 50px; 
 	padding-right: 0px;
 	background-color: transparent !important;
 }
