@@ -970,8 +970,10 @@ article {
 -----------------------------------------------------------------*/
 
 
-#footer-menu { float: right;}
-
+#footer-menu {
+    float: right;
+    margin-top: 10px;
+}
 #footer-menu-top { float: right;
 	width: 575px; }
 
@@ -3157,8 +3159,8 @@ div[class*=box] {
     margin-right: auto;
 }
 
-.footer_social_margin_top{
-	margin-top: -15px;
+.footer_social_margin_top {
+    margin-top: 5px;
 }
 
 .footer-try-button {
@@ -3261,8 +3263,9 @@ div[class*=box] {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0px !important;
-    margin-top: 33px;
+    margin-top: 45px;
 }
+
 .footer-logo2 {
     width: 50px;
     margin-right: auto;
@@ -5132,10 +5135,10 @@ div.cookiebtns {
     width: 82px;
     padding-right: 0px;
     margin-left: 4%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-radius: 5px;
-	background: transparent !important;
-	line-height: 37px;
+    /* background: transparent !important; */
+    line-height: 37px;
 }
 
 /* .white-header .navbar-right-buttons a {
@@ -5161,6 +5164,14 @@ div.cookiebtns {
     font-size: 15px;
     display: flex;
     align-items: center;
+}
+.sign_in_button {
+    color: #1b7f91 !important;
+    border: 2px solid #1b7f91 !important;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #homesliderbuttons {
 	display: flex;
