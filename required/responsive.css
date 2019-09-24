@@ -153,8 +153,6 @@
 		justify-content: center;
 	}
 
-	#logo a.standard-logo { display: inline-block; }
-
 	#primary-menu {
 		display: block;
 		float: none;
@@ -1197,7 +1195,6 @@
 	}
 
 
-	#logo a.standard-logo { display: inline;}
 	#primary-menu-trigger { 
 		opacity: 1;
     	/* pointer-events: none; */
@@ -2746,12 +2743,6 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
-	#logo a.standard-logo,
-	#header.split-menu #logo a.standard-logo { display: block; }
-
-	#logo a.retina-logo { display: none; }
-
-	#header.split-menu #logo a.retina-logo { display: inline-block; }
 
 	.owl-carousel.owl-loading,
 	.preloader,
@@ -2796,26 +2787,5 @@ only screen and (                min-resolution: 2dppx) {
 	.dark .widget_rss li a,
 	.dark .widget_recent_comments li a { background-image: url("../images/icons/widget-link-dark@2x.png"); }
 
-}
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 991.98px),
-only screen and (   min--moz-device-pixel-ratio: 2) and (max-width: 991.98px),
-only screen and (     -o-min-device-pixel-ratio: 2/1) and (max-width: 991.98px),
-only screen and (        min-device-pixel-ratio: 2) and (max-width: 991.98px),
-only screen and (                min-resolution: 192dpi) and (max-width: 991.98px),
-only screen and (                min-resolution: 2dppx) and (max-width: 991.98px) {
-	#logo a.standard-logo { display: block; }
-	#logo a.retina-logo { display: inline-block; }
-}
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 575.98px),
-only screen and (   min--moz-device-pixel-ratio: 2) and (max-width: 575.98px),
-only screen and (     -o-min-device-pixel-ratio: 2/1) and (max-width: 575.98px),
-only screen and (        min-device-pixel-ratio: 2) and (max-width: 575.98px),
-only screen and (                min-resolution: 192dpi) and (max-width: 575.98px),
-only screen and (                min-resolution: 2dppx) and (max-width: 575.98px) {
-	#logo a.standard-logo { display: none; }
-	#logo a.retina-logo { display: inline-block; }
 }
 

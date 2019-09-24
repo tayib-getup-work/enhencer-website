@@ -1063,7 +1063,6 @@ body.stretched #header.full-header .container {
 
 #logo a.standard-logo { display: block; }
 
-#logo a.retina-logo { display: none; }
 
 
 /* ----------------------------------------------------------------
@@ -1600,8 +1599,6 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.cente
 		float: none;
 		height: 100px;
 	}
-
-	#header.split-menu #logo a.standard-logo { display: inline-block; }
 
 }
 
@@ -15273,8 +15270,6 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #footer-menu.style-2.center
 		float: none;
 		height: 100px;
 	}
-
-	#header.split-menu #logo a.standard-logo { display: inline-block; }
 
 }
 
