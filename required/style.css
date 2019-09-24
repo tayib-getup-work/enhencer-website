@@ -9466,14 +9466,7 @@ ul.tab-nav li a i {
 		  width: 230px;
 		  margin-left: -6%;
 	  
-	  }
-	  ul.sf-js-enabled {
-		display: none !important;
 	}
-	  ul.sf-js-enabled.d-block {
-		display: block !important;
-	}
-	
 }
 
 .side-tabs ul.tab-nav li {

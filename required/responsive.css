@@ -196,6 +196,13 @@
 
 	#primary-menu > div > ul { padding-top: 60px !important; }
 
+	ul.sf-js-enabled {
+		display: none !important;
+	}
+	ul.sf-js-enabled.d-block {
+		display: block !important;
+	}
+
 	body:not(.top-search-open) #primary-menu-trigger {
 		opacity: 1;
 		-webkit-transition: opacity .2s .2s ease, top .4s ease;
@@ -2107,6 +2114,7 @@
 
 	.home-title {
 		align-items: center;
+		margin: 0 auto;
 	}
 
 	.header-try-button {
