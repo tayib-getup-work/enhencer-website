@@ -4973,7 +4973,6 @@ div.cookiebtns {
 
 #macbook-container {
 	position: relative;
-    /* background-image: url(../images/macbook.png); */
     width: 620px;
     height: 322px;
 }
@@ -5040,9 +5039,6 @@ div.cookiebtns {
 }
 
 .top-social {
-	/* margin: 5px auto;
-	max-width: 100%;
-	padding: 0 15px; */
     height: 45px;
     display: flex;
     flex-direction: row;
@@ -5144,23 +5140,11 @@ div.cookiebtns {
     line-height: 40px;
 }
 
-/* .white-header .navbar-right-buttons a {
-    border: 2px solid rgb(19, 54, 74) !important;
-} */
-
 
 #forced_header .navbar-right-buttons a:hover {
 	box-shadow: 0 1px 5px 1px white
 }
 
-/* .white-header .navbar-right-buttons a:hover {
-	box-shadow: 0 1px 5px 1px rgb(34, 142, 159) !important;
-}
- */
-
-/* .white-header .navbar-right-buttons a div {
-    color: white;
-} */
 .white_header_sign_in_button{
 	color: #1b7f91 !important;
     border: 2px solid #1b7f91 !important;
