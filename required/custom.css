@@ -4733,7 +4733,7 @@ div.cookiebtns {
 }
 
 .testimonial_slider_wrap_mobile{
-    height: auto !important;
+    /* height: auto !important; */
 	margin-bottom: 138px !important;
 }
 .call_to_action_flex{
