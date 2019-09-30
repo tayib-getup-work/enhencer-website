@@ -1280,6 +1280,18 @@
 		height: 55px;
 	}
 
+	.footer {
+		position: relative;
+	}
+
+	.homepage-footer p{
+		font-size: 13px;
+	}
+	
+	.homepage-footer a{
+		font-size: 13px;
+	}
+
 	#top-cart { display: none; }
 
 	#top-search a { right: 40px; }
