@@ -5356,6 +5356,11 @@ div.cookiebtns {
 	.visible-desktop {
 		display: block;
 	}
+	@media(max-width: 1350px){
+		.wrapper {
+			zoom: 0.8;
+		}
+	}
 }
 @media(min-width: 1150px) {
 	.visible-mobile {

@@ -62,92 +62,24 @@
         ============================================= -->
     <div id="wrapper" class="clearfix">
 
-        <!-- Top Bar
-            ============================================= -->
-        <div id="top-bar" class="transparent-topbar">
+        <!-- Sticky Forced Header -->
 
-            <div class="container clearfix">
-
-                <div class="col_half nobottommargin clearfix">
-
-                    <!-- Top Links
-                        ============================================= -->
-                    <div class="top-links">
-                        <ul>
-                            <!-- <li><a href="https://blog.enhencer.com" target="_blank">Blog</a></li>
-                                <li><a href="faqs.html">FAQs</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="#"><img src="demos/seo/images/flags/eng.png" alt="Lang">Eng</a>
-                                    <ul>
-                                        <li><a href="#"><img src="demos/seo/images/flags/fre.png" alt="Lang">Fre</a></li>
-                                        <li><a href="#"><img src="demos/seo/images/flags/ara.png" alt="Lang">Ara</a></li>
-                                        <li><a href="#"><img src="demos/seo/images/flags/tha.png" alt="Lang">Tha</a></li>
-                                    </ul>
-                                </li> -->
-                        </ul>
-                    </div>
-                    <!-- .top-links end -->
-
-                </div>
-
-                <div class="col_half fright dark col_last clearfix nobottommargin">
-
-                    <!-- Top Social
-                        ============================================= -->
-                    <div id="top-social">
-                        <ul>
-                            <li><a href="https://www.youtube.com/channel/UCIgWv2OQm6vSMlpXph4nbLA?view_as=subscriber"
-                                    class="si-youtube" target="_blank"><span class="ts-icon"><i
-                                            class="icon-youtube"></i></span><span class="ts-text">Youtube</span></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/company/enhencer/" class="si-linkedin"
-                                    target="_blank"><span class="ts-icon"><i class="icon-linkedin"></i></span><span
-                                        class="ts-text">LinkedIn</span></a></li>
-                            <li><a href="https://www.quora.com/topic/Enhencer" class="si-quora" target="_blank"><span
-                                        class="ts-icon"><i class="icon-quora"></i></span><span
-                                        class="ts-text">Quora</span></a></li>
-                            <li><a href="https://www.instagram.com/enhencerapp/" class="si-instagram2"
-                                    target="_blank"><span class="ts-icon"><i class="icon-instagram2"></i></span><span
-                                        class="ts-text">Instagram</span></a></li>
-                            <li><a href="https://twitter.com/enhencerapp?lang=en" class="si-twitter"
-                                    target="_blank"><span class="ts-icon"><i class="icon-twitter"></i></span><span
-                                        class="ts-text">Twitter</span></a></li>
-                            <li><a href="https://www.facebook.com/Enhencer/" class="si-facebook" target="_blank"><span
-                                        class="ts-icon"><i class="icon-facebook"></i></span><span
-                                        class="ts-text">Facebook</span></a></li>
-                        </ul>
-                    </div><!-- #top-social end -->
-
-                </div>
-
-            </div>
-
-        </div><!-- #top-bar end -->
-
-        <!-- Header
-            ============================================= -->
-        <header id="header" class="transparent-header floating-header clearfix">
-
+        <div id="forced_header"
+            class="transparent-header floating-header clearfix sticky-header forced_sticky_header white-header">
             <div id="header-wrap">
-
-                <div class="container clearfix">
-
+                <div class="container-home-wide-body clearfix">
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
                     <!-- Logo
-                        ============================================= -->
+                ============================================= -->
                     <div id="logo">
-                        <a href="/" class="standard-logo" data-dark-logo="images/Log_new.png"><img
-                               src="images/Log_new.png" alt="Enhencer Logo"></a>
-                        <a href="/" class="retina-logo" data-dark-logo="images/Log_new.png"><img
+                        <a href="/" class="standard-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
                                 src="images/Log_new.png" alt="Enhencer Logo"></a>
-                    </div><!-- #logo end -->
-
-                    <!-- Primary Navigation
-                        ============================================= -->
-                    <nav id="primary-menu" class="with-arrows" style="width: 680px; ">
-
-                        <ul id="primarymenumobile" class="ul.sf-js-enabled">
+                        <!-- <a href="/" class="retina-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
+                            src="images/Log_new.png" alt="Enhencer Logo"></a> -->
+                    </div>
+                    <!-- #logo end -->
+                    <nav id="primary-menu" class="with-arrows">
+                        <ul id="primarymenumobile" class="ul.sf-js-enabled" style="margin-top: -3px;">
                             <li>
                                 <a href="connect.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
@@ -157,7 +89,7 @@
                             <li>
                                 <a href="stories/"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Stories'});">
-                                    <div>Stories</div>
+                                    <div>Cases</div>
                                 </a>
                             </li>
                             <li>
@@ -166,7 +98,6 @@
                                     <div>Help</div>
                                 </a>
                             </li>
-
                             <li>
                                 <a href="pricing.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
@@ -179,42 +110,35 @@
                                     <div>Blog</div>
                                 </a>
                             </li>
-
                         </ul>
 
-                        <!-- Top Search
-                            ============================================= -->
-                        <!-- <div id="top-search" class="fleft">
-                                <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-                                <form action="search.html" method="get">
-                                    <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-                                </form>
-                            </div>#top-search end -->
-
-                        <!-- Menu Buttons Please Make this button css a class
-                            ============================================= -->
-                        <a href="https://app.enhencer.com/#!/login"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
-                            target="_blank"
-                            class="button button-rounded button-light bg-white border nott ls0 border-blue button-enhencer-default-green"
-                            style="text-align: center;
-                            padding-left: 0px;
-                            width: 82px;
-                            padding-right: 0px;margin-left: 3%; background-color: transparent !important;">Sign
-                            in</a>
-                        <a href="https://app.enhencer.com/#!/signup"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-                            target="_blank" class="button button-rounded fright try-free-button">Try
-                            Free</a>
-
-
-                    </nav><!-- #primary-menu end -->
-
+                        <div class="navbar-right-buttons">
+                            <a href="https://app.enhencer.com/#!/login"
+                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
+                                target="_blank"
+                                class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green sign_in_button">
+                                <div
+                                    style="text-align: center; font-size: 15px; background-color: transparent !important;">
+                                    Sign in
+                                </div>
+                            </a>
+                            <a href="https://app.enhencer.com/#!/signup"
+                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
+                                target="_blank"
+                                class="button button-rounded fright try-free-button try-free-button-header"
+                                style="width: 100px">
+                                <div style="text-align: center">
+                                    Try it Free
+                                </div>
+                            </a>
+                        </div>
+                    </nav>
                 </div>
-
             </div>
+        </div>
 
-        </header><!-- #header end -->
+
+        <!-- # Sticky Forced Header end -->
         <br>
         <br>
         <br>
