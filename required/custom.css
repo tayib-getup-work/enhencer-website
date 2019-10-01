@@ -5306,7 +5306,7 @@ div.cookiebtns {
 
 @media(max-width: 1499px) and (min-width: 1440px) {
 	.home-layer {
-		left: -5%;
+		left: -16%;
 	}
 
 	.zoomer {
@@ -5320,19 +5320,19 @@ div.cookiebtns {
 
 @media(max-width: 1439px) and (min-width: 1300px) {
 	.home-layer {
-		left: -20%;
+		left: -18%;
 	}
 }
 
 @media(max-width: 1299px) and (min-width: 1220px) {
 	.home-layer {
-		left: -25%;
+		left: -18%;
 	}
 }
 
 @media(max-width: 1219px) and (min-width: 1150px) {
 	.home-layer {
-		left: -30%;
+		left: -20%;
 	}
 }
 
