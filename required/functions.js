@@ -1618,9 +1618,9 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof why3 != 'undefined') {
 					why3.classList.remove("col-4");
 				}
-				if (typeof footeraddress != 'undefined') {
+				/* if (typeof footeraddress != 'undefined') {
 					footeraddress.classList.add("dpn");
-				}
+				} */
 				if (typeof storiesheaderbreadcrumb != 'undefined') {
 					storiesheaderbreadcrumb.classList.add("dpn");
 				}

@@ -4733,7 +4733,7 @@ div.cookiebtns {
 }
 
 .testimonial_slider_wrap_mobile{
-    height: auto !important;
+    /* height: auto !important; */
 	margin-bottom: 138px !important;
 }
 .call_to_action_flex{
@@ -4973,7 +4973,6 @@ div.cookiebtns {
 
 #macbook-container {
 	position: relative;
-    /* background-image: url(../images/macbook.png); */
     width: 620px;
     height: 322px;
 }
@@ -5040,9 +5039,6 @@ div.cookiebtns {
 }
 
 .top-social {
-	/* margin: 5px auto;
-	max-width: 100%;
-	padding: 0 15px; */
     height: 45px;
     display: flex;
     flex-direction: row;
@@ -5140,29 +5136,15 @@ div.cookiebtns {
     width: 82px;
     padding-right: 0px;
     margin-left: 4%;
-    /* border: 2px solid white; */
     border-radius: 5px;
-    /* background: transparent !important; */
-    line-height: 37px;
+    line-height: 40px;
 }
-
-/* .white-header .navbar-right-buttons a {
-    border: 2px solid rgb(19, 54, 74) !important;
-} */
 
 
 #forced_header .navbar-right-buttons a:hover {
 	box-shadow: 0 1px 5px 1px white
 }
 
-/* .white-header .navbar-right-buttons a:hover {
-	box-shadow: 0 1px 5px 1px rgb(34, 142, 159) !important;
-}
- */
-
-/* .white-header .navbar-right-buttons a div {
-    color: white;
-} */
 .white_header_sign_in_button{
 	color: #1b7f91 !important;
     border: 2px solid #1b7f91 !important;
@@ -5303,6 +5285,13 @@ div.cookiebtns {
 
 	#logo {
 		margin-top: 21px;
+	}
+
+	.page6 #content {
+		bottom: 0;
+		left: 0;
+		right: 0;
+		position: absolute;
 	}
   
 }
@@ -6548,3 +6537,37 @@ div.cookiebtns {
 	}
 }
 
+.try-free-sign-in-button-menu-item {
+	display: none;
+}
+
+.homepage-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background: #13364a;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10px;
+}
+
+.homepage-footer p{
+	color: white;
+	font-size: 16px;
+	margin-bottom: 0;
+	margin-right: 15px;
+}
+
+.homepage-footer a{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: underline !important;
+}
+
+.homepage-footer a:hover{
+	text-decoration: none !important;
+}
