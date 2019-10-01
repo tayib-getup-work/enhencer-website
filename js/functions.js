@@ -1214,7 +1214,7 @@ var SEMICOLON = SEMICOLON || {};
 			});
 		},
 
-		onePageScroll: function () {
+		/* onePageScroll: function () {
 			if ($onePageMenuEl.length > 0) {
 				var onePageSpeed = $onePageMenuEl.attr('data-speed'),
 					onePageOffset = $onePageMenuEl.attr('data-offset'),
@@ -1294,7 +1294,7 @@ var SEMICOLON = SEMICOLON || {};
 			});
 
 			return currentOnePageSection;
-		},
+		}, */
 
 		logo: function () {
 			if (($header.hasClass('dark') || $body.hasClass('dark')) && !$headerWrap.hasClass('not-dark')) {

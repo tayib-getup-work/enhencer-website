@@ -5450,16 +5450,13 @@ div.cookiebtns {
 		zoom: 0.85
 	}
 
-	.bgimg {
+/* 	.bgimg {
 		background-image: url(../images/home_layer.png);
 		background-repeat: no-repeat;
 		background-position-x: -130%;
 		background-position-y: 55px;
-	}
+	} */
 
-	.macbook-zoomer {
-		zoom: 0.8
-	}
 
 	.slider-title h1 {
 		font-size: 36px;
@@ -5798,20 +5795,14 @@ div.cookiebtns {
 		max-width: 90%;
 	}
 
-	.zoomer {
-		zoom: 0.9
-	}
 
-	.macbook-zoomer {
-		zoom: 0.9
-	}
 
-	.bgimg {
+	/* .bgimg {
 		background-image: url(../images/home_layer.png);
 		background-repeat: no-repeat;
 		background-position-x: -120%;
 		background-position-y: 10px;
-	}
+	} */
 
 	.slider-title h1 {
 		font-size: 36px;
