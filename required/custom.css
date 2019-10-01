@@ -5357,7 +5357,7 @@ div.cookiebtns {
 		display: block;
 	}
 	@media(max-width: 1350px){
-		.wrapper {
+		#wrapper {
 			zoom: 0.8;
 		}
 	}
