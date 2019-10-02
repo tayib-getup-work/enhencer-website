@@ -4064,19 +4064,16 @@ div.cookiebtns {
 
 
 .home_cases_banner_h3 {
-    /* text-align: center; */
     color: #3e8a81;
     font-weight: 400;
     font-size: 2.2em;
     line-height: 1.5;
     vertical-align: middle;
-    /* height: 75px; */
     margin-bottom: 20px;
 }
 
 .home_cases_banner_p_left {
     font-size: 18px;
-    /* text-align: center; */
     font-weight: 400;
     color: #666;
     padding-right: 10%;
@@ -4084,14 +4081,14 @@ div.cookiebtns {
 
 .home_cases_banner_p_right {
     font-size: 18px;
-    /* text-align: center; */
+    text-align: end;
     font-weight: 400;
     color: #666;
-    padding-right: 19%;
+    padding-left: 19%;
 }
 .home_cases_image_col{
 	padding-left: 0 !important;
-    height: 585px;
+    /* height: 585px; */
 }
 
 .home_cases_banner_ul {
@@ -4691,11 +4688,20 @@ div.cookiebtns {
 	margin-top: 95px;
 }
 
+
+
+
+#casesecondcol1 .cases_overview_icon, #casesecondcol3 .cases_overview_icon, #casesecondcol5 .cases_overview_icon, #casesecondcol7 .cases_overview_icon{
+	justify-content: flex-end !important;
+	margin-right: -10.5% !important;
+	margin-left: 0 !important;
+}
+
 .cases_overview_icon {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-    flex-direction: row;
+	flex-direction: row;
 }
 
 .cross_sell_h1{
@@ -5179,6 +5185,34 @@ div.cookiebtns {
 
 	.page2 {
 		margin-bottom: 60px
+	}
+
+	.page3 .slider-wrap img{
+		height: 100%;;
+	}
+	
+	.page3 .slide #caseimage2, .page3 .slide #caseimage4, .page3 .slide #caseimage6, .page3 .slide #caseimage8 {
+		padding-right: 0 !important
+	}
+	
+	.page3 .slide #caseimage2 img, .page3 .slide #caseimage4 img, .page3 .slide #caseimage6 img, .page3 .slide #caseimage8 img {
+		float: right;
+	}
+	
+	.page3 #casesecondcol1, .page3 #casesecondcol3, .page3 #casesecondcol5, .page3 #casesecondcol7 {
+		padding-right: 15% !important;
+	}
+
+	#caseslide1 .home_cases_banner_h3, #caseslide3 .home_cases_banner_h3, #caseslide5 .home_cases_banner_h3, #caseslide7 .home_cases_banner_h3 {
+		text-align: end
+	}
+	
+	#caseslide1 .button_read_more, #caseslide3 .button_read_more, #caseslide5 .button_read_more, #caseslide7 .button_read_more {
+		float: right
+	}
+
+	#caseslide1 i, #caseslide3 i, #caseslide5 i, #caseslide7 i {
+		width: 85px;
 	}
 
 	#logo {
@@ -6466,3 +6500,4 @@ div.cookiebtns {
 .homepage-footer a:hover{
 	text-decoration: none !important;
 }
+
