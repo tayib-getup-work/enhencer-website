@@ -2741,31 +2741,31 @@ div[class*=box] {
 }
 
 
-/* Stories Styles */
+/* cases Styles */
 
-.stories-h1{
+.cases-h1{
 	font-weight: 400;
 	font-size: 2.5em;
 	color: #29887d;
 	text-align: center;
 }
 
-.stories-bullet{
+.cases-bullet{
 	margin-left:9%;
 	line-height: 1.8;
 }
 
-.stories-ul{
+.cases-ul{
 	color:#58686C;
 }
 
-.stories_col_half {
+.cases_col_half {
 	display: block;
 	width:50%;
     position: relative;
     float: left;	
 }
-.stories-container {
+.cases-container {
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
@@ -2773,7 +2773,7 @@ div[class*=box] {
     margin-left: auto;
     max-width: 81.5%;
 }
-.stories-container-body{
+.cases-container-body{
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
@@ -2810,31 +2810,31 @@ div[class*=box] {
 	top:1px;
 }
 
-.stories-h3{
+.cases-h3{
 	font-weight: 400;
 	font-size: 1.5em;
 	color: #29887d;
 	text-align: left;
 }
 
-.stories-p{
+.cases-p{
 	font-size: 1.3em;
 	text-align: justify;
 }
 
-.stories-border-right{
+.cases-border-right{
 	border-right: 2px solid #00000082;
 }
 
-.stories-tab-icons{
+.cases-tab-icons{
 	font-size: 2em !important;
 }
 
-.stories-pred{
+.cases-pred{
 	width: 94px;
 }
 
-.stories-h5{
+.cases-h5{
 	font-size: 2em !important;
 	font-weight: 400 !important;
 	line-height: 125px;
@@ -2850,7 +2850,7 @@ div[class*=box] {
 	margin-top:10px;
 }
 
-.stories-col_one_third { 
+.cases-col_one_third { 
 	width: 30.63%; 
 	display: block;
 	position: relative;
@@ -2872,13 +2872,13 @@ div[class*=box] {
 	color:#333;
 }
 
-.stories-bold{
+.cases-bold{
 	color:#29887d;
 	font-size: 1.6em;
 	margin-right: 10px;
 }
 
-.stories-i-bordered {
+.cases-i-bordered {
 	border: 2px solid #358f84;
 	line-height: 40px !important;
 	background-color: transparent !important;
@@ -2886,7 +2886,7 @@ div[class*=box] {
 	text-shadow: none;
 }
 
-.stories-i-rounded {
+.cases-i-rounded {
 	width: 35px !important;
 	height: 35px !important;
 	line-height: 32px !important;
@@ -2894,7 +2894,7 @@ div[class*=box] {
 	border-radius: 12%;
 }
 
-.stories-i-rounded, .stories-i-bordered {
+.cases-i-rounded, .cases-i-bordered {
 	display: block;
 	float: left;
 	margin: -2px 11px 0 0;
@@ -2905,8 +2905,8 @@ div[class*=box] {
 	font-style: normal;
 }
 
-.stories-background{
-	/* background-image: url(../images/stories.jpg); */
+.cases-background{
+	/* background-image: url(../images/cases.jpg); */
 	background-color: #eee;
 	width: 100%;
 	height: 175px;  
@@ -2914,7 +2914,7 @@ div[class*=box] {
 	background-position: center;
 }
 
-.stories_lift:before{
+.cases_lift:before{
 	content: '';
 	background: url(../images/svgs/change-position.svg) no-repeat;
 	zoom: 55%;
@@ -2923,7 +2923,7 @@ div[class*=box] {
 	display: inline-block;
 }
 
-.stories_accuracy:before{
+.cases_accuracy:before{
 	content: '';
 	background: url(../images/svgs/target.svg) no-repeat;
 	zoom: 55%;
@@ -2932,7 +2932,7 @@ div[class*=box] {
 	display: inline-block;
 }
 
-.stories_profit:before{
+.cases_profit:before{
 	content: '';
 	background: url(../images/svgs/bar-graph-with-dollar-sign.svg) no-repeat;
 	/* zoom: 55%; */
@@ -2941,7 +2941,7 @@ div[class*=box] {
 	display: inline-block;
 }
 
-.stories-header{
+.cases-header{
 	font-size: 4.4em;
 	color: #444444;
 	font-family: sans-serif;
@@ -2949,16 +2949,16 @@ div[class*=box] {
 	width: 650px"
 }
 
-.stories-tab-top{
+.cases-tab-top{
 	display: inherit;
 	text-align: -webkit-center;
 }
 
-.stories-tab-body{
+.cases-tab-body{
 	padding-top:120px;
 }
 
-.product-propensity-stories{
+.product-propensity-cases{
 	content: '';
 	background: url(../images/icons/services/icons8-rent-50.svg) no-repeat;
 	position: relative;
@@ -2992,7 +2992,7 @@ div[class*=box] {
 	line-height: 125px;
 }
 
-.stories-divider {
+.cases-divider {
   width: 2px;
   margin: 6px 0;
   background: blue;
@@ -3033,20 +3033,20 @@ div[class*=box] {
 	margin-top: 65px;
 }
 
-.home-stories-headings{
+.home-cases-headings{
 	font-size: 1.8em !important;
 	/* width: max-content; */
 	/* margin-left: 2% !important; */
 	text-align: center;
 }
 
-.home-stories-p{
+.home-cases-p{
   font-size: 1.1em;
 	/* margin-left: 2% !important; */
 	margin-top:-10px !important;
 }
 
-.home-stories-icon{
+.home-cases-icon{
 	top:-17px;
 }
 
@@ -4063,7 +4063,7 @@ div.cookiebtns {
 
 
 
-.home_stories_banner_h3 {
+.home_cases_banner_h3 {
     /* text-align: center; */
     color: #3e8a81;
     font-weight: 400;
@@ -4074,7 +4074,7 @@ div.cookiebtns {
     margin-bottom: 20px;
 }
 
-.home_stories_banner_p_left {
+.home_cases_banner_p_left {
     font-size: 18px;
     /* text-align: center; */
     font-weight: 400;
@@ -4082,31 +4082,31 @@ div.cookiebtns {
     padding-right: 10%;
 }
 
-.home_stories_banner_p_right {
+.home_cases_banner_p_right {
     font-size: 18px;
     /* text-align: center; */
     font-weight: 400;
     color: #666;
     padding-right: 19%;
 }
-.home_stories_image_col{
+.home_cases_image_col{
 	padding-left: 0 !important;
     height: 585px;
 }
 
-.home_stories_banner_ul {
+.home_cases_banner_ul {
     /* text-align: center; */
 	list-style-position: inside;
 	margin-left: 2%;
 }
 
-.home_stories_banner_read_more{
+.home_cases_banner_read_more{
 	font-size: 1.5em;
     text-decoration: underline !important;
     color: #3e8a81 !important;
 }
 
-.home_stories_banner_h1 {
+.home_cases_banner_h1 {
     color: #004159;
     font-weight: 400;
     font-size: 3em;
@@ -4383,7 +4383,7 @@ div.cookiebtns {
 
 .likelihood_to_purchase:before {
     content: '';
-    background: url(../stories/images/overview/icons/cash_counter.png) no-repeat;
+    background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
     position: relative;
     /* z-index: 100000; */
     top: 45px;
@@ -4398,7 +4398,7 @@ div.cookiebtns {
 
 .churn_proability:before {
     content: '';
-    background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+    background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
     position: relative;
     /* z-index: 100000; */
     top: 45px;
@@ -4412,7 +4412,7 @@ div.cookiebtns {
 }
 .sales_forecast:before {
     content: '';
-    background: url(../stories/images/overview/icons/cart.png) no-repeat;
+    background: url(../cases/images/overview/icons/cart.png) no-repeat;
     position: relative;
     /* z-index: 100000; */
     top: 45px;
@@ -4426,7 +4426,7 @@ div.cookiebtns {
 }
 .turnover_prediction:before {
     content: '';
-    background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+    background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
     position: relative;
     /* z-index: 100000; */
     top: 45px;
@@ -4441,7 +4441,7 @@ div.cookiebtns {
 
 .demand_forecasting:before {
     content: '';
-    background: url(../stories/images/overview/icons/man_with_a_sign.png) no-repeat;
+    background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
     position: relative;
     /* z-index: 100000; */
     top: 50px;
@@ -4476,7 +4476,7 @@ div.cookiebtns {
 
 .purchase_prpensity:before {
     content: '';
-    background: url(../stories/images/overview/icons/cart.png) no-repeat;
+    background: url(../cases/images/overview/icons/cart.png) no-repeat;
     position: relative;
     /* z-index: 100000; */
     top: 45px;
@@ -4490,7 +4490,7 @@ div.cookiebtns {
 }
 .fraud_prevention:before {
     content: '';
-    background: url(../stories/images/overview/icons/icons8-fraud-100.png) no-repeat;
+    background: url(../cases/images/overview/icons/icons8-fraud-100.png) no-repeat;
     position: relative;
     /* z-index: 100000; */
     top: 45px;
@@ -4504,7 +4504,7 @@ div.cookiebtns {
 }
 .failure_prevention:before {
     content: '';
-    background: url(../stories/images/overview/icons/icons8-settings-96.png) no-repeat;
+    background: url(../cases/images/overview/icons/icons8-settings-96.png) no-repeat;
     position: relative;
     /* z-index: 100000; */
     top: 45px;
@@ -4747,59 +4747,59 @@ div.cookiebtns {
 }
 
 .likelihood_to_purchase_header_background {
-	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/likelihood_to_purchase.jpg)
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../cases/images/likelihood_to_purchase.jpg)
 }
 .cross_sell_header_background {
-	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/cross-sell.jpeg)
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../cases/images/cross-sell.jpeg)
 }
 .churn_probability_header_background {
-	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/Churn\ Probability.jpeg)
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../cases/images/Churn\ Probability.jpeg)
 }
 .demad_forecasting_header_background {
-	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/Demand-Forecasting.jpg)
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../cases/images/Demand-Forecasting.jpg)
 }
 .fraud_prevention_header_background {
-	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/fraud-prevention.png)
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../cases/images/fraud-prevention.png)
 }
 .employee_turnover_prediction_header_background {
-	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/Employee-Turnover-Prediction.png)
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../cases/images/Employee-Turnover-Prediction.png)
 }
 .predictive_maintenance_header_background {
-	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/Predictive-Maintenance.jpg)
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../cases/images/Predictive-Maintenance.jpg)
 }
 .dealer_sales_performance_header_background {
-	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../stories/images/Dealer-Sales-Forecasting.png)
+	background:linear-gradient(0deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../cases/images/Dealer-Sales-Forecasting.png)
 }
 
-.stories_card_padding{
+.cases_card_padding{
 	padding-right: 4% !important;
     padding-left: 4% !important;
 }
-.stories_card_height{
+.cases_card_height{
 	height: 350px !important;
 }
-.stories_header_title {
+.cases_header_title {
     height: 150px;
     line-height: 150px !important;
     color: #fff !important;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 4em !important;
 }
-.stories_left_h2 {
+.cases_left_h2 {
     font-size: 2.5em;
     font-weight: 600;
     color: #109E6B;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-.stories_right_h2 {
+.cases_right_h2 {
     font-size: 2.5em;
     font-weight: 600;
     color: #109E6B;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     text-align: right;
 }
-.stories_cartoon_h2{
+.cases_cartoon_h2{
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-size: 2.5em;    
 	padding-top: 80px;
@@ -4808,64 +4808,64 @@ div.cookiebtns {
 	font-family: Pacifico; 
 	font-style: normal;
 }
-.stories_first_image{
+.cases_first_image{
 	text-align: right;
 }
-.stories_2nd_image{
+.cases_2nd_image{
 	text-align: left;
 }
-.stories_3rd_image{
+.cases_3rd_image{
 	text-align: right;
 }
 
 
 
-.stories_div_flex{
+.cases_div_flex{
 	display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.stories_2nd_div_flex{
+.cases_2nd_div_flex{
 	display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.stories_left_div_flex{
+.cases_left_div_flex{
 	display: flex;
     flex-direction: column;
     align-items: flex-start;
 	justify-content: center;
 	padding-right: 7%;
 }
-.stories_right_div_flex {
+.cases_right_div_flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 7%;
 }
-.stories_third_div_flex{
+.cases_third_div_flex{
 	display: flex;
     flex-direction: column;
     align-items: flex-start;
 	justify-content: center;
 }
-.stories_left_para_p{
+.cases_left_para_p{
     font-size: 1.4em;
     text-align: justify;
     font-weight: 300;
     color: #58686C;
 }
 
-.stories_right_para_p{
+.cases_right_para_p{
     font-size: 1.4em;
     text-align: justify;
     font-weight: 300;
     color: #58686C;
 }
 
-.stories_bullet{
+.cases_bullet{
 	margin-left:9%;
 	line-height: 1.8;
 	font-size: 1.5em;
@@ -4875,14 +4875,14 @@ div.cookiebtns {
     display: flex;
     flex-direction: column;
 }
-.stories_margin_top_xxl{
+.cases_margin_top_xxl{
 	margin-top: 10rem !important;
 }
-.stories_padding_top_xxl{
+.cases_padding_top_xxl{
 	padding-top: 7rem !important;
 }
 
-.stories_home_title {
+.cases_home_title {
     color: white !important;
     font-weight: 300 !important;
     font-size: 50px !important;
@@ -4891,19 +4891,19 @@ div.cookiebtns {
     /* top: 45%; */
     margin-bottom: 30px !important;
 }
-.stories_header_flex {
+.cases_header_flex {
     display: flex;
     flex-direction: column;
     align-items: inherit;
     justify-content: space-between;
 }
-.stories_header_subtitle {
+.cases_header_subtitle {
     color: white;
     width: 49%;
     font-size: 1.2em;
 }
 
-.try_today_button_stories {
+.try_today_button_cases {
     background-color: #ffffff;
     -moz-border-radius: 32px;
     -webkit-border-radius: 32px;
@@ -4917,21 +4917,21 @@ div.cookiebtns {
     padding: 8px 35px;
     text-decoration: none;
 }
-.try_today_button_stories:hover {
+.try_today_button_cases:hover {
     color: white;
     background: transparent;
     border: 2px solid white;
     box-shadow: 0 1px 5px 1px white!important;
 }
-.stories_tab_flex{
+.cases_tab_flex{
 	display: flex;
     flex-direction: row;
 }
-.stories_home_header{
-	background-image: url('../stories/images/stories-home.jpg'); background-size: cover; background-position: right; padding-top: 125px !important;
+.cases_home_header{
+	background-image: url('../cases/images/cases-home.jpg'); background-size: cover; background-position: right; padding-top: 125px !important;
      background-repeat: no-repeat;
 }
-.stories_try_it_free_button {
+.cases_try_it_free_button {
     background-color: transparent;
     -moz-border-radius: 32px;
     -webkit-border-radius: 32px;
@@ -4944,19 +4944,19 @@ div.cookiebtns {
     text-decoration: none;
     margin-right: 3%;
 }
-.stories_try_it_free_button:hover {
+.cases_try_it_free_button:hover {
     color: #444;
     background: white;
     border: 2px solid white;
     box-shadow: 0 1px 5px 1px white!important;
 }
-.stories_button_flex{
+.cases_button_flex{
 	display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
 }
-.stories_individual_header_flex{
+.cases_individual_header_flex{
 	display: flex;
     flex-direction: column;
     align-items: inherit;
@@ -5168,119 +5168,17 @@ div.cookiebtns {
 	margin-top: 30px
 }
 
-.one_page_body{
-	display: block;
-    position: static;
-    padding: 0;
-    width: 100%;
-	height: 100%;
-	margin: 0;
-    overflow: hidden;
-    -webkit-transition: opacity 400ms;
-    -moz-transition: opacity 400ms;
-    transition: opacity 400ms;
-}
 
 
-
-/* One Page Scroll */
 
 @media (min-width: 1150px) {
 
-	body, html {
-		margin: 0;
-		overflow: auto;
-		-webkit-transition: opacity 400ms;
-		-moz-transition: opacity 400ms;
-		transition: opacity 400ms;
+	.page1 {
+		margin-bottom: 14%
 	}
-  
-	body, .onepage-wrapper, html {
-	  display: block;
-	  position: static;
-	  padding: 0;
-	  width: 100%;
-	  height: 100%;
-	}
-  
-	.onepage-wrapper {
-	  width: 100%;
-	  height: 100%;
-	  display: block;
-	  position: relative;
-	  padding: 0;
-	  -webkit-transform-style: preserve-3d;
-	}
-  
-	.onepage-wrapper .ops-section {
-	  width: 100%;
-	  height: 100%;
-	  position: relative;
-	}
-  
-	.onepage-pagination {
-		position: absolute;
-		right: 10px;
-		top: 42%;
-		z-index: 5;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-	.onepage-pagination li {
-	  padding: 0;
-	  text-align: center;
-	}
-	.onepage-pagination li a{
-	  padding: 10px;
-	  width: 4px;
-	  height: 4px;
-	  display: block;
-	  
-	}
-	.onepage-pagination li a:before{
-	  content: '';
-	  position: absolute;
-	  width: 4px;
-	  height: 4px;
-	  background: rgba(0,0,0,0.85);
-	  border-radius: 10px;
-	  -webkit-border-radius: 10px;
-	  -moz-border-radius: 10px;
-	}
-  
-	.onepage-pagination li a.active:before{
-	  width: 10px;
-	  height: 10px;
-	  background: none;
-	  border: 1px solid black;
-	  margin-top: -4px;
-	  left: 8px;
-	}
-  
-	.disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
-	  overflow: auto;
-	}
-  
-	.disabled-onepage-scroll .onepage-wrapper .ops-section {
-	  position: relative !important;
-	  top: auto !important;
-	}
-	.disabled-onepage-scroll .onepage-wrapper {
-	  -webkit-transform: none !important;
-	  -moz-transform: none !important;
-	  transform: none !important;
-	  -ms-transform: none !important;
-	  min-height: 100%;
-	}
-  
-  
-	.disabled-onepage-scroll .onepage-pagination {
-	  display: none;
-	}
-  
-	body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
-	  position: inherit;
+
+	.page2 {
+		margin-bottom: 60px
 	}
 
 	#logo {
@@ -5296,11 +5194,17 @@ div.cookiebtns {
   
 }
 
+@media(min-width: 1365px) and (max-width: 1700px) {
+	.page1 {
+		margin-bottom: 17%;
+	}
+}
+
 
   /* PC Responsive */
 @media(max-width: 1680px) and (min-width: 1500px) {
 	.home-layer {
-		left: -12%;
+		left: -9%;
 	}
 }
 
@@ -5538,7 +5442,7 @@ div.cookiebtns {
 
 	.purchase_prpensity:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cart.png) no-repeat;
+		background: url(../cases/images/overview/icons/cart.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -5551,14 +5455,14 @@ div.cookiebtns {
 		margin-left: -16%;
 	}
 
-	.home_stories_banner_h1 {
+	.home_cases_banner_h1 {
 		color: #004159;
 		font-weight: 400;
 		font-size: 2.5em;
 		margin-top: -25px;
 	}
 
-	.home_stories_banner_h3 {
+	.home_cases_banner_h3 {
 		/* text-align: center; */
 		color: #3e8a81;
 		font-weight: 400;
@@ -5568,14 +5472,14 @@ div.cookiebtns {
 		/* height: 75px; */
 	}
 
-	.home_stories_banner_p_right {
+	.home_cases_banner_p_right {
 		font-size: 16px;
 		font-weight: 400;
 		color: #666;
 		padding-right: 2.5%;
 		padding-left: 2.5%;
 	}
-	.home_stories_banner_p_left {
+	.home_cases_banner_p_left {
 		font-size: 16px;
 		font-weight: 400;
 		color: #666;
@@ -5597,7 +5501,7 @@ div.cookiebtns {
 
 	.likelihood_to_purchase:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cash_counter.png) no-repeat;
+		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -5612,7 +5516,7 @@ div.cookiebtns {
 
 	.demand_forecasting:before {
 		content: '';
-		background: url(../stories/images/overview/icons/man_with_a_sign.png) no-repeat;
+		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 50px;
@@ -5628,7 +5532,7 @@ div.cookiebtns {
 
 	.churn_proability:before {
 		content: '';
-		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -5880,7 +5784,7 @@ div.cookiebtns {
 
 	.purchase_prpensity:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cart.png) no-repeat;
+		background: url(../cases/images/overview/icons/cart.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -5893,14 +5797,14 @@ div.cookiebtns {
 		margin-left: -13%;
 	}
 
-	.home_stories_banner_p {
+	.home_cases_banner_p {
 		font-size: 1.3em;
 		/* text-align: center; */
 		font-weight: 200;
 		color: black;
 		padding-right: 15%;
 	}
-	.home_stories_banner_p {
+	.home_cases_banner_p {
 		font-size: 1.3em;
 		/* text-align: center; */
 		font-weight: 200;
@@ -5922,7 +5826,7 @@ div.cookiebtns {
 	}
 	.likelihood_to_purchase:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cash_counter.png) no-repeat;
+		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -5937,7 +5841,7 @@ div.cookiebtns {
 
 	.demand_forecasting:before {
 		content: '';
-		background: url(../stories/images/overview/icons/man_with_a_sign.png) no-repeat;
+		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 50px;
@@ -5953,7 +5857,7 @@ div.cookiebtns {
 
 	.churn_proability:before {
 		content: '';
-		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -6177,7 +6081,7 @@ div.cookiebtns {
 		margin-top: 0;
 	}
 
-	.home_stories_banner_h1 {
+	.home_cases_banner_h1 {
 		color: #004159;
 		font-weight: 400;
 		font-size: 2.8em;
@@ -6186,7 +6090,7 @@ div.cookiebtns {
 
 	.purchase_prpensity:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cart.png) no-repeat;
+		background: url(../cases/images/overview/icons/cart.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -6199,7 +6103,7 @@ div.cookiebtns {
 		margin-left: -13%;
 	}
 
-	.home_stories_banner_h3 {
+	.home_cases_banner_h3 {
 		/* text-align: center; */
 		color: #3e8a81;
 		font-weight: 400;
@@ -6209,7 +6113,7 @@ div.cookiebtns {
 		/* height: 75px; */
 	}
 
-	.home_stories_banner_p {
+	.home_cases_banner_p {
 		font-size: 1.4em;
 		/* text-align: center; */
 		font-weight: 200;
@@ -6233,7 +6137,7 @@ div.cookiebtns {
 
 	.likelihood_to_purchase:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cash_counter.png) no-repeat;
+		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -6248,7 +6152,7 @@ div.cookiebtns {
 
 	.demand_forecasting:before {
 		content: '';
-		background: url(../stories/images/overview/icons/man_with_a_sign.png) no-repeat;
+		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 50px;
@@ -6264,7 +6168,7 @@ div.cookiebtns {
 
 	.churn_proability:before {
 		content: '';
-		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -6457,7 +6361,7 @@ div.cookiebtns {
 
 	.churn_proability:before {
 		content: '';
-		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;

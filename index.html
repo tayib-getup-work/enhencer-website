@@ -36,8 +36,6 @@
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300,200' rel="preload" type='text/css'
 		media="print" />
 
-	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 	<link rel="preload" href="css/colors.php?color=FE9603" type="text/css" media="print" /> <!-- Theme Color -->
 	<link rel="preload" href="required/googlefonts.min.css" type="text/css" media="print" />
 	<link rel="stylesheet" href="required/bootstrap.css" type="text/css" />
@@ -49,12 +47,9 @@
 	<link rel="stylesheet" href="required/responsive.css" type="text/css" media="screen and (max-width:1149px)" />
 	<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 
-	<!-- <link rel="stylesheet/scss" type="text/css" href="required/buttons.scss"> -->
-	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.3/sass.min.js"></script> -->
-	<script src="required/onepagescroll.min.js" async="async"></script>
 	<!-- Document Wrapper
 	============================================= -->
-	<div id="wrapper" class="onepage-wrapper clearfix"
+	<div id="wrapper" class="clearfix"
 		style="transform: translate3d(0px, 0%, 0px); transition: transform 1000ms ease 0s;">
 
 		<!-- Sticky Forced Header -->
@@ -80,8 +75,8 @@
 								</a>
 							</li>
 							<li>
-								<a href="stories/"
-									onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Stories'});">
+								<a href="cases/"
+									onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'cases'});">
 									<div>Cases</div>
 								</a>
 							</li>
@@ -148,7 +143,7 @@
 		<div id="scrollermain" class="main">
 			<!-- Section 1
 		============================================= -->
-			<section class="page1">
+			<div class="page1">
 				<img class="home-layer" src="images/home_layer.webp" alt="">
 				<div class="container-home-wide-body">
 					<br>
@@ -157,7 +152,7 @@
 								src="images/enhencer.png"></a>
 						<div class="navbar-menu">
 							<a class="navbar-menu-button" href="connect.html">Connect</a>
-							<a class="navbar-menu-button" href="stories/">Cases</a>
+							<a class="navbar-menu-button" href="cases/">Cases</a>
 							<a class="navbar-menu-button" href="help.html">Help</a>
 							<a class="navbar-menu-button" href="pricing.html">Pricing</a>
 							<a class="navbar-menu-button" href="blog/">Blog</a>
@@ -206,21 +201,22 @@
 								type="video/mp4" loop autoplay muted> </video></div>
 					</div>
 				</div>
-			</section>
+			</div>
 
 
 
 			<!-- Section 2
 		============================================= -->
 
-			<section class="page2">
+			<div class="page2">
 				<div id="content" class="margin_top_section_2">
 					<div class="content-wrap pt-0" style="margin-top: -50px !important;">
+
 
 						<!-- Flow Chart 
 				============================================= -->
 
-						<div class="container clearfix py-8 mb-4">
+						<div class="cases-container-body clearfix py-8 mb-4">
 							<h1 class="nott mt-5 ls0 mb-3 home-integration-heading">
 								Predictive Business Intelligence
 							</h1>
@@ -271,9 +267,7 @@
 											</div>
 										</div>
 										<div class="ps-bot">
-											<!-- <p>Use our offline
-										and online data
-										integrations for a continuous flow.</p> -->
+										
 										</div>
 										<span class="ps-sp-top">1</span>
 									</li>
@@ -312,9 +306,6 @@
 											</div>
 										</div>
 										<div class="ps-top">
-											<!-- <p>Get predictions
-										for new data and
-										monitor accuracy.</p> -->
 										</div>
 										<span class="ps-sp-bot">2</span>
 									</li>
@@ -355,10 +346,6 @@
 											</div>
 										</div>
 										<div class="ps-bot">
-											<!-- <p>Integrate
-										predictions in any
-										format to take actions
-									</p> -->
 										</div>
 										<span class="ps-sp-top">3</span>
 									</li>
@@ -398,9 +385,6 @@
 											</div>
 										</div>
 										<div class="ps-top" style="margin-left:5%;">
-											<!-- <p>Monitor the
-										Predictions and
-										Observed Events to calculate ROI</p> -->
 										</div>
 										<span class="ps-sp-bot">4</span>
 									</li>
@@ -411,13 +395,13 @@
 						<!-- #Flow Chart Ends -->
 					</div>
 				</div>
-			</section>
+			</div>
 			<!-- #Section 2 Ends -->
 
 			<!-- Section 3
 		============================================= -->
 
-			<section class="page3">
+			<div>
 				<div id="content" style="margin-top: -25px;">
 					<div class="content-wrap pt-0">
 
@@ -435,14 +419,14 @@
 											<div id="casesecondcol2" class="col-7 something-padding">
 
 												<h2
-													class="home_stories_banner_h1 cases_overview_icon likelihood_to_purchase_h1">
+													class="home_cases_banner_h1 cases_overview_icon likelihood_to_purchase_h1">
 													<i class="likelihood_to_purchase "></i>
 													Likelihood to Purchase
 												</h2>
 
 												<div>
 													<div>
-														<p class="mt-3 home_stories_banner_p_left">Which lead has a high
+														<p class="mt-3 home_cases_banner_p_left">Which lead has a high
 															likelihood
 															to purchase? What are the factors leading to a purchase?
 															Enhencer
@@ -458,13 +442,13 @@
 														</p>
 													</div>
 													<div>
-														<h3 class="home_stories_banner_h3">Accuracy + Speed = Profit
+														<h3 class="home_cases_banner_h3">Accuracy + Speed = Profit
 														</h3>
-														<p class="mt-3 mb-1 home_stories_banner_p_left">Few minutes are
+														<p class="mt-3 mb-1 home_cases_banner_p_left">Few minutes are
 															enough to
 															build a propensity model and you can start increasing:
 															<ul
-																class="home_stories_banner_p_left home_stories_banner_ul">
+																class="home_cases_banner_p_left home_cases_banner_ul">
 																<li>
 																	Conversion rates in e-mail marketing
 																</li>
@@ -476,16 +460,16 @@
 																</li>
 															</ul>
 														</p>
-														<a href="stories/likelihood-to-purchase.html" target="_blank"
+														<a href="cases/likelihood-to-purchase.html" target="_blank"
 															class="button_read_more mt-3">Read More<i
 																class="icon-line-arrow-right button_read_more_arrow"></i>
 														</a>
 													</div>
 												</div>
 											</div>
-											<div id="caseimage2" class="col-5 home_stories_image_col"
+											<div id="caseimage2" class="col-5 home_cases_image_col"
 												style="padding-left: 0 !important;">
-												<a><img src="stories/images/overview/Likelihood-to-Purchase.webp"
+												<a><img src="cases/images/overview/Likelihood-to-Purchase.webp"
 														alt="Customer Testimonails"></a>
 											</div>
 										</div>
@@ -495,22 +479,22 @@
 
 									<div class="slide">
 										<div id="caseslide1" class="row">
-											<div id="caseimage1" class="col-5 home_stories_image_col"
+											<div id="caseimage1" class="col-5 home_cases_image_col"
 												style="padding-left: 0 !important;">
-												<a><img src="stories/images/overview/Cross-Sell-tiny.webp"
+												<a><img src="cases/images/overview/Cross-Sell-tiny.webp"
 														alt="Customer Testimonails"></a>
 											</div>
 											<div id="casesecondcol1" class="col-7">
 												<div>
 													<h2
-														class="home_stories_banner_h1 cases_overview_icon cross_sell_h1">
+														class="home_cases_banner_h1 cases_overview_icon cross_sell_h1">
 														<i class="purchase_prpensity"></i>
 														Cross-sell/Up-sell
 													</h2>
 												</div>
 												<div>
 													<div>
-														<p class="mt-3 home_stories_banner_p_right">Which customers have
+														<p class="mt-3 home_cases_banner_p_right">Which customers have
 															the
 															highest
 															probability to purchase other
@@ -527,17 +511,17 @@
 														</p>
 													</div>
 													<div>
-														<h3 class="home_stories_banner_h3">Make the most of what you
+														<h3 class="home_cases_banner_h3">Make the most of what you
 															have
 														</h3>
-														<p class="mt-3 mb-1 home_stories_banner_p_right">You can export
+														<p class="mt-3 mb-1 home_cases_banner_p_right">You can export
 															a
 															prediction
 															formula which outputs cross-selling
 															likelihood for each existing customer and you can start
 															increasing:
 															<ul
-																class="home_stories_banner_p_right home_stories_banner_ul">
+																class="home_cases_banner_p_right home_cases_banner_ul">
 																<li>
 																	Save your time on marketing activities
 																</li>
@@ -549,7 +533,7 @@
 																</li>
 															</ul>
 														</p>
-														<a href="stories/cross-sell.html" target="_blank"
+														<a href="cases/cross-sell.html" target="_blank"
 															class="button_read_more">Read
 															More<i
 																class="icon-line-arrow-right button_read_more_arrow"></i></a>
@@ -566,14 +550,14 @@
 											<div id="casesecondcol4" class="col-7 something-padding">
 												<div>
 													<h2
-														class="home_stories_banner_h1 cases_overview_icon churn_proability_h1">
+														class="home_cases_banner_h1 cases_overview_icon churn_proability_h1">
 														<i class="churn_proability"></i>
 														Churn Probability
 													</h2>
 												</div>
 												<div>
 													<div>
-														<p class="mt-3 home_stories_banner_p_left">Enhencer predicts the
+														<p class="mt-3 home_cases_banner_p_left">Enhencer predicts the
 															churn
 															probability for each existing and new customer.
 															Detecting
@@ -589,10 +573,10 @@
 														</p>
 													</div>
 													<div>
-														<h3 class="home_stories_banner_h3">A penny saved is a penny
+														<h3 class="home_cases_banner_h3">A penny saved is a penny
 															earned
 														</h3>
-														<p class="mt-3 mb-1 home_stories_banner_p_left">With Enhencer,
+														<p class="mt-3 mb-1 home_cases_banner_p_left">With Enhencer,
 															you
 															will
 															clearly see which customers will leave, and most
@@ -602,7 +586,7 @@
 															they leaving, thanks to its transparent algorithms. You
 															can;
 															<ul
-																class="home_stories_banner_p_left home_stories_banner_ul">
+																class="home_cases_banner_p_left home_cases_banner_ul">
 																<li>
 																	Increase retention by taking actions to reduce
 																	churn.
@@ -618,15 +602,15 @@
 																</li>
 															</ul>
 														</p>
-														<a href="stories/Churn-Probability.html" target="_blank"
+														<a href="cases/Churn-Probability.html" target="_blank"
 															class="button_read_more mt-3">Read More<i
 																class="icon-line-arrow-right button_read_more_arrow"></i></a>
 													</div>
 												</div>
 											</div>
-											<div id="caseimage4" class="col-5 home_stories_image_col"
+											<div id="caseimage4" class="col-5 home_cases_image_col"
 												style="padding-left: 0 !important;">
-												<a><img src="stories/images/overview/Churn_Probability.webp"
+												<a><img src="cases/images/overview/Churn_Probability.webp"
 														alt="Customer Testimonails"></a>
 											</div>
 										</div>
@@ -636,16 +620,16 @@
 
 									<div class="slide">
 										<div id="caseslide3" class="row">
-											<div id="caseimage3" class="col-5 home_stories_image_col"
+											<div id="caseimage3" class="col-5 home_cases_image_col"
 												style="padding-left: 0 !important;">
-												<a><img src="stories/images/overview/demand_forecasting.webp"
+												<a><img src="cases/images/overview/demand_forecasting.webp"
 														alt="Customer Testimonails" style="    height: 825px;"></a>
 											</div>
 											<div id="casesecondcol3" class="col-7 mt-4">
 
 												<div>
 													<h2
-														class="home_stories_banner_h1 cases_overview_icon demand_forecasting_h1">
+														class="home_cases_banner_h1 cases_overview_icon demand_forecasting_h1">
 														<i class="demand_forecasting"></i>
 														Demand Forecasting
 													</h2>
@@ -654,7 +638,7 @@
 													<div>
 													</div>
 													<div>
-														<p class="mt-3 home_stories_banner_p_right">Demand Forecasting
+														<p class="mt-3 home_cases_banner_p_right">Demand Forecasting
 															is
 															pretty
 															explanatory itself, and every business with sales,
@@ -672,10 +656,10 @@
 														</p>
 													</div>
 													<div>
-														<h3 class="home_stories_banner_h3">Do not act with your
+														<h3 class="home_cases_banner_h3">Do not act with your
 															guess
 														</h3>
-														<p class="mt-3 mb-4 home_stories_banner_p_right">Forecasting
+														<p class="mt-3 mb-4 home_cases_banner_p_right">Forecasting
 															demand is
 															essential for a business as you might have disastrous
 															consequences
@@ -685,7 +669,7 @@
 															already commonplace in many organizations.
 
 														</p>
-														<a href="stories/demand-forecasting.html" target="_blank"
+														<a href="cases/demand-forecasting.html" target="_blank"
 															class="button_read_more">Read
 															More<i
 																class="icon-line-arrow-right button_read_more_arrow"></i></a>
@@ -701,14 +685,14 @@
 											<div id="casesecondcol5" class="col-7 something-padding">
 												<div>
 													<h2
-														class="home_stories_banner_h1 cases_overview_icon fraud_prevention_h1">
+														class="home_cases_banner_h1 cases_overview_icon fraud_prevention_h1">
 														<i class="fraud_prevention"></i>
 														Fraud Prevention
 													</h2>
 												</div>
 												<div>
 													<div>
-														<p class="mt-3 home_stories_banner_p_left">To fight fraud,
+														<p class="mt-3 home_cases_banner_p_left">To fight fraud,
 															companies
 															need to identify underlying reasons, then start
 															detecting and recording fraud. If you have enough examples
@@ -719,9 +703,9 @@
 														</p>
 													</div>
 													<div>
-														<h3 class="home_stories_banner_h3">Fight for your right
+														<h3 class="home_cases_banner_h3">Fight for your right
 														</h3>
-														<p class="mt-3 mb-4 home_stories_banner_p_left">Detecting and
+														<p class="mt-3 mb-4 home_cases_banner_p_left">Detecting and
 															preventing fraud will reveal quite valuable insights if
 															fraud is a
 															problem for your business. In a yearly report, high fraud
@@ -730,15 +714,15 @@
 															not hunting them,
 															fraudsters will be seeing you as a vulnerable target.
 														</p>
-														<a href="stories/fraud-prevention.html" target="_blank"
+														<a href="cases/fraud-prevention.html" target="_blank"
 															class="button_read_more mt-3">Read More<i
 																class="icon-line-arrow-right button_read_more_arrow"></i></a>
 													</div>
 												</div>
 											</div>
-											<div id="caseimage5" class="col-5 home_stories_image_col"
+											<div id="caseimage5" class="col-5 home_cases_image_col"
 												style="padding-left: 0 !important;">
-												<a><img src="stories/images/overview/Fraud_Prevention.webp"
+												<a><img src="cases/images/overview/Fraud_Prevention.webp"
 														alt="Customer Testimonails"></a>
 											</div>
 										</div>
@@ -750,16 +734,16 @@
 
 									<div class="slide">
 										<div id="caseslide6" class="row">
-											<div id="caseimage6" class="col-5 home_stories_image_col"
+											<div id="caseimage6" class="col-5 home_cases_image_col"
 												style="padding-left: 0 !important;">
-												<a><img src="stories/images/overview/Employee_Turnover_Prediction.webp"
+												<a><img src="cases/images/overview/Employee_Turnover_Prediction.webp"
 														alt="Customer Testimonails"></a>
 											</div>
 											<div id="casesecondcol6" class="col-7 mt-4">
 
 												<div>
 													<h2
-														class="home_stories_banner_h1 cases_overview_icon turnover_prediction_h1">
+														class="home_cases_banner_h1 cases_overview_icon turnover_prediction_h1">
 														<i class="turnover_prediction"></i>
 														Employee Turnover Prediction
 													</h2>
@@ -768,7 +752,7 @@
 													<div>
 													</div>
 													<div>
-														<p class="mt-3 home_stories_banner_p_right">Losing an employee
+														<p class="mt-3 home_cases_banner_p_right">Losing an employee
 															in a
 															key position may disrupt a whole department or
 															worse, the whole company.
@@ -779,9 +763,9 @@
 														</p>
 													</div>
 													<div>
-														<h3 class="home_stories_banner_h3">Stronger bonds
+														<h3 class="home_cases_banner_h3">Stronger bonds
 														</h3>
-														<p class="mt-3 mb-4 home_stories_banner_p_right">Did you know
+														<p class="mt-3 mb-4 home_cases_banner_p_right">Did you know
 															that IBM
 															can predict employee turnover with 95% accuracy? With
 															enough data, Enhencer can easily attain such accuracies.
@@ -790,7 +774,7 @@
 															them within your
 															organization, and keep them happy.
 														</p>
-														<a href="stories/employee-turnover-prediction.html"
+														<a href="cases/employee-turnover-prediction.html"
 															target="_blank" class="button_read_more">Read
 															More<i
 																class="icon-line-arrow-right button_read_more_arrow"></i></a>
@@ -806,14 +790,14 @@
 											<div id="casesecondcol8" class="col-7 something-padding">
 												<div>
 													<h2
-														class="home_stories_banner_h1 cases_overview_icon failure_prevention_h1">
+														class="home_cases_banner_h1 cases_overview_icon failure_prevention_h1">
 														<i class="failure_prevention"></i>
 														Predictive Maintenance
 													</h2>
 												</div>
 												<div>
 													<div>
-														<p class="mt-3 home_stories_banner_p_left">Now, machines
+														<p class="mt-3 home_cases_banner_p_left">Now, machines
 															generate
 															plentiful sensor data such as temperature,
 															pressure and specific readings from the machines. Many firms
@@ -825,25 +809,25 @@
 														</p>
 													</div>
 													<div>
-														<h3 class="home_stories_banner_h3">Prevent failures & minimize
+														<h3 class="home_cases_banner_h3">Prevent failures & minimize
 															losses
 														</h3>
-														<p class="mt-3 mb-4 home_stories_banner_p_left">With sensor
+														<p class="mt-3 mb-4 home_cases_banner_p_left">With sensor
 															data,
 															Enhencer can predict the outcome of a test result or when a
 															machine will fail. Predicting such failures will bring you a
 															capacity to take
 															preventive actions and save money.
 														</p>
-														<a href="stories/predictive-maintenance.html" target="_blank"
+														<a href="cases/predictive-maintenance.html" target="_blank"
 															class="button_read_more mt-3">Read More<i
 																class="icon-line-arrow-right button_read_more_arrow"></i></a>
 													</div>
 												</div>
 											</div>
-											<div id="caseimage8" class="col-5 home_stories_image_col"
+											<div id="caseimage8" class="col-5 home_cases_image_col"
 												style="padding-left: 0 !important;">
-												<a><img src="stories/images/overview/Failure_Prediction.webp"
+												<a><img src="cases/images/overview/Failure_Prediction.webp"
 														alt="Customer Testimonails"></a>
 											</div>
 										</div>
@@ -851,16 +835,16 @@
 									<!-- Dealer Sales Forecasting -->
 									<div class="slide">
 										<div id="caseslide7" class="row">
-											<div id="caseimage7" class="col-5 home_stories_image_col"
+											<div id="caseimage7" class="col-5 home_cases_image_col"
 												style="padding-left: 0 !important;">
-												<a><img src="stories/images/overview/Dealer_Sales_Forecasting.webp"
+												<a><img src="cases/images/overview/Dealer_Sales_Forecasting.webp"
 														alt="Customer Testimonails"></a>
 											</div>
 											<div id="casesecondcol7" class="col-7 mt-4">
 
 												<div>
 													<h2
-														class="home_stories_banner_h1 cases_overview_icon sales_forecast_h1">
+														class="home_cases_banner_h1 cases_overview_icon sales_forecast_h1">
 														<i class="sales_forecast"></i>
 														Dealer Sales Forecasting
 													</h2>
@@ -869,7 +853,7 @@
 													<div>
 													</div>
 													<div>
-														<p class="mt-3 home_stories_banner_p_right">Sales analytics is
+														<p class="mt-3 home_cases_banner_p_right">Sales analytics is
 															generally confined to two dimensions, in BI dashboards and
 															Pivot Tables. What would we get if we could analyze all the
 															variables together
@@ -886,10 +870,10 @@
 														</p>
 													</div>
 													<div>
-														<h3 class="home_stories_banner_h3">What does ML bring to the
+														<h3 class="home_cases_banner_h3">What does ML bring to the
 															table?
 														</h3>
-														<p class="mt-3 mb-4 home_stories_banner_p_right">Machine
+														<p class="mt-3 mb-4 home_cases_banner_p_right">Machine
 															Learning
 															models will not only provide you the best and worst
 															performers but also shed light on why a dealer is performing
@@ -898,7 +882,7 @@
 															take clear
 															actions to convert them to high performers.
 														</p>
-														<a href="stories/dealer-sales-performance.html" target="_blank"
+														<a href="cases/dealer-sales-performance.html" target="_blank"
 															class="button_read_more">Read
 															More<i
 																class="icon-line-arrow-right button_read_more_arrow"></i></a>
@@ -970,421 +954,426 @@
 						</div>
 					</div>
 
-			</section>
+				</div>
 
-			<!-- #Section 3 Ends -->
+				<!-- #Section 3 Ends -->
 
-			<!-- Section 4
+				<!-- Section 4
 		============================================= -->
 
-			<section class="page4">
+				<div>
 
-				<div id="content" class="video_section_margin_mobile">
-					<div class="content-wrap pt-0">
-						<!-- Home Page Video -->
+					<div id="content" class="video_section_margin_mobile">
+						<div class="content-wrap pt-0">
+							<!-- Home Page Video -->
 
-						<div>
-							<div class="waveWrapper waveAnimation">
-								<div class="waveWrapperInner bgTop">
-									<div class="wave waveTop" style="background-image: url('images/png/wave-top.png')">
+							<div>
+								<div class="waveWrapper waveAnimation">
+									<div class="waveWrapperInner bgTop">
+										<div class="wave waveTop"
+											style="background-image: url('images/png/wave-top.png')">
+										</div>
 									</div>
-								</div>
-								<!-- <div class="waveWrapperInner bgMiddle">
+									<!-- <div class="waveWrapperInner bgMiddle">
 							<div class="wave waveMiddle"
 								style="background-image: url('images/png/wave-mid.png')">
 							</div>
 						</div> -->
-								<div class="waveWrapperInner bgBottom">
-									<div class="wave waveBottom"
-										style="background-image: url('images/png/wave-bot.png')">
+									<div class="waveWrapperInner bgBottom">
+										<div class="wave waveBottom"
+											style="background-image: url('images/png/wave-bot.png')">
+										</div>
 									</div>
 								</div>
+								<div style="position:relative; z-index:10000;">
+									<br>
+
+									<br>
+
+									<h1 class="unveil_css">
+										Unveil
+										predictive cases hidden in your data</h1>
+									<a class="play-btn" href="https://www.youtube.com/watch?v=AOzeCMZB9Mg&t=1s"
+										target="_blank"></a>
+								</div>
 							</div>
-							<div style="position:relative; z-index:10000;">
-								<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<!-- Why Enhencer 4-->
+							<div id="whyenhencer" class="row container-home-wide-body zoomer" style="margin-top: 25px;">
+								<div id="why1" class="col-4">
 
-								<br>
+									<div class="why_enhencer_card">
 
-								<h1 class="unveil_css">
-									Unveil
-									predictive stories hidden in your data</h1>
-								<a class="play-btn" href="https://www.youtube.com/watch?v=AOzeCMZB9Mg&t=1s"
-									target="_blank"></a>
-							</div>
-						</div>
-						<br>
-						<br>
-						<br>
-						<br>
-						<!-- Why Enhencer 4-->
-						<div id="whyenhencer" class="row container-home-wide-body zoomer" style="margin-top: 25px;">
-							<div id="why1" class="col-4">
+										<div class="px-2 py-2 why_enhencer_card_bottom_part">
+											<div>
 
-								<div class="why_enhencer_card">
+												<div class="okicon mb-4 why_enhencer_card_picture">
+													<a><img src="images/why/timeismoney.png"></a>
+												</div>
 
-									<div class="px-2 py-2 why_enhencer_card_bottom_part">
-										<div>
 
-											<div class="okicon mb-4 why_enhencer_card_picture">
-												<a><img src="images/why/timeismoney.png"></a>
 											</div>
 
+											<h1 class="mb-4 why_enhencer_h2">
+												More Profit in </br> Less Time
+											</h1>
+											<p class="mb-1 why_enhencer_card_p">
+												Instead of spending days on a single model, build and evaluate multiple
+												models even during a meeting.
+											</p>
 
 										</div>
 
-										<h1 class="mb-4 why_enhencer_h2">
-											More Profit in </br> Less Time
-										</h1>
-										<p class="mb-1 why_enhencer_card_p">
-											Instead of spending days on a single model, build and evaluate multiple
-											models even during a meeting.
-										</p>
-
 									</div>
-
 								</div>
-							</div>
 
 
-							<div id="why2" class="col-4">
+								<div id="why2" class="col-4">
 
-								<div class="why_enhencer_card">
+									<div class="why_enhencer_card">
 
-									<div class="px-2 py-2 why_enhencer_card_bottom_part">
-										<div>
+										<div class="px-2 py-2 why_enhencer_card_bottom_part">
+											<div>
 
-											<div class="okicon mb-4 why_enhencer_card_picture">
-												<a><img src="images/why/computermodel-greenish.svg"></a>
+												<div class="okicon mb-4 why_enhencer_card_picture">
+													<a><img src="images/why/computermodel-greenish.svg"></a>
+												</div>
+
+
 											</div>
+											<h1 class="mb-4 why_enhencer_h2">
+												Interpretable </br> Predictions
+											</h1>
 
-
-										</div>
-										<h1 class="mb-4 why_enhencer_h2">
-											Interpretable </br> Predictions
-										</h1>
-
-										<p class="mb-1 why_enhencer_card_p">
-											See reasons of predictions and their business impact, then take your actions
-											accordingly.
-										</p>
-
-									</div>
-
-								</div>
-							</div>
-
-							<div id="why3" class="col-4">
-
-								<div class="why_enhencer_card">
-
-									<div class="px-2 py-2 why_enhencer_card_bottom_part">
-										<div>
-
-											<div class="okicon mb-4 why_enhencer_card_picture">
-												<a><img src="images/why/rocket-ship-green.svg"></a>
-											</div>
-
+											<p class="mb-1 why_enhencer_card_p">
+												See reasons of predictions and their business impact, then take your
+												actions
+												accordingly.
+											</p>
 
 										</div>
 
-										<h1 class="mb-4 why_enhencer_h2">
-											Artificial Intelligence </br> Anywhere
-										</h1>
-										<p class="mb-1 why_enhencer_card_p">
-											Without a line of code, use Automated Machine Learning on the mobile.
-										</p>
+									</div>
+								</div>
+
+								<div id="why3" class="col-4">
+
+									<div class="why_enhencer_card">
+
+										<div class="px-2 py-2 why_enhencer_card_bottom_part">
+											<div>
+
+												<div class="okicon mb-4 why_enhencer_card_picture">
+													<a><img src="images/why/rocket-ship-green.svg"></a>
+												</div>
+
+
+											</div>
+
+											<h1 class="mb-4 why_enhencer_h2">
+												Artificial Intelligence </br> Anywhere
+											</h1>
+											<p class="mb-1 why_enhencer_card_p">
+												Without a line of code, use Automated Machine Learning on the mobile.
+											</p>
+
+										</div>
 
 									</div>
-
 								</div>
+
+
 							</div>
-
-
 						</div>
 					</div>
 				</div>
-			</section>
 
-			<!-- #Section 4 Ends -->
+				<!-- #Section 4 Ends -->
 
-			<!-- Section 5
+				<!-- Section 5
 		============================================= -->
 
-			<section class="page5">
-				<div id="content">
-					<div class="content-wrap pt-0">
+				<div>
+					<div id="content">
+						<div class="content-wrap pt-0">
 
 
-						<!-- Testimonials
+							<!-- Testimonials
 				============================================= -->
-						<div>
-
-							<div class="fslider testimonial testimonial-full testimonial_height_mobile"
-								data-animation="fade" data-arrows="false">
-								<div class="flexslider testimonial_fslider">
-									<div class="slider-wrap ">
-										<div class="slide">
-											<div class="testi-image">
-												<a href="#"><img src="demos/pet/images/testimonials/Banu Keskin.jpg"
-														alt="Customer Testimonails"></a>
-											</div>
-											<div class="testi-content">
-												<p>We use Enhencer to optimize processes throughout the customer
-													journey. It
-													allows
-													us to analyze and target
-													new and existing client segments much easier, and we perfected
-													the
-													churn
-													prevention thanks to Enhencer's
-													predictive abilities. We also analyze customer satisfaction
-													surveys
-													in
-													Enhencer.
-												</p>
-												<div class="testi-meta">
-													Banu Keskin
-													<span>Customer Experience and Intelligence Manager</span>
-												</div>
-											</div>
-										</div>
-										<div class="slide">
-											<div class="testi-image">
-												<a href="#"><img
-														src="demos/pet/images/testimonials/Ezel Esin Bilgiç.jpg"
-														alt="Customer Testimonails"></a>
-											</div>
-											<div class="testi-content">
-												<p>Enhencer provides us deep insights in marketing & advertisement.
-													After
-													reading
-													top and bottom performing
-													client segments, we can take required actions with decision
-													makers
-													in
-													the
-													company. They now understand
-													easily which paths give the best lift or gain for business
-													problems.
-												</p>
-												<div class="testi-meta">
-													Ezel Esin Bilgiç
-													<span>Analytical Marketing Lead</span>
-												</div>
-											</div>
-										</div>
-										<div class="slide">
-											<div class="testi-image">
-												<a href="#"><img src="demos/pet/images/testimonials/Esra Korkmaz.jpg"
-														alt="Customer Testimonails"></a>
-											</div>
-											<div class="testi-content">
-												<p>Enhencer enables easy implementation of analytics in business
-													processes.
-													You
-													can
-													build a model with few
-													clicks, and take actions according to model outputs. It is very
-													intuitive
-													and
-													does not require a guide at
-													all. Just import your data and see the story in Enhencer.</p>
-												<div class="testi-meta">
-													Esra Korkmaz
-													<span>Analytical Insurance Manager</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-						<!-- Integreations Carousel
-				============================================= -->
-
-						<br>
-						<br>
-						<div class="heading-block nobottomborder center divcenter mb-0 clearfix"
-							style="margin-top: 50px;">
-							<h1 class="nott ls0 mb-3 home-integration-heading">Connect to Many Platforms with Zero
-								Effort
-							</h1>
-						</div>
-						<br>
-						<div class="nobg m-0 py-5" style="padding: 10px 0 !important; margin-top: -43px !important;">
 							<div>
-								<div id="oc-clients2"
-									class="connect_mobile_margin owl-carousel image-carousel carousel-widget"
-									data-margin="100" data-loop="true" data-autoplay="5000" data-nav="false"
-									data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4"
-									data-items-lg="5" data-items-xl="7">
-									<div class="oc-item"><a href="connect.html"><img
-												src="images/integrations/oracle.png" alt="Clients"></a>
+
+								<div class="fslider testimonial testimonial-full testimonial_height_mobile"
+									data-animation="fade" data-arrows="false">
+									<div class="flexslider testimonial_fslider">
+										<div class="slider-wrap ">
+											<div class="slide">
+												<div class="testi-image">
+													<a href="#"><img src="demos/pet/images/testimonials/Banu Keskin.jpg"
+															alt="Customer Testimonails"></a>
+												</div>
+												<div class="testi-content">
+													<p>We use Enhencer to optimize processes throughout the customer
+														journey. It
+														allows
+														us to analyze and target
+														new and existing client segments much easier, and we perfected
+														the
+														churn
+														prevention thanks to Enhencer's
+														predictive abilities. We also analyze customer satisfaction
+														surveys
+														in
+														Enhencer.
+													</p>
+													<div class="testi-meta">
+														Banu Keskin
+														<span>Customer Experience and Intelligence Manager</span>
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="testi-image">
+													<a href="#"><img
+															src="demos/pet/images/testimonials/Ezel Esin Bilgiç.jpg"
+															alt="Customer Testimonails"></a>
+												</div>
+												<div class="testi-content">
+													<p>Enhencer provides us deep insights in marketing & advertisement.
+														After
+														reading
+														top and bottom performing
+														client segments, we can take required actions with decision
+														makers
+														in
+														the
+														company. They now understand
+														easily which paths give the best lift or gain for business
+														problems.
+													</p>
+													<div class="testi-meta">
+														Ezel Esin Bilgiç
+														<span>Analytical Marketing Lead</span>
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="testi-image">
+													<a href="#"><img
+															src="demos/pet/images/testimonials/Esra Korkmaz.jpg"
+															alt="Customer Testimonails"></a>
+												</div>
+												<div class="testi-content">
+													<p>Enhencer enables easy implementation of analytics in business
+														processes.
+														You
+														can
+														build a model with few
+														clicks, and take actions according to model outputs. It is very
+														intuitive
+														and
+														does not require a guide at
+														all. Just import your data and see the story in Enhencer.</p>
+													<div class="testi-meta">
+														Esra Korkmaz
+														<span>Analytical Insurance Manager</span>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
-									<div class="oc-item"><a href="mssql.html"><img
-												src="images/integrations/MSSQL_Server_150.png" alt="Clients"></a>
-									</div>
-									<div class="oc-item"><a href="mysql.html"><img
-												src="images/integrations/Mysql_150.png" alt="Clients"></a>
-									</div>
-									<div class="oc-item"><a href="mysql.html"><img
-												src="images/integrations/teradata.png" alt="Clients"></a>
-									</div>
-									<div class="oc-item"><a href="qlik-view.html"><img
-												src="images/integrations/Qlik.png" alt="Clients"></a>
-									</div>
-									<div class="oc-item"><a href="qlik-view.html"><img
-												src="images/integrations/IBMDB2.png" alt="Clients"></a>
-									</div>
-									<div class="oc-item"><a href="qlik-view.html"><img
-												src="images/integrations/Google_Analytics_150.png" alt="Clients"></a>
-									</div>
-									<div class="oc-item"><a href="connect.html"><img
-												src="images/integrations/Mailchimp.png" alt="Clients"></a>
-									</div>
-									<div class="oc-item"><a href="connect.html"><img
-												src="images/integrations/Pipedrive_150.png" alt="Clients"></a>
-									</div>
-									<div class="oc-item"><a href="connect.html"><img
-												src="images/integrations/Hubspot_150.png" alt="Clients"></a>
-									</div>
-									<div class="oc-item"><a href="typeform-integration.html"><img
-												src="images/integrations/Typeform_150.png" alt="Clients"></a>
-									</div>
-									<div class="oc-item"><a href="google-form.html"><img
-												src="images/integrations/Google_Forms_150.png" alt="Clients"></a>
+
+								</div>
+
+							</div>
+							<!-- Integreations Carousel
+				============================================= -->
+
+							<br>
+							<br>
+							<div class="heading-block nobottomborder center divcenter mb-0 clearfix"
+								style="margin-top: 50px;">
+								<h1 class="nott ls0 mb-3 home-integration-heading">Connect to Many Platforms with Zero
+									Effort
+								</h1>
+							</div>
+							<br>
+							<div class="nobg m-0 py-5"
+								style="padding: 10px 0 !important; margin-top: -43px !important;">
+								<div>
+									<div id="oc-clients2"
+										class="connect_mobile_margin owl-carousel image-carousel carousel-widget"
+										data-margin="100" data-loop="true" data-autoplay="5000" data-nav="false"
+										data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4"
+										data-items-lg="5" data-items-xl="7">
+										<div class="oc-item"><a href="connect.html"><img
+													src="images/integrations/oracle.png" alt="Clients"></a>
+										</div>
+										<div class="oc-item"><a href="mssql.html"><img
+													src="images/integrations/MSSQL_Server_150.png" alt="Clients"></a>
+										</div>
+										<div class="oc-item"><a href="mysql.html"><img
+													src="images/integrations/Mysql_150.png" alt="Clients"></a>
+										</div>
+										<div class="oc-item"><a href="mysql.html"><img
+													src="images/integrations/teradata.png" alt="Clients"></a>
+										</div>
+										<div class="oc-item"><a href="qlik-view.html"><img
+													src="images/integrations/Qlik.png" alt="Clients"></a>
+										</div>
+										<div class="oc-item"><a href="qlik-view.html"><img
+													src="images/integrations/IBMDB2.png" alt="Clients"></a>
+										</div>
+										<div class="oc-item"><a href="qlik-view.html"><img
+													src="images/integrations/Google_Analytics_150.png"
+													alt="Clients"></a>
+										</div>
+										<div class="oc-item"><a href="connect.html"><img
+													src="images/integrations/Mailchimp.png" alt="Clients"></a>
+										</div>
+										<div class="oc-item"><a href="connect.html"><img
+													src="images/integrations/Pipedrive_150.png" alt="Clients"></a>
+										</div>
+										<div class="oc-item"><a href="connect.html"><img
+													src="images/integrations/Hubspot_150.png" alt="Clients"></a>
+										</div>
+										<div class="oc-item"><a href="typeform-integration.html"><img
+													src="images/integrations/Typeform_150.png" alt="Clients"></a>
+										</div>
+										<div class="oc-item"><a href="google-form.html"><img
+													src="images/integrations/Google_Forms_150.png" alt="Clients"></a>
+										</div>
 									</div>
 								</div>
 							</div>
+
+
+
 						</div>
-
-
-
 					</div>
 				</div>
-			</section>
 
-			<!-- #Section 5 Ends -->
+				<!-- #Section 5 Ends -->
 
-			<!-- Section 6
+				<!-- Section 6
 		============================================= -->
 
-			<section class="page6">
+				<div>
 
-				<div id="content">
-					<div class="content-wrap pt-0">
-						<!-- Call to Action -->
+					<div id="content">
+						<div class="content-wrap pt-0">
+							<!-- Call to Action -->
 
-						<div id="predicttogether">
-							<h1 class="nott mt-3 ls0 mb-3 home-integration-heading">
-								Let's predict the future together! </h1>
-						</div>
-
-						<div id="calltoaction" class="row call_to_action_flex">
-							<div id="calltoaction1" class="col_half something-right try-it-free-button">
-								<a class="try_it_free_light mt-3" target="_blank"
-									href="https://app.enhencer.com/#!/signup">Try
-									it Free</a>
+							<div id="predicttogether">
+								<h1 class="nott mt-3 ls0 mb-3 home-integration-heading">
+									Let's predict the future together! </h1>
 							</div>
-							<div id="calltoaction2" class="col_half something-left">
-								<a href="https://app.enhencer.com/#!/contact-form" target="_blank"
-									class="meet_our_light mt-3">Meet Our
-									Data-Scientists</a>
-							</div>
-						</div>
 
-						<!-- Footer -->
-
-						<div class="section m-0 border-bottom py-5 mobile_fottoer_margin footer_div">
-							<div class="central">
-								<div>
-									<a href="/"><img class="footer-logo" src="images/enhencer.png"
-											alt="Enhencer Logo"></a>
+							<div id="calltoaction" class="row call_to_action_flex">
+								<div id="calltoaction1" class="col_half something-right try-it-free-button">
+									<a class="try_it_free_light mt-3" target="_blank"
+										href="https://app.enhencer.com/#!/signup">Try
+										it Free</a>
+								</div>
+								<div id="calltoaction2" class="col_half something-left">
+									<a href="https://app.enhencer.com/#!/contact-form" target="_blank"
+										class="meet_our_light mt-3">Meet Our
+										Data-Scientists</a>
 								</div>
 							</div>
-							<div class="central">
-								<nav id="footer-menu" class="with-arrows">
-									<ul>
-										<li><a href="about-us.html"
-												onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Blog'});">
-												<div class="t300">About Us</div>
-											</a>
-										</li>
-										<li>
-											<a href="blog/">
-												<div class="t300">Blog</div>
-											</a>
-										</li>
 
-										<li><a href="partnership.html"
-												onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Partnership'});">
-												<div class="t300">Partnership</div>
-											</a>
-										</li>
-										<li><a href="faq.html">
-												<div class="t300">FAQs</div>
-											</a>
-										</li>
-										<li><a href="career.html">
-												<div class="t300">Career</div>
-											</a>
-										</li>
-										<li><a href="help.html"
-												onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Help-Center'});">
-												<div class="t300">Help-Center</div>
-											</a>
-										</li>
+							<!-- Footer -->
 
-
-
-										<li><a href="privacy-policy.html">
-												<div class="t300">Privacy Policy</div>
-											</a>
-										</li>
-										<li><a href="terms-of-use.html">
-												<div class="t300">Terms of Use</div>
-											</a>
-										</li>
-
-									</ul>
-								</nav>
-							</div>
-							<div class="central footer_social_margin_top">
-								<div class="dark foot col_last clearfix nobottommargin">
-									<div class="top-social container-home-wide-body">
-										<a href="https://www.youtube.com/channel/UCIgWv2OQm6vSMlpXph4nbLA?view_as=subscriber"
-											class="si-youtube">
-											<i class="icon-youtube top-social-icon"></i>
-											<span class="top-social-text">Youtube</span>
-										</a>
-										<a href="https://www.linkedin.com/company/enhencer/" class="si-linkedin">
-											<i class="icon-linkedin top-social-icon"></i>
-											<span class="top-social-text">LinkedIn</span>
-										</a>
-										<a href="https://www.quora.com/topic/Enhencer" class="si-quora">
-											<i class="icon-quora top-social-icon"></i>
-											<span class="top-social-text">Quora</span>
-										</a>
-										<a href="https://www.instagram.com/enhencerapp/" class="si-instagram2">
-											<i class="icon-instagram2 top-social-icon"></i>
-											<span class="top-social-text">Instagram</span></a>
-										<a href="https://twitter.com/enhencerapp?lang=en" class="si-twitter">
-											<i class="icon-twitter top-social-icon"></i>
-											<span class="top-social-text">Twitter</span>
-										</a>
-										<a href="https://www.facebook.com/Enhencer/" class="si-facebook">
-											<i class="icon-facebook top-social-icon"></i>
-											<span class="top-social-text">Facebook</span></a>
+							<div class="section m-0 border-bottom py-5 mobile_fottoer_margin footer_div">
+								<div class="central">
+									<div>
+										<a href="/"><img class="footer-logo" src="images/enhencer.png"
+												alt="Enhencer Logo"></a>
 									</div>
-
 								</div>
-							</div>
-							<div id="footeraddress">
-								<div class="card-footer card-footer-body">
-									<div class="container footer_button_flex">
-										<!-- <div class="row">
+								<div class="central">
+									<nav id="footer-menu" class="with-arrows">
+										<ul>
+											<li><a href="about-us.html"
+													onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Blog'});">
+													<div class="t300">About Us</div>
+												</a>
+											</li>
+											<li>
+												<a href="blog/">
+													<div class="t300">Blog</div>
+												</a>
+											</li>
+
+											<li><a href="partnership.html"
+													onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Partnership'});">
+													<div class="t300">Partnership</div>
+												</a>
+											</li>
+											<li><a href="faq.html">
+													<div class="t300">FAQs</div>
+												</a>
+											</li>
+											<li><a href="career.html">
+													<div class="t300">Career</div>
+												</a>
+											</li>
+											<li><a href="help.html"
+													onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Home', event_label: 'Help-Center'});">
+													<div class="t300">Help-Center</div>
+												</a>
+											</li>
+
+
+
+											<li><a href="privacy-policy.html">
+													<div class="t300">Privacy Policy</div>
+												</a>
+											</li>
+											<li><a href="terms-of-use.html">
+													<div class="t300">Terms of Use</div>
+												</a>
+											</li>
+
+										</ul>
+									</nav>
+								</div>
+								<div class="central footer_social_margin_top">
+									<div class="dark foot col_last clearfix nobottommargin">
+										<div class="top-social container-home-wide-body">
+											<a href="https://www.youtube.com/channel/UCIgWv2OQm6vSMlpXph4nbLA?view_as=subscriber"
+												class="si-youtube">
+												<i class="icon-youtube top-social-icon"></i>
+												<span class="top-social-text">Youtube</span>
+											</a>
+											<a href="https://www.linkedin.com/company/enhencer/" class="si-linkedin">
+												<i class="icon-linkedin top-social-icon"></i>
+												<span class="top-social-text">LinkedIn</span>
+											</a>
+											<a href="https://www.quora.com/topic/Enhencer" class="si-quora">
+												<i class="icon-quora top-social-icon"></i>
+												<span class="top-social-text">Quora</span>
+											</a>
+											<a href="https://www.instagram.com/enhencerapp/" class="si-instagram2">
+												<i class="icon-instagram2 top-social-icon"></i>
+												<span class="top-social-text">Instagram</span></a>
+											<a href="https://twitter.com/enhencerapp?lang=en" class="si-twitter">
+												<i class="icon-twitter top-social-icon"></i>
+												<span class="top-social-text">Twitter</span>
+											</a>
+											<a href="https://www.facebook.com/Enhencer/" class="si-facebook">
+												<i class="icon-facebook top-social-icon"></i>
+												<span class="top-social-text">Facebook</span></a>
+										</div>
+
+									</div>
+								</div>
+								<div id="footeraddress">
+									<div class="card-footer card-footer-body">
+										<div class="container footer_button_flex">
+											<!-- <div class="row">
 
 											<div class="col_two_fifth_alt mb-0 fotter-fırst-address">
 												<div style="font-size: 1.3em;">
@@ -1422,244 +1411,141 @@
 											</div>
 										</div> -->
 
-										<a onClick="gtag('event', 'click' , { event_category: 'Landing', event_action: 'Home' , event_label: 'Try Free'});"
-											target="_blank" class="button button-rounded footer-try-button mt-4"
-											href="https://app.enhencer.com/#!/contact-form">Contact Us</a>
+											<a onClick="gtag('event', 'click' , { event_category: 'Landing', event_action: 'Home' , event_label: 'Try Free'});"
+												target="_blank" class="button button-rounded footer-try-button mt-4"
+												href="https://app.enhencer.com/#!/contact-form">Contact Us</a>
+										</div>
 									</div>
 								</div>
-							</div>
 
-							<div class="central">
-								<a>
-									<hr class="footer-hr mt-4">
-									<div class="t300 mt-5" style="color: white;">Enhencer &#9400; 2019. All Rights
-										Reserved.
-									</div>
-								</a>
+								<div class="central">
+									<a>
+										<hr class="footer-hr mt-4">
+										<div class="t300 mt-5" style="color: white;">Enhencer &#9400; 2019. All Rights
+											Reserved.
+										</div>
+									</a>
+								</div>
+								<br>
 							</div>
-							<br>
+							<!-- Footer Ends -->
+
 						</div>
-						<!-- Footer Ends -->
-
 					</div>
 				</div>
-			</section>
 
-			<!-- #Section 6 Ends -->
-		</div>
+				<!-- #Section 6 Ends -->
+			</div>
 
+			<div class="homepage-footer">
+				<p>"Startup of the Year" by TechSquare 2019</p>
+				<a href="news/Startup-of-the-Year-Enhencer.html">Read more</a>
+			</div>
 
-		<!-- <div>
-			<p class="cookie-p"><b class="cookie-title">"Startup of the Year" by TechSquare 2019
-					<span class="cookiebtns clearfix" style="margin-left: 1%;">
-						<a class="cookie-a cookie-news" id="read_bar" href="news/Startup-of-the-Year-Enhencer.html"
-							target="_blank">Read More</a>
-					</span>
-				</b>
-			</p>
-		</div> -->
-		<!-- <a class="cookie-a cookie-close" id="hide_bar">Close</a> -->
-
-
-		<div class="homepage-footer">
-			<p>"Startup of the Year" by TechSquare 2019</p>
-			<a href="news/Startup-of-the-Year-Enhencer.html">Read more</a>
-		</div>
-
-		<!-- Go To Top
+			<!-- Go To Top
 	============================================= -->
-		<div id="gotoTop" class="icon-angle-up"></div>
+			<div id="gotoTop" class="icon-angle-up"></div>
 
-		<!-- External JavaScripts
+			<!-- External JavaScripts
 	============================================= -->
-		<script src="required/jquery.js"></script>
-		<script src="required/plugins.js"></script>
+			<script src="required/jquery.js"></script>
+			<script src="required/plugins.js"></script>
 
-		<!-- Footer Scripts
+			<!-- Footer Scripts
 	============================================= -->
-		<script src="required/functions.js"></script>
-		<script>
-			$(document).ready(function () {
-				$("#footerContent").load("footer-index.html");
-			});
-		</script>
-
-		<script>
-			(function ($) {
+			<script src="required/functions.js"></script>
+			<script>
 				$(document).ready(function () {
-					createCookie('cnil', 1, 0);
-					$('#cookie_bar').toggle();
+					$("#footerContent").load("footer-index.html");
 				});
-				$('#hide_bar').on('click', function () {
-					$('#cookie_bar').toggle();
-				});
-				$('#read_bar').on('click', function () {
-					$('#cookie_bar').toggle();
-				});
-				$('#eat').on('click', function () {
-					$.removeCookie('cnil', { path: '/' });
-					$('#cookie_bar').toggle();
-				});
-			})(jQuery);
+			</script>
+
+			<script>
+				(function ($) {
+					$(document).ready(function () {
+						createCookie('cnil', 1, 0);
+						$('#cookie_bar').toggle();
+					});
+					$('#hide_bar').on('click', function () {
+						$('#cookie_bar').toggle();
+					});
+					$('#read_bar').on('click', function () {
+						$('#cookie_bar').toggle();
+					});
+					$('#eat').on('click', function () {
+						$.removeCookie('cnil', { path: '/' });
+						$('#cookie_bar').toggle();
+					});
+				})(jQuery);
 
 
-			// Gestion des cookies
-			function createCookie(name, value, days) {
-				var expires;
-				if (days) {
-					var date = new Date();
-					date.setTime(date.getTime() + 1);
-					expires = "; expires=" + date.toGMTString();
-				}
-				else expires = "";
-				document.cookie = name + "=" + value + expires + "; path=/";
-			}
-
-			function readCookie(name) {
-				var nameEQ = name + "=";
-				var ca = document.cookie.split(';');
-				for (var i = 0; i < ca.length; i++) {
-					var c = ca[i];
-					while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-					if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-				}
-				return null;
-			}
-		</script>
-
-		<!-- <script>
-			var pageOne = document.getElementsByClassName('page1')[0];
-			var sectionOneDesktop = document.createElement('div');
-			sectionOneDesktop.setAttribute("style", "padding-top: 50px");
-			sectionOneDesktop.classList = ["visible-desktop"];
-			sectionOneDesktop.innerHTML = '<img class="home-layer zoomer" src="images/home_layer.png" alt=""><div class="container-home-wide-body"><div class="transparent-sticky-header"><a href="/" style="width: 200px"><img src="images/enhencer.png"></a><div class="navbar-menu"><a class="navbar-menu-button" href="connect.html">Connect</a><a class="navbar-menu-button" href="stories/">Cases</a><a class="navbar-menu-button" href="help.html">Help</a><a class="navbar-menu-button" href="pricing.html">Pricing</a><a class="navbar-menu-button" href="blog/">Blog</a><div class="navbar-right-buttons"><a href="https://app.enhencer.com/#!/login" onClick="gtag("event", "click", { event_category: "Landing", event_action: "Top Bar", event_label: "Sign-in"});" target="_blank" class="button button-rounded button-light bg-blueish border nott ls0 border-blue button-enhencer-default-green" style="text-align: center; padding-left: 0px; width: 82px; padding-right: 0px;margin-left: 3%;"><div style="text-align: center; margin-top: -2px; background-color: transparent !important;">Sign in</div></a><a href="https://app.enhencer.com/#!/signup" onClick="gtag("event", "click, { event_category: "Landing", event_action: "Top Bar", event_label: "Try Free"});" target="_blank" class="button button-rounded fright try-free-button"><div style="text-align: center">Try it Free</div></a></div></div></div><div class="first-section-main-flex"><div class="header_title_margin_top"><div id="sliderTitle" class="slider-title home-title zoomer"><h1 id="mainTitle" class="main-title home-slider-title">Turn Data to Profits in Minutes</h1><h3 id="mainsubTitleInfo" class="mb-2 content-text main-title-info home-slider-subtitle mt-2"><span class="menu-subtitle">Simplest Automated Machine Learning platform that predicts future events, cases or behaviors on your business tasks</span></h3><div id="homesliderbuttons" style="display: flex; flex-direction: row; justify-content: start; align-items: center; margin-top: 30px"><a onClick="gtag("event", "click", { event_category: "Landing", event_action: "Home", event_label: "Try Free"});;" class="button button-rounded header-try-button" href="https://app.enhencer.com/#!/signup">Try it Free</a><a onClick="gtag("event", "click", { event_category: "Landing", event_action: "Home", event_label: "Try Free"});;" class="button button-rounded header-meet-button" target="_blank" href="contact-form.html">Meet Our Data-Scientists</a></div></div></div><div id="macbook-container" class="macbook-zoomer"><img src="images/macbook.png"><video src="images/video/Stop Motion Video Compressed.mp4" type="video/mp4" loop autoplay muted> </video></div></div></div>'
-			var sectionOneMobile = document.createElement('div');
-			sectionOneMobile.classList = ["visible-mobile"];
-			sectionOneMobile.innerHTML = '<div style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center;"><h1 id="mainTitle" class="main-title home-slider-title">Turn Data to Profits in Minutes</h1><h3 id="mainsubTitleInfo" class="mb-2 content-text main-title-info home-slider-subtitle mt-5"><span class="menu-subtitle">Simplest Automated Machine Learning platform that predicts future events, cases or behaviors on your business tasks</span></h3><div id="macbook_container" class="macbook-zoomer"><img src="images/macbook.png"><video src="images/video/Stop Motion Video Compressed.mp4" type="video/mp4" loop autoplay muted> </video></div><a onClick="gtag("event", "click", { event_category: "Landing", event_action: "Home", event_label: "Try Free"});;" class="button button-rounded header-try-button" href="https://app.enhencer.com/#!/signup">Try it Free</a><a onClick="gtag("event", "click", { event_category: "Landing", event_action: "Home", event_label: "Try Free"});;" class="button button-rounded header-meet-button" target="_blank" href="contact-form.html">Meet Our Data-Scientists</a></div>'
-
-			var wrapper = document.getElementById('wrapper');
-
-			/* var mobileHeader = document.createElement('div');
-			mobileHeader.innerHTML = '<img src="images/enhencer.png" style="height: 18px; width: 161px; margin: 16px 0;"><div class="dropdown"><i class="icon-reorder" style="color: white; font-size: 25px; height: 100%; padding-top: 7px"></i></div>'
-			mobileHeader.id = "mobile-header" */
-
-
-			handleWindowSizeAlignment();
-
-			function handleWindowSizeAlignment() {
-				if (window.innerWidth > 1150) {
-					var elements = document.getElementsByClassName('visible-mobile');
-					for (i = 0; i < elements.length; i++) {
-						elements[i].remove();
+				// Gestion des cookies
+				function createCookie(name, value, days) {
+					var expires;
+					if (days) {
+						var date = new Date();
+						date.setTime(date.getTime() + 1);
+						expires = "; expires=" + date.toGMTString();
 					}
-
-					if (document.getElementById('mobile-header') !== null) {
-						document.getElementById('mobile-header').remove();
-					}
-
-
-					pageOne.append(sectionOneDesktop);
-
-				} else {
-					var elements = document.getElementsByClassName('visible-desktop');
-					for (i = 0; i < elements.length; i++) {
-						elements[i].remove();
-					}
-					wrapper.prepend(mobileHeader);
-					/* pageOne.append(sectionOneMobile); */
+					else expires = "";
+					document.cookie = name + "=" + value + expires + "; path=/";
 				}
-			}
 
-			window.addEventListener("resize", handleWindowSizeAlignment);
+				function readCookie(name) {
+					var nameEQ = name + "=";
+					var ca = document.cookie.split(';');
+					for (var i = 0; i < ca.length; i++) {
+						var c = ca[i];
+						while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+						if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+					}
+					return null;
+				}
+			</script>
 
 
-		</script> -->
+			<script>
 
-		<script>
-			if (window.innerWidth > 1150) {
-				onePageScroll(".main", {
-					sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
-					easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", 
-					// "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
-					animationTime: 800,             // AnimationTime let you define how long each section takes to animate
-					pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
-					updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
-					beforeMove: function (index) {
-						var page1 = document.getElementsByClassName('page1')[0];
-						var forced_sticky_header = document.getElementsByClassName('forced_sticky_header')[0];
-						if (page1.classList.contains('active')) {
-							if (!forced_sticky_header.classList.contains('hidden-elem')) {
-								forced_sticky_header.classList.add('hidden-elem');
-							}
-						} else {
-							if (forced_sticky_header.classList.contains('hidden-elem')) {
-								forced_sticky_header.classList.remove('hidden-elem');
-							}
-						}
-					},  // This option accepts a callback function. The function will be called before the page moves.
-					afterMove: function (index) { },   // This option accepts a callback function. The function will be called after the page moves.
-					loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
-					keyboard: true,                  // You can activate the keyboard controls
-					responsiveFallback: false        // You can fallback to normal page scroll by defining the width of the browser in which
-					// you want the responsive fallback to be triggered. For example, set this to 600 and whenever 
-					// the browser's width is less than 600, the fallback will kick in.
+				$(document).ready(function () {
+					$("#oc-clients").owlCarousel({
+						items: 6,
+						loop: true,
+						// margin: 20,
+						autoplay: true,
+						rewind: true,
+						slideTransition: 'linear',
+						autoplayTimeout: 5000,
+						autoplaySpeed: 5000,
+						autoplayHoverPause: false,
+						center: true,
+
+
+					});
 				});
-			} else {
-				var forced_sticky_header = document.getElementsByClassName('forced_sticky_header')[0];
-				forced_sticky_header.classList.remove('hidden-elem');
-			}
-		</script>
+			</script>
 
+			<script>
 
+				$(document).ready(function () {
+					$("#oc-clients2").owlCarousel({
+						items: 6,
+						loop: true,
+						margin: 195,
+						autoplay: true,
+						rewind: true,
+						slideTransition: 'linear',
+						autoplayTimeout: 5000,
+						autoplaySpeed: 5000,
+						autoplayHoverPause: false,
+						autoHeight: true,
+						autoWidth: true,
+						center: true,
 
-
-		<script>
-
-			$(document).ready(function () {
-				$("#oc-clients").owlCarousel({
-					items: 6,
-					loop: true,
-					// margin: 20,
-					autoplay: true,
-					rewind: true,
-					slideTransition: 'linear',
-					autoplayTimeout: 5000,
-					autoplaySpeed: 5000,
-					autoplayHoverPause: false,
-					//  autoHeight: true,
-					//  autoWidth: true,
-					center: true,
-					// responsiveClass: true,
-					// responsiveBaseElement: ".flex-window",
-
+					});
 				});
-			});
-		</script>
+			</script>
 
-		<script>
-
-			$(document).ready(function () {
-				$("#oc-clients2").owlCarousel({
-					items: 6,
-					loop: true,
-					margin: 195,
-					autoplay: true,
-					rewind: true,
-					slideTransition: 'linear',
-					autoplayTimeout: 5000,
-					autoplaySpeed: 5000,
-					autoplayHoverPause: false,
-					autoHeight: true,
-					autoWidth: true,
-					center: true,
-					// responsiveClass: true,
-					// responsiveBaseElement: ".flex-window",
-
-				});
-			});
-		</script>
-
-	</div>
+		</div>
 </body>
 
 </html>

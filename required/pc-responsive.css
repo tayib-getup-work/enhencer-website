@@ -233,7 +233,7 @@
 
 	.purchase_prpensity:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cart.png) no-repeat;
+		background: url(../cases/images/overview/icons/cart.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -246,14 +246,14 @@
 		margin-left: -16%;
 	}
 
-	.home_stories_banner_h1 {
+	.home_cases_banner_h1 {
 		color: #004159;
 		font-weight: 400;
 		font-size: 2.5em;
 		margin-top: -25px;
 	}
 
-	.home_stories_banner_h3 {
+	.home_cases_banner_h3 {
 		/* text-align: center; */
 		color: #3e8a81;
 		font-weight: 400;
@@ -263,14 +263,14 @@
 		/* height: 75px; */
 	}
 
-	.home_stories_banner_p_right {
+	.home_cases_banner_p_right {
 		font-size: 16px;
 		font-weight: 400;
 		color: #666;
 		padding-right: 2.5%;
 		padding-left: 2.5%;
 	}
-	.home_stories_banner_p_left {
+	.home_cases_banner_p_left {
 		font-size: 16px;
 		font-weight: 400;
 		color: #666;
@@ -292,7 +292,7 @@
 
 	.likelihood_to_purchase:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cash_counter.png) no-repeat;
+		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -307,7 +307,7 @@
 
 	.demand_forecasting:before {
 		content: '';
-		background: url(../stories/images/overview/icons/man_with_a_sign.png) no-repeat;
+		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 50px;
@@ -323,7 +323,7 @@
 
 	.churn_proability:before {
 		content: '';
-		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -600,7 +600,7 @@
 
 	.purchase_prpensity:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cart.png) no-repeat;
+		background: url(../cases/images/overview/icons/cart.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -613,14 +613,14 @@
 		margin-left: -13%;
 	}
 
-	.home_stories_banner_p {
+	.home_cases_banner_p {
 		font-size: 1.3em;
 		/* text-align: center; */
 		font-weight: 200;
 		color: black;
 		padding-right: 15%;
 	}
-	.home_stories_banner_p {
+	.home_cases_banner_p {
 		font-size: 1.3em;
 		/* text-align: center; */
 		font-weight: 200;
@@ -642,7 +642,7 @@
 	}
 	.likelihood_to_purchase:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cash_counter.png) no-repeat;
+		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -657,7 +657,7 @@
 
 	.demand_forecasting:before {
 		content: '';
-		background: url(../stories/images/overview/icons/man_with_a_sign.png) no-repeat;
+		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 50px;
@@ -673,7 +673,7 @@
 
 	.churn_proability:before {
 		content: '';
-		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -916,7 +916,7 @@
 		margin-top: 0;
 	}
 
-	.home_stories_banner_h1 {
+	.home_cases_banner_h1 {
 		color: #004159;
 		font-weight: 400;
 		font-size: 2.8em;
@@ -925,7 +925,7 @@
 
 	.purchase_prpensity:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cart.png) no-repeat;
+		background: url(../cases/images/overview/icons/cart.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -938,7 +938,7 @@
 		margin-left: -13%;
 	}
 
-	.home_stories_banner_h3 {
+	.home_cases_banner_h3 {
 		/* text-align: center; */
 		color: #3e8a81;
 		font-weight: 400;
@@ -948,7 +948,7 @@
 		/* height: 75px; */
 	}
 
-	.home_stories_banner_p {
+	.home_cases_banner_p {
 		font-size: 1.4em;
 		/* text-align: center; */
 		font-weight: 200;
@@ -972,7 +972,7 @@
 
 	.likelihood_to_purchase:before {
 		content: '';
-		background: url(../stories/images/overview/icons/cash_counter.png) no-repeat;
+		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -987,7 +987,7 @@
 
 	.demand_forecasting:before {
 		content: '';
-		background: url(../stories/images/overview/icons/man_with_a_sign.png) no-repeat;
+		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 50px;
@@ -1003,7 +1003,7 @@
 
 	.churn_proability:before {
 		content: '';
-		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -1216,7 +1216,7 @@
 
 	.churn_proability:before {
 		content: '';
-		background: url(../stories/images/overview/icons/Churn_Probability.png) no-repeat;
+		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
