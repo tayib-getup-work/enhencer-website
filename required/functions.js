@@ -78,6 +78,11 @@ function onScrollSliderParallax() {
 	killRequesting();
 }
 
+function handleStickyHeader(){
+	var fromTop = $(window).scrollTop();
+	$('#forced_header').toggleClass('hidden-header', fromTop < 300);
+}
+
 
 
 var SEMICOLON = SEMICOLON || {};
@@ -4168,8 +4173,8 @@ var SEMICOLON = SEMICOLON || {};
 
 
 			});
-
-			window.addEventListener('scroll', onScrollSliderParallax, false);
+			handleStickyHeader();
+			window.addEventListener('scroll', handleStickyHeader, false);
 
 			if ($onePageMenuEl.length > 0) {
 				if ($().scrolled) {

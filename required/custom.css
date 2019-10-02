@@ -4641,10 +4641,10 @@ div.cookiebtns {
 
 .forced_sticky_header{
 	height: 95px !important;
-    background-color: #13364a !important;
     z-index: 1000000 !important;
     box-shadow: 0 0 10px rgba(0,0,0,0.4) !important;
-    margin-top: -25px !important;
+	margin-top: -25px !important;
+	top: 0;
     position: fixed;
 	width: 100%;
 	transition-duration: 0.6s;
@@ -4655,11 +4655,6 @@ div.cookiebtns {
 	background: white !important;
 }
 
-
-
-.hidden-elem {
-	opacity: 0 !important;
-}
 
 
 .temp_margin_top{
@@ -5108,10 +5103,6 @@ div.cookiebtns {
 	color: white;
 }
 
-.hidden-elem {
-	opacity: 0 !important;
-	pointer-events: none;
-}
 
 .first-section-main-flex {
     display: flex;
@@ -5178,6 +5169,12 @@ div.cookiebtns {
 
 
 @media (min-width: 1150px) {
+
+	.hidden-header {
+		opacity: 0 !important;
+		top: -95px;
+		pointer-events: none;
+	}
 
 	.page1 {
 		margin-bottom: 14%
