@@ -33,7 +33,36 @@
 	}
 }
 
+@media(max-width: 450px){
+	.call-to-action-flex {
+		height: 90px;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+
 @media (max-width: 1149px) {
+
+	.home-cases-image{
+		display: none;
+	}
+
+	.cases-column {
+		align-items: center;
+		margin-right: 0;
+	}
+
+	.cases-icon-text-row i {
+		margin-right: 0;
+		height: 4em !important;
+		width: 4em !important;
+	}
+
+	.cases-icon-text-row {
+		flex-direction: column;
+		align-items: center;
+	}
 
 	#wrapper {
 		width: 100%;
@@ -1807,14 +1836,7 @@
 		/* height: auto !important; */
 		margin-bottom: 0 !important;
 	}
-	.call_to_action_flex {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin-top: 60px;
-		margin-bottom: 60px;
-	}
+
 	.mobile_fottoer_margin{
 		margin-bottom: -1px !important;
 	}
@@ -2050,11 +2072,6 @@
 		padding-bottom: 190px !important;
 	}
 
-	.home-title{
-		width: 605px;
-		margin-left: 0;
-		margin-top: 0;
-	}
 
 	.container-home-wide-body {
 		position: relative;
@@ -2176,56 +2193,9 @@
 		color: #004159;
 		font-weight: 400;
 		font-size: 2em;
-		margin-top: -25px;
 		text-align: center;
 	}
 
-	.purchase_prpensity:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cart.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 66px !important;
-		width: 76px !important;
-		height: 94px !important;
-		visibility: visible;
-		display: inline-block;
-		/* margin-left: 2%; */
-		margin-bottom: 25px;
-	}
-	.churn_proability:before {
-		content: '';
-		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 75px !important;
-		width: 81px !important;
-		height: 92px !important;
-		visibility: visible;
-		display: inline-block;
-		/* margin-left: -15%; */
-		margin-bottom: 25px;
-	}
-	.demand_forecasting:before {
-		content: '';
-		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 50px;
-		left: 4%;
-		/* zoom: 70%; */
-		background-size: 147px !important;
-		width: 147px !important;
-		height: 152px !important;
-		visibility: visible;
-		display: inline-block;
-		/* margin-left: -16%; */
-		margin-bottom: 65px;
-	}
 	.home_cases_banner_h3 {
 		/* text-align: center; */
 		color: #3e8a81;
@@ -2260,111 +2230,6 @@
 	}
 
 
-	.button_read_more {
-		font: 11px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
-		background: white;
-		border: 1px solid #a2a2a2;
-		border-radius: 4px;
-		color: #004159;
-		outline: 0 none;
-		padding: 15px 25px;
-		position: relative;
-		transition: all 0.75s ease-in-out 0s;
-		cursor: pointer;
-		/* margin-bottom: 55px; */
-		margin-left: 34%;
-	}
-
-	.likelihood_to_purchase:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 55px !important;
-		width: 56px !important;
-		height: 87px !important;
-		visibility: visible;
-		display: inline-block;
-		/* margin-left: -2%; */
-		margin-bottom: 25px;
-	}
-	.turnover_prediction:before {
-		margin-bottom: 25px;
-		content: '';
-		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 80px !important;
-		width: 80px !important;
-		height: 100px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: 0;
-	}
-	.sales_forecast:before {
-		content: '';
-		background: url(../cases/images/overview/icons/dealer_sales_forecasting.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 85px !important;
-		width: 85px !important;
-		height: 105px !important;
-		visibility: visible;
-		display: inline-block;
-		/* margin-left: -14.5%; */
-		margin-bottom: 30px;
-	}
-	.fraud_prevention:before {
-		content: '';
-		background: url(../cases/images/overview/icons/icons8-fraud-100.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 85px !important;
-		width: 85px !important;
-		height: 85px !important;
-		visibility: visible;
-		display: inline-block;
-		/* margin-left: -20%; */
-		margin-bottom: 55px;
-	}
-	.failure_prevention:before {
-		content: '';
-		background: url(../cases/images/overview/icons/icons8-settings-96.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 85px !important;
-		width: 85px !important;
-		height: 105px !important;
-		visibility: visible;
-		display: inline-block;
-		/* margin-left: -20%; */
-		margin-bottom: 30px;
-	}
-
-	.likelihood_to_purchase:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 55px !important;
-		width: 56px !important;
-		height: 87px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -2%;
-	}
 
 	.fslider, .fslider .flexslider, .fslider .slider-wrap, .fslider .slide, .fslider .slide > a, .fslider .slide > img, .fslider .slide > a > img {
 		position: relative;
@@ -2429,26 +2294,6 @@
 	.something-left {
 		text-align: center;
 		margin-top: 65px !important;
-	}
-	.button_read_more {
-		font: 12px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
-		background: white;
-		border: 1px solid #004159;
-		border-radius: 4px;
-		color: #004159;
-		outline: 0 none;
-		padding: 12px 25px;
-		position: relative;
-		transition: all 0.75s ease-in-out 0s;
-		cursor: pointer;
-		/* margin-bottom: 55px; */
-		/* margin-left: 0%; */
-	}
-	.button_read_more_arrow {
-		margin-left: 0.5%;
-		line-height: 12px;
-		vertical-align: text-bottom;
-		margin-top: 5px;
 	}
 
 	.button_read_more2 {
@@ -2590,31 +2435,6 @@
 		align-items: center;
 		flex-direction: column;
 		margin-bottom: 15px;
-	}
-
-	.cross_sell_h1{
-		margin-left: 0;
-	}
-	.churn_proability_h1{
-		margin-left: 0;
-	}
-	.demand_forecasting_h1{
-		margin-left: 0;
-	}
-	.likelihood_to_purchase_h1{
-		margin-left: 0;
-	}
-	.turnover_prediction_h1{
-		margin-left: 0;
-	}
-	.sales_forecast_h1{
-		margin-left: 0;
-	}
-	.fraud_prevention_h1{
-		margin-left: 0;
-	}
-	.failure_prevention_h1{
-		margin-left: 0;
 	}
 
 	.ps-timeline-sec {

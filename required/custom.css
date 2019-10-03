@@ -888,34 +888,10 @@ article {
 }
 
 
-
-	/* 1st example
-	inspired from :
-	- http://stackoverflow.com/questions/25573562/wrapping-a-youtube-video-in-a-static-image-frame-and-maintain-responsive-resiz
-	- http://jsfiddle.net/4g9e3ywy/ */
-	div.laptop-wrapper {
-		position: relative;
-		height: 0;
-	}
-	div.laptop-wrapper video {
-		box-sizing: border-box;
-		background: url(images/services/macbook.png) center center no-repeat;
-		background-size: 708px 349px;
-		padding-top: 0%;
-		padding-right: 29.6%;
-		padding-bottom: 1.6%;
-		padding-left: 29.6%;
-		position: absolute;
-		top: 0px;
-		left: 8%;
-		width: 1115px;
-		height: 461px;
-		/* pointer-events: none; */
-	}
-	.margin-home-video{
-        margin-top: -2%;
-    	margin-left: -33%;
-	}
+.margin-home-video{
+	margin-top: -2%;
+	margin-left: -33%;
+}
 
 	/* Floating Icons */
 @keyframes float {
@@ -1968,121 +1944,6 @@ display: block;  /* may not need this, but I've found I do */
 }
 
 
-.fraud:before{
-	content: '';
-	background: url(../images/icons/services/credit\ card.svg) no-repeat;
-	position: relative;
-	/* z-index: 100000; */
-	top: 24px;
-	zoom: 50%;
-	background-size: 125px !important;
-	width:  125px !important;
-	height:  125px !important;
-	visibility: visible;
-	display: inline-block;
-}
-
-.churn:before{
-	content: '';
-	background: url(../images/svgs/man\ running.svg) no-repeat;
-	position: relative;
-	/* z-index: 100000; */
-	top: 24px;
-	zoom: 54%;
-	background-size: 125px !important;
-	width:  125px !important;
-	height:  125px !important;
-	visibility: visible;
-	display: inline-block;
-}
-
-.next_action:before{
-	content: '';
-	background: url(../images/icons/services/route.svg) no-repeat;
-	position: relative;
-	/* z-index: 100000; */
-	top: 24px;
-	zoom: 50%;
-	background-size: 125px !important;
-	width: 125px !important;
-	height: 125px !important;
-	visibility: visible;
-	display: inline-block;
-}
-
-.product_propensity:before{
-	content: '';
-	background: url(../images/icons/services/house.svg) no-repeat;
-	position: relative;
-	/* z-index: 100000; */
-	top: 24px;
-	zoom: 50%;
-	background-size: 125px !important;
-	width: 125px !important;
-	height: 125px !important;
-	visibility: visible;
-	display: inline-block;
-	color:red;
-}
-
-.risk_assessment:before{
-	content: '';
-	background: url(../images/icons/services/accidnt.svg) no-repeat;
-	position: relative;
-	/* z-index: 100000; */
-	top: 24px;
-	zoom: 50%;
-	background-size: 125px !important;
-	width: 125px !important;
-	height: 125px !important;
-	visibility: visible;
-	display: inline-block;
-}
-
-
-.predictive_maintenance:before{
-	content: '';
-	background: url(../images/icons/services/maintanence.svg) no-repeat;
-	position: relative;
-	/* z-index: 100000; */
-	top: 24px;
-	zoom: 47%;
-	background-size: 125px !important;
-	width: 125px !important;
-	height: 125px !important;
-	visibility: visible;
-	display: inline-block;
-}
-
-.customer_lifetime_value:before{
-	content: '';
-	background: url(../images/icons/services/lifetime.svg) no-repeat;
-	position: relative;
-	/* z-index: 100000; */
-	top: 24px;
-	zoom: 50%;
-	background-size: 125px !important;
-	width: 125px !important;
-	height: 125px !important;
-	visibility: visible;
-	display: inline-block;
-}
-
-.demand_forecasting:before{
-	content: '';
-	background: url(../images/icons/services/demand.svg) no-repeat;
-	position: relative;
-	/* z-index: 100000; */
-	top: 24px;
-	zoom: 50%;
-	background-size: 125px !important;
-	width: 125px !important;
-	height: 125px !important;
-	visibility: visible;
-	display: inline-block;
-}
-
-
 /* Codepen Animated Buttons */
 
 .buton{
@@ -2429,11 +2290,9 @@ display: block;  /* may not need this, but I've found I do */
 }
 
 .blog-home-background {
-    /* background-image: url(../images/pexels-photo-247932.jpeg); */
     background-color: #2d2d2d;
     width: 100%;
     height: 280px;
-    /* background-size: cover; */
 }
 
 .grid-post {
@@ -2711,13 +2570,6 @@ div[class*=box] {
 .btnn-one:hover::after {
 	opacity: 0;	
 	transform: scale(0.1, 1);
-}
-
-
-/* HOme Watch Video Section */
-.watch-video-section{
-	background-image: url('../images/creativity-819371_1920.webp'); width: 100%;
-  height: 315px;  background-size: cover;
 }
 
 /* FAQ Styles */
@@ -4083,11 +3935,6 @@ div.cookiebtns {
 	margin: 0;
 }
 
-.home_cases_image_col{
-	padding-left: 0 !important;
-    /* height: 585px; */
-}
-
 .home_cases_banner_ul {
     /* text-align: center; */
 	list-style-position: inside;
@@ -4170,23 +4017,18 @@ div.cookiebtns {
 
 .button_read_more {
     font: 15px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
-    background: white;
     border: 1px solid #004159;
     border-radius: 4px;
     color: #004159;
     outline: 0 none;
-    padding: 9px 17px;
+    padding: 8px 19px;
     position: relative;
     transition: all 0.75s ease-in-out 0s;
     cursor: pointer;
+    margin-top: 20px;
+    height: 40px;
+    width: 115px;
 }
-.button_read_more_arrow{
-	margin-left: 0.5%;
-    line-height: 20px;
-    vertical-align: text-bottom;
-    margin-top: 15px;
-}
-
 
 
   .button_read_more::after, .button_read_more::before {
@@ -4377,33 +4219,56 @@ div.cookiebtns {
 
 .likelihood_to_purchase {
 	background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-    width: 70px !important;
-    height: 70px !important;
+    width: 75px !important;
+	height: 75px !important;
+	background-size: 100%
 }
 
-.churn_proability:before {
+.churn_proability {
     background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-    background-size: 90px !important;
-    width: 110px !important;
-    height: 105px !important;
+    background-size: 100% !important;
+    width: 95px !important;
+    height: 95px !important;
 }
-.sales_forecast:before {
+.sales_forecast {
     background: url(../cases/images/overview/icons/dealer_sales_forecasting.png) no-repeat;
-    width: 107px !important;
-    height: 105px !important;
+    width: 95px !important;
+	height: 95px !important;
+	background-size: 100%;
 
 }
-.turnover_prediction:before {
+.turnover_prediction {
     background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-    background-size: 80px !important;
-    width: 103px !important;
-    height: 99px !important;
+    background-size: 100% !important;
+    width: 85px !important;
+    height: 85px !important;
 }
 
-.demand_forecasting:before {
+.demand_forecasting {
     background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
-    width: 220px !important;
-    height: 170px !important;
+    width: 95px !important;
+	height: 95px !important;
+	background-size: 100%
+}
+
+.purchase_prpensity {
+    background: url(../cases/images/overview/icons/cart.png) no-repeat;
+    width: 95px !important;
+	height: 95px !important;
+	background-size: 100%
+
+}
+.fraud_prevention {
+    background: url(../cases/images/overview/icons/icons8-fraud-100.png) no-repeat;
+    width: 95px !important;
+	height: 95px !important;
+	background-size: 100%
+}
+.failure_prevention {
+    background: url(../cases/images/overview/icons/icons8-settings-96.png) no-repeat;
+    width: 95px !important;
+    height: 95px !important;
+	background-size: 100%
 }
 
 
@@ -4422,51 +4287,6 @@ div.cookiebtns {
 	margin-top: -167px !important;
 }
 
-
-
-
-.purchase_prpensity:before {
-    content: '';
-    background: url(../cases/images/overview/icons/cart.png) no-repeat;
-    position: relative;
-    /* z-index: 100000; */
-    top: 45px;
-    /* zoom: 70%; */
-    background-size: 90px !important;
-    width: 110px !important;
-    height: 110px !important;
-    visibility: visible;
-    display: inline-block;
-    /* margin-left: -20%; */
-}
-.fraud_prevention:before {
-    content: '';
-    background: url(../cases/images/overview/icons/icons8-fraud-100.png) no-repeat;
-    position: relative;
-    /* z-index: 100000; */
-    top: 45px;
-    /* zoom: 70%; */
-    background-size: 85px !important;
-    width: 110px !important;
-    height: 110px !important;
-    visibility: visible;
-    display: inline-block;
-    margin-left: 0%;
-}
-.failure_prevention:before {
-    content: '';
-    background: url(../cases/images/overview/icons/icons8-settings-96.png) no-repeat;
-    position: relative;
-    /* z-index: 100000; */
-    top: 45px;
-    /* zoom: 70%; */
-    background-size: 85px !important;
-    width: 110px !important;
-    height: 110px !important;
-    visibility: visible;
-    display: inline-block;
-    /* margin-left: -20%; */
-}
 
 
 /* Wave Animation */
@@ -4646,14 +4466,22 @@ div.cookiebtns {
 	flex-direction: row;
 }
 
-.cases-column {
+.cases-main-row {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-around;
 	align-items: center;
-	max-width: 850px
+	padding: 0 3%;
 }
 
+.cases-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+	max-width: 800px;
+	margin-right: 50px
+}
 .cases-icon-text-row {
 	display: flex;
 	flex-direction: row;
@@ -4661,30 +4489,10 @@ div.cookiebtns {
 	align-items: flex-start;
 }
 
-/* .cross_sell_h1{
-	margin-left: -10.5%;
+.cases-icon-text-row i{
+	margin-right: 20px
 }
-.churn_proability_h1{
-	margin-left: -14%;
-}
-.demand_forecasting_h1{
-	margin-left: -10%;
-}
-.likelihood_to_purchase_h1{
-	margin-left: -12%;
-}
-.turnover_prediction_h1{
-	margin-left: -9.7%;
-}
-.sales_forecast_h1 {
-    margin-left: -10%;
-}
-.fraud_prevention_h1 {
-    margin-left: -13.5%;
-}
-.failure_prevention_h1{
-	margin-left: -13.5%;
-} */
+
 .connect_mobile_margin {
     margin-top: 0px;
     padding-left: 6%;
@@ -4698,10 +4506,13 @@ div.cookiebtns {
 .testimonial_slider_wrap_mobile{
 	margin-bottom: 138px !important;
 }
-.call_to_action_flex{
-	display: flex;
-	flex-direction: row;
-	margin-top: 5rem;
+.call-to-action-flex {
+    display: flex;
+    flex-direction: row;
+    margin: 4rem auto;
+    justify-content: center;
+    max-width: 570px;
+    flex-wrap: wrap;
 }
 
 .clinets_section_margin_mobile{
@@ -5148,6 +4959,10 @@ div.cookiebtns {
 	.page3 .slider-wrap img{
 		height: 100%;;
 	}
+
+	.home-cases-image{
+		display: inline;
+	}
 	
 	/* .page3 .slide #caseimage2, .page3 .slide #caseimage4, .page3 .slide #caseimage6, .page3 .slide #caseimage8 {
 		padding-right: 0 !important
@@ -5281,22 +5096,6 @@ div.cookiebtns {
 		margin-top: -30px;
 	}
 
-	div.laptop-wrapper video {
-		box-sizing: border-box;
-		background: url(images/services/macbook.png) center center no-repeat;
-		background-size: 646px 337px;
-		padding-top: 2.2%;
-		padding-right: 25.6%;
-		padding-bottom: 5.6%;
-		padding-left: 25.6%;
-		position: absolute;
-		top: -40px;
-		left: -4%;
-		width: 857px;
-		height: 460px;
-		/* pointer-events: none; */
-	}
-
 	.home-quote-top {
 		font-size: 6em;
 		display: flex;
@@ -5345,13 +5144,6 @@ div.cookiebtns {
 	#whyenhencer {
 		zoom: 0.85
 	}
-
-/* 	.bgimg {
-		background-image: url(../images/home_layer.png);
-		background-repeat: no-repeat;
-		background-position-x: -130%;
-		background-position-y: 55px;
-	} */
 
 
 	.slider-title h1 {
@@ -5410,21 +5202,6 @@ div.cookiebtns {
 		margin-left: -23%;
 	}
 
-	div.laptop-wrapper video {
-		box-sizing: border-box;
-		background: url(images/services/macbook.png) center center no-repeat;
-		background-size: 646px 337px;
-		padding-top: 3.2%;
-		padding-right: 26.6%;
-		padding-bottom: 5.6%;
-		padding-left: 26.6%;
-		position: absolute;
-		top: -40px;
-		left: -4%;
-		width: 857px;
-		height: 460px;
-		/* pointer-events: none; */
-	}
 	.home-integration-heading {
 		text-align: center;
 		color: #228E9F !important;
@@ -5432,20 +5209,6 @@ div.cookiebtns {
 		font-size: 3em !important;
 	}
 
-	.purchase_prpensity:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cart.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 90px !important;
-		width: 104px !important;
-		height: 103px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -16%;
-	}
 
 
 
@@ -5466,71 +5229,8 @@ div.cookiebtns {
 		padding-right: 2.5%;
 		padding-left: 2.5%;
 	}
-	.home_cases_banner_p_left {
-		font-size: 16px;
-		font-weight: 400;
-		color: #666;
-		padding-right: 2.5%;
-		padding-left: 2.5%;
-	}
-	.button_read_more {
-		font: 15px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
-		background: white;
-		border: 1px solid #004159;
-		border-radius: 4px;
-		color: #004159;
-		outline: 0 none;
-		padding: 15px 25px;
-		position: relative;
-		transition: all 0.75s ease-in-out 0s;
-		cursor: pointer;
-	}
 
-	.likelihood_to_purchase:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 70px !important;
-		width: 88px !important;
-		height: 90px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -16%;
-	}
 
-	.demand_forecasting:before {
-		content: '';
-		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 50px;
-		left: 4%;
-		/* zoom: 70%; */
-		background-size: 147px !important;
-		width: 208px !important;
-		height: 152px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -16%;
-	}
-
-	.churn_proability:before {
-		content: '';
-		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 75px !important;
-		width: 81px !important;
-		height: 92px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -15%;
-	}
 
 	.why_enhencer_card {
 		width: 358px;
@@ -5650,21 +5350,6 @@ div.cookiebtns {
     margin-left: 44%;
 	}
 
-	div.laptop-wrapper video {
-		box-sizing: border-box;
-		background: url(images/services/macbook.png) center center no-repeat;
-		background-size: 641px 332px;
-		padding-top: 1.2%;
-		padding-right: 24.6%;
-		padding-bottom: 3.6%;
-		padding-left: 24.6%;
-		position: absolute;
-		top: 40px;
-		left: 4%;
-		width: 855px;
-		height: 450px;
-		/* pointer-events: none; */
-	}
 	.home-title{
 		width: 500px;
 		margin-left: 0%;
@@ -5685,15 +5370,6 @@ div.cookiebtns {
 		margin-left: auto;
 		max-width: 90%;
 	}
-
-
-
-	/* .bgimg {
-		background-image: url(../images/home_layer.png);
-		background-repeat: no-repeat;
-		background-position-x: -120%;
-		background-position-y: 10px;
-	} */
 
 	.slider-title h1 {
 		font-size: 36px;
@@ -5769,20 +5445,6 @@ div.cookiebtns {
 		margin-top: 0;
 	}
 
-	.purchase_prpensity:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cart.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 85px !important;
-		width: 88px !important;
-		height: 100px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
-	}
 
 	.home_cases_banner_p {
 		font-size: 1.3em;
@@ -5798,64 +5460,6 @@ div.cookiebtns {
 		color: black;
 		padding-right: 10%;
 	}	
-
-	.button_read_more {
-		font: 15px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
-		background: white;
-		border: 1px solid #004159;
-		border-radius: 4px;
-		color: #004159;
-		outline: 0 none;
-		padding: 15px 25px;
-		position: relative;
-		transition: all 0.75s ease-in-out 0s;
-		cursor: pointer;
-	}
-	.likelihood_to_purchase:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 68px !important;
-		width: 72px !important;
-		height: 94px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
-	}
-
-	.demand_forecasting:before {
-		content: '';
-		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 50px;
-		left: 4%;
-		/* zoom: 70%; */
-		background-size: 158px !important;
-		width: 234px !important;
-		height: 167px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -17%;
-	}
-
-	.churn_proability:before {
-		content: '';
-		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 75px !important;
-		width: 72px !important;
-		height: 96px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
-	}
 
 	.owl-carousel .owl-stage-outer {
 		position: relative;
@@ -5960,21 +5564,6 @@ div.cookiebtns {
     margin-left: -20%;
 	}
 
-	div.laptop-wrapper video {
-		box-sizing: border-box;
-		background: url(images/services/macbook.png) center center no-repeat;
-		background-size: 699px 363px;
-		padding-top: 2.2%;
-		padding-right: 25.6%;
-		padding-bottom: 4.6%;
-		padding-left: 25.6%;
-		position: absolute;
-		top: -40px;
-		left: -4%;
-		width: 896px;
-		height: 460px;
-		/* pointer-events: none; */
-	}
 	.home-title{
 		width: 525px;
 		margin-left: -2%;
@@ -6068,20 +5657,6 @@ div.cookiebtns {
 		margin-top: 0;
 	}
 
-	.purchase_prpensity:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cart.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 86px !important;
-		width: 94px !important;
-		height: 100px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
-	}
 
 	.home_cases_banner_h3 {
 		/* text-align: center; */
@@ -6102,64 +5677,6 @@ div.cookiebtns {
 	}
 
 
-	.button_read_more {
-		font: 17px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
-		background: white;
-		border: 1px solid #004159;
-		border-radius: 4px;
-		color: #004159;
-		outline: 0 none;
-		padding: 15px 25px;
-		position: relative;
-		transition: all 0.75s ease-in-out 0s;
-		cursor: pointer;
-	}
-
-	.likelihood_to_purchase:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 68px !important;
-		width: 78px !important;
-		height: 92px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
-	}
-
-	.demand_forecasting:before {
-		content: '';
-		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 50px;
-		left: 4%;
-		/* zoom: 70%; */
-		background-size: 155px !important;
-		width: 216px !important;
-		height: 151px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -15%;
-	}
-
-	.churn_proability:before {
-		content: '';
-		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 77px !important;
-		width: 78px !important;
-		height: 93px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
-	}
 
 	.why_enhencer_card {
 		width: 350px;
@@ -6275,21 +5792,6 @@ div.cookiebtns {
     padding-top: 75px;
 	}
 
-	div.laptop-wrapper video {
-		box-sizing: border-box;
-		background: url(images/services/macbook.png) center center no-repeat;
-		background-size: 740px 390px;
-		padding-top: 2.2%;
-		padding-right: 25.6%;
-		padding-bottom: 5.6%;
-		padding-left: 25.6%;
-		position: absolute;
-		top: -40px;
-		left: 5%;
-		width: 985px;
-		height: 460px;
-		/* pointer-events: none; */
-	}
 	
 	.home-mid-para {
 		font-size: 23px;
@@ -6334,24 +5836,6 @@ div.cookiebtns {
 
 	.header_title_right_margin_top {
 		margin-top: -155px !important;
-	}
-
-
-
-
-	.churn_proability:before {
-		content: '';
-		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 80px !important;
-		width: 93px !important;
-		height: 95px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
 	}
 
 

@@ -1,3 +1,7 @@
+.home-cases-image{
+	display: none;
+}
+
 @media (min-width: 361px) and (max-width: 411.98px) {
 	div.laptop-wrapper {
 		position: relative;
@@ -1687,21 +1691,7 @@
 		text-align: center;
 		margin-left: -5%;
 	}
-	.demand_forecasting:before {
-		content: '';
-		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: -63px;
-		left: 48%;
-		/* zoom: 70%; */
-		background-size: 146px !important;
-		width: 133px !important;
-		height: 152px !important;
-		visibility: visible;
-		display: inline-block;
-		/* margin-left: -16%; */
-	}
+
 	.home_cases_banner_h3 {
 		text-align: center !important;
 		color: #3e8a81;
@@ -1721,64 +1711,6 @@
 		padding-left: 2%;
 	}
 
-	.button_read_more {
-		font: 14px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
-		background: white;
-		border: 1px solid #004159;
-		border-radius: 4px;
-		color: #004159 !important;
-		outline: 0 none;
-		padding: 15px 25px;
-		position: relative;
-		transition: all 0.75s ease-in-out 0s;
-		cursor: pointer;
-		margin-left: 31%;
-	}
-
-	.purchase_prpensity:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cart.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: -12px;
-		left: 38%;
-		background-size: 76px !important;
-		width: 70px !important;
-		height: 103px !important;
-		visibility: visible;
-		display: inline-block;
-		/* margin-left: -16%; */
-	}
-
-	.likelihood_to_purchase:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: -32px;
-		left: 48%;
-		background-size: 58px !important;
-		width: 55px !important;
-		height: 90px !important;
-		visibility: visible;
-		display: inline-block;
-		/* margin-left: -16%; */
-	}
-
-	.churn_proability:before {
-		content: '';
-		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: -21px;
-		left: 39%;
-		background-size: 70px !important;
-		width: 63px !important;
-		height: 94px !important;
-		visibility: visible;
-		display: inline-block;
-		/* margin-left: -15%; */
-	}
 	
 	.home-mid-para {
 		font-size: 16px;
@@ -2932,37 +2864,6 @@
 		cursor: pointer;
 		/* margin-bottom: 55px; */
 		margin-left: 34%;
-	}
-
-	.likelihood_to_purchase:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 55px !important;
-		width: 56px !important;
-		height: 87px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -10%;
-	}
-
-
-	.likelihood_to_purchase:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 55px !important;
-		width: 56px !important;
-		height: 87px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -2%;
 	}
 
 	.waveWrapperInner {

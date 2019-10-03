@@ -283,51 +283,6 @@
 		cursor: pointer;
 	}
 
-	.likelihood_to_purchase:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 70px !important;
-		width: 88px !important;
-		height: 90px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -16%;
-	}
-
-	.demand_forecasting:before {
-		content: '';
-		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 50px;
-		left: 4%;
-		/* zoom: 70%; */
-		background-size: 147px !important;
-		width: 208px !important;
-		height: 152px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -16%;
-	}
-
-	.churn_proability:before {
-		content: '';
-		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 75px !important;
-		width: 81px !important;
-		height: 92px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -15%;
-	}
 
 	.waveWrapperInner {
 		position: inherit;
@@ -633,51 +588,6 @@
 		transition: all 0.75s ease-in-out 0s;
 		cursor: pointer;
 	}
-	.likelihood_to_purchase:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 68px !important;
-		width: 72px !important;
-		height: 94px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
-	}
-
-	.demand_forecasting:before {
-		content: '';
-		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 50px;
-		left: 4%;
-		/* zoom: 70%; */
-		background-size: 158px !important;
-		width: 234px !important;
-		height: 167px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -17%;
-	}
-
-	.churn_proability:before {
-		content: '';
-		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 75px !important;
-		width: 72px !important;
-		height: 96px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
-	}
 
 	.waveWrapperInner {
 		position: inherit;
@@ -942,66 +852,6 @@
 		padding-right: 10%;
 	}
 
-
-	.button_read_more {
-		font: 17px/1.5 "Roboto", Tahoma, helvetica, arial, sans-serif;
-		background: white;
-		border: 1px solid #004159;
-		border-radius: 4px;
-		color: #004159;
-		outline: 0 none;
-		padding: 15px 25px;
-		position: relative;
-		transition: all 0.75s ease-in-out 0s;
-		cursor: pointer;
-	}
-
-	.likelihood_to_purchase:before {
-		content: '';
-		background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 68px !important;
-		width: 78px !important;
-		height: 92px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
-	}
-
-	.demand_forecasting:before {
-		content: '';
-		background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 50px;
-		left: 4%;
-		/* zoom: 70%; */
-		background-size: 155px !important;
-		width: 216px !important;
-		height: 151px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -15%;
-	}
-
-	.churn_proability:before {
-		content: '';
-		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 77px !important;
-		width: 78px !important;
-		height: 93px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
-	}
-
 	.why_enhencer_card {
 		width: 350px;
 		overflow: hidden;
@@ -1195,24 +1045,6 @@
 
 	.header_title_right_margin_top {
 		margin-top: -155px !important;
-	}
-
-
-
-
-	.churn_proability:before {
-		content: '';
-		background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-		position: relative;
-		/* z-index: 100000; */
-		top: 45px;
-		/* zoom: 70%; */
-		background-size: 80px !important;
-		width: 93px !important;
-		height: 95px !important;
-		visibility: visible;
-		display: inline-block;
-		margin-left: -13%;
 	}
 
 	.waveWrapperInner {
