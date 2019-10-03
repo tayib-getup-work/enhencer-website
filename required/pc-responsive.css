@@ -246,13 +246,6 @@
 		margin-left: -16%;
 	}
 
-	.home_cases_banner_h1 {
-		color: #004159;
-		font-weight: 400;
-		font-size: 2.5em;
-		margin-top: -25px;
-	}
-
 	.home_cases_banner_h3 {
 		/* text-align: center; */
 		color: #3e8a81;
@@ -914,13 +907,6 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 0;
-	}
-
-	.home_cases_banner_h1 {
-		color: #004159;
-		font-weight: 400;
-		font-size: 2.8em;
-		margin-top: -25px;
 	}
 
 	.purchase_prpensity:before {

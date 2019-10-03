@@ -4066,31 +4066,23 @@ div.cookiebtns {
 }
 
 
-
-
 .home_cases_banner_h3 {
     color: #3e8a81;
     font-weight: 400;
     font-size: 2.2em;
     line-height: 1.5;
     vertical-align: middle;
-    margin-bottom: 20px;
+	margin-bottom: 0;
+	margin-top: 20px
 }
 
 .home_cases_banner_p_left {
     font-size: 18px;
     font-weight: 400;
-    color: #666;
-    padding-right: 10%;
+	color: #666;
+	margin: 0;
 }
 
-.home_cases_banner_p_right {
-    font-size: 18px;
-    text-align: end;
-    font-weight: 400;
-    color: #666;
-    padding-left: 19%;
-}
 .home_cases_image_col{
 	padding-left: 0 !important;
     /* height: 585px; */
@@ -4112,7 +4104,7 @@ div.cookiebtns {
     color: #004159;
     font-weight: 400;
     font-size: 3em;
-    margin-top: -25px;
+    margin-top: 0;
     margin-bottom: 5px !important;
 }
 
@@ -4383,78 +4375,35 @@ div.cookiebtns {
 }
 
 
-.likelihood_to_purchase:before {
-    content: '';
-    background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
-    position: relative;
-    /* z-index: 100000; */
-    top: 45px;
-    /* zoom: 70%; */
-    background-size: 65px !important;
-    width: 95px !important;
-    height: 95px !important;
-    visibility: visible;
-    display: inline-block;
-    /* margin-left: -16%; */
+.likelihood_to_purchase {
+	background: url(../cases/images/overview/icons/cash_counter.png) no-repeat;
+    width: 70px !important;
+    height: 70px !important;
 }
 
 .churn_proability:before {
-    content: '';
     background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-    position: relative;
-    /* z-index: 100000; */
-    top: 45px;
-    /* zoom: 70%; */
     background-size: 90px !important;
     width: 110px !important;
     height: 105px !important;
-    visibility: visible;
-    display: inline-block;
-    /* margin-left: -21%; */
 }
 .sales_forecast:before {
-    content: '';
-    background: url(../cases/images/overview/icons/cart.png) no-repeat;
-    position: relative;
-    /* z-index: 100000; */
-    top: 45px;
-    /* zoom: 70%; */
-    background-size: 85px !important;
+    background: url(../cases/images/overview/icons/dealer_sales_forecasting.png) no-repeat;
     width: 107px !important;
     height: 105px !important;
-    visibility: visible;
-    display: inline-block;
-    /* margin-left: -14.5%; */
+
 }
 .turnover_prediction:before {
-    content: '';
     background: url(../cases/images/overview/icons/Churn_Probability.png) no-repeat;
-    position: relative;
-    /* z-index: 100000; */
-    top: 45px;
-    /* zoom: 70%; */
     background-size: 80px !important;
     width: 103px !important;
     height: 99px !important;
-    visibility: visible;
-    display: inline-block;
-    margin-left: -13%;
 }
 
 .demand_forecasting:before {
-    content: '';
     background: url(../cases/images/overview/icons/man_with_a_sign.png) no-repeat;
-    position: relative;
-    /* z-index: 100000; */
-    top: 50px;
-    left: 4%;
-    /* zoom: 70%; */
-    background-size: 169px !important;
     width: 220px !important;
     height: 170px !important;
-    visibility: visible;
-    display: inline-block;
-    /* margin-left: -20.5%; */
 }
 
 
@@ -4608,9 +4557,6 @@ div.cookiebtns {
 	text-align: left;
 }
 
-.something-right{
-	text-align: right;
-}
 
 .height-for-mobile{
 	height: auto !important;
@@ -4687,12 +4633,11 @@ div.cookiebtns {
 
 
 
-
-#casesecondcol1 .cases_overview_icon, #casesecondcol3 .cases_overview_icon, #casesecondcol5 .cases_overview_icon, #casesecondcol7 .cases_overview_icon{
+/* #casesecondcol1 .cases_overview_icon, #casesecondcol3 .cases_overview_icon, #casesecondcol5 .cases_overview_icon, #casesecondcol7 .cases_overview_icon{
 	justify-content: flex-end !important;
 	margin-right: -10.5% !important;
 	margin-left: 0 !important;
-}
+} */
 
 .cases_overview_icon {
     display: flex;
@@ -4701,7 +4646,22 @@ div.cookiebtns {
 	flex-direction: row;
 }
 
-.cross_sell_h1{
+.cases-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 850px
+}
+
+.cases-icon-text-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+/* .cross_sell_h1{
 	margin-left: -10.5%;
 }
 .churn_proability_h1{
@@ -4724,7 +4684,7 @@ div.cookiebtns {
 }
 .failure_prevention_h1{
 	margin-left: -13.5%;
-}
+} */
 .connect_mobile_margin {
     margin-top: 0px;
     padding-left: 6%;
@@ -4736,7 +4696,6 @@ div.cookiebtns {
 }
 
 .testimonial_slider_wrap_mobile{
-    /* height: auto !important; */
 	margin-bottom: 138px !important;
 }
 .call_to_action_flex{
@@ -5190,7 +5149,7 @@ div.cookiebtns {
 		height: 100%;;
 	}
 	
-	.page3 .slide #caseimage2, .page3 .slide #caseimage4, .page3 .slide #caseimage6, .page3 .slide #caseimage8 {
+	/* .page3 .slide #caseimage2, .page3 .slide #caseimage4, .page3 .slide #caseimage6, .page3 .slide #caseimage8 {
 		padding-right: 0 !important
 	}
 	
@@ -5212,7 +5171,7 @@ div.cookiebtns {
 
 	#caseslide1 i, #caseslide3 i, #caseslide5 i, #caseslide7 i {
 		width: 85px;
-	}
+	} */
 
 	#logo {
 		margin-top: 21px;
@@ -5488,12 +5447,7 @@ div.cookiebtns {
 		margin-left: -16%;
 	}
 
-	.home_cases_banner_h1 {
-		color: #004159;
-		font-weight: 400;
-		font-size: 2.5em;
-		margin-top: -25px;
-	}
+
 
 	.home_cases_banner_h3 {
 		/* text-align: center; */
@@ -6112,13 +6066,6 @@ div.cookiebtns {
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 0;
-	}
-
-	.home_cases_banner_h1 {
-		color: #004159;
-		font-weight: 400;
-		font-size: 2.8em;
-		margin-top: -25px;
 	}
 
 	.purchase_prpensity:before {

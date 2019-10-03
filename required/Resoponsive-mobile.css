@@ -2948,9 +2948,7 @@
 		display: inline-block;
 		margin-left: -10%;
 	}
-	.something-padding {
-		padding-left: 0%;
-	}
+
 
 	.likelihood_to_purchase:before {
 		content: '';

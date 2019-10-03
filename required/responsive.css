@@ -2307,7 +2307,7 @@
 	}
 	.sales_forecast:before {
 		content: '';
-		background: url(../cases/images/overview/icons/cart.png) no-repeat;
+		background: url(../cases/images/overview/icons/dealer_sales_forecasting.png) no-repeat;
 		position: relative;
 		/* z-index: 100000; */
 		top: 45px;
@@ -2349,9 +2349,6 @@
 		display: inline-block;
 		/* margin-left: -20%; */
 		margin-bottom: 30px;
-	}
-	.something-padding {
-		padding-left: 0%;
 	}
 
 	.likelihood_to_purchase:before {
@@ -2690,18 +2687,6 @@
 		color: #444;
 	}
 
-	.one_page_body {
-		display: block;
-		position: static;
-		padding: 0;
-		width: 100%;
-		height: 100%;
-		margin: 0;
-		overflow: auto;
-		-webkit-transition: opacity 400ms;
-		-moz-transition: opacity 400ms;
-		transition: opacity 400ms;
-	}
 	.side-tabs ul.tab-nav.tab-nav2 li a {
 		box-shadow: none;
 	}
