@@ -4021,12 +4021,12 @@ div.cookiebtns {
     border-radius: 4px;
     color: #004159;
     outline: 0 none;
-    padding: 8px 19px;
+    padding: 7px 19px;
     position: relative;
     transition: all 0.75s ease-in-out 0s;
     cursor: pointer;
     margin-top: 20px;
-    height: 40px;
+    height: 35px;
     width: 115px;
 }
 
@@ -4407,9 +4407,10 @@ div.cookiebtns {
 }
 
 
-.forced_sticky_header{
+.forced-sticky-header{
 	height: 95px !important;
-    z-index: 1000000 !important;
+	z-index: 1000000 !important;
+	background: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.4) !important;
 	margin-top: -25px !important;
 	top: 0;
@@ -4419,7 +4420,7 @@ div.cookiebtns {
 	opacity: 1;
 }
 
-.white-header {
+. {
 	background: white !important;
 }
 
@@ -5029,21 +5030,22 @@ div.cookiebtns {
 	}
 }
 
-@media(max-width: 1439px) and (min-width: 1300px) {
+@media(max-width: 1439px) and (min-width: 1350px) {
 	.home-layer {
 		left: -18%;
 	}
 }
 
-@media(max-width: 1299px) and (min-width: 1220px) {
+@media(max-width: 1350px) and (min-width: 1220px) {
 	.home-layer {
-		left: -18%;
+		left: -6%;
 	}
 }
+
 
 @media(max-width: 1219px) and (min-width: 1150px) {
 	.home-layer {
-		left: -20%;
+		left: -10%;
 	}
 }
 
@@ -5091,7 +5093,6 @@ div.cookiebtns {
 	}
 
 	.home-title {
-		width: 500px;
 		margin-left: -1%;
 		margin-top: -30px;
 	}
@@ -5351,7 +5352,6 @@ div.cookiebtns {
 	}
 
 	.home-title{
-		width: 500px;
 		margin-left: 0%;
 		margin-top: -30px;
 	}
