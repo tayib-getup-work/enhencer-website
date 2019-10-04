@@ -4702,7 +4702,7 @@ div.cookiebtns {
 }
 .cases_home_header{
 	background-image: url('../cases/images/cases-home.jpg'); background-size: cover; background-position: right; padding-top: 125px !important;
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 .cases_try_it_free_button {
     background-color: transparent;
