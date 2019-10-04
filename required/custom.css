@@ -3933,6 +3933,7 @@ div.cookiebtns {
     font-weight: 400;
 	color: #666;
 	margin: 0;
+	text-align: center;
 }
 
 .home_cases_banner_ul {
@@ -4021,7 +4022,7 @@ div.cookiebtns {
     border-radius: 4px;
     color: #004159;
     outline: 0 none;
-    padding: 7px 19px;
+    padding: 6px 19px;
     position: relative;
     transition: all 0.75s ease-in-out 0s;
     cursor: pointer;
@@ -4420,12 +4421,6 @@ div.cookiebtns {
 	opacity: 1;
 }
 
-. {
-	background: white !important;
-}
-
-
-
 .temp_margin_top{
 	margin-top: 52.8px !important;
 }
@@ -4453,13 +4448,6 @@ div.cookiebtns {
 }
 
 
-
-/* #casesecondcol1 .cases_overview_icon, #casesecondcol3 .cases_overview_icon, #casesecondcol5 .cases_overview_icon, #casesecondcol7 .cases_overview_icon{
-	justify-content: flex-end !important;
-	margin-right: -10.5% !important;
-	margin-left: 0 !important;
-} */
-
 .cases_overview_icon {
     display: flex;
     justify-content: flex-start;
@@ -4479,7 +4467,7 @@ div.cookiebtns {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 	max-width: 800px;
 	margin-right: 50px
 }
