@@ -1,9 +1,9 @@
 .border-blue {
-    border: 1.5px solid #1b7f91 !important;
+    border: 1px solid #1b7f91 !important;
 }
 
 .border-green {
-	border: 1.5px solid var(--buttonthemecolor) !important; 
+	border: 1px solid var(--buttonthemecolor) !important; 
 }
 .button-enhencer-default-green {
     color: #1b7f91 !important;
@@ -4526,10 +4526,6 @@ div.cookiebtns {
 	align-items: flex-start;
 }
 
-.cases-icon-text-row i{
-	margin-right: 20px
-}
-
 .connect_mobile_margin {
     margin-top: 0px;
     padding-left: 6%;
@@ -4953,7 +4949,7 @@ div.cookiebtns {
 
 .white_header_sign_in_button{
 	color: #1b7f91 !important;
-    border: 2px solid #1b7f91 !important;
+    border: 1px solid #1b7f91 !important;
     font-size: 15px;
     display: flex;
     align-items: center;
