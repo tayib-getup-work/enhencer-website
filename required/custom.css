@@ -4932,7 +4932,7 @@ div.cookiebtns {
     height: 70px;
 }
 
-#forced_header .navbar-right-buttons a {
+/* #forced_header .navbar-right-buttons a {
     text-align: center;
     padding-left: 0px;
     width: 82px;
@@ -4945,7 +4945,7 @@ div.cookiebtns {
 
 #forced_header .navbar-right-buttons a:hover {
 	box-shadow: 0 1px 5px 1px white
-}
+} */
 
 .white_header_sign_in_button{
 	color: #1b7f91 !important;
@@ -4960,8 +4960,35 @@ div.cookiebtns {
     font-size: 15px;
     display: flex;
     align-items: center;
-    flex-direction: column;
+	flex-direction: column;
+	width: 90px;
+    padding: 1px 0;
 }
+
+.sign_in_button div {
+	text-align: center;
+	font-size: 15px;
+	background-color: transparent !important;
+	margin-top: -2px;
+}
+
+.try-free-sign-in-button-menu-item {
+	display: none;
+}
+
+.try-free-button {
+    text-align: center;
+    padding-left: 0px;
+    width: 100px !important;
+    padding-right: 0px;
+    font-size: 15px;
+    background-color: #13364a !important;
+}
+
+.try-free-button:hover {
+    box-shadow: 0 1px 7px #13364a !important;
+}
+
 #homesliderbuttons {
 	display: flex;
 	flex-direction: row;
@@ -4979,6 +5006,10 @@ div.cookiebtns {
 		opacity: 0 !important;
 		top: -95px;
 		pointer-events: none;
+	}
+
+	.homepage-header {
+		zoom: 0.8;
 	}
 
 	.page1 {
@@ -5928,9 +5959,6 @@ div.cookiebtns {
 	}
 }
 
-.try-free-sign-in-button-menu-item {
-	display: none;
-}
 
 .homepage-footer {
 	position: absolute;

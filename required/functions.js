@@ -78,7 +78,7 @@ function onScrollSliderParallax() {
 	killRequesting();
 }
 
-function handleStickyHeader(){
+function handleStickyHeader() {
 	var fromTop = $(window).scrollTop();
 	$('#forced_header').toggleClass('hidden-header', fromTop < 300);
 }
