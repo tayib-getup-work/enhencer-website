@@ -1,10 +1,9 @@
-<div id="forced_header"
-    class="transparent-header floating-header clearfix sticky-header forced-sticky-header ">
+<div id="forced_header" class="hidden-header forced-sticky-header">
     <div id="header-wrap">
         <div class="container-home-wide-body clearfix">
             <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
             <!-- Logo
-                ============================================= -->
+					============================================= -->
             <div id="logo">
                 <a href="/" class="standard-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
                         src="images/Log_new.png" alt="Enhencer Logo"></a>
@@ -12,12 +11,6 @@
             <!-- #logo end -->
             <nav id="primary-menu" class="with-arrows">
                 <ul id="primarymenumobile" class="ul.sf-js-enabled" style="margin-top: -3px;">
-                    <li>
-                        <a href="/"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
-                            <div>Product</div>
-                        </a>
-                    </li>
                     <li>
                         <a href="connect.html"
                             onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
@@ -48,21 +41,34 @@
                             <div>Blog</div>
                         </a>
                     </li>
+                    <li class="try-free-sign-in-button-menu-item">
+                        <a href="https://app.enhencer.com/#!/login"
+                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                            <div>Sign in</div>
+                        </a>
+                    </li>
+                    <li class="try-free-sign-in-button-menu-item">
+                        <a href="https://app.enhencer.com/#!/signup"
+                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                            <div>Try it Free</div>
+                        </a>
+                    </li>
                 </ul>
 
                 <div class="navbar-right-buttons">
                     <a href="https://app.enhencer.com/#!/login"
                         onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
                         target="_blank"
-                        class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green">
+                        class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green sign_in_button">
                         <div
-                            style="color: white; text-align: center; font-size: 15px; background-color: transparent !important;">
+                            style="text-align: center; font-size: 15px; background-color: transparent !important; margin-top: -2px;">
                             Sign in
                         </div>
                     </a>
                     <a href="https://app.enhencer.com/#!/signup"
                         onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-                        target="_blank" class="button button-rounded fright try-free-button" style="width: 100px">
+                        target="_blank" class="button button-rounded fright try-free-button try-free-button-header"
+                        style="width: 100px">
                         <div style="text-align: center">
                             Try it Free
                         </div>
