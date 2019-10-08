@@ -6624,7 +6624,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
     outline: none;
     white-space: nowrap;
     margin: 5px;
-    padding: 0 22px;
+    padding: 0;
     font-size: 15px;
     height: 40px;
     line-height: 40px;

@@ -1436,48 +1436,48 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof mssqltextclass != 'undefined') {
 					mssqltextclass.classList.add('center');
 				}
-				if (typeof connecttabrow != 'undefined') {
-					connecttabrow.classList.remove("row");
-				}
-				if (typeof connecttabrow2 != 'undefined') {
-					connecttabrow2.classList.remove("row");
-				}
-				if (typeof connecttabrow3 != 'undefined') {
-					connecttabrow3.classList.remove("row");
-				}
-				if (typeof connecttabrow4 != 'undefined') {
-					connecttabrow4.classList.remove("row");
-				}
-				if (typeof connecttabrow5 != 'undefined') {
-					connecttabrow5.classList.remove("row");
-				}
-				if (typeof connecttabrow6 != 'undefined') {
-					connecttabrow6.classList.remove("row");
-				}
-				if (typeof connecttabrow7 != 'undefined') {
-					connecttabrow7.classList.remove("row");
-				}
-				if (typeof connecttabrow8 != 'undefined') {
-					connecttabrow8.classList.remove("row");
-				}
-				if (typeof connecttabrow9 != 'undefined') {
-					connecttabrow9.classList.remove("row");
-				}
-				if (typeof connecttabrow10 != 'undefined') {
-					connecttabrow10.classList.remove("row");
-				}
-				if (typeof connecttabrow11 != 'undefined') {
-					connecttabrow11.classList.remove("row");
-				}
-				if (typeof connecttabrow12 != 'undefined') {
-					connecttabrow12.classList.remove("row");
-				}
-				if (typeof connecttabrow13 != 'undefined') {
-					connecttabrow13.classList.remove("row");
-				}
-				if (typeof connecttabrow14 != 'undefined') {
-					connecttabrow14.classList.remove("row");
-				}
+				// if (typeof connecttabrow != 'undefined') {
+				// 	connecttabrow.classList.remove("row");
+				// }
+				// if (typeof connecttabrow2 != 'undefined') {
+				// 	connecttabrow2.classList.remove("row");
+				// }
+				// if (typeof connecttabrow3 != 'undefined') {
+				// 	connecttabrow3.classList.remove("row");
+				// }
+				// if (typeof connecttabrow4 != 'undefined') {
+				// 	connecttabrow4.classList.remove("row");
+				// }
+				// if (typeof connecttabrow5 != 'undefined') {
+				// 	connecttabrow5.classList.remove("row");
+				// }
+				// if (typeof connecttabrow6 != 'undefined') {
+				// 	connecttabrow6.classList.remove("row");
+				// }
+				// if (typeof connecttabrow7 != 'undefined') {
+				// 	connecttabrow7.classList.remove("row");
+				// }
+				// if (typeof connecttabrow8 != 'undefined') {
+				// 	connecttabrow8.classList.remove("row");
+				// }
+				// if (typeof connecttabrow9 != 'undefined') {
+				// 	connecttabrow9.classList.remove("row");
+				// }
+				// if (typeof connecttabrow10 != 'undefined') {
+				// 	connecttabrow10.classList.remove("row");
+				// }
+				// if (typeof connecttabrow11 != 'undefined') {
+				// 	connecttabrow11.classList.remove("row");
+				// }
+				// if (typeof connecttabrow12 != 'undefined') {
+				// 	connecttabrow12.classList.remove("row");
+				// }
+				// if (typeof connecttabrow13 != 'undefined') {
+				// 	connecttabrow13.classList.remove("row");
+				// }
+				// if (typeof connecttabrow14 != 'undefined') {
+				// 	connecttabrow14.classList.remove("row");
+				// }
 				if (typeof featuresmargin != 'undefined') {
 					featuresmargin.classList.remove("margin-left-features-pc");
 				}
