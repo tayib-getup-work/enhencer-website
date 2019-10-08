@@ -11910,40 +11910,6 @@ body:not(.device-touch) #gotoTop {
 
 
 /* ----------------------------------------------------------------
-	Landing Pages
------------------------------------------------------------------*/
-
-.landing-wide-form {
-	background: rgba(0,0,0,0.3);
-	padding: 30px;
-	border-radius: 3px;
-}
-
-.landing-form-overlay {
-	position: absolute;
-	z-index: 10;
-	top: auto;
-	left: auto;
-	right: 0;
-	bottom: -154px;
-	background-color: rgba(0,0,0,0.6);
-	border-radius: 3px 3px 0 0;
-}
-
-.landing-video {
-	z-index: 1;
-	width: 560px;
-	height: 315px;
-	margin: 22px 0 0 95px;
-	overflow: hidden;
-}
-
-.landing-promo h3 { font-size: 26px; }
-
-.landing-promo > .container > span { font-size: 17px; }
-
-
-/* ----------------------------------------------------------------
 	Preloaders
 -----------------------------------------------------------------*/
 
