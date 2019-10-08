@@ -128,12 +128,6 @@
 		z-index: auto;
 	}
 
-	#header.dark.transparent-header,
-	#header.dark.semi-transparent {
-		background-color: #333;
-		border-bottom: 1px solid rgba(0,0,0,0.1);
-	}
-
 	#header.transparent-header.floating-header { margin-top: 0; }
 
 	#header.transparent-header.floating-header .container {
@@ -1191,7 +1185,7 @@
 	}
 	
 
-	.forced_sticky_header {
+	.forced-sticky-header {
 		margin: 0 !important;
 		height: 50px !important;
 		position: sticky;
@@ -2499,11 +2493,11 @@
 		text-align: center;
 	}
 
-	.white-header #primarymenumobile {
+	.forced-sticky-header #primarymenumobile {
 		background: white;
 	}
 
-	.white-header #primarymenumobile div {
+	.forced-sticky-header #primarymenumobile div {
 		color: #444;
 	}
 
