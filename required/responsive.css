@@ -42,6 +42,12 @@
 	}
 }
 
+@media(min-width: 1150px) and (max-width: 1200px) {
+	.cases-tab-list {
+		margin-bottom: 20px !important
+	}
+}
+
 @media (max-width: 1149px) {
 
 	.home-cases-image{
@@ -62,6 +68,10 @@
 	.cases-icon-text-row {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.cases-tab-list {
+		margin-bottom: 30px !important;
 	}
 
 	#wrapper {
