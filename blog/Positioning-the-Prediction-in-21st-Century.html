@@ -67,145 +67,84 @@
 	============================================= -->
     <div id="wrapper" class="clearfix">
 
-         <!-- Top Bar
-		============================================= -->
-        <div id="top-bar" class="transparent-topbar">
-
-            <div class="container clearfix">
-
-                <div class="col_half nobottommargin clearfix">
-
-                    
-
-                </div>
-
-                <div class="col_half fright white col_last clearfix nobottommargin">
-
-                    <!-- Top Social
-					============================================= -->
-                    <!-- <div id="top-social">
-                        <ul id="topsocial" class="top-social-mobile-hide">
-                            <li><a href="https://www.youtube.com/channel/UCIgWv2OQm6vSMlpXph4nbLA?view_as=subscriber"
-                                    class="si-youtube" target="_blank"><span class="ts-icon"><i
-                                            class="icon-youtube"></i></span><span class="ts-text">Youtube</span></a>
-                            </li>
-                            <li style="border-left:none !important;"><a
-                                    href="https://www.linkedin.com/company/enhencer/" class="si-linkedin"
-                                    target="_blank"><span class="ts-icon"><i class="icon-linkedin"></i></span><span
-                                        class="ts-text">LinkedIn</span></a></li>
-                            <li style="border-left:none !important;"><a href="https://www.quora.com/topic/Enhencer"
-                                    class="si-quora" target="_blank"><span class="ts-icon"><i
-                                            class="icon-quora"></i></span><span class="ts-text">Quora</span></a></li>
-                            <li style="border-left:none !important;"><a href="https://www.instagram.com/enhencerapp/"
-                                    class="si-instagram2" target="_blank"><span class="ts-icon"><i
-                                            class="icon-instagram2"></i></span><span
-                                        class="ts-text">Instagram</span></a></li>
-                            <li style="border-left:none !important;"><a href="https://twitter.com/enhencerapp?lang=en"
-                                    class="si-twitter" target="_blank"><span class="ts-icon"><i
-                                            class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a>
-                            </li>
-                            <li style="border-left:none !important;"><a href="https://www.facebook.com/Enhencer/"
-                                    class="si-facebook" target="_blank"><span class="ts-icon"><i
-                                            class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a>
-                            </li>
-                        </ul>
-                    </div> -->
-                    <!-- #top-social end -->
-
-                </div>
-
-            </div>
-
-        </div><!-- #top-bar end -->
-
-        <!-- Header
-		============================================= -->
-        <header id="header" class="transparent-header floating-header clearfix">
-
+        <div class="forced-sticky-header">
             <div id="header-wrap">
-
-                <div class="container clearfix">
-
+                <div class="container-home-wide-body clearfix">
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
                     <!-- Logo
-					============================================= -->
+                                                    ============================================= -->
                     <div id="logo">
-                        <a href="/" class="standard-logo" data-dark-logo="../images/enhencer-blue.png"><img
-                                id="logoImage" src="../images/enhencer-blue.png" alt="Enhencer Logo"></a>
-                    </div><!-- #logo end -->
-
-                    <!-- Primary Navigation
-                        ============================================= -->
-                    <nav id="primary-menu" class="with-arrows" style="width:680px;">
-
-                        <ul id="primarymenumobile" class="ul.sf-js-enabled">
+                        <a href="/" class="standard-logo" data-dark-logo="../images/Log_new.png"><img id="logoImage"
+                                src="../images/Log_new.png" alt="Enhencer Logo"></a>
+                    </div>
+                    <!-- #logo end -->
+                    <nav id="primary-menu" class="with-arrows">
+                        <ul id="primarymenumobile" class="ul.sf-js-enabled" style="margin-top: -3px;">
                             <li>
-                                <a href="../connect.html"
+                                <a href="connect.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
                                     <div>Connect</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="../cases.html"
+                                <a href="cases/"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'cases'});">
                                     <div>Cases</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="../help.html"
+                                <a href="help.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Help'});">
                                     <div>Help</div>
                                 </a>
                             </li>
-
                             <li>
-                                <a href="../pricing.html"
+                                <a href="pricing.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
                                     <div>Pricing</div>
                                 </a>
                             </li>
-                            <li class="current">
-                                <a href="../blog/"
-                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Blog'});">
-                                    <div>Blog</div>
+                            <li>
+                                <a href="blog/"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                    <div style="color: #2CA497">Blog</div>
                                 </a>
                             </li>
-
-
+                            <li class="try-free-sign-in-button-menu-item">
+                                <a href="https://app.enhencer.com/#!/login"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                    <div>Sign in</div>
+                                </a>
+                            </li>
+                            <li class="try-free-sign-in-button-menu-item">
+                                <a href="https://app.enhencer.com/#!/signup"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                    <div>Try it Free</div>
+                                </a>
+                            </li>
                         </ul>
 
-                        <!-- Menu Buttons Please Make this button css a class
-                            ============================================= -->
-                        <a id="primarymenubuttons" href="https://app.enhencer.com/#!/login"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
-                            target="_blank"
-                            class="button button-rounded button-light bg-white border nott ls0 border-blue button-enhencer-default-green"
-                            style="text-align: center; padding-left: 0px; width: 82px; padding-right: 0px;margin-left: 3%;">
-                            <div style="text-align: center; margin-top: -2px;">
-                                Sign in
-                            </div>
-                        </a>
-                        <!-- class="button button-rounded button-light bg-white border nott ls0 border-blog-white button-enhencer-blog-light" -->
-
-                        <a id="primarymenubuttons2" href="https://app.enhencer.com/#!/signup"
-                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-                            target="_blank" class="button button-rounded fright try-free-button">
-                            <div style="text-align: center">
-                                Try Free
-                            </div>
-                        </a>
-                        <!-- class="button button-blog-white border-blog-white button-rounded fright try-free-button"> -->
-
-                    </nav><!-- #primary-menu end -->
-
+                        <div class="navbar-right-buttons">
+                            <a href="https://app.enhencer.com/#!/login"
+                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
+                                target="_blank"
+                                class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green sign_in_button">
+                                <div>
+                                    Sign in
+                                </div>
+                            </a>
+                            <a href="https://app.enhencer.com/#!/signup"
+                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
+                                target="_blank" class="button button-rounded fright try-free-button">
+                                <div style="text-align: center">
+                                    Try it Free
+                                </div>
+                            </a>
+                        </div>
+                    </nav>
                 </div>
-
-
             </div>
-
-
-        </header><!-- #header end -->
+        </div>
         <section id="slider" class="slider-element full-screen-blog clearfix">
 
             <div class="container-blog image-overlay clearfix">
@@ -549,8 +488,8 @@
 
                             <div class="mpost clearfix">
                                 <div class="entry-image">
-                                    <a href="the-next-big-thing.html"><img
-                                            src="Images/The Next big Thing.jpeg" alt="Blog Single"></a>
+                                    <a href="the-next-big-thing.html"><img src="Images/The Next big Thing.jpeg"
+                                            alt="Blog Single"></a>
                                 </div>
                                 <div class="entry-c">
                                     <div class="entry-title">

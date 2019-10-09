@@ -63,17 +63,15 @@
         ============================================= -->
     <div id="wrapper" class="clearfix">
 
-        <div class="transparent-header floating-header clearfix sticky-header forced-sticky-header ">
+        <div class="forced-sticky-header">
             <div id="header-wrap">
                 <div class="container-home-wide-body clearfix">
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
                     <!-- Logo
-                        ============================================= -->
+                                                    ============================================= -->
                     <div id="logo">
-                        <a href="/" class="standard-logo" data-dark-logo="../images/Log_new.png"><img id="logoImage"
+                        <a href="/" class="standard-logo" data-dark-logo="/images/Log_new.png"><img id="logoImage"
                                 src="../images/Log_new.png" alt="Enhencer Logo"></a>
-                        <!-- <a href="/" class="retina-logo" data-dark-logo="../images/Log_new.png"><img id="logoImage"
-                                src="../images/Log_new.png" alt="Enhencer Logo"></a> -->
                     </div>
                     <!-- #logo end -->
                     <nav id="primary-menu" class="with-arrows">
@@ -108,21 +106,32 @@
                                     <div>Blog</div>
                                 </a>
                             </li>
+                            <li class="try-free-sign-in-button-menu-item">
+                                <a href="https://app.enhencer.com/#!/login"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                    <div>Sign in</div>
+                                </a>
+                            </li>
+                            <li class="try-free-sign-in-button-menu-item">
+                                <a href="https://app.enhencer.com/#!/signup"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                    <div>Try it Free</div>
+                                </a>
+                            </li>
                         </ul>
 
                         <div class="navbar-right-buttons">
                             <a href="https://app.enhencer.com/#!/login"
                                 onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
                                 target="_blank"
-                                class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green white_header_sign_in_button">
+                                class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green sign_in_button">
                                 <div>
                                     Sign in
                                 </div>
                             </a>
                             <a href="https://app.enhencer.com/#!/signup"
                                 onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-                                target="_blank" class="button button-rounded fright "
-                                style="width: 100px">
+                                target="_blank" class="button button-rounded fright try-free-button">
                                 <div style="text-align: center">
                                     Try it Free
                                 </div>
@@ -146,9 +155,10 @@
                     </ol>
                     <h1 class="cases_header_title">Likelihood to Purchase</h1>
                     <div class="cases_button_flex">
-                        <a href="https://app.enhencer.com/#!/login" target="_blank"
-                            class="cases_try_it_free_button">Try it Free</a>
-                        <a href="https://app.enhencer.com/#!/contact-form" target="_blank" class="try_today_button">Meet Our
+                        <a href="https://app.enhencer.com/#!/login" target="_blank" class="cases_try_it_free_button">Try
+                            it Free</a>
+                        <a href="https://app.enhencer.com/#!/contact-form" target="_blank" class="try_today_button">Meet
+                            Our
                             Data-Scientists</a>
                     </div>
                 </div>
@@ -325,7 +335,8 @@
                                         <div class="flip-card-inner">
                                             <div class="home-flip-card nobg noborder text-center">
                                                 <div class="card-body">
-                                                    <i><img src="../images/svgs/chip.svg" class="flip-card-logo-front"></i>
+                                                    <i><img src="../images/svgs/chip.svg"
+                                                            class="flip-card-logo-front"></i>
                                                     <h3 class="card-title flip-card-front-title"
                                                         style="color: #2ca497;">Predict
                                                     </h3>
@@ -376,7 +387,8 @@
                                     </div>
                                     <div class="flip-card-back no-after flip-card-back-integrate">
                                         <div class="flip-card-inner flip-card-back-height">
-                                            <i><img src="../images/svgs/puzzle white.svg" class="flip-card-back-icon"></i>
+                                            <i><img src="../images/svgs/puzzle white.svg"
+                                                    class="flip-card-back-icon"></i>
                                             <h2 class="mb-2 text-white flip-card-back-title">
                                                 Shortcut To
                                                 Action
@@ -418,7 +430,8 @@
                                     </div>
                                     <div class="flip-card-back no-after flip-card-back-track">
                                         <div class="flip-card-inner flip-card-back-height">
-                                            <i><img src="../images/svgs/Track White.svg" class="flip-card-back-icon"></i>
+                                            <i><img src="../images/svgs/Track White.svg"
+                                                    class="flip-card-back-icon"></i>
                                             <h2 class="mb-2 text-white flip-card-back-title">
                                                 Validate &
                                                 Calibrate</h2>
@@ -447,8 +460,8 @@
         <!-- #Flow Chart Ends -->
 
 
-         <!-- Why Enhencer 4-->
-         <div id="whyenhencer" class="row container-home-wide-body zoomer" style="margin-top: 25px;">
+        <!-- Why Enhencer 4-->
+        <div id="whyenhencer" class="row container-home-wide-body zoomer" style="margin-top: 25px;">
             <div id="why1" class="col-4">
 
                 <div class="why_enhencer_card">
@@ -539,23 +552,21 @@
         <!-- Call to Action -->
 
         <div id="predicttogether">
-                <h1 class="nott mt-3 ls0 mb-3 home-integration-heading">
-                    Let's predict the future together! </h1>
-            </div>
+            <h1 class="nott mt-3 ls0 mb-3 home-integration-heading">
+                Let's predict the future together! </h1>
+        </div>
 
-            <div id="calltoaction" class="row call-to-action-flex">
-                <div id="calltoaction1" class="try-it-free-button">
-                    <a class="try_it_free_light mt-3" target="_blank"
-                        href="https://app.enhencer.com/#!/signup">Try
-                        it Free</a>
-                </div>
-                <div style="height: 1px; width: 10px"></div>
-                <div id="calltoaction2" class="">
-                    <a href="https://app.enhencer.com/#!/contact-form" target="_blank"
-                        class="meet_our_light mt-3">Meet Our
-                        Data-Scientists</a>
-                </div>
+        <div id="calltoaction" class="row call-to-action-flex">
+            <div id="calltoaction1" class="try-it-free-button">
+                <a class="try_it_free_light mt-3" target="_blank" href="https://app.enhencer.com/#!/signup">Try
+                    it Free</a>
             </div>
+            <div style="height: 1px; width: 10px"></div>
+            <div id="calltoaction2" class="">
+                <a href="https://app.enhencer.com/#!/contact-form" target="_blank" class="meet_our_light mt-3">Meet Our
+                    Data-Scientists</a>
+            </div>
+        </div>
 
         <br>
         <!-- Footer
