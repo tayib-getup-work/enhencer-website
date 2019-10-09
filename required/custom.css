@@ -5129,7 +5129,11 @@ div.cookiebtns {
 	margin-top: 30px
 }
 
-
+@media (min-width: 1150px) and (max-width: 1500px) {
+	.homepage-header {
+		zoom: 0.8;
+	}
+}
 
 
 @media (min-width: 1150px) {
@@ -5138,10 +5142,6 @@ div.cookiebtns {
 		opacity: 0 !important;
 		top: -95px;
 		pointer-events: none;
-	}
-
-	.homepage-header {
-		zoom: 0.8;
 	}
 
 	.page1 {
