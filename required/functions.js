@@ -83,6 +83,20 @@ function handleStickyHeader() {
 	$('#forced_header').toggleClass('hidden-header', fromTop < 300);
 }
 
+function switchPricing() {
+	if($('#pricingSwitch').children()[0].classList.contains('active')) {
+		$('#pricingSwitch').children()[0].classList.remove('active');
+		$('#pricingSwitch').children()[1].classList.add('active');
+		$('#wrapper').removeClass('switch-left');
+		$('#wrapper').addClass('switch-right');
+	}else{
+		$('#pricingSwitch').children()[1].classList.remove('active');
+		$('#pricingSwitch').children()[0].classList.add('active');
+		$('#wrapper').removeClass('switch-right');
+		$('#wrapper').addClass('switch-left');
+	}
+}
+
 
 
 var SEMICOLON = SEMICOLON || {};
@@ -1356,10 +1370,10 @@ var SEMICOLON = SEMICOLON || {};
 				if (typeof featuresSecondPart != 'undefined') {
 					featuresSecondPart.classList.remove("row");
 				}
-				if (typeof allFeaturesTitle != 'undefined') {
+				/* if (typeof allFeaturesTitle != 'undefined') {
 					allFeaturesTitle.remove();
 					allFeatures.remove();
-				}
+				} */
 				if (typeof pricingSwitch != 'undefined') {
 					pricingSwitch.classList.remove("row");
 					pricingSwitch.classList.remove("central");

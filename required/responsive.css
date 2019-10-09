@@ -2556,6 +2556,11 @@
 		margin-bottom: 0;
 	}
 
+
+	#allFeatures table {
+		zoom: 0.7
+	}
+
 }
 
 

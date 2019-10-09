@@ -79,7 +79,7 @@
 
     <!-- Document Wrapper
 	============================================= -->
-    <div id="wrapper" class="clearfix" style="overflow: hidden">
+    <div id="wrapper" class="clearfix switch-left" style="overflow: hidden">
 
 
         <div class="forced-sticky-header">
@@ -163,8 +163,9 @@
 
         <!-- Pricing
         ============================================= -->
-        <div style="background: url('demos/seo/images/sections/4.png') no-repeat center top / cover; padding: 0">
-            <div class="container container-alternate">
+        <div class="pricing-main-container"
+            style="background: url('demos/seo/images/sections/4.png') no-repeat center top / cover">
+            <div class="container-alternate">
                 <div>
                     <div class="nobottomborder bottommargin-sm">
                         <h3 id="pricingmobileheading" class="nott ls0" style="width: 100%; text-align: center; font-size:2.2em;    padding-top: 55px; font-weight: 200; font-family: 'Poppins', sans-serif;
@@ -173,333 +174,268 @@
                     <p style="font-size:20px; text-align:center; color: #555;">Whether you are a startup or a
                         multinational enterprise, Enhencer can maximize the value of your data.
                     </p>
-                    <div class="pricing-tenure-switcher central" data-container="#pricingSwitch">
-                        <span class="pts-left">
-                            Yearly <span id="yearlysubtext">(2 Months Free)</span>
-                        </span>
-                        <div class="pts-switcher" ng-click="annuallyChanged()">
-                            <div class="switch">
-                                <input id="switch-toggle-pricing-tenure" class="switch-toggle switch-toggle-round"
-                                    type="checkbox">
-                                <label for="switch-toggle-pricing-tenure"></label>
-                            </div>
+                    <div id="pricingSwitch">
+                        <div class="active" style="margin-right: 20px" onclick="switchPricing()">
+                            <p>Yearly (2 months free)</p>
+                            <div class="prices-tab-bottom-line"></div>
                         </div>
-                        <span class="pts-right">
-                            Monthly
-                        </span>
+                        <div onclick="switchPricing()">
+                            <p>Monthly</p>
+                        </div>
                     </div>
                 </div>
-                <br>
-                <br>
-                <div class="row justify-content-between" id="pricing">
-                    <div id="section-pricing" class="page-section nopadding nomargin"
-                        style="width: 107%; margin-left: -9% !important;">
-                        <div id="pricingSwitch" class="pricing row align-items-end bottommargin-lg clearfix central"
-                            style="width: 110%;">
-                            <div class="col-md-3 mobile-row" style="padding-left: 0px; padding-right: 0px;">
-                                <div class="pricing-box" style="border-radius: 10px; margin-left: 34%;">
-                                    <div class="pricing-title">
-                                        <img class="mb-2 nobg noradius" src="images/svgs/light-bulb.svg"
-                                            alt="Pricing Icon" width="60">
-                                        <h3>Startup</h3>
-                                    </div>
-                                    <div class="pricing-price">
-                                        <div class="pts-switch-content-left">
-                                            <span class="price-unit">&dollar;</span>
-                                            159
-                                            <span class="price-tenure">Per Month</span>
-                                        </div>
-                                        <div class="pts-switch-content-right">
-                                            <span class="price-unit">&dollar;</span>
-                                            189
-                                            <span class="price-tenure">Per Month</span>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-features border-bottom-0">
-                                        <ul>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    14 Days
-                                                </strong>
-                                                Trial
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    Single
-                                                </strong>
-                                                Analyst
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    Limited
-                                                </strong>
-                                                Rows
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    Up to 25
-                                                </strong>
-                                                Variables
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                On Cloud
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                Live Chat Support
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-action">
-                                        <div>
-                                            <a href="https://app.enhencer.com/#!/signup"
-                                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Pricing', event_label: 'Try Now'});"
-                                                class="button button-rounded button-large button-light border nott m-0 ls0"
-                                                style="background-color:rgb(90, 92, 94); color:white; font-size: 16px; font-weight: 700; border-radius: 10px;"
-                                                ng-class="{'btn-buy-now': isDisabled('startup')}"
-                                                ng-click="gotoBill('startup')">
-                                                Try Free
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mobile-row" style="padding-left: 0px; padding-right: 0px;">
-                                <div class="pricing-box" style="border-radius: 10px; margin-left: 18%;">
-                                    <div class="pricing-title">
-                                        <img class="mb-2 nobg noradius" src="images/svgs/income.svg" alt="Pricing Icon"
-                                            width="60">
-                                        <h3>Growth</h3>
-                                    </div>
-                                    <div class="pricing-price">
-                                        <div class="pts-switch-content-left">
-                                            <span class="price-unit">&dollar;</span>
-                                            399
-                                            <span class="price-tenure">Per Month</span>
-                                        </div>
-                                        <div class="pts-switch-content-right">
-                                            <span class="price-unit">&dollar;</span>
-                                            479
-                                            <span class="price-tenure">Per Month</span>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-features border-bottom-0">
-                                        <ul>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    14 Days
-                                                </strong>
-                                                Trial
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    2
-                                                </strong>
-                                                Analysts
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    Limited
-                                                </strong>
-                                                Rows
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    Up to 50
-                                                </strong>
-                                                Variables
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                On Cloud
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                Customer Success Manager
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-action">
-                                        <div>
-                                            <a href="https://app.enhencer.com/#!/signup"
-                                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Pricing', event_label: 'Try Now'});"
-                                                class="button button-rounded button-large button-light border nott m-0 ls0"
-                                                style="background-color:rgb(34, 142, 159); color:white; font-size: 16px; font-weight: 700; border-radius: 10px;"
-                                                ng-class="{'btn-buy-now': isDisabled('startup')}"
-                                                ng-click="gotoBill('startup')">
-                                                Try Free
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mobile-row"
-                                style="padding-left: 0px; padding-right: 0px; margin-top: -20px;">
-                                <div class="pricing-box" style="border-radius: 10px; margin-left: 3%;">
-                                    <div class="pricing-title">
-                                        <img class="mb-2 nobg noradius" src="images/svgs/handshake.svg"
-                                            alt="Pricing Icon" width="60">
-                                        <h3>Premium</h3>
-                                        <span>Most Popular</span>
-                                    </div>
-                                    <div class="pricing-price">
-                                        <div class="pts-switch-content-left">
-                                            <span class="price-unit">&dollar;</span>
-                                            799
-                                            <span class="price-tenure">
-                                                Per Month
-                                            </span>
-                                        </div>
-                                        <div class="pts-switch-content-right">
-                                            <span class="price-unit">&dollar;</span>
-                                            959
-                                            <span class="price-tenure">Per Month</span>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-features border-bottom-0">
-                                        <ul>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    14 Days
-                                                </strong>
-                                                Trial
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    Up to 5
-                                                </strong>
-                                                Analysts
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    Limited
-                                                </strong>
-                                                Rows
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    Up to 250
-                                                </strong>
-                                                Variables
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                On Cloud
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                Customer Success Manager
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-action">
-                                        <div>
-                                            <a href="https://app.enhencer.com/#!/signup"
-                                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Pricing', event_label: 'Try Now'});"
-                                                class="button button-rounded button-large button-light border nott m-0 ls0"
-                                                style="background-color:rgb(44, 164, 151); color:white; font-size: 16px; font-weight: 700; border-radius: 10px;"
-                                                ng-class="{'btn-buy-now': isDisabled('startup')}"
-                                                ng-click="gotoBill('premium')">
-                                                Try Free
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mobile-row" style="padding-left: 0px; padding-right: 0px;">
-                                <div class="pricing-box" style="border-radius: 10px; margin-left: -10%;">
-                                    <div class="pricing-title">
-                                        <img class="mb-2 nobg noradius" src="images/svgs/visitor.svg" alt="Pricing Icon"
-                                            width="60">
-                                        <h3>Enterprise</h3>
-                                    </div>
-                                    <div class="pricing-price ">
-                                        <div class="pts-switch-content-left" style="padding-bottom:15px;">
-                                            <span class="price-unit"></span>
-                                            Contact Us
-                                            <span class="price-tenure" style="font-size: 0px;">
-                                                Per Month
-                                            </span>
-                                        </div>
-                                        <div class="pts-switch-content-right" style="padding-bottom:15px;">
-                                            <span class="price-unit"></span>
-                                            Contact Us
-                                            <span class="price-tenure" style="font-size: 0px;">
-                                                Per Month
-                                            </span>
-                                        </div>
 
-                                    </div>
-                                    <div class="pricing-features border-bottom-0">
-                                        <ul>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    14 Days
-                                                </strong>
-                                                Trial
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    Unlimited
-                                                </strong>
-                                                Analysts
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    Unlimited
-                                                </strong>
-                                                Rows
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                <strong style="font-weight: 700">
-                                                    Unlimited
-                                                </strong>
-                                                Variables
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                On Cloud/Local
-                                            </li>
-                                            <li>
-                                                <i class="icon-check-circle color mr-2"></i>
-                                                Customer Success Manager
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-action">
-                                        <div>
-                                            <a href="https://app.enhencer.com/#!/contact-form"
-                                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Pricing', event_label: 'Contact Us'});"
-                                                class="button button-rounded button-large button-light border nott m-0 ls0"
-                                                style="background-color:rgb(64, 175, 95); color:white; font-size: 16px; font-weight: 700; border-radius: 10px">
-                                                Contact Us
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="pricing-cards-row">
+                    <div>
+                        <div clasS="pricing-card-heading" style="background: #75B942">
+                            <img src="images/svgs/light-bulb.svg" alt="Startup">
+                            <h3>Startup</h3>
+                        </div>
+                        <div class="pricing-price">
+                            <div class="pts-switch-content-left">
+                                <span class="price-unit">&dollar;</span>
+                                159
+                                <span class="price-tenure">Per Month</span>
+                            </div>
+                            <div class="pts-switch-content-right">
+                                <span class="price-unit">&dollar;</span>
+                                189
+                                <span class="price-tenure">Per Month</span>
                             </div>
                         </div>
+                        <div class="pricing-features border-bottom-0">
+                            <ul>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        14 Days
+                                    </strong>
+                                    Trial
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        Single
+                                    </strong>
+                                    Analyst
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        Limited
+                                    </strong>
+                                    Rows
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        Up to 25
+                                    </strong>
+                                    Variables
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    On Cloud
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    Live Chat Support
+                                </li>
+                            </ul>
+                        </div>
+                        <button style="background: #75B942">
+                            Try Free
+                        </button>
+
                     </div>
+
+                    <div>
+                        <div clasS="pricing-card-heading" style="background: #2ca497">
+                            <img src="images/svgs/income.svg" alt="Growth">
+                            <h3>Growth</h3>
+                        </div>
+                        <div class="pricing-price">
+                            <div class="pts-switch-content-left">
+                                <span class="price-unit">&dollar;</span>
+                                399
+                                <span class="price-tenure">Per Month</span>
+                            </div>
+                            <div class="pts-switch-content-right">
+                                <span class="price-unit">&dollar;</span>
+                                479
+                                <span class="price-tenure">Per Month</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features border-bottom-0">
+                            <ul>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        14 Days
+                                    </strong>
+                                    Trial
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        2
+                                    </strong>
+                                    Analyst
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        Limited
+                                    </strong>
+                                    Rows
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        Up to 50
+                                    </strong>
+                                    Variables
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    On Cloud
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    Customer Success Manager
+                                </li>
+                            </ul>
+                        </div>
+                        <button style="background: #2ca497">
+                            Try Free
+                        </button>
+
+                    </div>
+
+                    <div style="height: 520px">
+                        <div class="pricing-card-heading" style="background: #228e9f; height: 145px">
+                            <img src="images/svgs/handshake.svg" alt="Premium">
+                            <h3>Premium</h3>
+                            <div style="color: #eee">Most Popular</div>
+                        </div>
+                        <div class="pricing-price">
+                            <div class="pts-switch-content-left">
+                                <span class="price-unit">&dollar;</span>
+                                799
+                                <span class="price-tenure">Per Month</span>
+                            </div>
+                            <div class="pts-switch-content-right">
+                                <span class="price-unit">&dollar;</span>
+                                959
+                                <span class="price-tenure">Per Month</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features border-bottom-0">
+                            <ul>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        14 Days
+                                    </strong>
+                                    Trial
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        Up to 5
+                                    </strong>
+                                    Analyst
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        Limited
+                                    </strong>
+                                    Rows
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        Up to 250
+                                    </strong>
+                                    Variables
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    On Cloud
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    Customer Success Manager
+                                </li>
+                            </ul>
+                        </div>
+                        <button style="background: #228e9f">
+                            Try Free
+                        </button>
+
+                    </div>
+
+                    <div>
+                        <div clasS="pricing-card-heading" style="background: #13364a">
+                            <img src="images/svgs/visitor.svg" alt="Enterprise">
+                            <h3>Enterprise</h3>
+                        </div>
+                        <div class="pricing-price">
+                            <div>Contact Us</div>
+                        </div>
+                        <div class="pricing-features border-bottom-0">
+                            <ul>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        14 Days
+                                    </strong>
+                                    Trial
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        Up to 5
+                                    </strong>
+                                    Analyst
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        Limited
+                                    </strong>
+                                    Rows
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        Up to 250
+                                    </strong>
+                                    Variables
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    On Cloud
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    Customer Success Manager
+                                </li>
+                            </ul>
+                        </div>
+                        <button style="background: #13364a">
+                            Try Free
+                        </button>
+
+                    </div>
+
+
                 </div>
             </div>
-            <p style="font-size:20px; text-align: center; color: #555;">*No credit card required.</p>
+
+
+            <p style="font-size:18px; text-align: center; color: #555;">* No credit card required.</p>
             <p class="container" style="font-size:20px; text-align: center; color: #555;">Machine Learning works with
                 prepared data,
                 and we know that
@@ -507,23 +443,15 @@
                 the data is a pain. For any plan, we would like to offer you free guidance and help for data
                 preparation and complete a Proof of Concept on sample/anonymized data.</p>
             <br>
-            <br>
 
         </div>
-        <br>
-        <br>
+        
         <div id="allFeaturesTitle">
-            <br>
-            <br>
-            <br>
-            <h2 style="width: 100%; font-size:30px; font-weight: 200; text-align: center; font-family: 'Poppins', sans-serif;
-            color: #444;">Compare
-                plans with all
-                features
+            <h2>Compare plans with all features
             </h2>
         </div>
         <article id="allFeatures">
-            <table style="width: 100%; margin-top: 20px; margin-left: -1.3%;">
+            <table style="width: 98%; margin: 20px 10px; min-width: 900px;">
                 <thead>
                     <tr class="" style="height: 50px">
                         <td colspan="1" class="sep-alternate border-left-table text-right font-15-p"></td>
@@ -804,7 +732,7 @@
 
             <!-- Footer Scripts
 ============================================= -->
-            <script src="required/functions.min.js"></script>
+            <script src="required/functions.js"></script>
             <script>
                 $(document).ready(function () {
                     $("#footerContent").load("footer-index.html");

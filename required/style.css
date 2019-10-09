@@ -10113,17 +10113,6 @@ body:not(.device-touch) .team-overlay {
 
 /* Pricing Boxes - Price
 -----------------------------------------------------------------*/
-
-.pricing-price {
-	position: relative;
-	padding: 25px 0;
-	color: #333;
-	font-weight: 300;
-	font-size: 48px;
-	line-height: 1;
-}
-
-
 .contact-us-pricing-price {
 	position: relative;
 	padding: 25px 0;
@@ -10169,7 +10158,7 @@ body:not(.device-touch) .team-overlay {
 
 .pricing-features ul {
 	margin: 0;
-	padding: 15px 0;
+	padding: 5px 0;
 	list-style: none;
 }
 
@@ -21302,130 +21291,6 @@ small,
 
 .play-icon:hover i { transform: scale(1.1); }
 
-/* Pricing Switcher
------------------------------------------------------------------*/
-.pricing-tenure-switcher { position: relative; 
-margin-left: 8%;
-}
-
-.pricing-tenure-switcher .pts-left,
-
-.pricing-tenure-switcher .pts-right,
-.pricing-tenure-switcher .pts-switcher {
-	display: inline-block;
-	margin: 0 10px;
-	height: 30px;
-	overflow: hidden;
-}
-
-.pricing-tenure-switcher .pts-left,
-.pricing-tenure-switcher .pts-right {
-	font-size: var(--basefontsize);
-	font-weight: 600;
-	color: #AAA;
-	line-height: 30px;
-}
-
-.pricing-tenure-switcher .pts-switch-active { color: #333; }
-
-.pricing-tenure-switcher .pts-switcher label { margin-bottom: 0; }
-
-input.switch-toggle-round + label:before,
-input.switch-toggle-round + label {
-	border-radius: 4px;
-	background-color: #1ABC9C !important;
-}
-
-.svg-discount {
-	position: absolute;
-	display: block;
-	top: 0;
-	left: 50%;
-	margin-top: -15px;
-	margin-left: 65px;
-	background: url('images/icons/discount.svg') no-repeat 0 0,-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
-	background: url('images/icons/discount.svg') no-repeat 0 0,-moz-linear-gradient(transparent,transparent);
-	background: url('images/icons/discount.svg') no-repeat 0 0,linear-gradient(transparent,transparent);
-	width: 60px;
-	height: 39px;
-}
-
-input.switch-toggle-round + label:after { border-radius: 4px }
-
-/* Pricing Boxes
------------------------------------------------------------------*/
-.pricing-box {
-	/* border-color: rgba(17, 18, 18, .1);
-	text-align: left;
-	padding: 20px;
-	background-color: #FFF;
-	box-shadow: none;
-	margin-right: -1px; */
-}
-
-
-/* Pricing Boxes - Title
------------------------------------------------------------------*/
-.pricing-title {
-	padding: 0;
-	background-color: transparent;
-	border-bottom: 0;
-}
-
-.pricing-title h3 {
-	margin: 0;
-	font-size: 21px;
-	letter-spacing: 0;
-	color: #555;
-	text-transform: none;
-}
-
-.pricing-title span {
-	font-size: 14px;
-	text-transform: capitalize;
-}
-
-
-/* Pricing Boxes - Price
------------------------------------------------------------------*/
-.pricing-price {
-	position: relative;
-	font-weight: 500;
-}
-
-.pricing-price:after { content: none; }
-
-.pricing-price span.price-tenure {
-	display: block;
-	font-size: 15px;
-	font-weight: normal;
-	color: #AAA;
-	text-transform: lowercase;
-}
-
-/* Pricing Boxes - Features
------------------------------------------------------------------*/
-.pricing-features ul { padding: 0 0 20px 0; }
-
-.pricing-features li {
-	padding: 7px 0;
-	font-size: 14px;
-}
-
-.pricing-features li i {
-	position: relative;
-	top: 2px;
-	font-size: var(--basefontsize);
-}
-
-
-/* Pricing Boxes - Action
------------------------------------------------------------------*/
-.pricing-action {
-	padding: 0;
-	text-align: center;
-}
-
 /* Badge
 -----------------------------------------------------------------*/
 .badge {
@@ -21694,7 +21559,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
 	color:#000;
   }
   table { border-collapse:collapse; table-layout:fixed; width:100%; }
-  th { background:#F5F5F5; display:none; }
+  th { background:#F5F5F5; }
   td, th {
 	height:53px
   }
@@ -21702,10 +21567,7 @@ input.switch-toggle-round + label:after { border-radius: 4px }
   td,th {
 	text-align:left;
   }
-  td+td, th+th {
-	text-align:center;
-	display:none;
-  }
+
   td.default {
 	display:table-cell;
   }
