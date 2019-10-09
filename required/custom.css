@@ -3010,6 +3010,15 @@ div[class*=box] {
 	margin: 0 !important
 }
 
+#connections1strow {
+	margin-top: 90px;
+}
+
+.connections-name {
+	font-size: 25px;
+	color: rgb(34, 142, 159)
+}
+
 /* Home Page Custom CSS */
 
 .rotating-words{
