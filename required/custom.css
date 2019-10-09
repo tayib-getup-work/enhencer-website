@@ -492,7 +492,10 @@ Pricing css's
 
   input.switch-toggle-round + label:after { border-radius: 4px }
   
-
+  #allFeatures {
+	  margin: 20px auto;
+	  width: 100%;
+  }
 
 
 /* --------------------------------------------------------------
@@ -4986,21 +4989,6 @@ div.cookiebtns {
     width: 225px;
     height: 70px;
 }
-
-/* #forced_header .navbar-right-buttons a {
-    text-align: center;
-    padding-left: 0px;
-    width: 82px;
-    padding-right: 0px;
-    margin-left: 4%;
-    border-radius: 5px;
-    line-height: 40px;
-}
-
-
-#forced_header .navbar-right-buttons a:hover {
-	box-shadow: 0 1px 5px 1px white
-} */
 
 .white_header_sign_in_button{
 	color: #1b7f91 !important;

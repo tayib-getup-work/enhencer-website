@@ -63,27 +63,19 @@
 	============================================= -->
     <div id="wrapper" class="clearfix">
 
-        <div class="transparent-header floating-header clearfix sticky-header forced-sticky-header ">
+        <div class="forced-sticky-header">
             <div id="header-wrap">
                 <div class="container-home-wide-body clearfix">
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
                     <!-- Logo
-                        ============================================= -->
+                                            ============================================= -->
                     <div id="logo">
-                        <a href="/" class="standard-logo" data-dark-logo="../images/Log_new.png"><img id="logoImage"
+                        <a href="/" class="standard-logo" data-dark-logo="/images/Log_new.png"><img id="logoImage"
                                 src="../images/Log_new.png" alt="Enhencer Logo"></a>
-                        <!-- <a href="/" class="retina-logo" data-dark-logo="../images/Log_new.png"><img id="logoImage"
-                                src="../images/Log_new.png" alt="Enhencer Logo"></a> -->
                     </div>
                     <!-- #logo end -->
                     <nav id="primary-menu" class="with-arrows">
                         <ul id="primarymenumobile" class="ul.sf-js-enabled" style="margin-top: -3px;">
-                            <li>
-                                <a href="/"
-                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
-                                    <div>Product</div>
-                                </a>
-                            </li>
                             <li>
                                 <a href="../connect.html"
                                     onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
@@ -114,6 +106,18 @@
                                     <div>Blog</div>
                                 </a>
                             </li>
+                            <li class="try-free-sign-in-button-menu-item">
+                                <a href="https://app.enhencer.com/#!/login"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                    <div>Sign in</div>
+                                </a>
+                            </li>
+                            <li class="try-free-sign-in-button-menu-item">
+                                <a href="https://app.enhencer.com/#!/signup"
+                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                    <div>Try it Free</div>
+                                </a>
+                            </li>
                         </ul>
 
                         <div class="navbar-right-buttons">
@@ -133,482 +137,474 @@
                                 </div>
                             </a>
                         </div>
+                    </nav>
                 </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-    <!-- Page Title
-        ============================================= -->
-
-    <section id="page-title" class="cases_home_header">
-        <div class="container-home-wide-body clearfix cases_header_flex">
-            <h1 class="cases_home_title">
-                Use Cases</h1>
-            <p class="cases_header_subtitle">Discover what Enhencer can predict for your business.</p>
-            <div class="cases_button_flex">
-                <a href="https://app.enhencer.com/#!/login" target="_blank" class="cases_try_it_free_button">Try
-                    it Free</a>
-                <a href="https://app.enhencer.com/#!/contact-form" target="_blank" class="try_today_button">Meet Our
-                    Data-Scientists</a>
             </div>
         </div>
 
-    </section><!-- #page-title end -->
-
-    <br>
-    <br>
-
-
-    <!-- Tabs
-		============================================= -->
-    <section>
-        <div class="container-home-wide-body clearfix">
-            <div class="tabs side-tabs nobottommargin clearfix" id="tab-6" style="margin-top: 0px !important;">
-
-                <ul class="tab-nav tab-nav2 clearfix cases-tab-list">
-                    <li><a href="#tabs-21"><i></i>All Categories</a></li>
-                    <li><a href="#tabs-22">E-Commerce</a></li>
-                    <li><a href="#tabs-23">Retail</a></li>
-                    <li><a href="#tabs-24">Finance</a></li>
-                    <li><a href="#tabs-25">Healthcare</a></li>
-                    <li><a href="#tabs-26">Service</a></li>
-                    <li><a href="#tabs-27">Manufacturing</a></li>
-                </ul>
-
-                <div class="tab-container tab-content clearfix" id="tabs-21">
-
-                    <div class="wrapper">
-                        <div class="cases-grid">
-
-                            <div class="cases-card" onclick="location.href='likelihood-to-purchase.html';">
-                                <img src="images/likelihood_to_purchase.jpg">
-                                <div>
-                                    <h4 class="card-title">Likelihood to Purchase</h4>
-                                    <p>Which lead has a high likelihood to purchase? What are the
-                                        factors leading to a purchase?</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='cross-sell.html';">
-                                <img src="images/cross-sell.jpeg">
-                                <div>
-                                    <h4 class="card-title">Cross-sell/Up-sell</h4>
-                                    <p>Which customers have the highest probability to purchase other
-                                        products?</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='Churn-Probability.html';">
-                                <img src="images/Churn Probability.jpeg">
-                                <div>
-                                    <h4 class="card-title">Churn Probability</h4>
-                                    <p>With Enhencer, you will clearly see which customers will
-                                        leave, and most importantly why are they leaving.</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='demand-forecasting.html';">
-                                <img src="images/Demand-Forecasting.jpg">
-                                <div>
-                                    <h4 class="card-title">Demand Forecasting</h4>
-                                    <p>Enhencer predicts a probability for next timeframe
-                                        (day/week/month) by learning from sales history..</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='fraud-prevention.html';">
-                                <img src="images/fraud-prevention.png">
-                                <div>
-                                    <h4 class="card-title">Fraud Prevention</h4>
-                                    <p>Detecting and preventing fraud will reveal quite valuable insights
-                                        if fraud is a problem for your business.</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
-                                <img src="images/Employee-Turnover-Prediction.png">
-                                <div>
-                                    <h4 class="card-title">Employee Turnover Prediction</h4>
-                                    <p>Enhencer uses Machine Learning to predict which employees
-                                        are most likely to
-                                        leave and with high accuracy.</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='predictive-maintenance.html';">
-                                <img src="images/Predictive-Maintenance.jpg">
-                                <div>
-                                    <h4 class="card-title">Predictive Maintenance</h4>
-                                    <p>With sensor data, Enhencer can predict the outcome of a test
-                                        result or when a machine will fail.</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='dealer-sales-performance.html';">
-                                <img src="images/Dealer-Sales-Forecasting.png">
-                                <div>
-                                    <h4 class="card-title">Dealer Sales Forecasting</h4>
-                                    <p style="font-size: 15px">Machine Learning models will not only provide you the
-                                        best
-                                        and worst performers but also shed light on why a dealer is
-                                        performing good or bad.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tab-container tab-content clearfix" id="tabs-22">
-
-
-                    <div class="wrapper">
-                        <div class="cases-grid">
-
-                            <div class="cases-card" onclick="location.href='likelihood-to-purchase.html';">
-                                <img src="images/likelihood_to_purchase.jpg">
-                                <div>
-                                    <h4 class="card-title">Likelihood to Purchase</h4>
-                                    <p>Which lead has a high likelihood to purchase? What are the
-                                        factors leading to a purchase?</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='cross-sell.html';">
-                                <img src="images/cross-sell.jpeg">
-                                <div>
-                                    <h4 class="card-title">Cross-sell/Up-sell</h4>
-                                    <p>Which customers have the highest probability to purchase other
-                                        products?</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='Churn-Probability.html';">
-                                <img src="images/Churn Probability.jpeg">
-                                <div>
-                                    <h4 class="card-title">Churn Probability</h4>
-                                    <p>With Enhencer, you will clearly see which customers will
-                                        leave, and most importantly why are they leaving.</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='demand-forecasting.html';">
-                                <img src="images/Demand-Forecasting.jpg">
-                                <div>
-                                    <h4 class="card-title">Demand Forecasting</h4>
-                                    <p>Enhencer predicts a probability for next timeframe
-                                        (day/week/month) by learning from sales history..</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
-                                <img src="images/Employee-Turnover-Prediction.png">
-                                <div>
-                                    <h4 class="card-title">Employee Turnover Prediction</h4>
-                                    <p>Enhencer uses Machine Learning to predict which employees
-                                        are most likely to
-                                        leave and with high accuracy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="tab-container tab-content clearfix" id="tabs-23">
-
-                    <div class="wrapper">
-                        <div class="cases-grid">
-
-                            <div class="cases-card" onclick="location.href='demand-forecasting.html';">
-                                <img src="images/Demand-Forecasting.jpg">
-                                <div>
-                                    <h4 class="card-title">Demand Forecasting</h4>
-                                    <p>Enhencer predicts a probability for next timeframe
-                                        (day/week/month) by learning from sales history..</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='fraud-prevention.html';">
-                                <img src="images/fraud-prevention.png">
-                                <div>
-                                    <h4 class="card-title">Fraud Prevention</h4>
-                                    <p>Detecting and preventing fraud will reveal quite valuable insights
-                                        if fraud is a problem for your business.</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
-                                <img src="images/Employee-Turnover-Prediction.png">
-                                <div>
-                                    <h4 class="card-title">Employee Turnover Prediction</h4>
-                                    <p>Enhencer uses Machine Learning to predict which employees
-                                        are most likely to
-                                        leave and with high accuracy.</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='dealer-sales-performance.html';">
-                                <img src="images/Dealer-Sales-Forecasting.png">
-                                <div>
-                                    <h4 class="card-title">Dealer Sales Forecasting</h4>
-                                    <p style="font-size: 15px">Machine Learning models will not only provide you the
-                                        best
-                                        and worst performers but also shed light on why a dealer is
-                                        performing good or bad.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="tab-container tab-content clearfix" id="tabs-24">
-
-                    <div class="wrapper">
-                        <div class="cases-grid">
-
-                            <div class="cases-card" onclick="location.href='likelihood-to-purchase.html';">
-                                <img src="images/likelihood_to_purchase.jpg">
-                                <div>
-                                    <h4 class="card-title">Likelihood to Purchase</h4>
-                                    <p>Which lead has a high likelihood to purchase? What are the
-                                        factors leading to a purchase?</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='cross-sell.html';">
-                                <img src="images/cross-sell.jpeg">
-                                <div>
-                                    <h4 class="card-title">Cross-sell/Up-sell</h4>
-                                    <p>Which customers have the highest probability to purchase other
-                                        products?</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='Churn-Probability.html';">
-                                <img src="images/Churn Probability.jpeg">
-                                <div>
-                                    <h4 class="card-title">Churn Probability</h4>
-                                    <p>With Enhencer, you will clearly see which customers will
-                                        leave, and most importantly why are they leaving.</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='fraud-prevention.html';">
-                                <img src="images/fraud-prevention.png">
-                                <div>
-                                    <h4 class="card-title">Fraud Prevention</h4>
-                                    <p>Detecting and preventing fraud will reveal quite valuable insights
-                                        if fraud is a problem for your business.</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
-                                <img src="images/Employee-Turnover-Prediction.png">
-                                <div>
-                                    <h4 class="card-title">Employee Turnover Prediction</h4>
-                                    <p>Enhencer uses Machine Learning to predict which employees
-                                        are most likely to
-                                        leave and with high accuracy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-                <div class="tab-container tab-content clearfix" id="tabs-25">
-
-                    <div class="wrapper">
-                        <div class="cases-grid">
-
-                            <div class="cases-card" onclick="location.href='likelihood-to-purchase.html';">
-                                <img src="images/likelihood_to_purchase.jpg">
-                                <div>
-                                    <h4 class="card-title">Likelihood to Purchase</h4>
-                                    <p>Which lead has a high likelihood to purchase? What are the
-                                        factors leading to a purchase?</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='cross-sell.html';">
-                                <img src="images/cross-sell.jpeg">
-                                <div>
-                                    <h4 class="card-title">Cross-sell/Up-sell</h4>
-                                    <p>Which customers have the highest probability to purchase other
-                                        products?</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='demand-forecasting.html';">
-                                <img src="images/Demand-Forecasting.jpg">
-                                <div>
-                                    <h4 class="card-title">Demand Forecasting</h4>
-                                    <p>Enhencer predicts a probability for next timeframe
-                                        (day/week/month) by learning from sales history..</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
-                                <img src="images/Employee-Turnover-Prediction.png">
-                                <div>
-                                    <h4 class="card-title">Employee Turnover Prediction</h4>
-                                    <p>Enhencer uses Machine Learning to predict which employees
-                                        are most likely to
-                                        leave and with high accuracy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-container tab-content clearfix" id="tabs-26">
-                    <div class="wrapper">
-                        <div class="cases-grid">
-
-                            <div class="cases-card" onclick="location.href='likelihood-to-purchase.html';">
-                                <img src="images/likelihood_to_purchase.jpg">
-                                <div>
-                                    <h4 class="card-title">Likelihood to Purchase</h4>
-                                    <p>Which lead has a high likelihood to purchase? What are the
-                                        factors leading to a purchase?</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='cross-sell.html';">
-                                <img src="images/cross-sell.jpeg">
-                                <div>
-                                    <h4 class="card-title">Cross-sell/Up-sell</h4>
-                                    <p>Which customers have the highest probability to purchase other
-                                        products?</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='Churn-Probability.html';">
-                                <img src="images/Churn Probability.jpeg">
-                                <div>
-                                    <h4 class="card-title">Churn Probability</h4>
-                                    <p>With Enhencer, you will clearly see which customers will
-                                        leave, and most importantly why are they leaving.</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
-                                <img src="images/Employee-Turnover-Prediction.png">
-                                <div>
-                                    <h4 class="card-title">Employee Turnover Prediction</h4>
-                                    <p>Enhencer uses Machine Learning to predict which employees
-                                        are most likely to
-                                        leave and with high accuracy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-container tab-content clearfix" id="tabs-27">
-
-                    <div class="wrapper">
-                        <div class="cases-grid">
-
-                            <div class="cases-card" onclick="location.href='demand-forecasting.html';">
-                                <img src="images/Demand-Forecasting.jpg">
-                                <div>
-                                    <h4 class="card-title">Demand Forecasting</h4>
-                                    <p>Enhencer predicts a probability for next timeframe
-                                        (day/week/month) by learning from sales history..</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
-                                <img src="images/Employee-Turnover-Prediction.png">
-                                <div>
-                                    <h4 class="card-title">Employee Turnover Prediction</h4>
-                                    <p>Enhencer uses Machine Learning to predict which employees
-                                        are most likely to
-                                        leave and with high accuracy.</p>
-                                </div>
-                            </div>
-
-                            <div class="cases-card" onclick="location.href='predictive-maintenance.html';">
-                                <img src="images/Predictive-Maintenance.jpg">
-                                <div>
-                                    <h4 class="card-title">Predictive Maintenance</h4>
-                                    <p>With sensor data, Enhencer can predict the outcome of a test
-                                        result or when a machine will fail.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-    </section>
-
-
-
-    <!-- Footer
-		============================================= -->
-    <div id="footerContent">
-    </div>
-
-
-    <!-- Go To Top
+        <!-- Page Title
         ============================================= -->
-    <div id="gotoTop" class="icon-angle-up"></div>
 
-    <!-- External JavaScripts
+        <section id="page-title" class="cases_home_header">
+            <div class="container-home-wide-body clearfix cases_header_flex">
+                <h1 class="cases_home_title">
+                    Use Cases</h1>
+                <p class="cases_header_subtitle">Discover what Enhencer can predict for your business.</p>
+                <div class="cases_button_flex">
+                    <a href="https://app.enhencer.com/#!/login" target="_blank" class="cases_try_it_free_button">Try
+                        it Free</a>
+                    <a href="https://app.enhencer.com/#!/contact-form" target="_blank" class="try_today_button">Meet Our
+                        Data-Scientists</a>
+                </div>
+            </div>
+
+        </section><!-- #page-title end -->
+
+        <br>
+        <br>
+
+
+        <!-- Tabs
+		============================================= -->
+        <section>
+            <div class="container-home-wide-body clearfix">
+                <div class="tabs side-tabs nobottommargin clearfix" id="tab-6" style="margin-top: 0px !important;">
+
+                    <ul class="tab-nav tab-nav2 clearfix cases-tab-list">
+                        <li><a href="#tabs-21"><i></i>All Categories</a></li>
+                        <li><a href="#tabs-22">E-Commerce</a></li>
+                        <li><a href="#tabs-23">Retail</a></li>
+                        <li><a href="#tabs-24">Finance</a></li>
+                        <li><a href="#tabs-25">Healthcare</a></li>
+                        <li><a href="#tabs-26">Service</a></li>
+                        <li><a href="#tabs-27">Manufacturing</a></li>
+                    </ul>
+
+                    <div class="tab-container tab-content clearfix" id="tabs-21">
+
+                        <div class="wrapper">
+                            <div class="cases-grid">
+
+                                <div class="cases-card" onclick="location.href='likelihood-to-purchase.html';">
+                                    <img src="images/likelihood_to_purchase.jpg">
+                                    <div>
+                                        <h4 class="card-title">Likelihood to Purchase</h4>
+                                        <p>Which lead has a high likelihood to purchase? What are the
+                                            factors leading to a purchase?</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='cross-sell.html';">
+                                    <img src="images/cross-sell.jpeg">
+                                    <div>
+                                        <h4 class="card-title">Cross-sell/Up-sell</h4>
+                                        <p>Which customers have the highest probability to purchase other
+                                            products?</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='Churn-Probability.html';">
+                                    <img src="images/Churn Probability.jpeg">
+                                    <div>
+                                        <h4 class="card-title">Churn Probability</h4>
+                                        <p>With Enhencer, you will clearly see which customers will
+                                            leave, and most importantly why are they leaving.</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='demand-forecasting.html';">
+                                    <img src="images/Demand-Forecasting.jpg">
+                                    <div>
+                                        <h4 class="card-title">Demand Forecasting</h4>
+                                        <p>Enhencer predicts a probability for next timeframe
+                                            (day/week/month) by learning from sales history..</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='fraud-prevention.html';">
+                                    <img src="images/fraud-prevention.png">
+                                    <div>
+                                        <h4 class="card-title">Fraud Prevention</h4>
+                                        <p>Detecting and preventing fraud will reveal quite valuable insights
+                                            if fraud is a problem for your business.</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
+                                    <img src="images/Employee-Turnover-Prediction.png">
+                                    <div>
+                                        <h4 class="card-title">Employee Turnover Prediction</h4>
+                                        <p>Enhencer uses Machine Learning to predict which employees
+                                            are most likely to
+                                            leave and with high accuracy.</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='predictive-maintenance.html';">
+                                    <img src="images/Predictive-Maintenance.jpg">
+                                    <div>
+                                        <h4 class="card-title">Predictive Maintenance</h4>
+                                        <p>With sensor data, Enhencer can predict the outcome of a test
+                                            result or when a machine will fail.</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='dealer-sales-performance.html';">
+                                    <img src="images/Dealer-Sales-Forecasting.png">
+                                    <div>
+                                        <h4 class="card-title">Dealer Sales Forecasting</h4>
+                                        <p style="font-size: 15px">Machine Learning models will not only provide you the
+                                            best
+                                            and worst performers but also shed light on why a dealer is
+                                            performing good or bad.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-container tab-content clearfix" id="tabs-22">
+
+
+                        <div class="wrapper">
+                            <div class="cases-grid">
+
+                                <div class="cases-card" onclick="location.href='likelihood-to-purchase.html';">
+                                    <img src="images/likelihood_to_purchase.jpg">
+                                    <div>
+                                        <h4 class="card-title">Likelihood to Purchase</h4>
+                                        <p>Which lead has a high likelihood to purchase? What are the
+                                            factors leading to a purchase?</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='cross-sell.html';">
+                                    <img src="images/cross-sell.jpeg">
+                                    <div>
+                                        <h4 class="card-title">Cross-sell/Up-sell</h4>
+                                        <p>Which customers have the highest probability to purchase other
+                                            products?</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='Churn-Probability.html';">
+                                    <img src="images/Churn Probability.jpeg">
+                                    <div>
+                                        <h4 class="card-title">Churn Probability</h4>
+                                        <p>With Enhencer, you will clearly see which customers will
+                                            leave, and most importantly why are they leaving.</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='demand-forecasting.html';">
+                                    <img src="images/Demand-Forecasting.jpg">
+                                    <div>
+                                        <h4 class="card-title">Demand Forecasting</h4>
+                                        <p>Enhencer predicts a probability for next timeframe
+                                            (day/week/month) by learning from sales history..</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
+                                    <img src="images/Employee-Turnover-Prediction.png">
+                                    <div>
+                                        <h4 class="card-title">Employee Turnover Prediction</h4>
+                                        <p>Enhencer uses Machine Learning to predict which employees
+                                            are most likely to
+                                            leave and with high accuracy.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tab-container tab-content clearfix" id="tabs-23">
+
+                        <div class="wrapper">
+                            <div class="cases-grid">
+
+                                <div class="cases-card" onclick="location.href='demand-forecasting.html';">
+                                    <img src="images/Demand-Forecasting.jpg">
+                                    <div>
+                                        <h4 class="card-title">Demand Forecasting</h4>
+                                        <p>Enhencer predicts a probability for next timeframe
+                                            (day/week/month) by learning from sales history..</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='fraud-prevention.html';">
+                                    <img src="images/fraud-prevention.png">
+                                    <div>
+                                        <h4 class="card-title">Fraud Prevention</h4>
+                                        <p>Detecting and preventing fraud will reveal quite valuable insights
+                                            if fraud is a problem for your business.</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
+                                    <img src="images/Employee-Turnover-Prediction.png">
+                                    <div>
+                                        <h4 class="card-title">Employee Turnover Prediction</h4>
+                                        <p>Enhencer uses Machine Learning to predict which employees
+                                            are most likely to
+                                            leave and with high accuracy.</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='dealer-sales-performance.html';">
+                                    <img src="images/Dealer-Sales-Forecasting.png">
+                                    <div>
+                                        <h4 class="card-title">Dealer Sales Forecasting</h4>
+                                        <p style="font-size: 15px">Machine Learning models will not only provide you the
+                                            best
+                                            and worst performers but also shed light on why a dealer is
+                                            performing good or bad.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="tab-container tab-content clearfix" id="tabs-24">
+
+                        <div class="wrapper">
+                            <div class="cases-grid">
+
+                                <div class="cases-card" onclick="location.href='likelihood-to-purchase.html';">
+                                    <img src="images/likelihood_to_purchase.jpg">
+                                    <div>
+                                        <h4 class="card-title">Likelihood to Purchase</h4>
+                                        <p>Which lead has a high likelihood to purchase? What are the
+                                            factors leading to a purchase?</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='cross-sell.html';">
+                                    <img src="images/cross-sell.jpeg">
+                                    <div>
+                                        <h4 class="card-title">Cross-sell/Up-sell</h4>
+                                        <p>Which customers have the highest probability to purchase other
+                                            products?</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='Churn-Probability.html';">
+                                    <img src="images/Churn Probability.jpeg">
+                                    <div>
+                                        <h4 class="card-title">Churn Probability</h4>
+                                        <p>With Enhencer, you will clearly see which customers will
+                                            leave, and most importantly why are they leaving.</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='fraud-prevention.html';">
+                                    <img src="images/fraud-prevention.png">
+                                    <div>
+                                        <h4 class="card-title">Fraud Prevention</h4>
+                                        <p>Detecting and preventing fraud will reveal quite valuable insights
+                                            if fraud is a problem for your business.</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
+                                    <img src="images/Employee-Turnover-Prediction.png">
+                                    <div>
+                                        <h4 class="card-title">Employee Turnover Prediction</h4>
+                                        <p>Enhencer uses Machine Learning to predict which employees
+                                            are most likely to
+                                            leave and with high accuracy.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="tab-container tab-content clearfix" id="tabs-25">
+
+                        <div class="wrapper">
+                            <div class="cases-grid">
+
+                                <div class="cases-card" onclick="location.href='likelihood-to-purchase.html';">
+                                    <img src="images/likelihood_to_purchase.jpg">
+                                    <div>
+                                        <h4 class="card-title">Likelihood to Purchase</h4>
+                                        <p>Which lead has a high likelihood to purchase? What are the
+                                            factors leading to a purchase?</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='cross-sell.html';">
+                                    <img src="images/cross-sell.jpeg">
+                                    <div>
+                                        <h4 class="card-title">Cross-sell/Up-sell</h4>
+                                        <p>Which customers have the highest probability to purchase other
+                                            products?</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='demand-forecasting.html';">
+                                    <img src="images/Demand-Forecasting.jpg">
+                                    <div>
+                                        <h4 class="card-title">Demand Forecasting</h4>
+                                        <p>Enhencer predicts a probability for next timeframe
+                                            (day/week/month) by learning from sales history..</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
+                                    <img src="images/Employee-Turnover-Prediction.png">
+                                    <div>
+                                        <h4 class="card-title">Employee Turnover Prediction</h4>
+                                        <p>Enhencer uses Machine Learning to predict which employees
+                                            are most likely to
+                                            leave and with high accuracy.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-container tab-content clearfix" id="tabs-26">
+                        <div class="wrapper">
+                            <div class="cases-grid">
+
+                                <div class="cases-card" onclick="location.href='likelihood-to-purchase.html';">
+                                    <img src="images/likelihood_to_purchase.jpg">
+                                    <div>
+                                        <h4 class="card-title">Likelihood to Purchase</h4>
+                                        <p>Which lead has a high likelihood to purchase? What are the
+                                            factors leading to a purchase?</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='cross-sell.html';">
+                                    <img src="images/cross-sell.jpeg">
+                                    <div>
+                                        <h4 class="card-title">Cross-sell/Up-sell</h4>
+                                        <p>Which customers have the highest probability to purchase other
+                                            products?</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='Churn-Probability.html';">
+                                    <img src="images/Churn Probability.jpeg">
+                                    <div>
+                                        <h4 class="card-title">Churn Probability</h4>
+                                        <p>With Enhencer, you will clearly see which customers will
+                                            leave, and most importantly why are they leaving.</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
+                                    <img src="images/Employee-Turnover-Prediction.png">
+                                    <div>
+                                        <h4 class="card-title">Employee Turnover Prediction</h4>
+                                        <p>Enhencer uses Machine Learning to predict which employees
+                                            are most likely to
+                                            leave and with high accuracy.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-container tab-content clearfix" id="tabs-27">
+
+                        <div class="wrapper">
+                            <div class="cases-grid">
+
+                                <div class="cases-card" onclick="location.href='demand-forecasting.html';">
+                                    <img src="images/Demand-Forecasting.jpg">
+                                    <div>
+                                        <h4 class="card-title">Demand Forecasting</h4>
+                                        <p>Enhencer predicts a probability for next timeframe
+                                            (day/week/month) by learning from sales history..</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='employee-turnover-prediction.html';">
+                                    <img src="images/Employee-Turnover-Prediction.png">
+                                    <div>
+                                        <h4 class="card-title">Employee Turnover Prediction</h4>
+                                        <p>Enhencer uses Machine Learning to predict which employees
+                                            are most likely to
+                                            leave and with high accuracy.</p>
+                                    </div>
+                                </div>
+
+                                <div class="cases-card" onclick="location.href='predictive-maintenance.html';">
+                                    <img src="images/Predictive-Maintenance.jpg">
+                                    <div>
+                                        <h4 class="card-title">Predictive Maintenance</h4>
+                                        <p>With sensor data, Enhencer can predict the outcome of a test
+                                            result or when a machine will fail.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <!-- Footer
+		============================================= -->
+        <div id="footerContent">
+        </div>
+
+
+        <!-- Go To Top
+        ============================================= -->
+        <div id="gotoTop" class="icon-angle-up"></div>
+
+        <!-- External JavaScripts
     ============================================= -->
-    <script src="../required/jquery.js"></script>
-    <script src="../required/plugins.min.js"></script>
+        <script src="../required/jquery.js"></script>
+        <script src="../required/plugins.min.js"></script>
 
-    <!-- Footer Scripts
+        <!-- Footer Scripts
 ============================================= -->
-    <script src="../required/functions.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("#footerContent").load("footer-cases.html");
-        });
-    </script>
+        <script src="../required/functions.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#footerContent").load("footer-cases.html");
+            });
+        </script>
 
-    <script>
-        //Pricing Table Script
-        jQuery(document).ready(function ($) {
-            function pricingSwitcher(elementCheck, elementParent, elementPricing) {
-                elementParent.find('.pts-left,.pts-right').removeClass('pts-switch-active');
-                elementPricing.find('.pts-switch-content-left,.pts-switch-content-right').addClass('hidden');
+        <script>
+            //Pricing Table Script
+            jQuery(document).ready(function ($) {
+                function pricingSwitcher(elementCheck, elementParent, elementPricing) {
+                    elementParent.find('.pts-left,.pts-right').removeClass('pts-switch-active');
+                    elementPricing.find('.pts-switch-content-left,.pts-switch-content-right').addClass('hidden');
 
-                if (elementCheck.filter(':checked').length > 0) {
-                    elementParent.find('.pts-right').addClass('pts-switch-active');
-                    elementPricing.find('.pts-switch-content-right').removeClass('hidden');
-                } else {
-                    elementParent.find('.pts-left').addClass('pts-switch-active');
-                    elementPricing.find('.pts-switch-content-left').removeClass('hidden');
+                    if (elementCheck.filter(':checked').length > 0) {
+                        elementParent.find('.pts-right').addClass('pts-switch-active');
+                        elementPricing.find('.pts-switch-content-right').removeClass('hidden');
+                    } else {
+                        elementParent.find('.pts-left').addClass('pts-switch-active');
+                        elementPricing.find('.pts-switch-content-left').removeClass('hidden');
+                    }
                 }
-            }
 
-            $('.pts-switcher').each(function () {
-                var element = $(this),
-                    elementCheck = element.find(':checkbox'),
-                    elementParent = $(this).parents('.pricing-tenure-switcher'),
-                    elementPricing = $(elementParent.attr('data-container'));
+                $('.pts-switcher').each(function () {
+                    var element = $(this),
+                        elementCheck = element.find(':checkbox'),
+                        elementParent = $(this).parents('.pricing-tenure-switcher'),
+                        elementPricing = $(elementParent.attr('data-container'));
 
-                pricingSwitcher(elementCheck, elementParent, elementPricing);
-
-                elementCheck.on('change', function () {
                     pricingSwitcher(elementCheck, elementParent, elementPricing);
+
+                    elementCheck.on('change', function () {
+                        pricingSwitcher(elementCheck, elementParent, elementPricing);
+                    });
                 });
             });
-        });
 
-    </script>
+        </script>
 
 </body>
 

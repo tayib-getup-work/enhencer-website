@@ -63,7 +63,7 @@
     <!-- Document Wrapper
 	============================================= -->
     <div id="wrapper" class="clearfix">
-        <div id="forced_header" class="forced-sticky-header">
+        <div class="forced-sticky-header">
             <div id="header-wrap">
                 <div class="container-home-wide-body clearfix">
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
@@ -433,64 +433,65 @@
             </div>
 
         </div>
+    </div>
 
 
 
-        <!-- Footer
+    <!-- Footer
 		============================================= -->
-        <div id="footerContent">
-        </div>
+    <div id="footerContent">
+    </div>
 
 
-        <!-- Go To Top
+    <!-- Go To Top
         ============================================= -->
-        <div id="gotoTop" class="icon-angle-up"></div>
+    <div id="gotoTop" class="icon-angle-up"></div>
 
-        <!-- External JavaScripts
+    <!-- External JavaScripts
 	============================================= -->
-        <script src="required/jquery.js"></script>
-        <script src="required/plugins.min.js"></script>
+    <script src="required/jquery.js"></script>
+    <script src="required/plugins.min.js"></script>
 
-        <!-- Footer Scripts
+    <!-- Footer Scripts
 ============================================= -->
-        <script src="required/functions.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                $("#footerContent").load("footer-index.html");
-            });
-        </script>
+    <script src="required/functions.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#footerContent").load("footer-index.html");
+        });
+    </script>
 
-        <script>
-            //Pricing Table Script
-            jQuery(document).ready(function ($) {
-                function pricingSwitcher(elementCheck, elementParent, elementPricing) {
-                    elementParent.find('.pts-left,.pts-right').removeClass('pts-switch-active');
-                    elementPricing.find('.pts-switch-content-left,.pts-switch-content-right').addClass('hidden');
+    <script>
+        //Pricing Table Script
+        jQuery(document).ready(function ($) {
+            function pricingSwitcher(elementCheck, elementParent, elementPricing) {
+                elementParent.find('.pts-left,.pts-right').removeClass('pts-switch-active');
+                elementPricing.find('.pts-switch-content-left,.pts-switch-content-right').addClass('hidden');
 
-                    if (elementCheck.filter(':checked').length > 0) {
-                        elementParent.find('.pts-right').addClass('pts-switch-active');
-                        elementPricing.find('.pts-switch-content-right').removeClass('hidden');
-                    } else {
-                        elementParent.find('.pts-left').addClass('pts-switch-active');
-                        elementPricing.find('.pts-switch-content-left').removeClass('hidden');
-                    }
+                if (elementCheck.filter(':checked').length > 0) {
+                    elementParent.find('.pts-right').addClass('pts-switch-active');
+                    elementPricing.find('.pts-switch-content-right').removeClass('hidden');
+                } else {
+                    elementParent.find('.pts-left').addClass('pts-switch-active');
+                    elementPricing.find('.pts-switch-content-left').removeClass('hidden');
                 }
+            }
 
-                $('.pts-switcher').each(function () {
-                    var element = $(this),
-                        elementCheck = element.find(':checkbox'),
-                        elementParent = $(this).parents('.pricing-tenure-switcher'),
-                        elementPricing = $(elementParent.attr('data-container'));
+            $('.pts-switcher').each(function () {
+                var element = $(this),
+                    elementCheck = element.find(':checkbox'),
+                    elementParent = $(this).parents('.pricing-tenure-switcher'),
+                    elementPricing = $(elementParent.attr('data-container'));
 
+                pricingSwitcher(elementCheck, elementParent, elementPricing);
+
+                elementCheck.on('change', function () {
                     pricingSwitcher(elementCheck, elementParent, elementPricing);
-
-                    elementCheck.on('change', function () {
-                        pricingSwitcher(elementCheck, elementParent, elementPricing);
-                    });
                 });
             });
+        });
 
-        </script>
+    </script>
 
 </body>
 
