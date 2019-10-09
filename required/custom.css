@@ -495,7 +495,7 @@ Pricing css's
   #allFeatures {
 	  margin: 20px auto;
 	  width: 100%;
-	  overflow: scroll;
+	  overflow-x: scroll;
   }
 
 
@@ -831,10 +831,6 @@ article {
   max-width: 1140px;
   margin: auto;
   position:relative;
-}
-
-#allFeaturesTitle {
-	overflow-y: scroll;
 }
 
 #allFeaturesTitle h2{
