@@ -830,12 +830,11 @@ article {
   width:100%;
   max-width: 1140px;
   margin: auto;
-  height:1000px;
   position:relative;
 }
 
 #allFeaturesTitle {
-	overflow: scroll;
+	overflow-y: scroll;
 }
 
 #allFeaturesTitle h2{

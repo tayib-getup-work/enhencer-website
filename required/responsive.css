@@ -1198,7 +1198,6 @@
 	.forced-sticky-header {
 		margin: 0 !important;
 		height: 50px !important;
-		position: sticky;
 		top: 0
 	}
 

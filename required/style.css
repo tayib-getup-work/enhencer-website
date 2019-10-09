@@ -21522,26 +21522,7 @@ small,
 	font-size:14px;
 	padding: 0px;
   }
-  article {
-	width:100%;
-	max-width: 1140px;
-    margin: auto;
-	height:1000px;
-	position:relative;
-  }
-  /* ul {
-	display:flex;
-	top:0px;
-	z-index:10;
-	padding-bottom:14px;
-  }
-  li {
-	list-style:none;
-	flex:1;
-  }
-  li:last-child {
-	border-right:1px solid #DDD;
-  } */
+
   button {
 	width:100%;
 	border: 1px solid #DDD;
