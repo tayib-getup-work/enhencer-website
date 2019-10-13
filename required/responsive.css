@@ -48,7 +48,18 @@
 	}
 }
 
-@media (max-width: 1149px) {
+@media(max-width: 991px){
+	.connect-page-top img {
+		display: none;
+	}
+
+	.connect-page-top {
+		height: 100px;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 1149.98px) {
 
 	.home-cases-image{
 		display: none;
@@ -1154,12 +1165,13 @@
 		text-decoration: none;
 	}
 	
+	.about-us-photo {
+		margin-top: 50px;
+	}
 	
 
-}
 
 
-@media (max-width: 1149.98px) {
 
 	.try-free-sign-in-button-menu-item {
 		display: inherit;
@@ -1620,10 +1632,14 @@
 		display: grid;
 	}
 
+	.connect-page-top {
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+
 	.connect-heading {
-    font-size: 40px !important;
-    text-align: center;
-		top: 33%;
+    font-size: 2em !important;
+	text-align: center;
 	}
 
 	ul.tab-nav:not(.tab-nav-lg) li {

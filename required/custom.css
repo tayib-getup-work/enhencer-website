@@ -1032,15 +1032,6 @@ article {
 	color: #80ffdb;
   }
   
-
-/* Conenct Header Image */
-.connect-header-image{
-	background-image: url('images/connect.jpg'); 
-	background-size: cover; 
-	background-position: bottom;
-	background-repeat: no-repeat;
-}
-  
 /* ----------------------------------------------------------------
 	Footer Menu
 -----------------------------------------------------------------*/
@@ -2947,12 +2938,30 @@ div[class*=box] {
 
 /* Connect Page CSS */
 
+.connect-page-top {
+	background: #262626;
+	width: 100%;
+	margin-top: 70px;
+	padding: 0 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.connect-header-image{
+	background-image: url('images/connect.jpg'); 
+	background-size: cover; 
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
 .connect-heading{
 	color:white !important; 
 	font-weight: 300 !important; 
 	font-size: 50px !important; 
-	text-align: left; 
-	position: absolute; top:45%;
+	text-align: left;
+	margin-left: 20px;
 }
 
 .connect-h4{
@@ -5263,6 +5272,10 @@ div.cookiebtns {
 	.desktop-macbook {
 		display: inherit;
 	}
+
+	.about-us-photo {
+		margin-top: 70px;
+	}
 }
 @media (max-width: 1281.98px) {
 	.main-title-info {
@@ -6141,4 +6154,14 @@ div.cookiebtns {
     background: none;
     padding: 0;
     color: white;
+}
+
+.about-us-photo {
+	width: 100%;
+}
+
+@media(min-width: 1150px) and (max-width: 1200px) {
+	.connect-page-top {
+		margin-bottom: 30px;
+	}
 }
