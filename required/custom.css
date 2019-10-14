@@ -3434,7 +3434,7 @@ div[class*=box] {
 .ps-timeline-sec .container {
   position: relative;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 850px) {
   .ps-timeline-sec .container ol:before {
     background: #348e80;
     content: "";
@@ -3545,26 +3545,7 @@ div[class*=box] {
 	}
 
 }
-/* .ps-timeline-sec .container ol:before {
-  background: #348e80;
-  content: "";
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  position: absolute;
-  left: 8px;
-  top: 49.5%;
-} */
-/* .ps-timeline-sec .container ol:after {
-  background: #348e80;
-  content: "";
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  position: absolute;
-  right: 8px;
-  top: 49.5%;
-} */
+
 .ps-timeline-sec .container ol.ps-timeline {
     margin: 295px 0;
     padding: 0;
@@ -4178,7 +4159,7 @@ div.cookiebtns {
     border-radius: 4px;
     color: #004159;
     outline: 0 none;
-    padding: 6px 19px;
+    padding: 4px 21px;
     position: relative;
     transition: all 0.75s ease-in-out 0s;
     cursor: pointer;
