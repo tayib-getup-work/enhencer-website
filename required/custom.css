@@ -4159,7 +4159,8 @@ div.cookiebtns {
     border-radius: 4px;
     color: #004159;
     outline: 0 none;
-    padding: 4px 21px;
+	padding: 5px 0;
+	text-align: center;
     position: relative;
     transition: all 0.75s ease-in-out 0s;
     cursor: pointer;
