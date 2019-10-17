@@ -2576,6 +2576,12 @@
 		zoom: 0.7
 	}
 
+	/* HELP PAGE */
+
+	.help-container {
+		margin-top: 50px;
+	}
+
 }
 
 

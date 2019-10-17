@@ -1704,50 +1704,139 @@ body, html {
 /* Help-Center Styles
 -----------------------------------
  */
+
+ .help-container {
+	margin-top: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.help-sidebar {
+	width: 20%;
+}
+
+
+.help-sidebar > .nav > .nav-item {
+	width: 250px;
+}
+
+.help-sidebar #getstarted {
+	color: #0E71B8;
+}
+
+.help-sidebar #connect {
+	color: #1C8DA4;
+}
+.help-sidebar #analyzegui {
+	color: #259C8D;
+}
+
+.help-sidebar #predict {
+	color: #42B05F;
+}
+
+.help-sidebar #report {
+	color: #75B942;
+}
+
+#submenu3 a:hover {
+	color: #0E71B8
+}
+
+#submenu1 a:hover {
+	color: #1C8DA4
+}
+
+#submenu2 a:hover {
+	color: #259C8D
+}
+
+#predictsubmenu a:hover {
+	color: #42B05F;
+}
+
+.help-sidebar > .nav > .nav-item > div {
+    padding-left: 10px;
+}
+
+.help-sidebar > .nav > .nav-item > a {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.help-sidebar > .nav > .nav-item > i {
+    height: 24px
+}
+
+.help-sidebar > .nav > .nav-item > a:hover {
+	cursor: pointer;
+}
+
+.help-sidebar .collapsed .ti-angle-up {
+	transform: rotate(180deg)
+}
+
+.help-sidebar .ti-angle-up {
+	transition: 0.4s;
+}
+
+.help-sidebar #submenuanalyze {
+	padding-left: 30px;
+}
+
+
+.help-sidebar .nav {
+	 flex-direction: column;
+	 flex-wrap: nowrap;
+	 justify-content: flex-start;
+	 align-items: start;
+}
+
 .sub-sub-nav{
 	color: #444;
-	font-size:1.3em;
+	font-size: 18px;
 }
 .sub-sub-nav:hover{
 	text-decoration: underline;
 	color: #333;
 
 }
-.sub-sub-nav:active{
+/* .sub-sub-nav:active{
 	text-decoration: underline !important;
 	color: #0E71B8;
+} */
 
-}
-
-.help-center-current-get-started{
+#submenu3 .help-center-current{
 	color:#0E71B8;
-	text-decoration: solid underline !important;
+	text-decoration: underline !important;
 	text-decoration-color: #0E71B8 !important;
-	text-underline-position: under;
-
+	text-underline-position: under !important;
 }
 
-.help-center-current-analyze{
-	color:#259C8D;
-	text-decoration: solid underline !important;
+#submenu2 .help-center-current{
+	color:#259C8D !important;
+	text-decoration: underline !important;
 	text-decoration-color: #259C8D !important;
-	text-underline-position: under;
-
+	text-underline-position: under !important;
 }
 
-.help-center-current-connect{
+#submenu1 .help-center-current{
 	color:#1c8da4 !important;
-	text-decoration: solid underline !important;
+	text-decoration: underline !important;
 	text-decoration-color: #1c8da4 !important;
-	text-underline-position: under;
-
+	text-underline-position: under !important;
 }
-.help-center-current-predict{
-	color:#42b05f !important;
-	text-decoration: solid underline !important;
-	text-decoration-color: #42b05f !important;
-	text-underline-position: under;
 
+#predictsubmenu .help-center-current{
+	color:#42b05f !important;
+	text-decoration: underline !important;
+	text-decoration-color: #42b05f !important;
+	text-underline-position: under !important;
 }
 
 .help-card:hover{
