@@ -59,6 +59,18 @@
 	}
 }
 
+@media(max-width: 950px){
+	.help-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.help-sidebar {
+		width: 90%;
+		max-width: 300px;
+	}
+}
+
 @media (max-width: 1149.98px) {
 
 	.home-cases-image{
