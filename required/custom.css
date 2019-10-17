@@ -1719,29 +1719,32 @@ body, html {
 
 
 .help-sidebar > .nav > .nav-item {
-	width: 250px;
+    width: 100%;
+    margin: 6px 0;
+    border-radius: 7px;
+    padding: 5px 15px;
 }
 
-.help-sidebar #getstarted {
-	color: #0E71B8;
+.help-sidebar .get-started {
+	background: #0E71B8;
 }
 
-.help-sidebar #connect {
-	color: #1C8DA4;
+.help-sidebar .connect {
+	background: #1C8DA4;
 }
-.help-sidebar #analyzegui {
-	color: #259C8D;
-}
-
-.help-sidebar #predict {
-	color: #42B05F;
+.help-sidebar .analyze {
+	background: #259C8D;
 }
 
-.help-sidebar #report {
-	color: #75B942;
+.help-sidebar .predict {
+	background: #42B05F;
 }
 
-#submenu3 a:hover {
+.help-sidebar .track {
+	background: #75B942;
+}
+
+/* #submenu3 a:hover {
 	color: #0E71B8
 }
 
@@ -1755,10 +1758,10 @@ body, html {
 
 #predictsubmenu a:hover {
 	color: #42B05F;
-}
+} */
 
 .help-sidebar > .nav > .nav-item > div {
-    padding-left: 10px;
+    padding-left: 10%;
 }
 
 .help-sidebar > .nav > .nav-item > a {
@@ -1767,6 +1770,7 @@ body, html {
     flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	color: white;
 }
 
 .help-sidebar > .nav > .nav-item > i {
@@ -1777,7 +1781,7 @@ body, html {
 	cursor: pointer;
 }
 
-.help-sidebar .collapsed .ti-angle-up {
+.help-sidebar .collapsed .ti-angle-up, #submenu2 .collapsed .ti-angle-up {
 	transform: rotate(180deg)
 }
 
@@ -1786,9 +1790,13 @@ body, html {
 }
 
 .help-sidebar #submenuanalyze {
-	padding-left: 30px;
+	padding-left: 40%;
 }
+ 
 
+.nav-item .nav-item {
+	margin: 5px 0;
+}
 
 .help-sidebar .nav {
 	 flex-direction: column;
@@ -1798,20 +1806,21 @@ body, html {
 }
 
 .sub-sub-nav{
-	color: #444;
+	color: white;
 	font-size: 18px;
 }
 .sub-sub-nav:hover{
 	text-decoration: underline;
-	color: #333;
+	color: rgb(77, 238, 222);
 
 }
-/* .sub-sub-nav:active{
-	text-decoration: underline !important;
-	color: #0E71B8;
-} */
 
-#submenu3 .help-center-current{
+.help-center-current{
+	border-bottom: 1px solid rgb(77, 238, 222);
+	color: rgb(77, 238, 222);
+}
+
+/* #submenu3 .help-center-current{
 	color:#0E71B8;
 	text-decoration: underline !important;
 	text-decoration-color: #0E71B8 !important;
@@ -1837,7 +1846,7 @@ body, html {
 	text-decoration: underline !important;
 	text-decoration-color: #42b05f !important;
 	text-underline-position: under !important;
-}
+} */
 
 .help-card:hover{
 box-shadow: 0 0 17px 0 rgba(0,0,0,.2), 0 0 20px 0 rgba(0,0,0,.19);
@@ -1906,7 +1915,7 @@ box-shadow: 0 0 17px 0 rgba(0,0,0,.2), 0 0 20px 0 rgba(0,0,0,.19);
 	padding-left: 5%;
 }
 
-.getting_started:before{
+/* .getting_started:before{
 	font-family: "Font Awesome 5 Free";
 	font-weight: 500;
 	content: "\f35a";
@@ -1959,7 +1968,7 @@ box-shadow: 0 0 17px 0 rgba(0,0,0,.2), 0 0 20px 0 rgba(0,0,0,.19);
 	top: 0;
 	right: 0;
 	vertical-align: middle;
-}
+} */
 
 /* Help-Cneter Read More */
 /*       Just setting CSS for the page   */
