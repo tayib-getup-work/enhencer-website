@@ -5307,9 +5307,15 @@ div.cookiebtns {
 	}
 }
 
-@media(max-width: 1439px) and (min-width: 1350px) {
+@media(max-width: 1439px) and (min-width: 1391px) {
 	.home-layer {
 		left: -18%;
+	}
+}
+
+@media(max-width: 1390px) and (min-width: 1350px) {
+	.home-layer {
+		left: -10%;
 	}
 }
 
@@ -5335,7 +5341,7 @@ div.cookiebtns {
 	.visible-desktop {
 		display: block;
 	}
-	@media(max-width: 1350px){
+	@media(max-width: 1390px){
 		#wrapper {
 			zoom: 0.8;
 		}
