@@ -2177,7 +2177,7 @@ display: block;  /* may not need this, but I've found I do */
 
 .cover{
 	background-size: cover !important;
-	width: 100vw; height: 108vh;
+	width: 100vw; height: 100vh;
 	object-fit: cover;
 }
 
@@ -2194,8 +2194,22 @@ display: block;  /* may not need this, but I've found I do */
 	text-decoration: underline !important;
 }
 
-.blog-no-menu{
-	display:none;
+/* .blog-no-menu{
+	opacity: 0;
+	transition: 0.4s;;
+}
+
+.forced-sticky-header:hover .blog-no-menu {
+	opacity: 1;
+} */
+
+.blog-post .forced-sticky-header {
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.blog-post .forced-sticky-header:hover {
+	opacity: 1;
 }
 
 .author-image {
