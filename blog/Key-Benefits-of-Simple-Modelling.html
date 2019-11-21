@@ -61,7 +61,7 @@
 
 </head>
 
-<body class="stretched">
+<body class="stretched blog-post">
 
     <!-- Document Wrapper
 	============================================= -->
@@ -464,30 +464,6 @@
             $("#footerContent").load("footer-index.html");
         });
     </script>
-
-    <script>
-        var current_poll_interval = setInterval(currentPoll, 100);
-        function currentPoll() {
-            if ($('#header').hasClass('sticky-header')) {
-                $('#primary-menu').removeClass('blog-no-menu')
-            }
-            else {
-                $('#primary-menu').addClass('blog-no-menu')
-            }
-        }
-    </script>
-    <script>
-        var current_poll_interval = setInterval(currentPoll, 100);
-        function currentPoll() {
-            if ($('#header').hasClass('sticky-header')) {
-                $('#logo').removeClass('blog-no-menu')
-            }
-            else {
-                $('#logo').addClass('blog-no-menu')
-            }
-        }
-    </script>
-
 </body>
 
 </html>
