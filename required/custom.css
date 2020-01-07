@@ -1704,51 +1704,150 @@ body, html {
 /* Help-Center Styles
 -----------------------------------
  */
+
+ .help-container {
+	margin-top: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.help-sidebar {
+	width: 20%;
+	margin: 26px 20px
+}
+
+
+.help-sidebar > .nav > .nav-item {
+    width: 100%;
+    margin: 6px 0;
+    border-radius: 7px;
+    padding: 5px 15px;
+}
+
+.help-sidebar .get-started {
+	background: #004159;
+}
+
+.help-sidebar .connect {
+	background: #1C8DA4;
+}
+.help-sidebar .analyze {
+	background: #259C8D;
+}
+
+.help-sidebar .predict {
+	background: #42B05F;
+}
+
+.help-sidebar .track {
+	background: #75B942;
+}
+
+/* #submenu3 a:hover {
+	color: #0E71B8
+}
+
+#submenu1 a:hover {
+	color: #1C8DA4
+}
+
+#submenu2 a:hover {
+	color: #259C8D
+}
+
+#predictsubmenu a:hover {
+	color: #42B05F;
+} */
+
+.help-sidebar > .nav > .nav-item > div {
+    padding-left: 10%;
+}
+
+.help-sidebar > .nav > .nav-item > a {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+.help-sidebar > .nav > .nav-item > i {
+    height: 24px
+}
+
+.help-sidebar > .nav > .nav-item > a:hover {
+	cursor: pointer;
+}
+
+.help-sidebar .collapsed .ti-angle-up, #submenu2 .collapsed .ti-angle-up {
+	transform: rotate(180deg)
+}
+
+.help-sidebar .ti-angle-up {
+	transition: 0.4s;
+}
+
+.help-sidebar #submenuanalyze {
+	padding-left: 40%;
+}
+ 
+
+.nav-item .nav-item {
+	margin: 5px 0;
+}
+
+.help-sidebar .nav {
+	 flex-direction: column;
+	 flex-wrap: nowrap;
+	 justify-content: flex-start;
+	 align-items: start;
+}
+
 .sub-sub-nav{
-	color: #444;
-	font-size:1.3em;
+	color: white;
+	font-size: 18px;
 }
 .sub-sub-nav:hover{
 	text-decoration: underline;
-	color: #333;
-
-}
-.sub-sub-nav:active{
-	text-decoration: underline !important;
-	color: #0E71B8;
+	color: rgb(77, 238, 222);
 
 }
 
-.help-center-current-get-started{
+.help-center-current{
+	border-bottom: 1px solid rgb(77, 238, 222);
+	color: rgb(77, 238, 222);
+}
+
+/* #submenu3 .help-center-current{
 	color:#0E71B8;
-	text-decoration: solid underline !important;
+	text-decoration: underline !important;
 	text-decoration-color: #0E71B8 !important;
-	text-underline-position: under;
-
+	text-underline-position: under !important;
 }
 
-.help-center-current-analyze{
-	color:#259C8D;
-	text-decoration: solid underline !important;
+#submenu2 .help-center-current{
+	color:#259C8D !important;
+	text-decoration: underline !important;
 	text-decoration-color: #259C8D !important;
-	text-underline-position: under;
-
+	text-underline-position: under !important;
 }
 
-.help-center-current-connect{
+#submenu1 .help-center-current{
 	color:#1c8da4 !important;
-	text-decoration: solid underline !important;
+	text-decoration: underline !important;
 	text-decoration-color: #1c8da4 !important;
-	text-underline-position: under;
-
+	text-underline-position: under !important;
 }
-.help-center-current-predict{
+
+#predictsubmenu .help-center-current{
 	color:#42b05f !important;
-	text-decoration: solid underline !important;
+	text-decoration: underline !important;
 	text-decoration-color: #42b05f !important;
-	text-underline-position: under;
-
-}
+	text-underline-position: under !important;
+} */
 
 .help-card:hover{
 box-shadow: 0 0 17px 0 rgba(0,0,0,.2), 0 0 20px 0 rgba(0,0,0,.19);
@@ -1817,7 +1916,7 @@ box-shadow: 0 0 17px 0 rgba(0,0,0,.2), 0 0 20px 0 rgba(0,0,0,.19);
 	padding-left: 5%;
 }
 
-.getting_started:before{
+/* .getting_started:before{
 	font-family: "Font Awesome 5 Free";
 	font-weight: 500;
 	content: "\f35a";
@@ -1870,7 +1969,7 @@ box-shadow: 0 0 17px 0 rgba(0,0,0,.2), 0 0 20px 0 rgba(0,0,0,.19);
 	top: 0;
 	right: 0;
 	vertical-align: middle;
-}
+} */
 
 /* Help-Cneter Read More */
 /*       Just setting CSS for the page   */
@@ -2078,7 +2177,7 @@ display: block;  /* may not need this, but I've found I do */
 
 .cover{
 	background-size: cover !important;
-	width: 100vw; height: 108vh;
+	width: 100vw; height: 100vh;
 	object-fit: cover;
 }
 
@@ -2095,8 +2194,22 @@ display: block;  /* may not need this, but I've found I do */
 	text-decoration: underline !important;
 }
 
-.blog-no-menu{
-	display:none;
+/* .blog-no-menu{
+	opacity: 0;
+	transition: 0.4s;;
+}
+
+.forced-sticky-header:hover .blog-no-menu {
+	opacity: 1;
+} */
+
+.blog-post .forced-sticky-header {
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.blog-post .forced-sticky-header:hover {
+	opacity: 1;
 }
 
 .author-image {
@@ -4159,7 +4272,8 @@ div.cookiebtns {
     border-radius: 4px;
     color: #004159;
     outline: 0 none;
-    padding: 4px 21px;
+	padding: 5px 0;
+	text-align: center;
     position: relative;
     transition: all 0.75s ease-in-out 0s;
     cursor: pointer;
@@ -5207,9 +5321,15 @@ div.cookiebtns {
 	}
 }
 
-@media(max-width: 1439px) and (min-width: 1350px) {
+@media(max-width: 1439px) and (min-width: 1391px) {
 	.home-layer {
 		left: -18%;
+	}
+}
+
+@media(max-width: 1390px) and (min-width: 1350px) {
+	.home-layer {
+		left: -10%;
 	}
 }
 
@@ -5235,7 +5355,7 @@ div.cookiebtns {
 	.visible-desktop {
 		display: block;
 	}
-	@media(max-width: 1350px){
+	@media(max-width: 1390px){
 		#wrapper {
 			zoom: 0.8;
 		}
