@@ -185,7 +185,7 @@
         <div class="pricing-main-container"
             style="background: url('demos/seo/images/sections/4.png') no-repeat center top / cover">
             <div>
-                <div>
+                <div style="margin: 60px auto">
                     <div class="nobottomborder bottommargin-sm">
                         <h3 id="pricingmobileheading" class="nott ls0" style="width: 100%; text-align: center; font-size:2.2em;    padding-top: 55px; font-weight: 200; font-family: 'Poppins', sans-serif;
                             color: #444;">Choose the plan that can handle your data. You can cancel anytime</h3>
@@ -193,64 +193,39 @@
                     <p style="font-size:20px; text-align:center; color: #555;">Whether you are a startup or a
                         multinational enterprise, Enhencer can maximize the value of your data.
                     </p>
-                    <div id="pricingSwitch">
-                        <div class="active" style="margin-right: 20px" onclick="switchPricing()">
-                            <p>Yearly (2 months free)</p>
-                            <div class="prices-tab-bottom-line"></div>
-                        </div>
-                        <div onclick="switchPricing()">
-                            <p>Monthly</p>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="pricing-cards-row">
                     <div>
                         <div clasS="pricing-card-heading" style="background: #75B942">
                             <img src="images/svgs/light-bulb.svg" alt="Startup">
-                            <h3>Startup</h3>
+                            <h3>Starter</h3>
                         </div>
                         <div class="pricing-price">
-                            <div class="pts-switch-content-left">
-                                <span class="price-unit">&dollar;</span>
-                                159
-                                <span class="price-tenure">Per Month</span>
-                            </div>
-                            <div class="pts-switch-content-right">
-                                <span class="price-unit">&dollar;</span>
-                                189
-                                <span class="price-tenure">Per Month</span>
-                            </div>
+                            Free
                         </div>
                         <div class="pricing-features border-bottom-0">
                             <ul>
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
                                     <strong style="font-weight: 700">
-                                        14 Days
+                                        20.000
                                     </strong>
-                                    Trial
+                                    Requests/Month
+                                </li>
+                                <li>
+                                    <i class="icon-check-circle color mr-2"></i>
+                                    <strong style="font-weight: 700">
+                                        10.000
+                                    </strong>
+                                    Rows/Project
                                 </li>
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
                                     <strong style="font-weight: 700">
                                         Single
                                     </strong>
-                                    Analyst
-                                </li>
-                                <li>
-                                    <i class="icon-check-circle color mr-2"></i>
-                                    <strong style="font-weight: 700">
-                                        Limited
-                                    </strong>
-                                    Rows
-                                </li>
-                                <li>
-                                    <i class="icon-check-circle color mr-2"></i>
-                                    <strong style="font-weight: 700">
-                                        Up to 25
-                                    </strong>
-                                    Variables
+                                    User
                                 </li>
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
@@ -263,7 +238,10 @@
                             </ul>
                         </div>
                         <button style="background: #75B942">
-                            Try Free
+                            <a style="color: white" href="https://app.enhencer.com/#!/signup"
+                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Pricing', event_label: 'Try Now'});">
+                                Try Free*
+                            </a>
                         </button>
 
                     </div>
@@ -274,14 +252,9 @@
                             <h3>Growth</h3>
                         </div>
                         <div class="pricing-price">
-                            <div class="pts-switch-content-left">
-                                <span class="price-unit">&dollar;</span>
-                                399
-                                <span class="price-tenure">Per Month</span>
-                            </div>
-                            <div class="pts-switch-content-right">
-                                <span class="price-unit">&dollar;</span>
-                                479
+                            <div style="text-align: center;" class="pts-switch-content-left">
+                                &dollar;
+                                749
                                 <span class="price-tenure">Per Month</span>
                             </div>
                         </div>
@@ -290,30 +263,23 @@
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
                                     <strong style="font-weight: 700">
-                                        14 Days
+                                        1.000.000
                                     </strong>
-                                    Trial
+                                    Requests/Month
                                 </li>
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
                                     <strong style="font-weight: 700">
-                                        2
+                                        250.000
                                     </strong>
-                                    Analyst
+                                    Rows/Project
                                 </li>
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
                                     <strong style="font-weight: 700">
-                                        Limited
+                                        5
                                     </strong>
-                                    Rows
-                                </li>
-                                <li>
-                                    <i class="icon-check-circle color mr-2"></i>
-                                    <strong style="font-weight: 700">
-                                        Up to 50
-                                    </strong>
-                                    Variables
+                                    Users
                                 </li>
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
@@ -321,117 +287,49 @@
                                 </li>
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
-                                    Customer Success Manager
+                                    Live Chat/Email Support
                                 </li>
                             </ul>
                         </div>
                         <button style="background: #2ca497">
-                            Try Free
-                        </button>
-
-                    </div>
-
-                    <div style="height: 520px">
-                        <div class="pricing-card-heading" style="background: #228e9f; height: 145px">
-                            <img src="images/svgs/handshake.svg" alt="Premium">
-                            <h3>Premium</h3>
-                            <div style="color: #eee">Most Popular</div>
-                        </div>
-                        <div class="pricing-price">
-                            <div class="pts-switch-content-left">
-                                <span class="price-unit">&dollar;</span>
-                                799
-                                <span class="price-tenure">Per Month</span>
-                            </div>
-                            <div class="pts-switch-content-right">
-                                <span class="price-unit">&dollar;</span>
-                                959
-                                <span class="price-tenure">Per Month</span>
-                            </div>
-                        </div>
-                        <div class="pricing-features border-bottom-0">
-                            <ul>
-                                <li>
-                                    <i class="icon-check-circle color mr-2"></i>
-                                    <strong style="font-weight: 700">
-                                        14 Days
-                                    </strong>
-                                    Trial
-                                </li>
-                                <li>
-                                    <i class="icon-check-circle color mr-2"></i>
-                                    <strong style="font-weight: 700">
-                                        Up to 5
-                                    </strong>
-                                    Analyst
-                                </li>
-                                <li>
-                                    <i class="icon-check-circle color mr-2"></i>
-                                    <strong style="font-weight: 700">
-                                        Limited
-                                    </strong>
-                                    Rows
-                                </li>
-                                <li>
-                                    <i class="icon-check-circle color mr-2"></i>
-                                    <strong style="font-weight: 700">
-                                        Up to 250
-                                    </strong>
-                                    Variables
-                                </li>
-                                <li>
-                                    <i class="icon-check-circle color mr-2"></i>
-                                    On Cloud
-                                </li>
-                                <li>
-                                    <i class="icon-check-circle color mr-2"></i>
-                                    Customer Success Manager
-                                </li>
-                            </ul>
-                        </div>
-                        <button style="background: #228e9f">
-                            Try Free
+                            <a style="color: white" href="https://app.enhencer.com/#!/signup"
+                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Pricing', event_label: 'Try Now'});">
+                                Buy now
+                            </a>
                         </button>
 
                     </div>
 
                     <div>
-                        <div clasS="pricing-card-heading" style="background: #13364a">
+                        <div class="pricing-card-heading" style="background: #13364a">
                             <img src="images/svgs/visitor.svg" alt="Enterprise">
                             <h3>Enterprise</h3>
                         </div>
                         <div class="pricing-price">
-                            <div>Contact Us</div>
+                            <div>Custom pricing</div>
                         </div>
                         <div class="pricing-features border-bottom-0">
                             <ul>
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
                                     <strong style="font-weight: 700">
-                                        14 Days
+                                        Unlimited
                                     </strong>
-                                    Trial
+                                    Requests/Month
                                 </li>
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
                                     <strong style="font-weight: 700">
                                         Unlimited
                                     </strong>
-                                    Analyst
+                                    Rows/Project
                                 </li>
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
                                     <strong style="font-weight: 700">
                                         Unlimited
                                     </strong>
-                                    Rows
-                                </li>
-                                <li>
-                                    <i class="icon-check-circle color mr-2"></i>
-                                    <strong style="font-weight: 700">
-                                        Unlimited
-                                    </strong>
-                                    Variables
+                                    Users
                                 </li>
                                 <li>
                                     <i class="icon-check-circle color mr-2"></i>
@@ -443,9 +341,10 @@
                                 </li>
                             </ul>
                         </div>
-                        <button style="background: #13364a"
-                            onclick="location.href='https://app.enhencer.com/#!/contact-form';">
-                            Contact Us
+                        <button style="background: #13364a">
+                            <a style="color: white" href="https://app.enhencer.com/#!/contact-form">
+                                Contact Sales
+                            </a>
                         </button>
 
                     </div>
@@ -455,12 +354,14 @@
             </div>
 
 
-            <p style="font-size:18px; text-align: center; color: #555;">* No credit card required.</p>
-            <p class="container" style="font-size:20px; text-align: center; color: #555;">Machine Learning works with
+            <p style=" font-size:18px; text-align: center; color: #555;">* No credit card required.</p>
+            <p class="container" style="font-size:20px; text-align: center; color: #555;">Machine
+                Learning works with
                 prepared data,
                 and we know that
                 preparation of
-                the data is a pain. For any plan, we would like to offer you free guidance and help for data
+                the data is a pain. For any plan, we would like to offer you free guidance and help for
+                data
                 preparation and complete a Proof of Concept on sample/anonymized data.</p>
             <br>
 
@@ -471,185 +372,98 @@
             </h2>
         </div>
         <article id="allFeatures">
-            <table style="width: 98%; margin: 20px 10px; min-width: 900px;">
+            <table style="width: 80%; margin: 20px auto; min-width: 550px;">
                 <thead>
                     <tr class="" style="height: 50px">
-                        <td colspan="1" class="sep-alternate border-left-table text-right font-15-p"></td>
-                        <th class="bg-light-ash text-center border-right-table">Free</th>
-                        <th class="bg-ash text-center border-right-table">Startup</th>
-                        <th class="bg-blue text-center border-right-table">Growth</th>
-                        <th class="bg-green text-center border-right-table">Premium</th>
-                        <th class="bg-light-green text-center border-right-table">Enterprise</th>
+                        <td colspan="1" class="sep-alternate border-left-table text-right font-15-p">
+                            Features</td>
+                        <th style="background: #75B942; color: white" class="text-center border-right-table">Starter
+                        </th>
+                        <th style="background: #2ca497; color: white" class="text-center border-right-table">Growth</th>
+                        <th style="background: #13364a; color: white" class="text-center border-right-table">Enterprise
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="tbody-pricing">
-                    <tr class="" style="height: 50px">
-                        <td colspan="1" class="sep-alternate border-left-table text-right font-15-p">Row Limits</td>
-                        <td colspan="5" class="sep border-left-table"></td>
-                    </tr>
+
                     <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Flat File (xls, csv, txt)</td>
-                        <td class="text-center"><span class="pricing-table-cell-font">500</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">10,000</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">50,000</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">200,000</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
-                    </tr>
-                    <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">DB Connection</td>
-                        <td class="text-center"><span class="pricing-table-cell-font">500</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">10,000</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">50,000</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">200,000</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
-                    </tr>
-                    <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">CRM Platform Integrations (Leads)
+                        <td class="border-right-table border-left-table text-right">Prediction requests per
+                            month
                         </td>
-                        <td class="text-center"><span class="pricing-table-cell-font">100</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">1000</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">5,000</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">20,000</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">20.000</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">1.000.000</span></td>
                         <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
                     </tr>
                     <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Online Form Integrations (Entries)
+                        <td class="border-right-table border-left-table text-right">Rows for learning data
+                            per project
                         </td>
+                        <td class="text-center"><span class="pricing-table-cell-font">10.000</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">250.000</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
+                    </tr>
+                    <tr class="" style="height: 35px">
+                        <td class="border-right-table border-left-table text-right">Parameters for learning
+                            data per
+                            project
+                        </td>
+                        <td class="text-center"><span class="pricing-table-cell-font">25</span></td>
                         <td class="text-center"><span class="pricing-table-cell-font">100</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">1000</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">5,000</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">20,000</span></td>
                         <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
                     </tr>
                     <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Google Adwords (Clicks/Day)</td>
-                        <td class="text-center"><span class="pricing-table-cell-font">25</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">250</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">2500</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">20,000</span></td>
+                        <td class="border-right-table border-left-table text-right">Number of projects
+                        </td>
+                        <td class="text-center"><span class="pricing-table-cell-font">5</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
                         <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
                     </tr>
                     <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Google Analytics (Users/Day)</td>
-                        <td class="text-center"><span class="pricing-table-cell-font">25</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">250</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">2500</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">10,000</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
-                    </tr>
-                    <tr class="" style="height: 50px">
-                        <td colspan="1" class="sep-alternate border-left-table text-right font-15-p">Project Limits</td>
-                        <td colspan="5" class="sep border-left-table"></td>
-                    </tr>
-                    <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Number of Variables</td>
-                        <td class="text-center"><span class="pricing-table-cell-font">10</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">25</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">50</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">250</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
-                    </tr>
-                    <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Numer of Projects</td>
-                        <td class="text-center"><span class="pricing-table-cell-font">3</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">10</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
-                    </tr>
-                    <tr class="" style="height: 50px">
-                        <td colspan="1" class="sep-alternate border-left-table text-right font-15-p">Collaboration
-                            Limits</td>
-                        <td colspan="5" class="sep border-left-table"></td>
-                    </tr>
-                    <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Number of Analysts</td>
+                        <td class="border-right-table border-left-table text-right">Number of users</td>
                         <td class="text-center"><span class="pricing-table-cell-font">1</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">1</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">3</span></td>
                         <td class="text-center"><span class="pricing-table-cell-font">5</span></td>
                         <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
                     </tr>
                     <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Number of Viewers</td>
+                        <td class="border-right-table border-left-table text-right">Number of viewers</td>
                         <td class="text-center"><span class="pricing-table-cell-font">1</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">3</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">10</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">20</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">25</span></td>
                         <td class="text-center"><span class="pricing-table-cell-font">Unlimited</span></td>
                     </tr>
-                    <tr class="" style="height: 50px">
-                        <td colspan="1" class="sep-alternate border-left-table text-right font-15-p">Technical Features
+
+                    <tr class="" style="height: 35px">
+                        <td class="border-right-table border-left-table text-right">Deployment type</td>
+                        <td class="text-center"><span class="pricing-table-cell-font">Cloud</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">Cloud</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">Cloud/Local</span>
                         </td>
-                        <td colspan="5" class="sep border-left-table"></td>
                     </tr>
                     <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Analyze Module</td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
+                        <td class="border-right-table border-left-table text-right">Live chat support</td>
+                        <td class="text-center"><span class="pricing-table-cell-font">Yes</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">Yes</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">Yes</span></td>
+                    </tr>
+
+                    <tr class="" style="height: 35px">
+                        <td class="border-right-table border-left-table text-right">Live email support</td>
+                        <td class="text-center"><span class="pricing-table-cell-font">No</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">Yes</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">Yes</span></td>
                     </tr>
                     <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Predict Module</td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Only Decision Tree</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Only Decision Tree</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Many ML Algorithms</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Many ML Algorithms</span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font">Many ML Algorithms</span></td>
-                    </tr>
-                    <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Report Module</td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                    </tr>
-                    <tr class="" style="height: 50px">
-                        <td colspan="1" class="sep-alternate border-left-table text-right font-15-p">Deployment Type
+                        <td class="border-right-table border-left-table text-right">Customer success
+                            manager, guided on
+                            boarding & implementation services
                         </td>
-                        <td colspan="5" class="sep border-left-table"></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">No</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">No</span></td>
+                        <td class="text-center"><span class="pricing-table-cell-font">Yes</span></td>
                     </tr>
-                    <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Cloud</td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                    </tr>
-                    <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Local</td>
-                        <td class="text-center"><span class="pricing-table-cell-font"></span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font"></span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font"></span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font"></span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                    </tr>
-                    <tr class="" style="height: 50px">
-                        <td colspan="1" class="sep-alternate border-left-table text-right font-15-p">Support</td>
-                        <td colspan="5" class="sep border-left-table"></td>
-                    </tr>
-                    <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Live Chat</td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                    </tr>
-                    <tr class="" style="height: 35px">
-                        <td class="border-right-table border-left-table text-right">Customer Success Manager</td>
-                        <td class="text-center"><span class="pricing-table-cell-font"></span></td>
-                        <td class="text-center"><span class="pricing-table-cell-font"></span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                        <td class="text-center"><span class="tick">&#10004;</span></td>
-                    </tr>
+
                     <tr class="" style="height: 100px">
                         <td class="text-center"><span class="pricing-table-cell-font"></span></td>
+
                         <td class="text-center">
                             <span class="pricing-table-cell-font">
                                 <div class="pricing-action">
@@ -657,47 +471,14 @@
                                         <a href="https://app.enhencer.com/#!/signup"
                                             onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Pricing', event_label: 'Try Now'});"
                                             class="button button-rounded button-large button-light border nott m-0 ls0"
-                                            style="background-color:#adadad; color:white; font-size: 16px; font-weight: 700; border-radius: 10px;"
-                                            ng-class="{'btn-buy-now': isDisabled('startup')}"
-                                            ng-click="gotoBill('startup')">
+                                            style="background: #75B942; color:white; font-size: 16px; font-weight: 700; border-radius: 10px;">
                                             Try Free
                                         </a>
                                     </div>
                                 </div>
                             </span>
                         </td>
-                        <td class="text-center">
-                            <span class="pricing-table-cell-font">
-                                <div class="pricing-action">
-                                    <div>
-                                        <a href="https://app.enhencer.com/#!/signup"
-                                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Pricing', event_label: 'Try Now'});"
-                                            class="button button-rounded button-large button-light border nott m-0 ls0"
-                                            style="background-color:#5a5c5e; color:white; font-size: 16px; font-weight: 700; border-radius: 10px;"
-                                            ng-class="{'btn-buy-now': isDisabled('startup')}"
-                                            ng-click="gotoBill('startup')">
-                                            Try Free
-                                        </a>
-                                    </div>
-                                </div>
-                            </span>
-                        </td>
-                        <td class="text-center">
-                            <span class="pricing-table-cell-font">
-                                <div class="pricing-action">
-                                    <div>
-                                        <a href="https://app.enhencer.com/#!/signup"
-                                            onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Pricing', event_label: 'Try Now'});"
-                                            class="button button-rounded button-large button-light border nott m-0 ls0"
-                                            style="background-color:rgb(34, 142, 159); color:white; font-size: 16px; font-weight: 700; border-radius: 10px;"
-                                            ng-class="{'btn-buy-now': isDisabled('startup')}"
-                                            ng-click="gotoBill('startup')">
-                                            Try Free
-                                        </a>
-                                    </div>
-                                </div>
-                            </span>
-                        </td>
+
                         <td class="text-center">
                             <span class="tick">
                                 <div class="pricing-action">
@@ -705,10 +486,8 @@
                                         <a href="https://app.enhencer.com/#!/signup"
                                             onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Pricing', event_label: 'Try Now'});"
                                             class="button button-rounded button-large button-light border nott m-0 ls0"
-                                            style="background-color:#2ca497; color:white; font-size: 16px; font-weight: 700; border-radius: 10px;"
-                                            ng-class="{'btn-buy-now': isDisabled('startup')}"
-                                            ng-click="gotoBill('premium')">
-                                            Try Free
+                                            style="background: #2ca497; color:white; font-size: 16px; font-weight: 700; border-radius: 10px;">
+                                            Buy Now
                                         </a>
                                     </div>
                                 </div>
@@ -721,8 +500,8 @@
                                         <a href="https://app.enhencer.com/#!/contact-form"
                                             onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Pricing', event_label: 'Contact Us'});"
                                             class="button button-rounded button-large button-light border nott m-0 ls0"
-                                            style="background-color:#40AF5F; color:white; font-size: 16px; font-weight: 700; border-radius: 10px">
-                                            Contact Us
+                                            style="background-color: #13364a; color:white; font-size: 16px; font-weight: 700; border-radius: 10px">
+                                            Contact Sales
                                         </a>
                                     </div>
                                 </div>

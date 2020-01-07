@@ -94,19 +94,19 @@ function handleStickyHeader() {
 	$('#forced_header').toggleClass('hidden-header', fromTop < 300);
 }
 
-function switchPricing() {
-	if($('#pricingSwitch').children()[0].classList.contains('active')) {
-		$('#pricingSwitch').children()[0].classList.remove('active');
-		$('#pricingSwitch').children()[1].classList.add('active');
-		$('#wrapper').removeClass('switch-left');
-		$('#wrapper').addClass('switch-right');
-	}else{
-		$('#pricingSwitch').children()[1].classList.remove('active');
-		$('#pricingSwitch').children()[0].classList.add('active');
-		$('#wrapper').removeClass('switch-right');
-		$('#wrapper').addClass('switch-left');
-	}
-}
+// function switchPricing() {
+// 	if($('#pricingSwitch').children()[0].classList.contains('active')) {
+// 		$('#pricingSwitch').children()[0].classList.remove('active');
+// 		$('#pricingSwitch').children()[1].classList.add('active');
+// 		$('#wrapper').removeClass('switch-left');
+// 		$('#wrapper').addClass('switch-right');
+// 	}else{
+// 		$('#pricingSwitch').children()[1].classList.remove('active');
+// 		$('#pricingSwitch').children()[0].classList.add('active');
+// 		$('#wrapper').removeClass('switch-right');
+// 		$('#wrapper').addClass('switch-left');
+// 	}
+// }
 
 
 
