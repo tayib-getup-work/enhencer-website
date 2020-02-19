@@ -5,11 +5,17 @@
 
     <!-- Hotjar Tracking Code for www.enhencer.com -->
     <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-            h._hjSettings = { hjid: 1422086, hjsv: 6 };
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 1422086,
+                hjsv: 6
+            };
             a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script'); r.async = 1;
+            r = o.createElement('script');
+            r.async = 1;
             r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
             a.appendChild(r);
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
@@ -19,22 +25,39 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114130711-4"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-114130711-4');
-        gtag('set', { 'user_id': 'USER_ID' }); // Set the user ID using signed-in user_id.
+        gtag('set', {
+            'user_id': 'USER_ID'
+        }); // Set the user ID using signed-in user_id.
     </script>
     <!--Start of Zendesk Chat Script-->
     <script type="text/javascript">
-        window.$zopim || (function (d, s) {
-            var z = $zopim = function (c) { z._.push(c) }, $ = z.s =
-                d.createElement(s), e = d.getElementsByTagName(s)[0]; z.set = function (o) {
-                    z.set.
-                        _.push(o)
-                }; z._ = []; z.set._ = []; $.async = !0; $.setAttribute("charset", "utf-8");
-            $.src = "https://v2.zopim.com/?6IFLBAydEm9bQ8UPHq5HOTDtwI77PkMk"; z.t = +new Date; $.
-                type = "text/javascript"; e.parentNode.insertBefore($, e)
+        window.$zopim || (function(d, s) {
+            var z = $zopim = function(c) {
+                    z._.push(c)
+                },
+                $ = z.s =
+                d.createElement(s),
+                e = d.getElementsByTagName(s)[0];
+            z.set = function(o) {
+                z.set.
+                _.push(o)
+            };
+            z._ = [];
+            z.set._ = [];
+            $.async = !0;
+            $.setAttribute("charset", "utf-8");
+            $.src = "https://v2.zopim.com/?6IFLBAydEm9bQ8UPHq5HOTDtwI77PkMk";
+            z.t = +new Date;
+            $.
+            type = "text/javascript";
+            e.parentNode.insertBefore($, e)
         })(document, "script");
     </script>
     <!--End of Zendesk Chat Script-->
@@ -47,9 +70,9 @@
 		type="text/css" /> -->
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300,200' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/colors.php?color=FE9603" type="text/css" /> <!-- Theme Color -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/colors.php?color=FE9603" type="text/css" />
+    <!-- Theme Color -->
     <link rel="stylesheet" href="required/googlefonts.min.css" type="text/css" />
     <link rel="stylesheet" href="required/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="required/style.css" type="text/css" />
@@ -63,8 +86,7 @@
     <!-- Document Title
 	============================================= -->
     <title>Enhencer - Predictive Storyteller | Data Analysis Using Automated Machine Learning</title>
-    <meta name="description"
-        content="Enhencer is a self-service data analysis software that uses Machine Learning algorithms at the back to provide instant actionable insights from the data that requires no coding at all.">
+    <meta name="description" content="Enhencer is a self-service data analysis software that uses Machine Learning algorithms at the back to provide instant actionable insights from the data that requires no coding at all.">
 
 </head>
 
@@ -81,56 +103,46 @@
                     <!-- Logo
                             ============================================= -->
                     <div id="logo">
-                        <a href="/" class="standard-logo" data-dark-logo="images/Log_new.png"><img id="logoImage"
-                                src="images/Log_new.png" alt="Enhencer Logo"></a>
+                        <a href="/" class="standard-logo" data-dark-logo="images/Log_new.png"><img id="logoImage" src="images/Log_new.png" alt="Enhencer Logo"></a>
                     </div>
                     <!-- #logo end -->
                     <nav id="primary-menu" class="with-arrows">
                         <ul id="primarymenumobile" class="ul.sf-js-enabled" style="margin-top: -3px;">
-                                <!-- <li>
+                            <!-- <li>
                                     <a href="../connect.html"
                                         onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Connect'});">
                                         <div>Connect</div>
                                     </a>
                                 </li> -->
                             <li>
-                                <a href="../cases/"
-                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'cases'});">
+                                <a href="../cases/" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'cases'});">
                                     <div>Cases</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="../help.html"
-                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Help'});">
+                                <a href="../help.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Help'});">
                                     <div>Help</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="../pricing.html"
-                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                <a href="../pricing.html" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
                                     <div>Pricing</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="../blog/"
-                                    onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
+                                <a href="../blog/" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Pricing'});">
                                     <div>Blog</div>
                                 </a>
                             </li>
                         </ul>
 
                         <div class="navbar-right-buttons">
-                            <a href="https://app.enhencer.com/#!/login"
-                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});"
-                                target="_blank"
-                                class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green sign_in_button">
+                            <a href="https://app.enhencer.com/#!/login" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Sign-in'});" target="_blank" class="button button-rounded button-light bg-blueish nott ls0 button-enhencer-default-green sign_in_button">
                                 <div>
                                     Sign in
                                 </div>
                             </a>
-                            <a href="https://app.enhencer.com/#!/signup"
-                                onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});"
-                                target="_blank" class="button button-rounded fright try-free-button">
+                            <a href="https://app.enhencer.com/#!/signup" onClick="gtag('event', 'click', { event_category: 'Landing', event_action: 'Top Bar', event_label: 'Try Free'});" target="_blank" class="button button-rounded fright try-free-button">
                                 <div style="text-align: center">
                                     Try it Free
                                 </div>
@@ -149,7 +161,8 @@
                 <h1>Career opportunities</h1>
             </div>
 
-        </section><!-- #page-title end -->
+        </section>
+        <!-- #page-title end -->
 
         <!-- Content
 		============================================= -->
@@ -164,66 +177,45 @@
                             <h3>Full-Stack Developer</h3>
                         </div>
 
-                        <p>We are looking for an experienced full-stack developer to help us build a brand new exciting
-                            analytical platform which is accessible, responsive, robust and user-friendly. This is a
-                            great opportunity to join a rapidly expanding machine learning R&D company working with both
-                            private and government institutions in Turkey and abroad.</p>
+                        <p>We are looking for an experienced full-stack developer to help us build a brand new exciting analytical platform which is accessible, responsive, robust and user-friendly. This is a great opportunity to join a rapidly expanding
+                            machine learning R&D company working with both private and government institutions in Turkey and abroad.</p>
 
                         <div class="accordion-bg clearfix">
 
-                            <div class="acctitle  career-ol-header"><i
-                                    class="acc-closed icon-ok-circle career-ol-icon"></i><i
-                                    class="acc-open icon-remove-circle"></i>Required Skills</div>
+                            <div class="acctitle  career-ol-header"><i class="acc-closed icon-ok-circle career-ol-icon"></i><i class="acc-open icon-remove-circle"></i>Required Skills</div>
                             <div class="acc_content clearfix career-ol">
                                 <ul class="iconlist iconlist-color nobottommargin">
-                                    <li><i class="icon-ok"></i>Having a B.S. degree from computer or software
-                                        engineering departments (M.Sc. is a plus)
+                                    <li><i class="icon-ok"></i>Having a B.S. degree from computer or software engineering departments (M.Sc. is a plus)
                                     </li>
                                     <li><i class="icon-ok"></i>Minimum 1 year of experience in web development</li>
-                                    <li><i class="icon-ok"></i>Minimum 1 year of experience in data preparation on SQL
-                                        based system.</li>
-                                    <li><i class="icon-ok"></i>Good knowledge of AngularJS, Node.js, MongoDB, Html5,
-                                        CSS3, and Bootstrap is a must</li>
+                                    <li><i class="icon-ok"></i>Minimum 1 year of experience in data preparation on SQL based system.</li>
+                                    <li><i class="icon-ok"></i>Good knowledge of AngularJS, Node.js, MongoDB, Html5, CSS3, and Bootstrap is a must</li>
                                     <li><i class="icon-ok"></i>Good knowledge of JQuery, and React.js is a plus</li>
-                                    <li><i class="icon-ok"></i>Understanding of modern software development principles,
-                                        design patterns and architectures</li>
+                                    <li><i class="icon-ok"></i>Understanding of modern software development principles, design patterns and architectures</li>
                                     <li><i class="icon-ok"></i>Interested in big data and machine learning solutions
                                     </li>
-                                    <li><i class="icon-ok"></i>Male candidates should have no military obligations or
-                                        deferred at least two years</li>
+                                    <li><i class="icon-ok"></i>Male candidates should have no military obligations or deferred at least two years</li>
                                 </ul>
                             </div>
 
-                            <div class="acctitle career-ol-header"><i
-                                    class="acc-closed icon-plus-sign career-ol-icon"></i><i
-                                    class="acc-open icon-remove-circle"></i>Opportunities</div>
+                            <div class="acctitle career-ol-header"><i class="acc-closed icon-plus-sign career-ol-icon"></i><i class="acc-open icon-remove-circle"></i>Opportunities</div>
                             <div class="acc_content clearfix career-ol">
                                 <ul class="iconlist iconlist-color nobottommargin">
                                     <li><i class="icon-plus-sign"></i>Working with a small, dedicated and dynamic team
                                     </li>
                                     <li><i class="icon-plus-sign"></i>Flexible and relaxed working environment</li>
-                                    <li><i class="icon-plus-sign"></i>Good hardware options to work with (2 external
-                                        monitors etc.)</li>
+                                    <li><i class="icon-plus-sign"></i>Good hardware options to work with (2 external monitors etc.)</li>
                                     <li><i class="icon-plus-sign"></i>Facilities provided by METU TECHNOPOLIS</li>
 
                                 </ul>
                             </div>
 
-                            <div class="acctitle career-ol-header"><i
-                                    class="acc-closed icon-info-sign career-ol-icon"></i><i
-                                    class="acc-open icon-remove-circle"></i>About Enhencer</div>
-                            <div class="acc_content clearfix career-ol-p">Enhencer is a cloud-based Self-service Machine
-                                Learning platform. We are on a journey to bring Auto ML to the hands of millions, and we
-                                are looking for teammates to help us accomplish this goal. We would predict human
-                                behaviors and complicated cases through speed, volume, and diversity provided by big
-                                data structures. The analytical tools that we develop help us to create more precise and
-                                compact solutions for both user-friendly and impartial reports. The processes from the
-                                preparation of big data up to enhancement of decision support models are supported by
-                                the real-time operating software products which our R&D team has developed.
+                            <div class="acctitle career-ol-header"><i class="acc-closed icon-info-sign career-ol-icon"></i><i class="acc-open icon-remove-circle"></i>About Enhencer</div>
+                            <div class="acc_content clearfix career-ol-p">Enhencer is a cloud-based Self-service Machine Learning platform. We are on a journey to bring Auto ML to the hands of millions, and we are looking for teammates to help us accomplish this goal. We would predict human behaviors
+                                and complicated cases through speed, volume, and diversity provided by big data structures. The analytical tools that we develop help us to create more precise and compact solutions for both user-friendly and impartial
+                                reports. The processes from the preparation of big data up to enhancement of decision support models are supported by the real-time operating software products which our R&D team has developed.
                                 <br>
-                                <br>
-                                Our team is a comprehensive mixture of experienced, dynamic and interdisciplinary
-                                experts on machine learning and big data analytics.
+                                <br> Our team is a comprehensive mixture of experienced, dynamic and interdisciplinary experts on machine learning and big data analytics.
                                 <br>
                                 <br>
                                 <i class="icon-line2-info career-ol-info-icon"></i>Enhencer-Predictive Storyteller
@@ -244,40 +236,28 @@
                             <h3>Data Engineer / Scientist</h3>
                         </div>
 
-                        <p>We are looking for an experienced full-time data engineer/scientist to help us build a brand
-                            new exciting analytical platform which is accessible, responsive, robust and user-friendly.
-                            This is a great opportunity to join a rapidly expanding machine learning R&D company working
-                            with both private and government institutions in Turkey and abroad.</p>
+                        <p>We are looking for an experienced full-time data engineer/scientist to help us build a brand new exciting analytical platform which is accessible, responsive, robust and user-friendly. This is a great opportunity to join a rapidly
+                            expanding machine learning R&D company working with both private and government institutions in Turkey and abroad.</p>
 
                         <div class="accordion-bg clearfix">
 
-                            <div class="acctitle  career-ol-header"><i
-                                    class="acc-closed icon-ok-circle career-ol-icon"></i><i
-                                    class="acc-open icon-remove-circle"></i>Required Skills</div>
+                            <div class="acctitle  career-ol-header"><i class="acc-closed icon-ok-circle career-ol-icon"></i><i class="acc-open icon-remove-circle"></i>Required Skills</div>
                             <div class="acc_content clearfix career-ol">
                                 <ul class="iconlist iconlist-color nobottommargin">
                                     <li><i class="icon-ok"></i>Living in İstanbul, ability to travel to Ankara, monthly.
                                     </li>
-                                    <li><i class="icon-ok"></i>Having a B.S. degree from statistics, industrial
-                                        engineering, mathematical engineering or computer science departments</li>
-                                    <li><i class="icon-ok"></i>Minimum 1 year of experience in data preparation on SQL
-                                        based system.</li>
-                                    <li><i class="icon-ok"></i>Good knowledge of, SQL, Excel, SAS Enterprise Guide or
-                                        equivalent is a must.</li>
-                                    <li><i class="icon-ok"></i>Good knowledge of predictive modeling process on R or
-                                        Python is a plus.</li>
-                                    <li><i class="icon-ok"></i>Understanding of customer needs and updating the
-                                        developer team agenda</li>
+                                    <li><i class="icon-ok"></i>Having a B.S. degree from statistics, industrial engineering, mathematical engineering or computer science departments</li>
+                                    <li><i class="icon-ok"></i>Minimum 1 year of experience in data preparation on SQL based system.</li>
+                                    <li><i class="icon-ok"></i>Good knowledge of, SQL, Excel, SAS Enterprise Guide or equivalent is a must.</li>
+                                    <li><i class="icon-ok"></i>Good knowledge of predictive modeling process on R or Python is a plus.</li>
+                                    <li><i class="icon-ok"></i>Understanding of customer needs and updating the developer team agenda</li>
                                     <li><i class="icon-ok"></i>Interested in big data and machine learning solutions.
                                     </li>
-                                    <li><i class="icon-ok"></i>Male candidates should have no military obligations or
-                                        deferred at least two years</li>
+                                    <li><i class="icon-ok"></i>Male candidates should have no military obligations or deferred at least two years</li>
                                 </ul>
                             </div>
 
-                            <div class="acctitle career-ol-header"><i
-                                    class="acc-closed icon-plus-sign career-ol-icon"></i><i
-                                    class="acc-open icon-remove-circle"></i>Opportunities</div>
+                            <div class="acctitle career-ol-header"><i class="acc-closed icon-plus-sign career-ol-icon"></i><i class="acc-open icon-remove-circle"></i>Opportunities</div>
                             <div class="acc_content clearfix career-ol">
                                 <ul class="iconlist iconlist-color nobottommargin">
                                     <li><i class="icon-plus-sign"></i>Working with a small, dedicated and dynamic team
@@ -287,22 +267,12 @@
                                 </ul>
                             </div>
 
-                            <div class="acctitle career-ol-header"><i
-                                    class="acc-closed icon-info-sign career-ol-icon"></i><i
-                                    class="acc-open icon-remove-circle"></i>About Enhencer</div>
-                            <div class="acc_content clearfix career-ol-p">Enhencer is a cloud-based Self-service Machine
-                                Learning
-                                platform. We are on a journey to bring Auto ML to the hands of millions, and we are
-                                looking for teammates to help us accomplish this goal. We would predict human behaviors
-                                and complicated cases through speed, volume, and diversity provided by big data
-                                structures. The analytical tools that we develop help us to create more precise and
-                                compact solutions for both user-friendly and impartial reports. The processes from the
-                                preparation of big data up to enhancement of decision support models are supported by
-                                the real-time operating software products which our R&D team has developed.
+                            <div class="acctitle career-ol-header"><i class="acc-closed icon-info-sign career-ol-icon"></i><i class="acc-open icon-remove-circle"></i>About Enhencer</div>
+                            <div class="acc_content clearfix career-ol-p">Enhencer is a cloud-based Self-service Machine Learning platform. We are on a journey to bring Auto ML to the hands of millions, and we are looking for teammates to help us accomplish this goal. We would predict human behaviors
+                                and complicated cases through speed, volume, and diversity provided by big data structures. The analytical tools that we develop help us to create more precise and compact solutions for both user-friendly and impartial
+                                reports. The processes from the preparation of big data up to enhancement of decision support models are supported by the real-time operating software products which our R&D team has developed.
                                 <br>
-                                <br>
-                                Our team is a comprehensive mixture of experienced, dynamic and interdisciplinary
-                                experts on machine learning and big data analytics.
+                                <br> Our team is a comprehensive mixture of experienced, dynamic and interdisciplinary experts on machine learning and big data analytics.
                                 <br>
                                 <br>
                                 <i class="icon-line2-info career-ol-info-icon"></i>Enhencer-Predictive Storyteller
@@ -346,7 +316,7 @@
 	============================================= -->
         <script src="required/functions.js"></script>
         <script>
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $("#footerContent").load("footer-index.html");
             });
         </script>
